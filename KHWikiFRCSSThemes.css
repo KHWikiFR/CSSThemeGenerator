@@ -1,1903 +1,1904 @@
 /* Kingdom Hearts */
 
-.KH1 th {
+table.navbox.KH1 th {
 	background-color:#000080 !important;
 	color: white;
 }
 
-.KH1 .titrePalette .titreContent a {
+table.navbox.KH1 .titrePalette .titreContent a {
     color: white;
 }
 
-.KH1 .collapseButtonLink {
+table.navbox.KH1 .collapseButtonLink {
 	color: white !important;
 }
 
-.KH1 tr:not(:first-child) th,
+table.navbox.KH1 th:not(.titrePalette),
 .KH1 .group {
 	background-color:#D9D9F7!important;
 	color: black;
 }
 
-.KH1 tr:not(:first-child) th a,
+table.navbox.KH1 th:not(.titrePalette),
 .KH1 .group a{
 	color: black;
 }
 
-.KH1 tr {
+table.navbox.KH1 tr td {
 	background-color:#F9F9F9;
 }
 
-.KH1 tr:nth-child(odd) .liste {
+table.navbox.KH1 tr:nth-child(odd) td {
 	background-color:#E8E8FA;
 }
 
 /* Kingdom Hearts: Final Mix */
 
-.FM1 th {
+table.navbox.FM1 th {
 	background-color:#6495ED !important;
 	color: white;
 }
 
-.FM1 .titrePalette .titreContent a {
+table.navbox.FM1 .titrePalette .titreContent a {
     color: white;
 }
 
-.FM1 .collapseButtonLink {
+table.navbox.FM1 .collapseButtonLink {
 	color: white !important;
 }
 
-.FM1 tr:not(:first-child) th,
+table.navbox.FM1 th:not(.titrePalette),
 .FM1 .group {
 	background-color:#DBE6F9!important;
 	color: black;
 }
 
-.FM1 tr:not(:first-child) th a,
+table.navbox.FM1 th:not(.titrePalette),
 .FM1 .group a{
 	color: black;
 }
 
-.FM1 tr {
+table.navbox.FM1 tr td {
 	background-color:#F9F9F9;
 }
 
-.FM1 tr:nth-child(odd) .liste {
+table.navbox.FM1 tr:nth-child(odd) td {
 	background-color:#E6EEFB;
 }
 
 /* Kingdom Hearts: Chain of Memories */
 
-.COM th {
+table.navbox.COM th {
 	background-color:#A9A9A9 !important;
 	color: white;
 }
 
-.COM .titrePalette .titreContent a {
+table.navbox.COM .titrePalette .titreContent a {
     color: white;
 }
 
-.COM .collapseButtonLink {
+table.navbox.COM .collapseButtonLink {
 	color: white !important;
 }
 
-.COM tr:not(:first-child) th,
+table.navbox.COM th:not(.titrePalette),
 .COM .group {
 	background-color:#DDDDDD!important;
 	color: black;
 }
 
-.COM tr:not(:first-child) th a,
+table.navbox.COM th:not(.titrePalette),
 .COM .group a{
 	color: black;
 }
 
-.COM tr {
+table.navbox.COM tr td {
 	background-color:#F9F9F9;
 }
 
-.COM tr:nth-child(odd) .liste {
+table.navbox.COM tr:nth-child(odd) td {
 	background-color:#E4E4E4;
 }
 
 /* Kingdom Hearts II */
 
-.KH2 th {
+table.navbox.KH2 th {
 	background-color:#4682B4 !important;
 	color: white;
 }
 
-.KH2 .titrePalette .titreContent a {
+table.navbox.KH2 .titrePalette .titreContent a {
     color: white;
 }
 
-.KH2 .collapseButtonLink {
+table.navbox.KH2 .collapseButtonLink {
 	color: white !important;
 }
 
-.KH2 tr:not(:first-child) th,
+table.navbox.KH2 th:not(.titrePalette),
 .KH2 .group {
 	background-color:#D2E1F1!important;
 	color: black;
 }
 
-.KH2 tr:not(:first-child) th a,
+table.navbox.KH2 th:not(.titrePalette),
 .KH2 .group a{
 	color: black;
 }
 
-.KH2 tr {
+table.navbox.KH2 tr td {
 	background-color:#F9F9F9;
 }
 
-.KH2 tr:nth-child(odd) .liste {
+table.navbox.KH2 tr:nth-child(odd) td {
 	background-color:#E0EAF5;
 }
 
 /* Kingdom Hearts II: Final Mix */
 
-.FM2 th {
+table.navbox.FM2 th {
 	background-color:#C0C0C0 !important;
 	color: white;
 }
 
-.FM2 .titrePalette .titreContent a {
+table.navbox.FM2 .titrePalette .titreContent a {
     color: white;
 }
 
-.FM2 .collapseButtonLink {
+table.navbox.FM2 .collapseButtonLink {
 	color: white !important;
 }
 
-.FM2 tr:not(:first-child) th,
+table.navbox.FM2 th:not(.titrePalette),
 .FM2 .group {
 	background-color:#E0E0E0!important;
 	color: black;
 }
 
-.FM2 tr:not(:first-child) th a,
+table.navbox.FM2 th:not(.titrePalette),
 .FM2 .group a{
 	color: black;
 }
 
-.FM2 tr {
+table.navbox.FM2 tr td {
 	background-color:#F9F9F9;
 }
 
-.FM2 tr:nth-child(odd) .liste {
+table.navbox.FM2 tr:nth-child(odd) td {
 	background-color:#E9E9E9;
 }
 
 /* Kingdom Hearts: 358/2 Days */
 
-.Days th {
+table.navbox.Days th {
 	background-color:#B22222 !important;
 	color: white;
 }
 
-.Days .titrePalette .titreContent a {
+table.navbox.Days .titrePalette .titreContent a {
     color: white;
 }
 
-.Days .collapseButtonLink {
+table.navbox.Days .collapseButtonLink {
 	color: white !important;
 }
 
-.Days tr:not(:first-child) th,
+table.navbox.Days th:not(.titrePalette),
 .Days .group {
 	background-color:#F9E0E0!important;
 	color: black;
 }
 
-.Days tr:not(:first-child) th a,
+table.navbox.Days th:not(.titrePalette),
 .Days .group a{
 	color: black;
 }
 
-.Days tr {
+table.navbox.Days tr td {
 	background-color:#F9F9F9;
 }
 
-.Days tr:nth-child(odd) .liste {
+table.navbox.Days tr:nth-child(odd) td {
 	background-color:#FAECEC;
 }
 
 /* Birth by Sleep */
 
-.BBS th {
+table.navbox.BBS th {
 	background-color:#7EB6F2 !important;
 	color: white;
 }
 
-.BBS .titrePalette .titreContent a {
+table.navbox.BBS .titrePalette .titreContent a {
     color: white;
 }
 
-.BBS .collapseButtonLink {
+table.navbox.BBS .collapseButtonLink {
 	color: white !important;
 }
 
-.BBS tr:not(:first-child) th,
+table.navbox.BBS th:not(.titrePalette),
 .BBS .group {
 	background-color:#D7E8F4!important;
 	color: black;
 }
 
-.BBS tr:not(:first-child) th a,
+table.navbox.BBS th:not(.titrePalette),
 .BBS .group a{
 	color: black;
 }
 
-.BBS tr {
+table.navbox.BBS tr td {
 	background-color:#F9F9F9;
 }
 
-.BBS tr:nth-child(odd) .liste {
+table.navbox.BBS tr:nth-child(odd) td {
 	background-color:#DFEDF6;
 }
 
 /* Kingdom Hearts: Birth by Sleep Final Mix */
 
-.BBSFM th {
+table.navbox.BBSFM th {
 	background-color:#34526D !important;
 	color: white;
 }
 
-.BBSFM .titrePalette .titreContent a {
+table.navbox.BBSFM .titrePalette .titreContent a {
     color: white;
 }
 
-.BBSFM .collapseButtonLink {
+table.navbox.BBSFM .collapseButtonLink {
 	color: white !important;
 }
 
-.BBSFM tr:not(:first-child) th,
+table.navbox.BBSFM th:not(.titrePalette),
 .BBSFM .group {
 	background-color:#C9D9E5!important;
 	color: black;
 }
 
-.BBSFM tr:not(:first-child) th a,
+table.navbox.BBSFM th:not(.titrePalette),
 .BBSFM .group a{
 	color: black;
 }
 
-.BBSFM tr {
+table.navbox.BBSFM tr td {
 	background-color:#F9F9F9;
 }
 
-.BBSFM tr:nth-child(odd) .liste {
+table.navbox.BBSFM tr:nth-child(odd) td {
 	background-color:#DFE8EF;
 }
 
 /* Kingdom Hearts: coded */
 
-.Coded th {
+table.navbox.Coded th {
 	background-color:#FFFF00 !important;
 	color: black;
 }
 
-.Coded .titrePalette .titreContent a {
+table.navbox.Coded .titrePalette .titreContent a {
     color: black;
 }
 
-.Coded .collapseButtonLink {
+table.navbox.Coded .collapseButtonLink {
 	color: black !important;
 }
 
-.Coded tr:not(:first-child) th,
+table.navbox.Coded th:not(.titrePalette),
 .Coded .group {
 	background-color:#F9F9DB!important;
 	color: black;
 }
 
-.Coded tr:not(:first-child) th a,
+table.navbox.Coded th:not(.titrePalette),
 .Coded .group a{
 	color: black;
 }
 
-.Coded tr {
+table.navbox.Coded tr td {
 	background-color:#FFFFFF;
 }
 
-.Coded tr:nth-child(odd) .liste {
+table.navbox.Coded tr:nth-child(odd) td {
 	background-color:#FBFBE6;
 }
 
 /* Kingdom Hearts 3D: Dream Drop Distance */
 
-.DDD th {
+table.navbox.DDD th {
 	background-color:#4B0082 !important;
 	color: white;
 }
 
-.DDD .titrePalette .titreContent a {
+table.navbox.DDD .titrePalette .titreContent a {
     color: white;
 }
 
-.DDD .collapseButtonLink {
+table.navbox.DDD .collapseButtonLink {
 	color: white !important;
 }
 
-.DDD tr:not(:first-child) th,
+table.navbox.DDD th:not(.titrePalette),
 .DDD .group {
 	background-color:#EDDBF9!important;
 	color: black;
 }
 
-.DDD tr:not(:first-child) th a,
+table.navbox.DDD th:not(.titrePalette),
 .DDD .group a{
 	color: black;
 }
 
-.DDD tr {
+table.navbox.DDD tr td {
 	background-color:#F9F9F9;
 }
 
-.DDD tr:nth-child(odd) .liste {
+table.navbox.DDD tr:nth-child(odd) td {
 	background-color:#F2E6FB;
 }
 
 /* Kingdom Hearts χ [chi] */
 
-.CHI th {
+table.navbox.CHI th {
 	background-color:#00CC88 !important;
 	color: white;
 }
 
-.CHI .titrePalette .titreContent a {
+table.navbox.CHI .titrePalette .titreContent a {
     color: white;
 }
 
-.CHI .collapseButtonLink {
+table.navbox.CHI .collapseButtonLink {
 	color: white !important;
 }
 
-.CHI tr:not(:first-child) th,
+table.navbox.CHI th:not(.titrePalette),
 .CHI .group {
 	background-color:#C9E5DC!important;
 	color: black;
 }
 
-.CHI tr:not(:first-child) th a,
+table.navbox.CHI th:not(.titrePalette),
 .CHI .group a{
 	color: black;
 }
 
-.CHI tr {
+table.navbox.CHI tr td {
 	background-color:#F9F9F9;
 }
 
-.CHI tr:nth-child(odd) .liste {
+table.navbox.CHI tr:nth-child(odd) td {
 	background-color:#DFEFEA;
 }
 
 /* Kingdom Hearts: Union χ [cross] */
 
-.UCR th {
+table.navbox.UCR th {
 	background-color:#808482 !important;
 	color: white;
 }
 
-.UCR .titrePalette .titreContent a {
+table.navbox.UCR .titrePalette .titreContent a {
     color: white;
 }
 
-.UCR .collapseButtonLink {
+table.navbox.UCR .collapseButtonLink {
 	color: white !important;
 }
 
-.UCR tr:not(:first-child) th,
+table.navbox.UCR th:not(.titrePalette),
 .UCR .group {
 	background-color:#D0D0D0!important;
 	color: black;
 }
 
-.UCR tr:not(:first-child) th a,
+table.navbox.UCR th:not(.titrePalette),
 .UCR .group a{
 	color: black;
 }
 
-.UCR tr {
+table.navbox.UCR tr td {
 	background-color:#F9F9F9;
 }
 
-.UCR tr:nth-child(odd) .liste {
+table.navbox.UCR tr:nth-child(odd) td {
 	background-color:#E1E1E1;
 }
 
 /* Kingdom Hearts: HD 2.8 Final Chapter Prologue */
 
-.KH2_8 th {
+table.navbox.KH2_8 th {
 	background-color:#c62870 !important;
 	color: white;
 }
 
-.KH2_8 .titrePalette .titreContent a {
+table.navbox.KH2_8 .titrePalette .titreContent a {
     color: white;
 }
 
-.KH2_8 .collapseButtonLink {
+table.navbox.KH2_8 .collapseButtonLink {
 	color: white !important;
 }
 
-.KH2_8 tr:not(:first-child) th,
+table.navbox.KH2_8 th:not(.titrePalette),
 .KH2_8 .group {
 	background-color:#6d6d6d!important;
 	color: white;
 }
 
-.KH2_8 tr:not(:first-child) th a,
+table.navbox.KH2_8 th:not(.titrePalette),
 .KH2_8 .group a{
 	color: white;
 }
 
-.KH2_8 tr {
+table.navbox.KH2_8 tr td {
 	background-color:#F9F9F9;
 }
 
-.KH2_8 tr:nth-child(odd) .liste {
+table.navbox.KH2_8 tr:nth-child(odd) td {
 	background-color:#e5c9d6;
 }
 
 /* Kingdom Hearts III */
 
-.KH3 th {
+table.navbox.KH3 th {
 	background-color:#67698A !important;
 	color: white;
 }
 
-.KH3 .titrePalette .titreContent a {
+table.navbox.KH3 .titrePalette .titreContent a {
     color: white;
 }
 
-.KH3 .collapseButtonLink {
+table.navbox.KH3 .collapseButtonLink {
 	color: white !important;
 }
 
-.KH3 tr:not(:first-child) th,
+table.navbox.KH3 th:not(.titrePalette),
 .KH3 .group {
 	background-color:#C9CBE5!important;
 	color: black;
 }
 
-.KH3 tr:not(:first-child) th a,
+table.navbox.KH3 th:not(.titrePalette),
 .KH3 .group a{
 	color: black;
 }
 
-.KH3 tr {
+table.navbox.KH3 tr td {
 	background-color:#F9F9F9;
 }
 
-.KH3 tr:nth-child(odd) .liste {
+table.navbox.KH3 tr:nth-child(odd) td {
 	background-color:#DFE0EF;
 }
 
 /* Série KH */
 
-.serieKH th {
+table.navbox.serieKH th {
 	background-color:#FFFF00 !important;
 	color: steelblue;
 }
 
-.serieKH .titrePalette .titreContent a {
+table.navbox.serieKH .titrePalette .titreContent a {
     color: steelblue;
 }
 
-.serieKH .collapseButtonLink {
+table.navbox.serieKH .collapseButtonLink {
 	color: steelblue !important;
 }
 
-.serieKH tr:not(:first-child) th,
+table.navbox.serieKH th:not(.titrePalette),
 .serieKH .group {
 	background-color:#fdf34f!important;
 	color: steelblue;
 }
 
-.serieKH tr:not(:first-child) th a,
+table.navbox.serieKH th:not(.titrePalette),
 .serieKH .group a{
 	color: steelblue;
 }
 
-.serieKH tr {
+table.navbox.serieKH tr td {
 	background-color:#FFFFFF;
 }
 
-.serieKH tr:nth-child(odd) .liste {
+table.navbox.serieKH tr:nth-child(odd) td {
 	background-color:#fdfc94;
 }
 
 /* Armes */
 
-.Armes th {
+table.navbox.Armes th {
 	background-color:#FF6666 !important;
 	color: white;
 }
 
-.Armes .titrePalette .titreContent a {
+table.navbox.Armes .titrePalette .titreContent a {
     color: white;
 }
 
-.Armes .collapseButtonLink {
+table.navbox.Armes .collapseButtonLink {
 	color: white !important;
 }
 
-.Armes tr:not(:first-child) th,
+table.navbox.Armes th:not(.titrePalette),
 .Armes .group {
 	background-color:#FFCCCD!important;
 	color: black;
 }
 
-.Armes tr:not(:first-child) th a,
+table.navbox.Armes th:not(.titrePalette),
 .Armes .group a{
 	color: black;
 }
 
-.Armes tr {
+table.navbox.Armes tr td {
 	background-color:#FFFFFF;
 }
 
-.Armes tr:nth-child(odd) .liste {
+table.navbox.Armes tr:nth-child(odd) td {
 	background-color:#F7DCDC;
 }
 
 /* Keyblades */
 
-.Keyblade th {
+table.navbox.Keyblade th {
 	background-color:#000080 !important;
 	color: white;
 }
 
-.Keyblade .titrePalette .titreContent a {
+table.navbox.Keyblade .titrePalette .titreContent a {
     color: white;
 }
 
-.Keyblade .collapseButtonLink {
+table.navbox.Keyblade .collapseButtonLink {
 	color: white !important;
 }
 
-.Keyblade tr:not(:first-child) th,
+table.navbox.Keyblade th:not(.titrePalette),
 .Keyblade .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Keyblade tr:not(:first-child) th a,
+table.navbox.Keyblade th:not(.titrePalette),
 .Keyblade .group a{
 	color: black;
 }
 
-.Keyblade tr {
+table.navbox.Keyblade tr td {
 	background-color:#FFFFFF;
 }
 
-.Keyblade tr:nth-child(odd) .liste {
+table.navbox.Keyblade tr:nth-child(odd) td {
 	background-color:#E6E6EF;
 }
 
 /* Sceptre */
 
-.Sceptre th {
+table.navbox.Sceptre th {
 	background-color:#0c72cc !important;
 	color: white;
 }
 
-.Sceptre .titrePalette .titreContent a {
+table.navbox.Sceptre .titrePalette .titreContent a {
     color: white;
 }
 
-.Sceptre .collapseButtonLink {
+table.navbox.Sceptre .collapseButtonLink {
 	color: white !important;
 }
 
-.Sceptre tr:not(:first-child) th,
+table.navbox.Sceptre th:not(.titrePalette),
 .Sceptre .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Sceptre tr:not(:first-child) th a,
+table.navbox.Sceptre th:not(.titrePalette),
 .Sceptre .group a{
 	color: black;
 }
 
-.Sceptre tr {
+table.navbox.Sceptre tr td {
 	background-color:#0c72cc;
 }
 
-.Sceptre tr:nth-child(odd) .liste {
+table.navbox.Sceptre tr:nth-child(odd) td {
 	background-color:#DAE2EA;
 }
 
 /* Bouclier */
 
-.Bouclier th {
+table.navbox.Bouclier th {
 	background-color:#0c0 !important;
 	color: white;
 }
 
-.Bouclier .titrePalette .titreContent a {
+table.navbox.Bouclier .titrePalette .titreContent a {
     color: white;
 }
 
-.Bouclier .collapseButtonLink {
+table.navbox.Bouclier .collapseButtonLink {
 	color: white !important;
 }
 
-.Bouclier tr:not(:first-child) th,
+table.navbox.Bouclier th:not(.titrePalette),
 .Bouclier .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Bouclier tr:not(:first-child) th a,
+table.navbox.Bouclier th:not(.titrePalette),
 .Bouclier .group a{
 	color: black;
 }
 
-.Bouclier tr {
+table.navbox.Bouclier tr td {
 	background-color:#FFFFFF;
 }
 
-.Bouclier tr:nth-child(odd) .liste {
+table.navbox.Bouclier tr:nth-child(odd) td {
 	background-color:#dfd;
 }
 
 /* Armures */
 
-.Armure th {
+table.navbox.Armure th {
 	background-color:#FFE000 !important;
 	color: black;
 }
 
-.Armure .titrePalette .titreContent a {
+table.navbox.Armure .titrePalette .titreContent a {
     color: black;
 }
 
-.Armure .collapseButtonLink {
+table.navbox.Armure .collapseButtonLink {
 	color: black !important;
 }
 
-.Armure tr:not(:first-child) th,
+table.navbox.Armure th:not(.titrePalette),
 .Armure .group {
 	background-color:#FFFF00!important;
 	color: black;
 }
 
-.Armure tr:not(:first-child) th a,
+table.navbox.Armure th:not(.titrePalette),
 .Armure .group a{
 	color: black;
 }
 
-.Armure tr {
+table.navbox.Armure tr td {
 	background-color:#FFFFFF;
 }
 
-.Armure tr:nth-child(odd) .liste {
+table.navbox.Armure tr:nth-child(odd) td {
 	background-color:#FFF8C9;
 }
 
 /* Accessoires */
 
-.Accessoire th {
+table.navbox.Accessoire th {
 	background-color:#0ac !important;
 	color: white;
 }
 
-.Accessoire .titrePalette .titreContent a {
+table.navbox.Accessoire .titrePalette .titreContent a {
     color: white;
 }
 
-.Accessoire .collapseButtonLink {
+table.navbox.Accessoire .collapseButtonLink {
 	color: white !important;
 }
 
-.Accessoire tr:not(:first-child) th,
+table.navbox.Accessoire th:not(.titrePalette),
 .Accessoire .group {
 	background-color:#2bd!important;
 	color: black;
 }
 
-.Accessoire tr:not(:first-child) th a,
+table.navbox.Accessoire th:not(.titrePalette),
 .Accessoire .group a{
 	color: black;
 }
 
-.Accessoire tr {
+table.navbox.Accessoire tr td {
 	background-color:#FFFFFF;
 }
 
-.Accessoire tr:nth-child(odd) .liste {
+table.navbox.Accessoire tr:nth-child(odd) td {
 	background-color:#def;
 }
 
 /* Objets */
 
-.Objet th {
+table.navbox.Objet th {
 	background-color:darkgreen !important;
 	color: white;
 }
 
-.Objet .titrePalette .titreContent a {
+table.navbox.Objet .titrePalette .titreContent a {
     color: white;
 }
 
-.Objet .collapseButtonLink {
+table.navbox.Objet .collapseButtonLink {
 	color: white !important;
 }
 
-.Objet tr:not(:first-child) th,
+table.navbox.Objet th:not(.titrePalette),
 .Objet .group {
 	background-color:forestgreen!important;
 	color: white;
 }
 
-.Objet tr:not(:first-child) th a,
+table.navbox.Objet th:not(.titrePalette),
 .Objet .group a{
 	color: white;
 }
 
-.Objet tr {
+table.navbox.Objet tr td {
 	background-color:#FFFFFF;
 }
 
-.Objet tr:nth-child(odd) .liste {
+table.navbox.Objet tr:nth-child(odd) td {
 	background-color:#ccffe5;
 }
 
 /* Synthèse */
 
-.Synthese th {
+table.navbox.Synthese th {
 	background-color:#FF0000 !important;
 	color: white;
 }
 
-.Synthese .titrePalette .titreContent a {
+table.navbox.Synthese .titrePalette .titreContent a {
     color: white;
 }
 
-.Synthese .collapseButtonLink {
+table.navbox.Synthese .collapseButtonLink {
 	color: white !important;
 }
 
-.Synthese tr:not(:first-child) th,
+table.navbox.Synthese th:not(.titrePalette),
 .Synthese .group {
 	background-color:#FA8072!important;
 	color: black;
 }
 
-.Synthese tr:not(:first-child) th a,
+table.navbox.Synthese th:not(.titrePalette),
 .Synthese .group a{
 	color: black;
 }
 
-.Synthese tr {
+table.navbox.Synthese tr td {
 	background-color:#FFFFFF;
 }
 
-.Synthese tr:nth-child(odd) .liste {
+table.navbox.Synthese tr:nth-child(odd) td {
 	background-color:#FDF5E6;
 }
 
 /* Magies */
 
-.magie th {
+table.navbox.magie th {
 	background-color:#007BA7 !important;
 	color: white;
 }
 
-.magie .titrePalette .titreContent a {
+table.navbox.magie .titrePalette .titreContent a {
     color: white;
 }
 
-.magie .collapseButtonLink {
+table.navbox.magie .collapseButtonLink {
 	color: white !important;
 }
 
-.magie tr:not(:first-child) th,
+table.navbox.magie th:not(.titrePalette),
 .magie .group {
 	background-color:#C7DDE5!important;
 	color: black;
 }
 
-.magie tr:not(:first-child) th a,
+table.navbox.magie th:not(.titrePalette),
 .magie .group a{
 	color: black;
 }
 
-.magie tr {
+table.navbox.magie tr td {
 	background-color:#FFFFFF;
 }
 
-.magie tr:nth-child(odd) .liste {
+table.navbox.magie tr:nth-child(odd) td {
 	background-color:#E6EFF2;
 }
 
 /* Sans-cœur */
 
-.SansCoeur th {
+table.navbox.SansCoeur th {
 	background-color:black !important;
 	color: white;
 }
 
-.SansCoeur .titrePalette .titreContent a {
+table.navbox.SansCoeur .titrePalette .titreContent a {
     color: white;
 }
 
-.SansCoeur .collapseButtonLink {
+table.navbox.SansCoeur .collapseButtonLink {
 	color: white !important;
 }
 
-.SansCoeur tr:not(:first-child) th,
+table.navbox.SansCoeur th:not(.titrePalette),
 .SansCoeur .group {
 	background-color:#8c0000!important;
 	color: white;
 }
 
-.SansCoeur tr:not(:first-child) th a,
+table.navbox.SansCoeur th:not(.titrePalette),
 .SansCoeur .group a{
 	color: white;
 }
 
-.SansCoeur tr {
+table.navbox.SansCoeur tr td {
 	background-color:#FFFFFF;
 }
 
-.SansCoeur tr:nth-child(odd) .liste {
+table.navbox.SansCoeur tr:nth-child(odd) td {
 	background-color:#EDDEDE;
 }
 
 /* Simili */
 
-.Simili th {
+table.navbox.Simili th {
 	background-color:darkgrey !important;
 	color: white;
 }
 
-.Simili .titrePalette .titreContent a {
+table.navbox.Simili .titrePalette .titreContent a {
     color: white;
 }
 
-.Simili .collapseButtonLink {
+table.navbox.Simili .collapseButtonLink {
 	color: white !important;
 }
 
-.Simili tr:not(:first-child) th,
+table.navbox.Simili th:not(.titrePalette),
 .Simili .group {
 	background-color:gray!important;
 	color: white;
 }
 
-.Simili tr:not(:first-child) th a,
+table.navbox.Simili th:not(.titrePalette),
 .Simili .group a{
 	color: white;
 }
 
-.Simili tr {
+table.navbox.Simili tr td {
 	background-color:#FFFFFF;
 }
 
-.Simili tr:nth-child(odd) .liste {
+table.navbox.Simili tr:nth-child(odd) td {
 	background-color:#C0C0C0;
 }
 
 /* Nescients */
 
-.Nescient th {
+table.navbox.Nescient th {
 	background-color:#000a7a !important;
 	color: white;
 }
 
-.Nescient .titrePalette .titreContent a {
+table.navbox.Nescient .titrePalette .titreContent a {
     color: white;
 }
 
-.Nescient .collapseButtonLink {
+table.navbox.Nescient .collapseButtonLink {
 	color: white !important;
 }
 
-.Nescient tr:not(:first-child) th,
+table.navbox.Nescient th:not(.titrePalette),
 .Nescient .group {
 	background-color:cornflowerblue!important;
 	color: white;
 }
 
-.Nescient tr:not(:first-child) th a,
+table.navbox.Nescient th:not(.titrePalette),
 .Nescient .group a{
 	color: white;
 }
 
-.Nescient tr {
+table.navbox.Nescient tr td {
 	background-color:#FFFFFF;
 }
 
-.Nescient tr:nth-child(odd) .liste {
+table.navbox.Nescient tr:nth-child(odd) td {
 	background-color:#DCE2ED;
 }
 
 /* Avale-Rêves */
 
-.AvaleReves th {
+table.navbox.AvaleReves th {
 	background-color:#DA70D6 !important;
 	color: white;
 }
 
-.AvaleReves .titrePalette .titreContent a {
+table.navbox.AvaleReves .titrePalette .titreContent a {
     color: white;
 }
 
-.AvaleReves .collapseButtonLink {
+table.navbox.AvaleReves .collapseButtonLink {
 	color: white !important;
 }
 
-.AvaleReves tr:not(:first-child) th,
+table.navbox.AvaleReves th:not(.titrePalette),
 .AvaleReves .group {
 	background-color:#88FFEA!important;
 	color: black;
 }
 
-.AvaleReves tr:not(:first-child) th a,
+table.navbox.AvaleReves th:not(.titrePalette),
 .AvaleReves .group a{
 	color: black;
 }
 
-.AvaleReves tr {
+table.navbox.AvaleReves tr td {
 	background-color:#FFFFFF;
 }
 
-.AvaleReves tr:nth-child(odd) .liste {
+table.navbox.AvaleReves tr:nth-child(odd) td {
 	background-color:#DCEDEA;
 }
 
 /* Boss */
 
-.Boss th {
+table.navbox.Boss th {
 	background-color:#990000 !important;
 	color: white;
 }
 
-.Boss .titrePalette .titreContent a {
+table.navbox.Boss .titrePalette .titreContent a {
     color: white;
 }
 
-.Boss .collapseButtonLink {
+table.navbox.Boss .collapseButtonLink {
 	color: white !important;
 }
 
-.Boss tr:not(:first-child) th,
+table.navbox.Boss th:not(.titrePalette),
 .Boss .group {
 	background-color:#CC6633!important;
 	color: black;
 }
 
-.Boss tr:not(:first-child) th a,
+table.navbox.Boss th:not(.titrePalette),
 .Boss .group a{
 	color: black;
 }
 
-.Boss tr {
+table.navbox.Boss tr td {
 	background-color:#FFFFFF;
 }
 
-.Boss tr:nth-child(odd) .liste {
+table.navbox.Boss tr:nth-child(odd) td {
 	background-color:#FFDD88;
 }
 
 /* Xemnas */
 
-.Xemnas th {
+table.navbox.Xemnas th {
 	background-color:#333333 !important;
 	color: white;
 }
 
-.Xemnas .titrePalette .titreContent a {
+table.navbox.Xemnas .titrePalette .titreContent a {
     color: white;
 }
 
-.Xemnas .collapseButtonLink {
+table.navbox.Xemnas .collapseButtonLink {
 	color: white !important;
 }
 
-.Xemnas tr:not(:first-child) th,
+table.navbox.Xemnas th:not(.titrePalette),
 .Xemnas .group {
 	background-color:#666666!important;
 	color: white;
 }
 
-.Xemnas tr:not(:first-child) th a,
+table.navbox.Xemnas th:not(.titrePalette),
 .Xemnas .group a{
 	color: white;
 }
 
-.Xemnas tr {
+table.navbox.Xemnas tr td {
 	background-color:#FFFFFF;
 }
 
-.Xemnas tr:nth-child(odd) .liste {
+table.navbox.Xemnas tr:nth-child(odd) td {
 	background-color:#DDDDDD;
 }
 
 /* Xigbar */
 
-.Xigbar th {
+table.navbox.Xigbar th {
 	background-color:#660066 !important;
 	color: white;
 }
 
-.Xigbar .titrePalette .titreContent a {
+table.navbox.Xigbar .titrePalette .titreContent a {
     color: white;
 }
 
-.Xigbar .collapseButtonLink {
+table.navbox.Xigbar .collapseButtonLink {
 	color: white !important;
 }
 
-.Xigbar tr:not(:first-child) th,
+table.navbox.Xigbar th:not(.titrePalette),
 .Xigbar .group {
 	background-color:#991199!important;
 	color: white;
 }
 
-.Xigbar tr:not(:first-child) th a,
+table.navbox.Xigbar th:not(.titrePalette),
 .Xigbar .group a{
 	color: white;
 }
 
-.Xigbar tr {
+table.navbox.Xigbar tr td {
 	background-color:#FFFFFF;
 }
 
-.Xigbar tr:nth-child(odd) .liste {
+table.navbox.Xigbar tr:nth-child(odd) td {
 	background-color:#EFDEEF;
 }
 
 /* Xaldin */
 
-.Xaldin th {
+table.navbox.Xaldin th {
 	background-color:#3300FF !important;
 	color: white;
 }
 
-.Xaldin .titrePalette .titreContent a {
+table.navbox.Xaldin .titrePalette .titreContent a {
     color: white;
 }
 
-.Xaldin .collapseButtonLink {
+table.navbox.Xaldin .collapseButtonLink {
 	color: white !important;
 }
 
-.Xaldin tr:not(:first-child) th,
+table.navbox.Xaldin th:not(.titrePalette),
 .Xaldin .group {
 	background-color:#997FFF!important;
 	color: black;
 }
 
-.Xaldin tr:not(:first-child) th a,
+table.navbox.Xaldin th:not(.titrePalette),
 .Xaldin .group a{
 	color: black;
 }
 
-.Xaldin tr {
+table.navbox.Xaldin tr td {
 	background-color:#FFFFFF;
 }
 
-.Xaldin tr:nth-child(odd) .liste {
+table.navbox.Xaldin tr:nth-child(odd) td {
 	background-color:#DCD7EF;
 }
 
 /* Vexen */
 
-.Vexen th {
+table.navbox.Vexen th {
 	background-color:#33CCFF !important;
 	color: white;
 }
 
-.Vexen .titrePalette .titreContent a {
+table.navbox.Vexen .titrePalette .titreContent a {
     color: white;
 }
 
-.Vexen .collapseButtonLink {
+table.navbox.Vexen .collapseButtonLink {
 	color: white !important;
 }
 
-.Vexen tr:not(:first-child) th,
+table.navbox.Vexen th:not(.titrePalette),
 .Vexen .group {
 	background-color:#7FDFFF!important;
 	color: black;
 }
 
-.Vexen tr:not(:first-child) th a,
+table.navbox.Vexen th:not(.titrePalette),
 .Vexen .group a{
 	color: black;
 }
 
-.Vexen tr {
+table.navbox.Vexen tr td {
 	background-color:#FFFFFF;
 }
 
-.Vexen tr:nth-child(odd) .liste {
+table.navbox.Vexen tr:nth-child(odd) td {
 	background-color:#D7E9EF;
 }
 
 /* Lexaeus */
 
-.Lexaeus th {
+table.navbox.Lexaeus th {
 	background-color:#663300 !important;
 	color: white;
 }
 
-.Lexaeus .titrePalette .titreContent a {
+table.navbox.Lexaeus .titrePalette .titreContent a {
     color: white;
 }
 
-.Lexaeus .collapseButtonLink {
+table.navbox.Lexaeus .collapseButtonLink {
 	color: white !important;
 }
 
-.Lexaeus tr:not(:first-child) th,
+table.navbox.Lexaeus th:not(.titrePalette),
 .Lexaeus .group {
 	background-color:#99724C!important;
 	color: white;
 }
 
-.Lexaeus tr:not(:first-child) th a,
+table.navbox.Lexaeus th:not(.titrePalette),
 .Lexaeus .group a{
 	color: white;
 }
 
-.Lexaeus tr {
+table.navbox.Lexaeus tr td {
 	background-color:#FFFFFF;
 }
 
-.Lexaeus tr:nth-child(odd) .liste {
+table.navbox.Lexaeus tr:nth-child(odd) td {
 	background-color:#F2E0CD;
 }
 
 /* Zexion */
 
-.Zexion th {
+table.navbox.Zexion th {
 	background-color:#333366 !important;
 	color: white;
 }
 
-.Zexion .titrePalette .titreContent a {
+table.navbox.Zexion .titrePalette .titreContent a {
     color: white;
 }
 
-.Zexion .collapseButtonLink {
+table.navbox.Zexion .collapseButtonLink {
 	color: white !important;
 }
 
-.Zexion tr:not(:first-child) th,
+table.navbox.Zexion th:not(.titrePalette),
 .Zexion .group {
 	background-color:#8888AA!important;
 	color: white;
 }
 
-.Zexion tr:not(:first-child) th a,
+table.navbox.Zexion th:not(.titrePalette),
 .Zexion .group a{
 	color: white;
 }
 
-.Zexion tr {
+table.navbox.Zexion tr td {
 	background-color:#FFFFFF;
 }
 
-.Zexion tr:nth-child(odd) .liste {
+table.navbox.Zexion tr:nth-child(odd) td {
 	background-color:#EDEDF8;
 }
 
 /* Saïx */
 
-.Saix th {
+table.navbox.Saix th {
 	background-color:#336699 !important;
 	color: white;
 }
 
-.Saix .titrePalette .titreContent a {
+table.navbox.Saix .titrePalette .titreContent a {
     color: white;
 }
 
-.Saix .collapseButtonLink {
+table.navbox.Saix .collapseButtonLink {
 	color: white !important;
 }
 
-.Saix tr:not(:first-child) th,
+table.navbox.Saix th:not(.titrePalette),
 .Saix .group {
 	background-color:#7FBFFF!important;
 	color: black;
 }
 
-.Saix tr:not(:first-child) th a,
+table.navbox.Saix th:not(.titrePalette),
 .Saix .group a{
 	color: black;
 }
 
-.Saix tr {
+table.navbox.Saix tr td {
 	background-color:#FFFFFF;
 }
 
-.Saix tr:nth-child(odd) .liste {
+table.navbox.Saix tr:nth-child(odd) td {
 	background-color:#D7E6F4;
 }
 
 /* Axel */
 
-.Axel th {
+table.navbox.Axel th {
 	background-color:#CC0000 !important;
 	color: white;
 }
 
-.Axel .titrePalette .titreContent a {
+table.navbox.Axel .titrePalette .titreContent a {
     color: white;
 }
 
-.Axel .collapseButtonLink {
+table.navbox.Axel .collapseButtonLink {
 	color: white !important;
 }
 
-.Axel tr:not(:first-child) th,
+table.navbox.Axel th:not(.titrePalette),
 .Axel .group {
 	background-color:#EE0000!important;
 	color: white;
 }
 
-.Axel tr:not(:first-child) th a,
+table.navbox.Axel th:not(.titrePalette),
 .Axel .group a{
 	color: white;
 }
 
-.Axel tr {
+table.navbox.Axel tr td {
 	background-color:#FFFFFF;
 }
 
-.Axel tr:nth-child(odd) .liste {
+table.navbox.Axel tr:nth-child(odd) td {
 	background-color:#F8EDED;
 }
 
 /* Demyx */
 
-.Demyx th {
+table.navbox.Demyx th {
 	background-color:#3399CC !important;
 	color: white;
 }
 
-.Demyx .titrePalette .titreContent a {
+table.navbox.Demyx .titrePalette .titreContent a {
     color: white;
 }
 
-.Demyx .collapseButtonLink {
+table.navbox.Demyx .collapseButtonLink {
 	color: white !important;
 }
 
-.Demyx tr:not(:first-child) th,
+table.navbox.Demyx th:not(.titrePalette),
 .Demyx .group {
 	background-color:#99DCFF!important;
 	color: black;
 }
 
-.Demyx tr:not(:first-child) th a,
+table.navbox.Demyx th:not(.titrePalette),
 .Demyx .group a{
 	color: black;
 }
 
-.Demyx tr {
+table.navbox.Demyx tr td {
 	background-color:#FFFFFF;
 }
 
-.Demyx tr:nth-child(odd) .liste {
+table.navbox.Demyx tr:nth-child(odd) td {
 	background-color:#CDE7F4;
 }
 
 /* Luxord */
 
-.Luxord th {
+table.navbox.Luxord th {
 	background-color:#CCCCCC !important;
 	color: black;
 }
 
-.Luxord .titrePalette .titreContent a {
+table.navbox.Luxord .titrePalette .titreContent a {
     color: black;
 }
 
-.Luxord .collapseButtonLink {
+table.navbox.Luxord .collapseButtonLink {
 	color: black !important;
 }
 
-.Luxord tr:not(:first-child) th,
+table.navbox.Luxord th:not(.titrePalette),
 .Luxord .group {
 	background-color:#DEDEDE!important;
 	color: black;
 }
 
-.Luxord tr:not(:first-child) th a,
+table.navbox.Luxord th:not(.titrePalette),
 .Luxord .group a{
 	color: black;
 }
 
-.Luxord tr {
+table.navbox.Luxord tr td {
 	background-color:#FFFFFF;
 }
 
-.Luxord tr:nth-child(odd) .liste {
+table.navbox.Luxord tr:nth-child(odd) td {
 	background-color:#EDEDED;
 }
 
 /* Marluxia */
 
-.Marluxia th {
+table.navbox.Marluxia th {
 	background-color:#E68FAC !important;
 	color: black;
 }
 
-.Marluxia .titrePalette .titreContent a {
+table.navbox.Marluxia .titrePalette .titreContent a {
     color: black;
 }
 
-.Marluxia .collapseButtonLink {
+table.navbox.Marluxia .collapseButtonLink {
 	color: black !important;
 }
 
-.Marluxia tr:not(:first-child) th,
+table.navbox.Marluxia th:not(.titrePalette),
 .Marluxia .group {
 	background-color:#FF99BA!important;
 	color: black;
 }
 
-.Marluxia tr:not(:first-child) th a,
+table.navbox.Marluxia th:not(.titrePalette),
 .Marluxia .group a{
 	color: black;
 }
 
-.Marluxia tr {
+table.navbox.Marluxia tr td {
 	background-color:#FFFFFF;
 }
 
-.Marluxia tr:nth-child(odd) .liste {
+table.navbox.Marluxia tr:nth-child(odd) td {
 	background-color:#F2DCE3;
 }
 
 /* Larxene */
 
-.Larxene th {
+table.navbox.Larxene th {
 	background-color:#FEEF61 !important;
 	color: black;
 }
 
-.Larxene .titrePalette .titreContent a {
+table.navbox.Larxene .titrePalette .titreContent a {
     color: black;
 }
 
-.Larxene .collapseButtonLink {
+table.navbox.Larxene .collapseButtonLink {
 	color: black !important;
 }
 
-.Larxene tr:not(:first-child) th,
+table.navbox.Larxene th:not(.titrePalette),
 .Larxene .group {
 	background-color:#FFF499!important;
 	color: black;
 }
 
-.Larxene tr:not(:first-child) th a,
+table.navbox.Larxene th:not(.titrePalette),
 .Larxene .group a{
 	color: black;
 }
 
-.Larxene tr {
+table.navbox.Larxene tr td {
 	background-color:#FFFFFF;
 }
 
-.Larxene tr:nth-child(odd) .liste {
+table.navbox.Larxene tr:nth-child(odd) td {
 	background-color:#FFFCE8;
 }
 
 /* Roxas */
 
-.Roxas th {
+table.navbox.Roxas th {
 	background-color:#FFCC00 !important;
 	color: black;
 }
 
-.Roxas .titrePalette .titreContent a {
+table.navbox.Roxas .titrePalette .titreContent a {
     color: black;
 }
 
-.Roxas .collapseButtonLink {
+table.navbox.Roxas .collapseButtonLink {
 	color: black !important;
 }
 
-.Roxas tr:not(:first-child) th,
+table.navbox.Roxas th:not(.titrePalette),
 .Roxas .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Roxas tr:not(:first-child) th a,
+table.navbox.Roxas th:not(.titrePalette),
 .Roxas .group a{
 	color: black;
 }
 
-.Roxas tr {
+table.navbox.Roxas tr td {
 	background-color:#FFFFFF;
 }
 
-.Roxas tr:nth-child(odd) .liste {
+table.navbox.Roxas tr:nth-child(odd) td {
 	background-color:#FFF8DD;
 }
 
 /* Xion */
 
-.Xion th {
+table.navbox.Xion th {
 	background-color:#000000 !important;
 	color: white;
 }
 
-.Xion .titrePalette .titreContent a {
+table.navbox.Xion .titrePalette .titreContent a {
     color: white;
 }
 
-.Xion .collapseButtonLink {
+table.navbox.Xion .collapseButtonLink {
 	color: white !important;
 }
 
-.Xion tr:not(:first-child) th,
+table.navbox.Xion th:not(.titrePalette),
 .Xion .group {
 	background-color:#555560!important;
 	color: white;
 }
 
-.Xion tr:not(:first-child) th a,
+table.navbox.Xion th:not(.titrePalette),
 .Xion .group a{
 	color: white;
 }
 
-.Xion tr {
+table.navbox.Xion tr td {
 	background-color:#FFFFFF;
 }
 
-.Xion tr:nth-child(odd) .liste {
+table.navbox.Xion tr:nth-child(odd) td {
 	background-color:#DCDCED;
 }
 
 /* Personnages */
 
-.Personnages th {
+table.navbox.Personnages th {
 	background-color:#5b58ec !important;
 	color: white;
 }
 
-.Personnages .titrePalette .titreContent a {
+table.navbox.Personnages .titrePalette .titreContent a {
     color: white;
 }
 
-.Personnages .collapseButtonLink {
+table.navbox.Personnages .collapseButtonLink {
 	color: white !important;
 }
 
-.Personnages tr:not(:first-child) th,
+table.navbox.Personnages th:not(.titrePalette),
 .Personnages .group {
 	background-color:#849aed!important;
 	color: black;
 }
 
-.Personnages tr:not(:first-child) th a,
+table.navbox.Personnages th:not(.titrePalette),
 .Personnages .group a{
 	color: black;
 }
 
-.Personnages tr {
+table.navbox.Personnages tr td {
 	background-color:#FFFFFF;
 }
 
-.Personnages tr:nth-child(odd) .liste {
+table.navbox.Personnages tr:nth-child(odd) td {
 	background-color:#E1E4F2;
 }
 
 /* Équipe */
 
-.Equipe th {
+table.navbox.Equipe th {
 	background-color:lightseagreen !important;
 	color: black;
 }
 
-.Equipe .titrePalette .titreContent a {
+table.navbox.Equipe .titrePalette .titreContent a {
     color: black;
 }
 
-.Equipe .collapseButtonLink {
+table.navbox.Equipe .collapseButtonLink {
 	color: black !important;
 }
 
-.Equipe tr:not(:first-child) th,
+table.navbox.Equipe th:not(.titrePalette),
 .Equipe .group {
 	background-color:mediumaquamarine!important;
 	color: black;
 }
 
-.Equipe tr:not(:first-child) th a,
+table.navbox.Equipe th:not(.titrePalette),
 .Equipe .group a{
 	color: black;
 }
 
-.Equipe tr {
+table.navbox.Equipe tr td {
 	background-color:#FFFFFF;
 }
 
-.Equipe tr:nth-child(odd) .liste {
+table.navbox.Equipe tr:nth-child(odd) td {
 	background-color:#DAEDE6;
 }
 
 /* Invocation */
 
-.Invocation th {
+table.navbox.Invocation th {
 	background-color:gold !important;
 	color: black;
 }
 
-.Invocation .titrePalette .titreContent a {
+table.navbox.Invocation .titrePalette .titreContent a {
     color: black;
 }
 
-.Invocation .collapseButtonLink {
+table.navbox.Invocation .collapseButtonLink {
 	color: black !important;
 }
 
-.Invocation tr:not(:first-child) th,
+table.navbox.Invocation th:not(.titrePalette),
 .Invocation .group {
 	background-color:#FFE44C!important;
 	color: black;
 }
 
-.Invocation tr:not(:first-child) th a,
+table.navbox.Invocation th:not(.titrePalette),
 .Invocation .group a{
 	color: black;
 }
 
-.Invocation tr {
+table.navbox.Invocation tr td {
 	background-color:#FFFFFF;
 }
 
-.Invocation tr:nth-child(odd) .liste {
+table.navbox.Invocation tr:nth-child(odd) td {
 	background-color:#FFFBE5;
 }
 
 /* Final Fantasy */
 
-.FF th {
+table.navbox.FF th {
 	background-color:#4169E1 !important;
 	color: white;
 }
 
-.FF .titrePalette .titreContent a {
+table.navbox.FF .titrePalette .titreContent a {
     color: white;
 }
 
-.FF .collapseButtonLink {
+table.navbox.FF .collapseButtonLink {
 	color: white !important;
 }
 
-.FF tr:not(:first-child) th,
+table.navbox.FF th:not(.titrePalette),
 .FF .group {
 	background-color:#87CEFA!important;
 	color: black;
 }
 
-.FF tr:not(:first-child) th a,
+table.navbox.FF th:not(.titrePalette),
 .FF .group a{
 	color: black;
 }
 
-.FF tr {
+table.navbox.FF tr td {
 	background-color:#FFFFFF;
 }
 
-.FF tr:nth-child(odd) .liste {
+table.navbox.FF tr:nth-child(odd) td {
 	background-color:#CCD8FF;
 }
 
 /* The World Ends With You */
 
-.TWEWY th {
+table.navbox.TWEWY th {
 	background-color:#003058 !important;
 	color: white;
 }
 
-.TWEWY .titrePalette .titreContent a {
+table.navbox.TWEWY .titrePalette .titreContent a {
     color: white;
 }
 
-.TWEWY .collapseButtonLink {
+table.navbox.TWEWY .collapseButtonLink {
 	color: white !important;
 }
 
-.TWEWY tr:not(:first-child) th,
+table.navbox.TWEWY th:not(.titrePalette),
 .TWEWY .group {
 	background-color:#C3D6E5!important;
 	color: black;
 }
 
-.TWEWY tr:not(:first-child) th a,
+table.navbox.TWEWY th:not(.titrePalette),
 .TWEWY .group a{
 	color: black;
 }
 
-.TWEWY tr {
+table.navbox.TWEWY tr td {
 	background-color:#FFFFFF;
 }
 
-.TWEWY tr:nth-child(odd) .liste {
+table.navbox.TWEWY tr:nth-child(odd) td {
 	background-color:#E3EDF4;
 }
 
 /* Disney */
 
-.Disney th {
+table.navbox.Disney th {
 	background-color:blueviolet !important;
 	color: white;
 }
 
-.Disney .titrePalette .titreContent a {
+table.navbox.Disney .titrePalette .titreContent a {
     color: white;
 }
 
-.Disney .collapseButtonLink {
+table.navbox.Disney .collapseButtonLink {
 	color: white !important;
 }
 
-.Disney tr:not(:first-child) th,
+table.navbox.Disney th:not(.titrePalette),
 .Disney .group {
 	background-color:mediumorchid!important;
 	color: white;
 }
 
-.Disney tr:not(:first-child) th a,
+table.navbox.Disney th:not(.titrePalette),
 .Disney .group a{
 	color: white;
 }
 
-.Disney tr {
+table.navbox.Disney tr td {
 	background-color:#FFFFFF;
 }
 
-.Disney tr:nth-child(odd) .liste {
+table.navbox.Disney tr:nth-child(odd) td {
 	background-color:#E9DAED;
 }
 
 /* Monde */
 
-.Monde th {
+table.navbox.Monde th {
 	background-color:#7c45aa !important;
 	color: white;
 }
 
-.Monde .titrePalette .titreContent a {
+table.navbox.Monde .titrePalette .titreContent a {
     color: white;
 }
 
-.Monde .collapseButtonLink {
+table.navbox.Monde .collapseButtonLink {
 	color: white !important;
 }
 
-.Monde tr:not(:first-child) th,
+table.navbox.Monde th:not(.titrePalette),
 .Monde .group {
 	background-color:#af8eeb!important;
 	color: white;
 }
 
-.Monde tr:not(:first-child) th a,
+table.navbox.Monde th:not(.titrePalette),
 .Monde .group a{
 	color: white;
 }
 
-.Monde tr {
+table.navbox.Monde tr td {
 	background-color:#FFFFFF;
 }
 
-.Monde tr:nth-child(odd) .liste {
+table.navbox.Monde tr:nth-child(odd) td {
 	background-color:#E3DAED;
 }
 
 /* Square Enix */
 
-.Square th {
+table.navbox.Square th {
 	background-color:black !important;
 	color: white;
 }
 
-.Square .titrePalette .titreContent a {
+table.navbox.Square .titrePalette .titreContent a {
     color: white;
 }
 
-.Square .collapseButtonLink {
+table.navbox.Square .collapseButtonLink {
 	color: white !important;
 }
 
-.Square tr:not(:first-child) th,
+table.navbox.Square th:not(.titrePalette),
 .Square .group {
 	background-color:gray!important;
 	color: white;
 }
 
-.Square tr:not(:first-child) th a,
+table.navbox.Square th:not(.titrePalette),
 .Square .group a{
 	color: white;
 }
 
-.Square tr {
+table.navbox.Square tr td {
 	background-color:#FFFFFF;
 }
 
-.Square tr:nth-child(odd) .liste {
+table.navbox.Square tr:nth-child(odd) td {
 	background-color:lightgray;
 }
 
 /* Minijeux */
 
-.Minijeux th {
+table.navbox.Minijeux th {
 	background-color:#FF4500 !important;
 	color: white;
 }
 
-.Minijeux .titrePalette .titreContent a {
+table.navbox.Minijeux .titrePalette .titreContent a {
     color: white;
 }
 
-.Minijeux .collapseButtonLink {
+table.navbox.Minijeux .collapseButtonLink {
 	color: white !important;
 }
 
-.Minijeux tr:not(:first-child) th,
+table.navbox.Minijeux th:not(.titrePalette),
 .Minijeux .group {
 	background-color:#FF7F50!important;
 	color: black;
 }
 
-.Minijeux tr:not(:first-child) th a,
+table.navbox.Minijeux th:not(.titrePalette),
 .Minijeux .group a{
 	color: black;
 }
 
-.Minijeux tr {
+table.navbox.Minijeux tr td {
 	background-color:#FFFFFF;
 }
 
-.Minijeux tr:nth-child(odd) .liste {
+table.navbox.Minijeux tr:nth-child(odd) td {
 	background-color:#FFDEBA;
 }
 
 /* Gummis */
 
-.Gummis th {
+table.navbox.Gummis th {
 	background-color:darkorange !important;
 	color: white;
 }
 
-.Gummis .titrePalette .titreContent a {
+table.navbox.Gummis .titrePalette .titreContent a {
     color: white;
 }
 
-.Gummis .collapseButtonLink {
+table.navbox.Gummis .collapseButtonLink {
 	color: white !important;
 }
 
-.Gummis tr:not(:first-child) th,
+table.navbox.Gummis th:not(.titrePalette),
 .Gummis .group {
 	background-color:PaleTurquoise!important;
 	color: black;
 }
 
-.Gummis tr:not(:first-child) th a,
+table.navbox.Gummis th:not(.titrePalette),
 .Gummis .group a{
 	color: black;
 }
 
-.Gummis tr {
+table.navbox.Gummis tr td {
 	background-color:#FFFFFF;
 }
 
-.Gummis tr:nth-child(odd) .liste {
+table.navbox.Gummis tr:nth-child(odd) td {
 	background-color:LightCyan;
 }
 
 /* Produits dérivés */
 
-.Produits th {
+table.navbox.Produits th {
 	background-color:#00BA6A !important;
 	color: white;
 }
 
-.Produits .titrePalette .titreContent a {
+table.navbox.Produits .titrePalette .titreContent a {
     color: white;
 }
 
-.Produits .collapseButtonLink {
+table.navbox.Produits .collapseButtonLink {
 	color: white !important;
 }
 
-.Produits tr:not(:first-child) th,
+table.navbox.Produits th:not(.titrePalette),
 .Produits .group {
 	background-color:#00FA9A!important;
 	color: black;
 }
 
-.Produits tr:not(:first-child) th a,
+table.navbox.Produits th:not(.titrePalette),
 .Produits .group a{
 	color: black;
 }
 
-.Produits tr {
+table.navbox.Produits tr td {
 	background-color:#FFFFFF;
 }
 
-.Produits tr:nth-child(odd) .liste {
+table.navbox.Produits tr:nth-child(odd) td {
 	background-color:#B0FFDE;
 }
 
 /* Communauté */
 
-.Communaute th {
+table.navbox.Communaute th {
 	background-color:midnightblue !important;
 	color: white;
 }
 
-.Communaute .titrePalette .titreContent a {
+table.navbox.Communaute .titrePalette .titreContent a {
     color: white;
 }
 
-.Communaute .collapseButtonLink {
+table.navbox.Communaute .collapseButtonLink {
 	color: white !important;
 }
 
-.Communaute tr:not(:first-child) th,
+table.navbox.Communaute th:not(.titrePalette),
 .Communaute .group {
 	background-color:dodgerblue!important;
 	color: white;
 }
 
-.Communaute tr:not(:first-child) th a,
+table.navbox.Communaute th:not(.titrePalette),
 .Communaute .group a{
 	color: white;
 }
 
-.Communaute tr {
+table.navbox.Communaute tr td {
 	background-color:#FFFFFF;
 }
 
-.Communaute tr:nth-child(odd) .liste {
+table.navbox.Communaute tr:nth-child(odd) td {
 	background-color:#E1F1F7;
 }
 
 /* Musiques */
 
-.Musique th {
+table.navbox.Musique th {
 	background-color:#174bdb !important;
 	color: black;
 }
 
-.Musique .titrePalette .titreContent a {
+table.navbox.Musique .titrePalette .titreContent a {
     color: black;
 }
 
-.Musique .collapseButtonLink {
+table.navbox.Musique .collapseButtonLink {
 	color: black !important;
 }
 
-.Musique tr:not(:first-child) th,
+table.navbox.Musique th:not(.titrePalette),
 .Musique .group {
 	background-color:#4e71d5!important;
 	color: black;
 }
 
-.Musique tr:not(:first-child) th a,
+table.navbox.Musique th:not(.titrePalette),
 .Musique .group a{
 	color: black;
 }
 
-.Musique tr {
+table.navbox.Musique tr td {
 	background-color:#FFFFFF;
 }
 
-.Musique tr:nth-child(odd) .liste {
+table.navbox.Musique tr:nth-child(odd) td {
 	background-color:#678beb;
 }
+
