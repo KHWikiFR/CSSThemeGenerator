@@ -24,6 +24,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.1.1 - 2018-02-14
+ * Fix du sélecteur de sous-titre pour supporter les palettes enchâssées
+
 ## 0.1.0 - 2018-02-14
  * Version de lancement
  * Script python + source JSON
