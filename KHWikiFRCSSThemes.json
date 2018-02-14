@@ -1,0 +1,562 @@
+[
+{
+        "Head": "#D9D9F7", 
+        "TitleFont": "white", 
+        "Name": "KH1", 
+        "Title": "#000080", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts", 
+        "RowAlt": "#E8E8FA", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#DBE6F9", 
+        "TitleFont": "white", 
+        "Name": "FM1", 
+        "Title": "#6495ED", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: Final Mix", 
+        "RowAlt": "#E6EEFB", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#DDDDDD", 
+        "TitleFont": "white", 
+        "Name": "COM", 
+        "Title": "#A9A9A9", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: Chain of Memories", 
+        "RowAlt": "#E4E4E4", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#D2E1F1", 
+        "TitleFont": "white", 
+        "Name": "KH2", 
+        "Title": "#4682B4", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts II", 
+        "RowAlt": "#E0EAF5", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#E0E0E0", 
+        "TitleFont": "white", 
+        "Name": "FM2", 
+        "Title": "#C0C0C0", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts II: Final Mix", 
+        "RowAlt": "#E9E9E9", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#F9E0E0", 
+        "TitleFont": "white", 
+        "Name": "Days", 
+        "Title": "#B22222", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: 358/2 Days", 
+        "RowAlt": "#FAECEC", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#D7E8F4", 
+        "TitleFont": "white", 
+        "Name": "BBS", 
+        "Title": "#7EB6F2", 
+        "HeadFont": "black", 
+        "FullName": "Birth by Sleep", 
+        "RowAlt": "#DFEDF6", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#C9D9E5", 
+        "TitleFont": "white", 
+        "Name": "BBSFM", 
+        "Title": "#34526D", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: Birth by Sleep Final Mix", 
+        "RowAlt": "#DFE8EF", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#F9F9DB", 
+        "TitleFont": "black", 
+        "Name": "Coded", 
+        "Title": "#FFFF00", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: coded", 
+        "RowAlt": "#FBFBE6", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#EDDBF9", 
+        "TitleFont": "white", 
+        "Name": "DDD", 
+        "Title": "#4B0082", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts 3D: Dream Drop Distance", 
+        "RowAlt": "#F2E6FB", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#C9E5DC", 
+        "TitleFont": "white", 
+        "Name": "CHI", 
+        "Title": "#00CC88", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts χ [chi]", 
+        "RowAlt": "#DFEFEA", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#D0D0D0", 
+        "TitleFont": "white", 
+        "Name": "UCR", 
+        "Title": "#808482", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts: Union χ [cross]", 
+        "RowAlt": "#E1E1E1", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#6d6d6d", 
+        "TitleFont": "white", 
+        "Name": "KH2_8", 
+        "Title": "#c62870", 
+        "HeadFont": "white", 
+        "FullName": "Kingdom Hearts: HD 2.8 Final Chapter Prologue", 
+        "RowAlt": "#e5c9d6", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#C9CBE5", 
+        "TitleFont": "white", 
+        "Name": "KH3", 
+        "Title": "#67698A", 
+        "HeadFont": "black", 
+        "FullName": "Kingdom Hearts III", 
+        "RowAlt": "#DFE0EF", 
+        "Row": "#F9F9F9"
+    }, 
+    {
+        "Head": "#fdf34f", 
+        "TitleFont": "steelblue", 
+        "Name": "serieKH", 
+        "Title": "#FFFF00", 
+        "HeadFont": "steelblue", 
+        "FullName": "Série KH", 
+        "RowAlt": "#fdfc94", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FFCCCD", 
+        "TitleFont": "white", 
+        "Name": "Armes", 
+        "Title": "#FF6666", 
+        "HeadFont": "black", 
+        "FullName": "Armes", 
+        "RowAlt": "#F7DCDC", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "gold", 
+        "TitleFont": "white", 
+        "Name": "Keyblade", 
+        "Title": "#000080", 
+        "HeadFont": "black", 
+        "FullName": "Keyblades", 
+        "RowAlt": "#E6E6EF", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "gold", 
+        "TitleFont": "white", 
+        "Name": "Sceptre", 
+        "Title": "#0c72cc", 
+        "HeadFont": "black", 
+        "FullName": "Sceptre", 
+        "RowAlt": "#DAE2EA", 
+        "Row": "#0c72cc"
+    }, 
+    {
+        "Head": "gold", 
+        "TitleFont": "white", 
+        "Name": "Bouclier", 
+        "Title": "#0c0", 
+        "HeadFont": "black", 
+        "FullName": "Bouclier", 
+        "RowAlt": "#dfd", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FFFF00", 
+        "TitleFont": "black", 
+        "Name": "Armure", 
+        "Title": "#FFE000", 
+        "HeadFont": "black", 
+        "FullName": "Armures", 
+        "RowAlt": "#FFF8C9", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#2bd", 
+        "TitleFont": "white", 
+        "Name": "Accessoire", 
+        "Title": "#0ac", 
+        "HeadFont": "black", 
+        "FullName": "Accessoires", 
+        "RowAlt": "#def", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "forestgreen", 
+        "TitleFont": "white", 
+        "Name": "Objet", 
+        "Title": "darkgreen", 
+        "HeadFont": "white", 
+        "FullName": "Objets", 
+        "RowAlt": "#ccffe5", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FA8072", 
+        "TitleFont": "white", 
+        "Name": "Synthese", 
+        "Title": "#FF0000", 
+        "HeadFont": "black", 
+        "FullName": "Synthèse", 
+        "RowAlt": "#FDF5E6", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#C7DDE5", 
+        "TitleFont": "white", 
+        "Name": "magie", 
+        "Title": "#007BA7", 
+        "HeadFont": "black", 
+        "FullName": "Magies", 
+        "RowAlt": "#E6EFF2", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#8c0000", 
+        "TitleFont": "white", 
+        "Name": "SansCoeur", 
+        "Title": "black", 
+        "HeadFont": "white", 
+        "FullName": "Sans-cœur", 
+        "RowAlt": "#EDDEDE", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "gray", 
+        "TitleFont": "white", 
+        "Name": "Simili", 
+        "Title": "darkgrey", 
+        "HeadFont": "white", 
+        "FullName": "Simili", 
+        "RowAlt": "#C0C0C0", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "cornflowerblue", 
+        "TitleFont": "white", 
+        "Name": "Nescient", 
+        "Title": "#000a7a", 
+        "HeadFont": "white", 
+        "FullName": "Nescients", 
+        "RowAlt": "#DCE2ED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#88FFEA", 
+        "TitleFont": "white", 
+        "Name": "AvaleReves", 
+        "Title": "#DA70D6", 
+        "HeadFont": "black", 
+        "FullName": "Avale-Rêves", 
+        "RowAlt": "#DCEDEA", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#CC6633", 
+        "TitleFont": "white", 
+        "Name": "Boss", 
+        "Title": "#990000", 
+        "HeadFont": "black", 
+        "FullName": "Boss", 
+        "RowAlt": "#FFDD88", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#666666", 
+        "TitleFont": "white", 
+        "Name": "Xemnas", 
+        "Title": "#333333", 
+        "HeadFont": "white", 
+        "FullName": "Xemnas", 
+        "RowAlt": "#DDDDDD", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#991199", 
+        "TitleFont": "white", 
+        "Name": "Xigbar", 
+        "Title": "#660066", 
+        "HeadFont": "white", 
+        "FullName": "Xigbar", 
+        "RowAlt": "#EFDEEF", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#997FFF", 
+        "TitleFont": "white", 
+        "Name": "Xaldin", 
+        "Title": "#3300FF", 
+        "HeadFont": "black", 
+        "FullName": "Xaldin", 
+        "RowAlt": "#DCD7EF", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#7FDFFF", 
+        "TitleFont": "white", 
+        "Name": "Vexen", 
+        "Title": "#33CCFF", 
+        "HeadFont": "black", 
+        "FullName": "Vexen", 
+        "RowAlt": "#D7E9EF", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#99724C", 
+        "TitleFont": "white", 
+        "Name": "Lexaeus", 
+        "Title": "#663300", 
+        "HeadFont": "white", 
+        "FullName": "Lexaeus", 
+        "RowAlt": "#F2E0CD", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#8888AA", 
+        "TitleFont": "white", 
+        "Name": "Zexion", 
+        "Title": "#333366", 
+        "HeadFont": "white", 
+        "FullName": "Zexion", 
+        "RowAlt": "#EDEDF8", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#7FBFFF", 
+        "TitleFont": "white", 
+        "Name": "Saix", 
+        "Title": "#336699", 
+        "HeadFont": "black", 
+        "FullName": "Saïx", 
+        "RowAlt": "#D7E6F4", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#EE0000", 
+        "TitleFont": "white", 
+        "Name": "Axel", 
+        "Title": "#CC0000", 
+        "HeadFont": "white", 
+        "FullName": "Axel", 
+        "RowAlt": "#F8EDED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#99DCFF", 
+        "TitleFont": "white", 
+        "Name": "Demyx", 
+        "Title": "#3399CC", 
+        "HeadFont": "black", 
+        "FullName": "Demyx", 
+        "RowAlt": "#CDE7F4", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#DEDEDE", 
+        "TitleFont": "black", 
+        "Name": "Luxord", 
+        "Title": "#CCCCCC", 
+        "HeadFont": "black", 
+        "FullName": "Luxord", 
+        "RowAlt": "#EDEDED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FF99BA", 
+        "TitleFont": "black", 
+        "Name": "Marluxia", 
+        "Title": "#E68FAC", 
+        "HeadFont": "black", 
+        "FullName": "Marluxia", 
+        "RowAlt": "#F2DCE3", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FFF499", 
+        "TitleFont": "black", 
+        "Name": "Larxene", 
+        "Title": "#FEEF61", 
+        "HeadFont": "black", 
+        "FullName": "Larxene", 
+        "RowAlt": "#FFFCE8", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "gold", 
+        "TitleFont": "black", 
+        "Name": "Roxas", 
+        "Title": "#FFCC00", 
+        "HeadFont": "black", 
+        "FullName": "Roxas", 
+        "RowAlt": "#FFF8DD", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#555560", 
+        "TitleFont": "white", 
+        "Name": "Xion", 
+        "Title": "#000000", 
+        "HeadFont": "white", 
+        "FullName": "Xion", 
+        "RowAlt": "#DCDCED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#849aed", 
+        "TitleFont": "white", 
+        "Name": "Personnages", 
+        "Title": "#5b58ec", 
+        "HeadFont": "black", 
+        "FullName": "Personnages", 
+        "RowAlt": "#E1E4F2", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "mediumaquamarine", 
+        "TitleFont": "black", 
+        "Name": "Equipe", 
+        "Title": "lightseagreen", 
+        "HeadFont": "black", 
+        "FullName": "Équipe", 
+        "RowAlt": "#DAEDE6", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FFE44C", 
+        "TitleFont": "black", 
+        "Name": "Invocation", 
+        "Title": "gold", 
+        "HeadFont": "black", 
+        "FullName": "Invocation", 
+        "RowAlt": "#FFFBE5", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#87CEFA", 
+        "TitleFont": "white", 
+        "Name": "FF", 
+        "Title": "#4169E1", 
+        "HeadFont": "black", 
+        "FullName": "Final Fantasy", 
+        "RowAlt": "#CCD8FF", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#C3D6E5", 
+        "TitleFont": "white", 
+        "Name": "TWEWY", 
+        "Title": "#003058", 
+        "HeadFont": "black", 
+        "FullName": "The World Ends With You", 
+        "RowAlt": "#E3EDF4", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "mediumorchid", 
+        "TitleFont": "white", 
+        "Name": "Disney", 
+        "Title": "blueviolet", 
+        "HeadFont": "white", 
+        "FullName": "Disney", 
+        "RowAlt": "#E9DAED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#af8eeb", 
+        "TitleFont": "white", 
+        "Name": "Monde", 
+        "Title": "#7c45aa", 
+        "HeadFont": "white", 
+        "FullName": "Monde", 
+        "RowAlt": "#E3DAED", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "gray", 
+        "TitleFont": "white", 
+        "Name": "Square", 
+        "Title": "black", 
+        "HeadFont": "white", 
+        "FullName": "Square Enix", 
+        "RowAlt": "lightgray", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#FF7F50", 
+        "TitleFont": "white", 
+        "Name": "Minijeux", 
+        "Title": "#FF4500", 
+        "HeadFont": "black", 
+        "FullName": "Minijeux", 
+        "RowAlt": "#FFDEBA", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "PaleTurquoise", 
+        "TitleFont": "white", 
+        "Name": "Gummis", 
+        "Title": "darkorange", 
+        "HeadFont": "black", 
+        "FullName": "Gummis", 
+        "RowAlt": "LightCyan", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#00FA9A", 
+        "TitleFont": "white", 
+        "Name": "Produits", 
+        "Title": "#00BA6A", 
+        "HeadFont": "black", 
+        "FullName": "Produits dérivés", 
+        "RowAlt": "#B0FFDE", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "dodgerblue", 
+        "TitleFont": "white", 
+        "Name": "Communaute", 
+        "Title": "midnightblue", 
+        "HeadFont": "white", 
+        "FullName": "Communauté", 
+        "RowAlt": "#E1F1F7", 
+        "Row": "#FFFFFF"
+    }, 
+    {
+        "Head": "#4e71d5", 
+        "TitleFont": "black", 
+        "Name": "Musique", 
+        "Title": "#174bdb", 
+        "HeadFont": "black", 
+        "FullName": "Musiques", 
+        "RowAlt": "#678beb", 
+        "Row": "#FFFFFF"
+    }
+]

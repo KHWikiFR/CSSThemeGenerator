@@ -1,0 +1,193 @@
+/**** Deprecated code: styles des vieilles infobox (ajouté manuellement pour compatibilité jusqu'à ce que les infoboxes soient converties) ****/
+
+.KH2.infobox,
+.KH2 .infobox-table {
+    border-color:#4682B4;
+}
+
+.KH2 td.khwiki-infobox-line-right {
+    background-color:#E0EAF5;
+}
+
+.KH2 td.khwiki-infobox-line-left {
+    background-color:#D2E1F1!important;
+    color: black;
+}
+
+.KH2 td.khwiki-infobox-line-left a {
+    color: black;
+}
+
+.serieKH.khwiki-infobox-container {
+    min-width:275px;
+    width: auto;
+}
+
+.serieKH .infobox-table {
+    border-color:#fdf34f;
+}
+
+.serieKH td.khwiki-infobox-line-right {
+    background-color:#fdfc94;
+}
+
+.serieKH td.khwiki-infobox-line-left {
+    background-color:#fdf34f!important;
+    color: steelblue;
+}
+
+.serieKH .group a,
+.serieKH td.khwiki-infobox-line-left a {
+    color: steelblue;
+}
+
+.Keyblade.infobox {
+    border-color:#000080;
+}
+
+.Keyblade.infobox td {
+    background-color:#E6E6EF;
+}
+
+.Simili.infobox,
+.Simili .infobox-table {
+    border-color:darkgrey !important;
+}
+
+.Simili.infobox td,
+.Simili td.khwiki-infobox-line-right {
+    background-color:#C0C0C0;
+}
+
+.Simili td.khwiki-infobox-line-left {
+    background-color:gray!important;
+    color:white;
+}
+
+.Simili td.khwiki-infobox-line-left a {
+    color:white;
+}
+
+.Boss.infobox {
+    border-color:#990000;
+}
+
+.Boss.infobox td {
+    background-color:#FFDD88;
+}
+
+.Personnages.infobox,
+.Personnages .infobox-table {
+    border-color: #5b58ec;
+}
+
+.Personnages.infobox td,
+.Personnages td.khwiki-infobox-line-right {
+    background-color:#E1E4F2;
+}
+
+.Personnages td.khwiki-infobox-line-left {
+    background-color:#849aed!important;
+    color: black;
+}
+
+.Personnages td.khwiki-infobox-line-left a {
+    color: black;
+}
+
+.Disney.infobox,
+.Disney .infobox-table {
+    border-color:blueviolet;
+}
+
+.Disney.infobox td,
+.Disney td.khwiki-infobox-line-right {
+    background-color:#E9DAED;
+}
+
+.Disney td.khwiki-infobox-line-left {
+    background-color:mediumorchid!important;
+    color: white;
+}
+
+.Disney td.khwiki-infobox-line-left a {
+    color: white;
+}
+
+.Monde .infobox-table {
+    border-color:#7c45aa;
+}
+
+.Monde td.khwiki-infobox-line-right {
+    background-color:#E3DAED;
+}
+
+.Monde td.khwiki-infobox-line-left {
+    background-color:#af8eeb!important;
+    color: white;
+}
+
+.Monde td.khwiki-infobox-line-left a {
+    color: white;
+}
+
+.Square .infobox-table {
+    border-color:black;
+}
+
+.Square td.khwiki-infobox-line-right {
+    background-color:lightgray;
+}
+
+.Square td.khwiki-infobox-line-left {
+    background-color:gray!important;
+    color:white;
+}
+
+.Square td.khwiki-infobox-line-left a {
+    color: white;
+}
+
+.Gummis .infobox-table,
+.Gummis.infobox {
+    border-color:darkorange;
+}
+
+.Gummis td.khwiki-infobox-line-right,
+.Gummis.infobox td {
+    background-color:LightCyan;
+}
+
+.Gummis td.khwiki-infobox-line-left  {
+    background-color:PaleTurquoise!important;
+    color: black;
+}
+
+.Gummis td.khwiki-infobox-line-left  {
+    width:50%;
+}
+
+.Gummis td.subgroup {
+    background-color:#D0F0F0;
+}
+
+.Gummis td.khwiki-infobox-line-left a {
+    color: black;
+}
+
+.Musique .infobox-table {
+    border-color: #174bdb;
+}
+
+.Musique td.khwiki-infobox-line-right {
+    background-color:#678beb;
+}
+
+.Musique td.khwiki-infobox-line-left {
+    background-color:#4e71d5!important;
+    color: black;
+}
+
+.Musique td.khwiki-infobox-line-left a {
+    color: black;
+	}
