@@ -4,35 +4,35 @@ import codecs
 def generate_css(theme):
 	output = u'''/* {full_name} */
 
-.{name} th {{
+table.navbox.{name} th {{
 	background-color:{title} !important;
 	color: {title_font};
 }}
 
-.{name} .titrePalette .titreContent a {{
+table.navbox.{name} .titrePalette .titreContent a {{
     color: {title_font};
 }}
 
-.{name} .collapseButtonLink {{
+table.navbox.{name} .collapseButtonLink {{
 	color: {title_font} !important;
 }}
 
-.{name} th:not(.titrePalette),
+table.navbox.{name} th:not(.titrePalette),
 .{name} .group {{
 	background-color:{head}!important;
 	color: {head_font};
 }}
 
-.{name} th:not(.titrePalette),
+table.navbox.{name} th:not(.titrePalette),
 .{name} .group a{{
 	color: {head_font};
 }}
 
-.{name} tr {{
+table.navbox.{name} tr td {{
 	background-color:{row};
 }}
 
-.{name} tr:nth-child(odd) .liste {{
+table.navbox.{name} tr:nth-child(odd) td {{
 	background-color:{row_alt};
 }}
 

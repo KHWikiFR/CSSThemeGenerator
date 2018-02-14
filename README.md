@@ -24,6 +24,10 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.1.2 - 2018-02-14
+ * Fix des sélecteurs de cellule de contenu (classe .liste dépréciée retirée)
+ * Ajout de sélecteurs pour assurer la priorité sur le thème de palette par défaut
+
 ## 0.1.0 - 2018-02-14
  * Version de lancement
  * Script python + source JSON
