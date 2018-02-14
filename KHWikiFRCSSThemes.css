@@ -13,13 +13,13 @@
 	color: white !important;
 }
 
-.KH1 tr:not(:first-child) th,
+.KH1 th:not(.titrePalette),
 .KH1 .group {
 	background-color:#D9D9F7!important;
 	color: black;
 }
 
-.KH1 tr:not(:first-child) th a,
+.KH1 th:not(.titrePalette),
 .KH1 .group a{
 	color: black;
 }
@@ -47,13 +47,13 @@
 	color: white !important;
 }
 
-.FM1 tr:not(:first-child) th,
+.FM1 th:not(.titrePalette),
 .FM1 .group {
 	background-color:#DBE6F9!important;
 	color: black;
 }
 
-.FM1 tr:not(:first-child) th a,
+.FM1 th:not(.titrePalette),
 .FM1 .group a{
 	color: black;
 }
@@ -81,13 +81,13 @@
 	color: white !important;
 }
 
-.COM tr:not(:first-child) th,
+.COM th:not(.titrePalette),
 .COM .group {
 	background-color:#DDDDDD!important;
 	color: black;
 }
 
-.COM tr:not(:first-child) th a,
+.COM th:not(.titrePalette),
 .COM .group a{
 	color: black;
 }
@@ -115,13 +115,13 @@
 	color: white !important;
 }
 
-.KH2 tr:not(:first-child) th,
+.KH2 th:not(.titrePalette),
 .KH2 .group {
 	background-color:#D2E1F1!important;
 	color: black;
 }
 
-.KH2 tr:not(:first-child) th a,
+.KH2 th:not(.titrePalette),
 .KH2 .group a{
 	color: black;
 }
@@ -149,13 +149,13 @@
 	color: white !important;
 }
 
-.FM2 tr:not(:first-child) th,
+.FM2 th:not(.titrePalette),
 .FM2 .group {
 	background-color:#E0E0E0!important;
 	color: black;
 }
 
-.FM2 tr:not(:first-child) th a,
+.FM2 th:not(.titrePalette),
 .FM2 .group a{
 	color: black;
 }
@@ -183,13 +183,13 @@
 	color: white !important;
 }
 
-.Days tr:not(:first-child) th,
+.Days th:not(.titrePalette),
 .Days .group {
 	background-color:#F9E0E0!important;
 	color: black;
 }
 
-.Days tr:not(:first-child) th a,
+.Days th:not(.titrePalette),
 .Days .group a{
 	color: black;
 }
@@ -217,13 +217,13 @@
 	color: white !important;
 }
 
-.BBS tr:not(:first-child) th,
+.BBS th:not(.titrePalette),
 .BBS .group {
 	background-color:#D7E8F4!important;
 	color: black;
 }
 
-.BBS tr:not(:first-child) th a,
+.BBS th:not(.titrePalette),
 .BBS .group a{
 	color: black;
 }
@@ -251,13 +251,13 @@
 	color: white !important;
 }
 
-.BBSFM tr:not(:first-child) th,
+.BBSFM th:not(.titrePalette),
 .BBSFM .group {
 	background-color:#C9D9E5!important;
 	color: black;
 }
 
-.BBSFM tr:not(:first-child) th a,
+.BBSFM th:not(.titrePalette),
 .BBSFM .group a{
 	color: black;
 }
@@ -285,13 +285,13 @@
 	color: black !important;
 }
 
-.Coded tr:not(:first-child) th,
+.Coded th:not(.titrePalette),
 .Coded .group {
 	background-color:#F9F9DB!important;
 	color: black;
 }
 
-.Coded tr:not(:first-child) th a,
+.Coded th:not(.titrePalette),
 .Coded .group a{
 	color: black;
 }
@@ -319,13 +319,13 @@
 	color: white !important;
 }
 
-.DDD tr:not(:first-child) th,
+.DDD th:not(.titrePalette),
 .DDD .group {
 	background-color:#EDDBF9!important;
 	color: black;
 }
 
-.DDD tr:not(:first-child) th a,
+.DDD th:not(.titrePalette),
 .DDD .group a{
 	color: black;
 }
@@ -353,13 +353,13 @@
 	color: white !important;
 }
 
-.CHI tr:not(:first-child) th,
+.CHI th:not(.titrePalette),
 .CHI .group {
 	background-color:#C9E5DC!important;
 	color: black;
 }
 
-.CHI tr:not(:first-child) th a,
+.CHI th:not(.titrePalette),
 .CHI .group a{
 	color: black;
 }
@@ -387,13 +387,13 @@
 	color: white !important;
 }
 
-.UCR tr:not(:first-child) th,
+.UCR th:not(.titrePalette),
 .UCR .group {
 	background-color:#D0D0D0!important;
 	color: black;
 }
 
-.UCR tr:not(:first-child) th a,
+.UCR th:not(.titrePalette),
 .UCR .group a{
 	color: black;
 }
@@ -421,13 +421,13 @@
 	color: white !important;
 }
 
-.KH2_8 tr:not(:first-child) th,
+.KH2_8 th:not(.titrePalette),
 .KH2_8 .group {
 	background-color:#6d6d6d!important;
 	color: white;
 }
 
-.KH2_8 tr:not(:first-child) th a,
+.KH2_8 th:not(.titrePalette),
 .KH2_8 .group a{
 	color: white;
 }
@@ -455,13 +455,13 @@
 	color: white !important;
 }
 
-.KH3 tr:not(:first-child) th,
+.KH3 th:not(.titrePalette),
 .KH3 .group {
 	background-color:#C9CBE5!important;
 	color: black;
 }
 
-.KH3 tr:not(:first-child) th a,
+.KH3 th:not(.titrePalette),
 .KH3 .group a{
 	color: black;
 }
@@ -489,13 +489,13 @@
 	color: steelblue !important;
 }
 
-.serieKH tr:not(:first-child) th,
+.serieKH th:not(.titrePalette),
 .serieKH .group {
 	background-color:#fdf34f!important;
 	color: steelblue;
 }
 
-.serieKH tr:not(:first-child) th a,
+.serieKH th:not(.titrePalette),
 .serieKH .group a{
 	color: steelblue;
 }
@@ -523,13 +523,13 @@
 	color: white !important;
 }
 
-.Armes tr:not(:first-child) th,
+.Armes th:not(.titrePalette),
 .Armes .group {
 	background-color:#FFCCCD!important;
 	color: black;
 }
 
-.Armes tr:not(:first-child) th a,
+.Armes th:not(.titrePalette),
 .Armes .group a{
 	color: black;
 }
@@ -557,13 +557,13 @@
 	color: white !important;
 }
 
-.Keyblade tr:not(:first-child) th,
+.Keyblade th:not(.titrePalette),
 .Keyblade .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Keyblade tr:not(:first-child) th a,
+.Keyblade th:not(.titrePalette),
 .Keyblade .group a{
 	color: black;
 }
@@ -591,13 +591,13 @@
 	color: white !important;
 }
 
-.Sceptre tr:not(:first-child) th,
+.Sceptre th:not(.titrePalette),
 .Sceptre .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Sceptre tr:not(:first-child) th a,
+.Sceptre th:not(.titrePalette),
 .Sceptre .group a{
 	color: black;
 }
@@ -625,13 +625,13 @@
 	color: white !important;
 }
 
-.Bouclier tr:not(:first-child) th,
+.Bouclier th:not(.titrePalette),
 .Bouclier .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Bouclier tr:not(:first-child) th a,
+.Bouclier th:not(.titrePalette),
 .Bouclier .group a{
 	color: black;
 }
@@ -659,13 +659,13 @@
 	color: black !important;
 }
 
-.Armure tr:not(:first-child) th,
+.Armure th:not(.titrePalette),
 .Armure .group {
 	background-color:#FFFF00!important;
 	color: black;
 }
 
-.Armure tr:not(:first-child) th a,
+.Armure th:not(.titrePalette),
 .Armure .group a{
 	color: black;
 }
@@ -693,13 +693,13 @@
 	color: white !important;
 }
 
-.Accessoire tr:not(:first-child) th,
+.Accessoire th:not(.titrePalette),
 .Accessoire .group {
 	background-color:#2bd!important;
 	color: black;
 }
 
-.Accessoire tr:not(:first-child) th a,
+.Accessoire th:not(.titrePalette),
 .Accessoire .group a{
 	color: black;
 }
@@ -727,13 +727,13 @@
 	color: white !important;
 }
 
-.Objet tr:not(:first-child) th,
+.Objet th:not(.titrePalette),
 .Objet .group {
 	background-color:forestgreen!important;
 	color: white;
 }
 
-.Objet tr:not(:first-child) th a,
+.Objet th:not(.titrePalette),
 .Objet .group a{
 	color: white;
 }
@@ -761,13 +761,13 @@
 	color: white !important;
 }
 
-.Synthese tr:not(:first-child) th,
+.Synthese th:not(.titrePalette),
 .Synthese .group {
 	background-color:#FA8072!important;
 	color: black;
 }
 
-.Synthese tr:not(:first-child) th a,
+.Synthese th:not(.titrePalette),
 .Synthese .group a{
 	color: black;
 }
@@ -795,13 +795,13 @@
 	color: white !important;
 }
 
-.magie tr:not(:first-child) th,
+.magie th:not(.titrePalette),
 .magie .group {
 	background-color:#C7DDE5!important;
 	color: black;
 }
 
-.magie tr:not(:first-child) th a,
+.magie th:not(.titrePalette),
 .magie .group a{
 	color: black;
 }
@@ -829,13 +829,13 @@
 	color: white !important;
 }
 
-.SansCoeur tr:not(:first-child) th,
+.SansCoeur th:not(.titrePalette),
 .SansCoeur .group {
 	background-color:#8c0000!important;
 	color: white;
 }
 
-.SansCoeur tr:not(:first-child) th a,
+.SansCoeur th:not(.titrePalette),
 .SansCoeur .group a{
 	color: white;
 }
@@ -863,13 +863,13 @@
 	color: white !important;
 }
 
-.Simili tr:not(:first-child) th,
+.Simili th:not(.titrePalette),
 .Simili .group {
 	background-color:gray!important;
 	color: white;
 }
 
-.Simili tr:not(:first-child) th a,
+.Simili th:not(.titrePalette),
 .Simili .group a{
 	color: white;
 }
@@ -897,13 +897,13 @@
 	color: white !important;
 }
 
-.Nescient tr:not(:first-child) th,
+.Nescient th:not(.titrePalette),
 .Nescient .group {
 	background-color:cornflowerblue!important;
 	color: white;
 }
 
-.Nescient tr:not(:first-child) th a,
+.Nescient th:not(.titrePalette),
 .Nescient .group a{
 	color: white;
 }
@@ -931,13 +931,13 @@
 	color: white !important;
 }
 
-.AvaleReves tr:not(:first-child) th,
+.AvaleReves th:not(.titrePalette),
 .AvaleReves .group {
 	background-color:#88FFEA!important;
 	color: black;
 }
 
-.AvaleReves tr:not(:first-child) th a,
+.AvaleReves th:not(.titrePalette),
 .AvaleReves .group a{
 	color: black;
 }
@@ -965,13 +965,13 @@
 	color: white !important;
 }
 
-.Boss tr:not(:first-child) th,
+.Boss th:not(.titrePalette),
 .Boss .group {
 	background-color:#CC6633!important;
 	color: black;
 }
 
-.Boss tr:not(:first-child) th a,
+.Boss th:not(.titrePalette),
 .Boss .group a{
 	color: black;
 }
@@ -999,13 +999,13 @@
 	color: white !important;
 }
 
-.Xemnas tr:not(:first-child) th,
+.Xemnas th:not(.titrePalette),
 .Xemnas .group {
 	background-color:#666666!important;
 	color: white;
 }
 
-.Xemnas tr:not(:first-child) th a,
+.Xemnas th:not(.titrePalette),
 .Xemnas .group a{
 	color: white;
 }
@@ -1033,13 +1033,13 @@
 	color: white !important;
 }
 
-.Xigbar tr:not(:first-child) th,
+.Xigbar th:not(.titrePalette),
 .Xigbar .group {
 	background-color:#991199!important;
 	color: white;
 }
 
-.Xigbar tr:not(:first-child) th a,
+.Xigbar th:not(.titrePalette),
 .Xigbar .group a{
 	color: white;
 }
@@ -1067,13 +1067,13 @@
 	color: white !important;
 }
 
-.Xaldin tr:not(:first-child) th,
+.Xaldin th:not(.titrePalette),
 .Xaldin .group {
 	background-color:#997FFF!important;
 	color: black;
 }
 
-.Xaldin tr:not(:first-child) th a,
+.Xaldin th:not(.titrePalette),
 .Xaldin .group a{
 	color: black;
 }
@@ -1101,13 +1101,13 @@
 	color: white !important;
 }
 
-.Vexen tr:not(:first-child) th,
+.Vexen th:not(.titrePalette),
 .Vexen .group {
 	background-color:#7FDFFF!important;
 	color: black;
 }
 
-.Vexen tr:not(:first-child) th a,
+.Vexen th:not(.titrePalette),
 .Vexen .group a{
 	color: black;
 }
@@ -1135,13 +1135,13 @@
 	color: white !important;
 }
 
-.Lexaeus tr:not(:first-child) th,
+.Lexaeus th:not(.titrePalette),
 .Lexaeus .group {
 	background-color:#99724C!important;
 	color: white;
 }
 
-.Lexaeus tr:not(:first-child) th a,
+.Lexaeus th:not(.titrePalette),
 .Lexaeus .group a{
 	color: white;
 }
@@ -1169,13 +1169,13 @@
 	color: white !important;
 }
 
-.Zexion tr:not(:first-child) th,
+.Zexion th:not(.titrePalette),
 .Zexion .group {
 	background-color:#8888AA!important;
 	color: white;
 }
 
-.Zexion tr:not(:first-child) th a,
+.Zexion th:not(.titrePalette),
 .Zexion .group a{
 	color: white;
 }
@@ -1203,13 +1203,13 @@
 	color: white !important;
 }
 
-.Saix tr:not(:first-child) th,
+.Saix th:not(.titrePalette),
 .Saix .group {
 	background-color:#7FBFFF!important;
 	color: black;
 }
 
-.Saix tr:not(:first-child) th a,
+.Saix th:not(.titrePalette),
 .Saix .group a{
 	color: black;
 }
@@ -1237,13 +1237,13 @@
 	color: white !important;
 }
 
-.Axel tr:not(:first-child) th,
+.Axel th:not(.titrePalette),
 .Axel .group {
 	background-color:#EE0000!important;
 	color: white;
 }
 
-.Axel tr:not(:first-child) th a,
+.Axel th:not(.titrePalette),
 .Axel .group a{
 	color: white;
 }
@@ -1271,13 +1271,13 @@
 	color: white !important;
 }
 
-.Demyx tr:not(:first-child) th,
+.Demyx th:not(.titrePalette),
 .Demyx .group {
 	background-color:#99DCFF!important;
 	color: black;
 }
 
-.Demyx tr:not(:first-child) th a,
+.Demyx th:not(.titrePalette),
 .Demyx .group a{
 	color: black;
 }
@@ -1305,13 +1305,13 @@
 	color: black !important;
 }
 
-.Luxord tr:not(:first-child) th,
+.Luxord th:not(.titrePalette),
 .Luxord .group {
 	background-color:#DEDEDE!important;
 	color: black;
 }
 
-.Luxord tr:not(:first-child) th a,
+.Luxord th:not(.titrePalette),
 .Luxord .group a{
 	color: black;
 }
@@ -1339,13 +1339,13 @@
 	color: black !important;
 }
 
-.Marluxia tr:not(:first-child) th,
+.Marluxia th:not(.titrePalette),
 .Marluxia .group {
 	background-color:#FF99BA!important;
 	color: black;
 }
 
-.Marluxia tr:not(:first-child) th a,
+.Marluxia th:not(.titrePalette),
 .Marluxia .group a{
 	color: black;
 }
@@ -1373,13 +1373,13 @@
 	color: black !important;
 }
 
-.Larxene tr:not(:first-child) th,
+.Larxene th:not(.titrePalette),
 .Larxene .group {
 	background-color:#FFF499!important;
 	color: black;
 }
 
-.Larxene tr:not(:first-child) th a,
+.Larxene th:not(.titrePalette),
 .Larxene .group a{
 	color: black;
 }
@@ -1407,13 +1407,13 @@
 	color: black !important;
 }
 
-.Roxas tr:not(:first-child) th,
+.Roxas th:not(.titrePalette),
 .Roxas .group {
 	background-color:gold!important;
 	color: black;
 }
 
-.Roxas tr:not(:first-child) th a,
+.Roxas th:not(.titrePalette),
 .Roxas .group a{
 	color: black;
 }
@@ -1441,13 +1441,13 @@
 	color: white !important;
 }
 
-.Xion tr:not(:first-child) th,
+.Xion th:not(.titrePalette),
 .Xion .group {
 	background-color:#555560!important;
 	color: white;
 }
 
-.Xion tr:not(:first-child) th a,
+.Xion th:not(.titrePalette),
 .Xion .group a{
 	color: white;
 }
@@ -1475,13 +1475,13 @@
 	color: white !important;
 }
 
-.Personnages tr:not(:first-child) th,
+.Personnages th:not(.titrePalette),
 .Personnages .group {
 	background-color:#849aed!important;
 	color: black;
 }
 
-.Personnages tr:not(:first-child) th a,
+.Personnages th:not(.titrePalette),
 .Personnages .group a{
 	color: black;
 }
@@ -1509,13 +1509,13 @@
 	color: black !important;
 }
 
-.Equipe tr:not(:first-child) th,
+.Equipe th:not(.titrePalette),
 .Equipe .group {
 	background-color:mediumaquamarine!important;
 	color: black;
 }
 
-.Equipe tr:not(:first-child) th a,
+.Equipe th:not(.titrePalette),
 .Equipe .group a{
 	color: black;
 }
@@ -1543,13 +1543,13 @@
 	color: black !important;
 }
 
-.Invocation tr:not(:first-child) th,
+.Invocation th:not(.titrePalette),
 .Invocation .group {
 	background-color:#FFE44C!important;
 	color: black;
 }
 
-.Invocation tr:not(:first-child) th a,
+.Invocation th:not(.titrePalette),
 .Invocation .group a{
 	color: black;
 }
@@ -1577,13 +1577,13 @@
 	color: white !important;
 }
 
-.FF tr:not(:first-child) th,
+.FF th:not(.titrePalette),
 .FF .group {
 	background-color:#87CEFA!important;
 	color: black;
 }
 
-.FF tr:not(:first-child) th a,
+.FF th:not(.titrePalette),
 .FF .group a{
 	color: black;
 }
@@ -1611,13 +1611,13 @@
 	color: white !important;
 }
 
-.TWEWY tr:not(:first-child) th,
+.TWEWY th:not(.titrePalette),
 .TWEWY .group {
 	background-color:#C3D6E5!important;
 	color: black;
 }
 
-.TWEWY tr:not(:first-child) th a,
+.TWEWY th:not(.titrePalette),
 .TWEWY .group a{
 	color: black;
 }
@@ -1645,13 +1645,13 @@
 	color: white !important;
 }
 
-.Disney tr:not(:first-child) th,
+.Disney th:not(.titrePalette),
 .Disney .group {
 	background-color:mediumorchid!important;
 	color: white;
 }
 
-.Disney tr:not(:first-child) th a,
+.Disney th:not(.titrePalette),
 .Disney .group a{
 	color: white;
 }
@@ -1679,13 +1679,13 @@
 	color: white !important;
 }
 
-.Monde tr:not(:first-child) th,
+.Monde th:not(.titrePalette),
 .Monde .group {
 	background-color:#af8eeb!important;
 	color: white;
 }
 
-.Monde tr:not(:first-child) th a,
+.Monde th:not(.titrePalette),
 .Monde .group a{
 	color: white;
 }
@@ -1713,13 +1713,13 @@
 	color: white !important;
 }
 
-.Square tr:not(:first-child) th,
+.Square th:not(.titrePalette),
 .Square .group {
 	background-color:gray!important;
 	color: white;
 }
 
-.Square tr:not(:first-child) th a,
+.Square th:not(.titrePalette),
 .Square .group a{
 	color: white;
 }
@@ -1747,13 +1747,13 @@
 	color: white !important;
 }
 
-.Minijeux tr:not(:first-child) th,
+.Minijeux th:not(.titrePalette),
 .Minijeux .group {
 	background-color:#FF7F50!important;
 	color: black;
 }
 
-.Minijeux tr:not(:first-child) th a,
+.Minijeux th:not(.titrePalette),
 .Minijeux .group a{
 	color: black;
 }
@@ -1781,13 +1781,13 @@
 	color: white !important;
 }
 
-.Gummis tr:not(:first-child) th,
+.Gummis th:not(.titrePalette),
 .Gummis .group {
 	background-color:PaleTurquoise!important;
 	color: black;
 }
 
-.Gummis tr:not(:first-child) th a,
+.Gummis th:not(.titrePalette),
 .Gummis .group a{
 	color: black;
 }
@@ -1815,13 +1815,13 @@
 	color: white !important;
 }
 
-.Produits tr:not(:first-child) th,
+.Produits th:not(.titrePalette),
 .Produits .group {
 	background-color:#00FA9A!important;
 	color: black;
 }
 
-.Produits tr:not(:first-child) th a,
+.Produits th:not(.titrePalette),
 .Produits .group a{
 	color: black;
 }
@@ -1849,13 +1849,13 @@
 	color: white !important;
 }
 
-.Communaute tr:not(:first-child) th,
+.Communaute th:not(.titrePalette),
 .Communaute .group {
 	background-color:dodgerblue!important;
 	color: white;
 }
 
-.Communaute tr:not(:first-child) th a,
+.Communaute th:not(.titrePalette),
 .Communaute .group a{
 	color: white;
 }
@@ -1883,13 +1883,13 @@
 	color: black !important;
 }
 
-.Musique tr:not(:first-child) th,
+.Musique th:not(.titrePalette),
 .Musique .group {
 	background-color:#4e71d5!important;
 	color: black;
 }
 
-.Musique tr:not(:first-child) th a,
+.Musique th:not(.titrePalette),
 .Musique .group a{
 	color: black;
 }
@@ -1901,3 +1901,4 @@
 .Musique tr:nth-child(odd) .liste {
 	background-color:#678beb;
 }
+

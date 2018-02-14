@@ -17,13 +17,13 @@ def generate_css(theme):
 	color: {title_font} !important;
 }}
 
-.{name} tr:not(:first-child) th,
+.{name} th:not(.titrePalette),
 .{name} .group {{
 	background-color:{head}!important;
 	color: {head_font};
 }}
 
-.{name} tr:not(:first-child) th a,
+.{name} th:not(.titrePalette),
 .{name} .group a{{
 	color: {head_font};
 }}
