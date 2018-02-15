@@ -10,7 +10,7 @@ aside.portable-infobox.pi-theme-{name} {{
  
 table.navbox.{name} th.titrePalette,
 .pi-theme-{name} .pi-item.pi-title {{
-	background-color:{title} !important;
+	background-color:{title};
 	color: {title_font};
 }}
 
@@ -37,6 +37,10 @@ table.navbox.{name} tr td {{
 
 table.navbox.{name} tr:nth-child(odd) td {{
 	background-color:{row_alt};
+}}
+
+table.navbox.{name} td .subTitle {{
+	border-color:{head};
 }}
 
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(even),
