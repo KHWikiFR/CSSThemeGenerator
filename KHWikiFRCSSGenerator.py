@@ -14,16 +14,16 @@ table.navbox.{name} .titrePalette .titreContent a {{
 }}
 
 table.navbox.{name} .collapseButtonLink {{
-	color: {title_font} !important;
+	color: {title_font};
 }}
 
 table.navbox.{name} th:not(.titrePalette),
 .{name} .group {{
-	background-color:{head}!important;
+	background-color:{head};
 	color: {head_font};
 }}
 
-table.navbox.{name} th:not(.titrePalette),
+table.navbox.{name} th:not(.titrePalette) a,
 .{name} .group a{{
 	color: {head_font};
 }}
