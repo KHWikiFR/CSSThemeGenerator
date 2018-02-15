@@ -1,6 +1,11 @@
 /* Kingdom Hearts */
 
-table.navbox.KH1 th {
+aside.portable-infobox.pi-theme-KH1 {
+    border-color: #000080;
+}
+ 
+table.navbox.KH1 th,
+.pi-theme-KH1 .pi-item.pi-title {
 	background-color:#000080 !important;
 	color: white;
 }
@@ -10,18 +15,24 @@ table.navbox.KH1 .titrePalette .titreContent a {
 }
 
 table.navbox.KH1 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.KH1 th:not(.titrePalette),
-.KH1 .group {
-	background-color:#D9D9F7!important;
+.KH1 .group,
+.pi-theme-KH1 .pi-item {
+	background-color:#D9D9F7;
 	color: black;
 }
 
-table.navbox.KH1 th:not(.titrePalette),
+table.navbox.KH1 th:not(.titrePalette) a,
 .KH1 .group a{
 	color: black;
+}
+
+.pi-theme-KH1 .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH1 tr td {
@@ -32,9 +43,20 @@ table.navbox.KH1 tr:nth-child(odd) td {
 	background-color:#E8E8FA;
 }
 
+.pi-theme-KH1 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH1 .pi-collapse .pi-item.pi-data {
+	background-color:#E8E8FA;
+}
+
 /* Kingdom Hearts: Final Mix */
 
-table.navbox.FM1 th {
+aside.portable-infobox.pi-theme-FM1 {
+    border-color: #6495ED;
+}
+ 
+table.navbox.FM1 th,
+.pi-theme-FM1 .pi-item.pi-title {
 	background-color:#6495ED !important;
 	color: white;
 }
@@ -44,18 +66,24 @@ table.navbox.FM1 .titrePalette .titreContent a {
 }
 
 table.navbox.FM1 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.FM1 th:not(.titrePalette),
-.FM1 .group {
-	background-color:#DBE6F9!important;
+.FM1 .group,
+.pi-theme-FM1 .pi-item {
+	background-color:#DBE6F9;
 	color: black;
 }
 
-table.navbox.FM1 th:not(.titrePalette),
+table.navbox.FM1 th:not(.titrePalette) a,
 .FM1 .group a{
 	color: black;
+}
+
+.pi-theme-FM1 .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM1 tr td {
@@ -66,9 +94,20 @@ table.navbox.FM1 tr:nth-child(odd) td {
 	background-color:#E6EEFB;
 }
 
+.pi-theme-FM1 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FM1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM1 .pi-collapse .pi-item.pi-data {
+	background-color:#E6EEFB;
+}
+
 /* Kingdom Hearts: Chain of Memories */
 
-table.navbox.COM th {
+aside.portable-infobox.pi-theme-COM {
+    border-color: #A9A9A9;
+}
+ 
+table.navbox.COM th,
+.pi-theme-COM .pi-item.pi-title {
 	background-color:#A9A9A9 !important;
 	color: white;
 }
@@ -78,18 +117,24 @@ table.navbox.COM .titrePalette .titreContent a {
 }
 
 table.navbox.COM .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.COM th:not(.titrePalette),
-.COM .group {
-	background-color:#DDDDDD!important;
+.COM .group,
+.pi-theme-COM .pi-item {
+	background-color:#DDDDDD;
 	color: black;
 }
 
-table.navbox.COM th:not(.titrePalette),
+table.navbox.COM th:not(.titrePalette) a,
 .COM .group a{
 	color: black;
+}
+
+.pi-theme-COM .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.COM tr td {
@@ -100,9 +145,20 @@ table.navbox.COM tr:nth-child(odd) td {
 	background-color:#E4E4E4;
 }
 
+.pi-theme-COM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-COM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-COM .pi-collapse .pi-item.pi-data {
+	background-color:#E4E4E4;
+}
+
 /* Kingdom Hearts II */
 
-table.navbox.KH2 th {
+aside.portable-infobox.pi-theme-KH2 {
+    border-color: #4682B4;
+}
+ 
+table.navbox.KH2 th,
+.pi-theme-KH2 .pi-item.pi-title {
 	background-color:#4682B4 !important;
 	color: white;
 }
@@ -112,18 +168,24 @@ table.navbox.KH2 .titrePalette .titreContent a {
 }
 
 table.navbox.KH2 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.KH2 th:not(.titrePalette),
-.KH2 .group {
-	background-color:#D2E1F1!important;
+.KH2 .group,
+.pi-theme-KH2 .pi-item {
+	background-color:#D2E1F1;
 	color: black;
 }
 
-table.navbox.KH2 th:not(.titrePalette),
+table.navbox.KH2 th:not(.titrePalette) a,
 .KH2 .group a{
 	color: black;
+}
+
+.pi-theme-KH2 .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH2 tr td {
@@ -134,9 +196,20 @@ table.navbox.KH2 tr:nth-child(odd) td {
 	background-color:#E0EAF5;
 }
 
+.pi-theme-KH2 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2 .pi-collapse .pi-item.pi-data {
+	background-color:#E0EAF5;
+}
+
 /* Kingdom Hearts II: Final Mix */
 
-table.navbox.FM2 th {
+aside.portable-infobox.pi-theme-FM2 {
+    border-color: #C0C0C0;
+}
+ 
+table.navbox.FM2 th,
+.pi-theme-FM2 .pi-item.pi-title {
 	background-color:#C0C0C0 !important;
 	color: white;
 }
@@ -146,18 +219,24 @@ table.navbox.FM2 .titrePalette .titreContent a {
 }
 
 table.navbox.FM2 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.FM2 th:not(.titrePalette),
-.FM2 .group {
-	background-color:#E0E0E0!important;
+.FM2 .group,
+.pi-theme-FM2 .pi-item {
+	background-color:#E0E0E0;
 	color: black;
 }
 
-table.navbox.FM2 th:not(.titrePalette),
+table.navbox.FM2 th:not(.titrePalette) a,
 .FM2 .group a{
 	color: black;
+}
+
+.pi-theme-FM2 .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM2 tr td {
@@ -168,9 +247,20 @@ table.navbox.FM2 tr:nth-child(odd) td {
 	background-color:#E9E9E9;
 }
 
+.pi-theme-FM2 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FM2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM2 .pi-collapse .pi-item.pi-data {
+	background-color:#E9E9E9;
+}
+
 /* Kingdom Hearts: 358/2 Days */
 
-table.navbox.Days th {
+aside.portable-infobox.pi-theme-Days {
+    border-color: #B22222;
+}
+ 
+table.navbox.Days th,
+.pi-theme-Days .pi-item.pi-title {
 	background-color:#B22222 !important;
 	color: white;
 }
@@ -180,18 +270,24 @@ table.navbox.Days .titrePalette .titreContent a {
 }
 
 table.navbox.Days .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Days th:not(.titrePalette),
-.Days .group {
-	background-color:#F9E0E0!important;
+.Days .group,
+.pi-theme-Days .pi-item {
+	background-color:#F9E0E0;
 	color: black;
 }
 
-table.navbox.Days th:not(.titrePalette),
+table.navbox.Days th:not(.titrePalette) a,
 .Days .group a{
 	color: black;
+}
+
+.pi-theme-Days .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Days tr td {
@@ -202,9 +298,20 @@ table.navbox.Days tr:nth-child(odd) td {
 	background-color:#FAECEC;
 }
 
+.pi-theme-Days .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Days .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Days .pi-collapse .pi-item.pi-data {
+	background-color:#FAECEC;
+}
+
 /* Birth by Sleep */
 
-table.navbox.BBS th {
+aside.portable-infobox.pi-theme-BBS {
+    border-color: #7EB6F2;
+}
+ 
+table.navbox.BBS th,
+.pi-theme-BBS .pi-item.pi-title {
 	background-color:#7EB6F2 !important;
 	color: white;
 }
@@ -214,18 +321,24 @@ table.navbox.BBS .titrePalette .titreContent a {
 }
 
 table.navbox.BBS .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.BBS th:not(.titrePalette),
-.BBS .group {
-	background-color:#D7E8F4!important;
+.BBS .group,
+.pi-theme-BBS .pi-item {
+	background-color:#D7E8F4;
 	color: black;
 }
 
-table.navbox.BBS th:not(.titrePalette),
+table.navbox.BBS th:not(.titrePalette) a,
 .BBS .group a{
 	color: black;
+}
+
+.pi-theme-BBS .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBS tr td {
@@ -236,9 +349,20 @@ table.navbox.BBS tr:nth-child(odd) td {
 	background-color:#DFEDF6;
 }
 
+.pi-theme-BBS .pi-horizontal-group-item:nth-child(even),
+.pi-theme-BBS .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBS .pi-collapse .pi-item.pi-data {
+	background-color:#DFEDF6;
+}
+
 /* Kingdom Hearts: Birth by Sleep Final Mix */
 
-table.navbox.BBSFM th {
+aside.portable-infobox.pi-theme-BBSFM {
+    border-color: #34526D;
+}
+ 
+table.navbox.BBSFM th,
+.pi-theme-BBSFM .pi-item.pi-title {
 	background-color:#34526D !important;
 	color: white;
 }
@@ -248,18 +372,24 @@ table.navbox.BBSFM .titrePalette .titreContent a {
 }
 
 table.navbox.BBSFM .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.BBSFM th:not(.titrePalette),
-.BBSFM .group {
-	background-color:#C9D9E5!important;
+.BBSFM .group,
+.pi-theme-BBSFM .pi-item {
+	background-color:#C9D9E5;
 	color: black;
 }
 
-table.navbox.BBSFM th:not(.titrePalette),
+table.navbox.BBSFM th:not(.titrePalette) a,
 .BBSFM .group a{
 	color: black;
+}
+
+.pi-theme-BBSFM .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBSFM tr td {
@@ -270,9 +400,20 @@ table.navbox.BBSFM tr:nth-child(odd) td {
 	background-color:#DFE8EF;
 }
 
+.pi-theme-BBSFM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-BBSFM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBSFM .pi-collapse .pi-item.pi-data {
+	background-color:#DFE8EF;
+}
+
 /* Kingdom Hearts: coded */
 
-table.navbox.Coded th {
+aside.portable-infobox.pi-theme-Coded {
+    border-color: #FFFF00;
+}
+ 
+table.navbox.Coded th,
+.pi-theme-Coded .pi-item.pi-title {
 	background-color:#FFFF00 !important;
 	color: black;
 }
@@ -282,18 +423,24 @@ table.navbox.Coded .titrePalette .titreContent a {
 }
 
 table.navbox.Coded .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Coded th:not(.titrePalette),
-.Coded .group {
-	background-color:#F9F9DB!important;
 	color: black;
 }
 
 table.navbox.Coded th:not(.titrePalette),
+.Coded .group,
+.pi-theme-Coded .pi-item {
+	background-color:#F9F9DB;
+	color: black;
+}
+
+table.navbox.Coded th:not(.titrePalette) a,
 .Coded .group a{
 	color: black;
+}
+
+.pi-theme-Coded .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Coded tr td {
@@ -304,9 +451,20 @@ table.navbox.Coded tr:nth-child(odd) td {
 	background-color:#FBFBE6;
 }
 
+.pi-theme-Coded .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Coded .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Coded .pi-collapse .pi-item.pi-data {
+	background-color:#FBFBE6;
+}
+
 /* Kingdom Hearts 3D: Dream Drop Distance */
 
-table.navbox.DDD th {
+aside.portable-infobox.pi-theme-DDD {
+    border-color: #4B0082;
+}
+ 
+table.navbox.DDD th,
+.pi-theme-DDD .pi-item.pi-title {
 	background-color:#4B0082 !important;
 	color: white;
 }
@@ -316,18 +474,24 @@ table.navbox.DDD .titrePalette .titreContent a {
 }
 
 table.navbox.DDD .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.DDD th:not(.titrePalette),
-.DDD .group {
-	background-color:#EDDBF9!important;
+.DDD .group,
+.pi-theme-DDD .pi-item {
+	background-color:#EDDBF9;
 	color: black;
 }
 
-table.navbox.DDD th:not(.titrePalette),
+table.navbox.DDD th:not(.titrePalette) a,
 .DDD .group a{
 	color: black;
+}
+
+.pi-theme-DDD .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.DDD tr td {
@@ -338,9 +502,20 @@ table.navbox.DDD tr:nth-child(odd) td {
 	background-color:#F2E6FB;
 }
 
+.pi-theme-DDD .pi-horizontal-group-item:nth-child(even),
+.pi-theme-DDD .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-DDD .pi-collapse .pi-item.pi-data {
+	background-color:#F2E6FB;
+}
+
 /* Kingdom Hearts χ [chi] */
 
-table.navbox.CHI th {
+aside.portable-infobox.pi-theme-CHI {
+    border-color: #00CC88;
+}
+ 
+table.navbox.CHI th,
+.pi-theme-CHI .pi-item.pi-title {
 	background-color:#00CC88 !important;
 	color: white;
 }
@@ -350,18 +525,24 @@ table.navbox.CHI .titrePalette .titreContent a {
 }
 
 table.navbox.CHI .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.CHI th:not(.titrePalette),
-.CHI .group {
-	background-color:#C9E5DC!important;
+.CHI .group,
+.pi-theme-CHI .pi-item {
+	background-color:#C9E5DC;
 	color: black;
 }
 
-table.navbox.CHI th:not(.titrePalette),
+table.navbox.CHI th:not(.titrePalette) a,
 .CHI .group a{
 	color: black;
+}
+
+.pi-theme-CHI .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.CHI tr td {
@@ -372,9 +553,20 @@ table.navbox.CHI tr:nth-child(odd) td {
 	background-color:#DFEFEA;
 }
 
+.pi-theme-CHI .pi-horizontal-group-item:nth-child(even),
+.pi-theme-CHI .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-CHI .pi-collapse .pi-item.pi-data {
+	background-color:#DFEFEA;
+}
+
 /* Kingdom Hearts: Union χ [cross] */
 
-table.navbox.UCR th {
+aside.portable-infobox.pi-theme-UCR {
+    border-color: #808482;
+}
+ 
+table.navbox.UCR th,
+.pi-theme-UCR .pi-item.pi-title {
 	background-color:#808482 !important;
 	color: white;
 }
@@ -384,18 +576,24 @@ table.navbox.UCR .titrePalette .titreContent a {
 }
 
 table.navbox.UCR .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.UCR th:not(.titrePalette),
-.UCR .group {
-	background-color:#D0D0D0!important;
+.UCR .group,
+.pi-theme-UCR .pi-item {
+	background-color:#D0D0D0;
 	color: black;
 }
 
-table.navbox.UCR th:not(.titrePalette),
+table.navbox.UCR th:not(.titrePalette) a,
 .UCR .group a{
 	color: black;
+}
+
+.pi-theme-UCR .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.UCR tr td {
@@ -406,9 +604,20 @@ table.navbox.UCR tr:nth-child(odd) td {
 	background-color:#E1E1E1;
 }
 
+.pi-theme-UCR .pi-horizontal-group-item:nth-child(even),
+.pi-theme-UCR .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-UCR .pi-collapse .pi-item.pi-data {
+	background-color:#E1E1E1;
+}
+
 /* Kingdom Hearts: HD 2.8 Final Chapter Prologue */
 
-table.navbox.KH2_8 th {
+aside.portable-infobox.pi-theme-KH2_8 {
+    border-color: #c62870;
+}
+ 
+table.navbox.KH2_8 th,
+.pi-theme-KH2_8 .pi-item.pi-title {
 	background-color:#c62870 !important;
 	color: white;
 }
@@ -418,18 +627,24 @@ table.navbox.KH2_8 .titrePalette .titreContent a {
 }
 
 table.navbox.KH2_8 .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.KH2_8 th:not(.titrePalette),
-.KH2_8 .group {
-	background-color:#6d6d6d!important;
 	color: white;
 }
 
 table.navbox.KH2_8 th:not(.titrePalette),
+.KH2_8 .group,
+.pi-theme-KH2_8 .pi-item {
+	background-color:#6d6d6d;
+	color: white;
+}
+
+table.navbox.KH2_8 th:not(.titrePalette) a,
 .KH2_8 .group a{
 	color: white;
+}
+
+.pi-theme-KH2_8 .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.KH2_8 tr td {
@@ -440,9 +655,20 @@ table.navbox.KH2_8 tr:nth-child(odd) td {
 	background-color:#e5c9d6;
 }
 
+.pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2_8 .pi-collapse .pi-item.pi-data {
+	background-color:#e5c9d6;
+}
+
 /* Kingdom Hearts III */
 
-table.navbox.KH3 th {
+aside.portable-infobox.pi-theme-KH3 {
+    border-color: #67698A;
+}
+ 
+table.navbox.KH3 th,
+.pi-theme-KH3 .pi-item.pi-title {
 	background-color:#67698A !important;
 	color: white;
 }
@@ -452,18 +678,24 @@ table.navbox.KH3 .titrePalette .titreContent a {
 }
 
 table.navbox.KH3 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.KH3 th:not(.titrePalette),
-.KH3 .group {
-	background-color:#C9CBE5!important;
+.KH3 .group,
+.pi-theme-KH3 .pi-item {
+	background-color:#C9CBE5;
 	color: black;
 }
 
-table.navbox.KH3 th:not(.titrePalette),
+table.navbox.KH3 th:not(.titrePalette) a,
 .KH3 .group a{
 	color: black;
+}
+
+.pi-theme-KH3 .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH3 tr td {
@@ -474,9 +706,20 @@ table.navbox.KH3 tr:nth-child(odd) td {
 	background-color:#DFE0EF;
 }
 
+.pi-theme-KH3 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH3 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH3 .pi-collapse .pi-item.pi-data {
+	background-color:#DFE0EF;
+}
+
 /* Série KH */
 
-table.navbox.serieKH th {
+aside.portable-infobox.pi-theme-serieKH {
+    border-color: #FFFF00;
+}
+ 
+table.navbox.serieKH th,
+.pi-theme-serieKH .pi-item.pi-title {
 	background-color:#FFFF00 !important;
 	color: steelblue;
 }
@@ -486,18 +729,24 @@ table.navbox.serieKH .titrePalette .titreContent a {
 }
 
 table.navbox.serieKH .collapseButtonLink {
-	color: steelblue !important;
-}
-
-table.navbox.serieKH th:not(.titrePalette),
-.serieKH .group {
-	background-color:#fdf34f!important;
 	color: steelblue;
 }
 
 table.navbox.serieKH th:not(.titrePalette),
+.serieKH .group,
+.pi-theme-serieKH .pi-item {
+	background-color:#fdf34f;
+	color: steelblue;
+}
+
+table.navbox.serieKH th:not(.titrePalette) a,
 .serieKH .group a{
 	color: steelblue;
+}
+
+.pi-theme-serieKH .pi-item a {
+	color: steelblue;
+	font-weight: bold;
 }
 
 table.navbox.serieKH tr td {
@@ -508,9 +757,20 @@ table.navbox.serieKH tr:nth-child(odd) td {
 	background-color:#fdfc94;
 }
 
+.pi-theme-serieKH .pi-horizontal-group-item:nth-child(even),
+.pi-theme-serieKH .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-serieKH .pi-collapse .pi-item.pi-data {
+	background-color:#fdfc94;
+}
+
 /* Armes */
 
-table.navbox.Armes th {
+aside.portable-infobox.pi-theme-Armes {
+    border-color: #FF6666;
+}
+ 
+table.navbox.Armes th,
+.pi-theme-Armes .pi-item.pi-title {
 	background-color:#FF6666 !important;
 	color: white;
 }
@@ -520,18 +780,24 @@ table.navbox.Armes .titrePalette .titreContent a {
 }
 
 table.navbox.Armes .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Armes th:not(.titrePalette),
-.Armes .group {
-	background-color:#FFCCCD!important;
+.Armes .group,
+.pi-theme-Armes .pi-item {
+	background-color:#FFCCCD;
 	color: black;
 }
 
-table.navbox.Armes th:not(.titrePalette),
+table.navbox.Armes th:not(.titrePalette) a,
 .Armes .group a{
 	color: black;
+}
+
+.pi-theme-Armes .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armes tr td {
@@ -542,9 +808,20 @@ table.navbox.Armes tr:nth-child(odd) td {
 	background-color:#F7DCDC;
 }
 
+.pi-theme-Armes .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Armes .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armes .pi-collapse .pi-item.pi-data {
+	background-color:#F7DCDC;
+}
+
 /* Keyblades */
 
-table.navbox.Keyblade th {
+aside.portable-infobox.pi-theme-Keyblade {
+    border-color: #000080;
+}
+ 
+table.navbox.Keyblade th,
+.pi-theme-Keyblade .pi-item.pi-title {
 	background-color:#000080 !important;
 	color: white;
 }
@@ -554,18 +831,24 @@ table.navbox.Keyblade .titrePalette .titreContent a {
 }
 
 table.navbox.Keyblade .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Keyblade th:not(.titrePalette),
-.Keyblade .group {
-	background-color:gold!important;
+.Keyblade .group,
+.pi-theme-Keyblade .pi-item {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Keyblade th:not(.titrePalette),
+table.navbox.Keyblade th:not(.titrePalette) a,
 .Keyblade .group a{
 	color: black;
+}
+
+.pi-theme-Keyblade .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Keyblade tr td {
@@ -576,9 +859,20 @@ table.navbox.Keyblade tr:nth-child(odd) td {
 	background-color:#E6E6EF;
 }
 
+.pi-theme-Keyblade .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Keyblade .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Keyblade .pi-collapse .pi-item.pi-data {
+	background-color:#E6E6EF;
+}
+
 /* Sceptre */
 
-table.navbox.Sceptre th {
+aside.portable-infobox.pi-theme-Sceptre {
+    border-color: #0c72cc;
+}
+ 
+table.navbox.Sceptre th,
+.pi-theme-Sceptre .pi-item.pi-title {
 	background-color:#0c72cc !important;
 	color: white;
 }
@@ -588,18 +882,24 @@ table.navbox.Sceptre .titrePalette .titreContent a {
 }
 
 table.navbox.Sceptre .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Sceptre th:not(.titrePalette),
-.Sceptre .group {
-	background-color:gold!important;
+.Sceptre .group,
+.pi-theme-Sceptre .pi-item {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Sceptre th:not(.titrePalette),
+table.navbox.Sceptre th:not(.titrePalette) a,
 .Sceptre .group a{
 	color: black;
+}
+
+.pi-theme-Sceptre .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Sceptre tr td {
@@ -610,9 +910,20 @@ table.navbox.Sceptre tr:nth-child(odd) td {
 	background-color:#DAE2EA;
 }
 
+.pi-theme-Sceptre .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Sceptre .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Sceptre .pi-collapse .pi-item.pi-data {
+	background-color:#DAE2EA;
+}
+
 /* Bouclier */
 
-table.navbox.Bouclier th {
+aside.portable-infobox.pi-theme-Bouclier {
+    border-color: #0c0;
+}
+ 
+table.navbox.Bouclier th,
+.pi-theme-Bouclier .pi-item.pi-title {
 	background-color:#0c0 !important;
 	color: white;
 }
@@ -622,18 +933,24 @@ table.navbox.Bouclier .titrePalette .titreContent a {
 }
 
 table.navbox.Bouclier .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Bouclier th:not(.titrePalette),
-.Bouclier .group {
-	background-color:gold!important;
+.Bouclier .group,
+.pi-theme-Bouclier .pi-item {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Bouclier th:not(.titrePalette),
+table.navbox.Bouclier th:not(.titrePalette) a,
 .Bouclier .group a{
 	color: black;
+}
+
+.pi-theme-Bouclier .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Bouclier tr td {
@@ -644,9 +961,20 @@ table.navbox.Bouclier tr:nth-child(odd) td {
 	background-color:#dfd;
 }
 
+.pi-theme-Bouclier .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Bouclier .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Bouclier .pi-collapse .pi-item.pi-data {
+	background-color:#dfd;
+}
+
 /* Armures */
 
-table.navbox.Armure th {
+aside.portable-infobox.pi-theme-Armure {
+    border-color: #FFE000;
+}
+ 
+table.navbox.Armure th,
+.pi-theme-Armure .pi-item.pi-title {
 	background-color:#FFE000 !important;
 	color: black;
 }
@@ -656,18 +984,24 @@ table.navbox.Armure .titrePalette .titreContent a {
 }
 
 table.navbox.Armure .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Armure th:not(.titrePalette),
-.Armure .group {
-	background-color:#FFFF00!important;
 	color: black;
 }
 
 table.navbox.Armure th:not(.titrePalette),
+.Armure .group,
+.pi-theme-Armure .pi-item {
+	background-color:#FFFF00;
+	color: black;
+}
+
+table.navbox.Armure th:not(.titrePalette) a,
 .Armure .group a{
 	color: black;
+}
+
+.pi-theme-Armure .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armure tr td {
@@ -678,9 +1012,20 @@ table.navbox.Armure tr:nth-child(odd) td {
 	background-color:#FFF8C9;
 }
 
+.pi-theme-Armure .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Armure .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armure .pi-collapse .pi-item.pi-data {
+	background-color:#FFF8C9;
+}
+
 /* Accessoires */
 
-table.navbox.Accessoire th {
+aside.portable-infobox.pi-theme-Accessoire {
+    border-color: #0ac;
+}
+ 
+table.navbox.Accessoire th,
+.pi-theme-Accessoire .pi-item.pi-title {
 	background-color:#0ac !important;
 	color: white;
 }
@@ -690,18 +1035,24 @@ table.navbox.Accessoire .titrePalette .titreContent a {
 }
 
 table.navbox.Accessoire .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Accessoire th:not(.titrePalette),
-.Accessoire .group {
-	background-color:#2bd!important;
+.Accessoire .group,
+.pi-theme-Accessoire .pi-item {
+	background-color:#2bd;
 	color: black;
 }
 
-table.navbox.Accessoire th:not(.titrePalette),
+table.navbox.Accessoire th:not(.titrePalette) a,
 .Accessoire .group a{
 	color: black;
+}
+
+.pi-theme-Accessoire .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Accessoire tr td {
@@ -712,9 +1063,20 @@ table.navbox.Accessoire tr:nth-child(odd) td {
 	background-color:#def;
 }
 
+.pi-theme-Accessoire .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Accessoire .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Accessoire .pi-collapse .pi-item.pi-data {
+	background-color:#def;
+}
+
 /* Objets */
 
-table.navbox.Objet th {
+aside.portable-infobox.pi-theme-Objet {
+    border-color: darkgreen;
+}
+ 
+table.navbox.Objet th,
+.pi-theme-Objet .pi-item.pi-title {
 	background-color:darkgreen !important;
 	color: white;
 }
@@ -724,18 +1086,24 @@ table.navbox.Objet .titrePalette .titreContent a {
 }
 
 table.navbox.Objet .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Objet th:not(.titrePalette),
-.Objet .group {
-	background-color:forestgreen!important;
 	color: white;
 }
 
 table.navbox.Objet th:not(.titrePalette),
+.Objet .group,
+.pi-theme-Objet .pi-item {
+	background-color:forestgreen;
+	color: white;
+}
+
+table.navbox.Objet th:not(.titrePalette) a,
 .Objet .group a{
 	color: white;
+}
+
+.pi-theme-Objet .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Objet tr td {
@@ -746,9 +1114,20 @@ table.navbox.Objet tr:nth-child(odd) td {
 	background-color:#ccffe5;
 }
 
+.pi-theme-Objet .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Objet .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Objet .pi-collapse .pi-item.pi-data {
+	background-color:#ccffe5;
+}
+
 /* Synthèse */
 
-table.navbox.Synthese th {
+aside.portable-infobox.pi-theme-Synthese {
+    border-color: #FF0000;
+}
+ 
+table.navbox.Synthese th,
+.pi-theme-Synthese .pi-item.pi-title {
 	background-color:#FF0000 !important;
 	color: white;
 }
@@ -758,18 +1137,24 @@ table.navbox.Synthese .titrePalette .titreContent a {
 }
 
 table.navbox.Synthese .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Synthese th:not(.titrePalette),
-.Synthese .group {
-	background-color:#FA8072!important;
+.Synthese .group,
+.pi-theme-Synthese .pi-item {
+	background-color:#FA8072;
 	color: black;
 }
 
-table.navbox.Synthese th:not(.titrePalette),
+table.navbox.Synthese th:not(.titrePalette) a,
 .Synthese .group a{
 	color: black;
+}
+
+.pi-theme-Synthese .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Synthese tr td {
@@ -780,9 +1165,20 @@ table.navbox.Synthese tr:nth-child(odd) td {
 	background-color:#FDF5E6;
 }
 
+.pi-theme-Synthese .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Synthese .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Synthese .pi-collapse .pi-item.pi-data {
+	background-color:#FDF5E6;
+}
+
 /* Magies */
 
-table.navbox.magie th {
+aside.portable-infobox.pi-theme-magie {
+    border-color: #007BA7;
+}
+ 
+table.navbox.magie th,
+.pi-theme-magie .pi-item.pi-title {
 	background-color:#007BA7 !important;
 	color: white;
 }
@@ -792,18 +1188,24 @@ table.navbox.magie .titrePalette .titreContent a {
 }
 
 table.navbox.magie .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.magie th:not(.titrePalette),
-.magie .group {
-	background-color:#C7DDE5!important;
+.magie .group,
+.pi-theme-magie .pi-item {
+	background-color:#C7DDE5;
 	color: black;
 }
 
-table.navbox.magie th:not(.titrePalette),
+table.navbox.magie th:not(.titrePalette) a,
 .magie .group a{
 	color: black;
+}
+
+.pi-theme-magie .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.magie tr td {
@@ -814,9 +1216,20 @@ table.navbox.magie tr:nth-child(odd) td {
 	background-color:#E6EFF2;
 }
 
+.pi-theme-magie .pi-horizontal-group-item:nth-child(even),
+.pi-theme-magie .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-magie .pi-collapse .pi-item.pi-data {
+	background-color:#E6EFF2;
+}
+
 /* Sans-cœur */
 
-table.navbox.SansCoeur th {
+aside.portable-infobox.pi-theme-SansCoeur {
+    border-color: black;
+}
+ 
+table.navbox.SansCoeur th,
+.pi-theme-SansCoeur .pi-item.pi-title {
 	background-color:black !important;
 	color: white;
 }
@@ -826,18 +1239,24 @@ table.navbox.SansCoeur .titrePalette .titreContent a {
 }
 
 table.navbox.SansCoeur .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.SansCoeur th:not(.titrePalette),
-.SansCoeur .group {
-	background-color:#8c0000!important;
 	color: white;
 }
 
 table.navbox.SansCoeur th:not(.titrePalette),
+.SansCoeur .group,
+.pi-theme-SansCoeur .pi-item {
+	background-color:#8c0000;
+	color: white;
+}
+
+table.navbox.SansCoeur th:not(.titrePalette) a,
 .SansCoeur .group a{
 	color: white;
+}
+
+.pi-theme-SansCoeur .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.SansCoeur tr td {
@@ -848,9 +1267,20 @@ table.navbox.SansCoeur tr:nth-child(odd) td {
 	background-color:#EDDEDE;
 }
 
+.pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(even),
+.pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-SansCoeur .pi-collapse .pi-item.pi-data {
+	background-color:#EDDEDE;
+}
+
 /* Simili */
 
-table.navbox.Simili th {
+aside.portable-infobox.pi-theme-Simili {
+    border-color: darkgrey;
+}
+ 
+table.navbox.Simili th,
+.pi-theme-Simili .pi-item.pi-title {
 	background-color:darkgrey !important;
 	color: white;
 }
@@ -860,18 +1290,24 @@ table.navbox.Simili .titrePalette .titreContent a {
 }
 
 table.navbox.Simili .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Simili th:not(.titrePalette),
-.Simili .group {
-	background-color:gray!important;
 	color: white;
 }
 
 table.navbox.Simili th:not(.titrePalette),
+.Simili .group,
+.pi-theme-Simili .pi-item {
+	background-color:gray;
+	color: white;
+}
+
+table.navbox.Simili th:not(.titrePalette) a,
 .Simili .group a{
 	color: white;
+}
+
+.pi-theme-Simili .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Simili tr td {
@@ -882,9 +1318,20 @@ table.navbox.Simili tr:nth-child(odd) td {
 	background-color:#C0C0C0;
 }
 
+.pi-theme-Simili .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Simili .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Simili .pi-collapse .pi-item.pi-data {
+	background-color:#C0C0C0;
+}
+
 /* Nescients */
 
-table.navbox.Nescient th {
+aside.portable-infobox.pi-theme-Nescient {
+    border-color: #000a7a;
+}
+ 
+table.navbox.Nescient th,
+.pi-theme-Nescient .pi-item.pi-title {
 	background-color:#000a7a !important;
 	color: white;
 }
@@ -894,18 +1341,24 @@ table.navbox.Nescient .titrePalette .titreContent a {
 }
 
 table.navbox.Nescient .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Nescient th:not(.titrePalette),
-.Nescient .group {
-	background-color:cornflowerblue!important;
 	color: white;
 }
 
 table.navbox.Nescient th:not(.titrePalette),
+.Nescient .group,
+.pi-theme-Nescient .pi-item {
+	background-color:cornflowerblue;
+	color: white;
+}
+
+table.navbox.Nescient th:not(.titrePalette) a,
 .Nescient .group a{
 	color: white;
+}
+
+.pi-theme-Nescient .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Nescient tr td {
@@ -916,9 +1369,20 @@ table.navbox.Nescient tr:nth-child(odd) td {
 	background-color:#DCE2ED;
 }
 
+.pi-theme-Nescient .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Nescient .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Nescient .pi-collapse .pi-item.pi-data {
+	background-color:#DCE2ED;
+}
+
 /* Avale-Rêves */
 
-table.navbox.AvaleReves th {
+aside.portable-infobox.pi-theme-AvaleReves {
+    border-color: #DA70D6;
+}
+ 
+table.navbox.AvaleReves th,
+.pi-theme-AvaleReves .pi-item.pi-title {
 	background-color:#DA70D6 !important;
 	color: white;
 }
@@ -928,18 +1392,24 @@ table.navbox.AvaleReves .titrePalette .titreContent a {
 }
 
 table.navbox.AvaleReves .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.AvaleReves th:not(.titrePalette),
-.AvaleReves .group {
-	background-color:#88FFEA!important;
+.AvaleReves .group,
+.pi-theme-AvaleReves .pi-item {
+	background-color:#88FFEA;
 	color: black;
 }
 
-table.navbox.AvaleReves th:not(.titrePalette),
+table.navbox.AvaleReves th:not(.titrePalette) a,
 .AvaleReves .group a{
 	color: black;
+}
+
+.pi-theme-AvaleReves .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.AvaleReves tr td {
@@ -950,9 +1420,20 @@ table.navbox.AvaleReves tr:nth-child(odd) td {
 	background-color:#DCEDEA;
 }
 
+.pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(even),
+.pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-AvaleReves .pi-collapse .pi-item.pi-data {
+	background-color:#DCEDEA;
+}
+
 /* Boss */
 
-table.navbox.Boss th {
+aside.portable-infobox.pi-theme-Boss {
+    border-color: #990000;
+}
+ 
+table.navbox.Boss th,
+.pi-theme-Boss .pi-item.pi-title {
 	background-color:#990000 !important;
 	color: white;
 }
@@ -962,18 +1443,24 @@ table.navbox.Boss .titrePalette .titreContent a {
 }
 
 table.navbox.Boss .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Boss th:not(.titrePalette),
-.Boss .group {
-	background-color:#CC6633!important;
+.Boss .group,
+.pi-theme-Boss .pi-item {
+	background-color:#CC6633;
 	color: black;
 }
 
-table.navbox.Boss th:not(.titrePalette),
+table.navbox.Boss th:not(.titrePalette) a,
 .Boss .group a{
 	color: black;
+}
+
+.pi-theme-Boss .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Boss tr td {
@@ -984,9 +1471,20 @@ table.navbox.Boss tr:nth-child(odd) td {
 	background-color:#FFDD88;
 }
 
+.pi-theme-Boss .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Boss .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Boss .pi-collapse .pi-item.pi-data {
+	background-color:#FFDD88;
+}
+
 /* Xemnas */
 
-table.navbox.Xemnas th {
+aside.portable-infobox.pi-theme-Xemnas {
+    border-color: #333333;
+}
+ 
+table.navbox.Xemnas th,
+.pi-theme-Xemnas .pi-item.pi-title {
 	background-color:#333333 !important;
 	color: white;
 }
@@ -996,18 +1494,24 @@ table.navbox.Xemnas .titrePalette .titreContent a {
 }
 
 table.navbox.Xemnas .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xemnas th:not(.titrePalette),
-.Xemnas .group {
-	background-color:#666666!important;
 	color: white;
 }
 
 table.navbox.Xemnas th:not(.titrePalette),
+.Xemnas .group,
+.pi-theme-Xemnas .pi-item {
+	background-color:#666666;
+	color: white;
+}
+
+table.navbox.Xemnas th:not(.titrePalette) a,
 .Xemnas .group a{
 	color: white;
+}
+
+.pi-theme-Xemnas .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Xemnas tr td {
@@ -1018,9 +1522,20 @@ table.navbox.Xemnas tr:nth-child(odd) td {
 	background-color:#DDDDDD;
 }
 
+.pi-theme-Xemnas .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xemnas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xemnas .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+}
+
 /* Xigbar */
 
-table.navbox.Xigbar th {
+aside.portable-infobox.pi-theme-Xigbar {
+    border-color: #660066;
+}
+ 
+table.navbox.Xigbar th,
+.pi-theme-Xigbar .pi-item.pi-title {
 	background-color:#660066 !important;
 	color: white;
 }
@@ -1030,18 +1545,24 @@ table.navbox.Xigbar .titrePalette .titreContent a {
 }
 
 table.navbox.Xigbar .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xigbar th:not(.titrePalette),
-.Xigbar .group {
-	background-color:#991199!important;
 	color: white;
 }
 
 table.navbox.Xigbar th:not(.titrePalette),
+.Xigbar .group,
+.pi-theme-Xigbar .pi-item {
+	background-color:#991199;
+	color: white;
+}
+
+table.navbox.Xigbar th:not(.titrePalette) a,
 .Xigbar .group a{
 	color: white;
+}
+
+.pi-theme-Xigbar .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Xigbar tr td {
@@ -1052,9 +1573,20 @@ table.navbox.Xigbar tr:nth-child(odd) td {
 	background-color:#EFDEEF;
 }
 
+.pi-theme-Xigbar .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xigbar .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xigbar .pi-collapse .pi-item.pi-data {
+	background-color:#EFDEEF;
+}
+
 /* Xaldin */
 
-table.navbox.Xaldin th {
+aside.portable-infobox.pi-theme-Xaldin {
+    border-color: #3300FF;
+}
+ 
+table.navbox.Xaldin th,
+.pi-theme-Xaldin .pi-item.pi-title {
 	background-color:#3300FF !important;
 	color: white;
 }
@@ -1064,18 +1596,24 @@ table.navbox.Xaldin .titrePalette .titreContent a {
 }
 
 table.navbox.Xaldin .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Xaldin th:not(.titrePalette),
-.Xaldin .group {
-	background-color:#997FFF!important;
+.Xaldin .group,
+.pi-theme-Xaldin .pi-item {
+	background-color:#997FFF;
 	color: black;
 }
 
-table.navbox.Xaldin th:not(.titrePalette),
+table.navbox.Xaldin th:not(.titrePalette) a,
 .Xaldin .group a{
 	color: black;
+}
+
+.pi-theme-Xaldin .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xaldin tr td {
@@ -1086,9 +1624,20 @@ table.navbox.Xaldin tr:nth-child(odd) td {
 	background-color:#DCD7EF;
 }
 
+.pi-theme-Xaldin .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xaldin .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xaldin .pi-collapse .pi-item.pi-data {
+	background-color:#DCD7EF;
+}
+
 /* Vexen */
 
-table.navbox.Vexen th {
+aside.portable-infobox.pi-theme-Vexen {
+    border-color: #33CCFF;
+}
+ 
+table.navbox.Vexen th,
+.pi-theme-Vexen .pi-item.pi-title {
 	background-color:#33CCFF !important;
 	color: white;
 }
@@ -1098,18 +1647,24 @@ table.navbox.Vexen .titrePalette .titreContent a {
 }
 
 table.navbox.Vexen .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Vexen th:not(.titrePalette),
-.Vexen .group {
-	background-color:#7FDFFF!important;
+.Vexen .group,
+.pi-theme-Vexen .pi-item {
+	background-color:#7FDFFF;
 	color: black;
 }
 
-table.navbox.Vexen th:not(.titrePalette),
+table.navbox.Vexen th:not(.titrePalette) a,
 .Vexen .group a{
 	color: black;
+}
+
+.pi-theme-Vexen .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Vexen tr td {
@@ -1120,9 +1675,20 @@ table.navbox.Vexen tr:nth-child(odd) td {
 	background-color:#D7E9EF;
 }
 
+.pi-theme-Vexen .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Vexen .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Vexen .pi-collapse .pi-item.pi-data {
+	background-color:#D7E9EF;
+}
+
 /* Lexaeus */
 
-table.navbox.Lexaeus th {
+aside.portable-infobox.pi-theme-Lexaeus {
+    border-color: #663300;
+}
+ 
+table.navbox.Lexaeus th,
+.pi-theme-Lexaeus .pi-item.pi-title {
 	background-color:#663300 !important;
 	color: white;
 }
@@ -1132,18 +1698,24 @@ table.navbox.Lexaeus .titrePalette .titreContent a {
 }
 
 table.navbox.Lexaeus .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Lexaeus th:not(.titrePalette),
-.Lexaeus .group {
-	background-color:#99724C!important;
 	color: white;
 }
 
 table.navbox.Lexaeus th:not(.titrePalette),
+.Lexaeus .group,
+.pi-theme-Lexaeus .pi-item {
+	background-color:#99724C;
+	color: white;
+}
+
+table.navbox.Lexaeus th:not(.titrePalette) a,
 .Lexaeus .group a{
 	color: white;
+}
+
+.pi-theme-Lexaeus .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Lexaeus tr td {
@@ -1154,9 +1726,20 @@ table.navbox.Lexaeus tr:nth-child(odd) td {
 	background-color:#F2E0CD;
 }
 
+.pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Lexaeus .pi-collapse .pi-item.pi-data {
+	background-color:#F2E0CD;
+}
+
 /* Zexion */
 
-table.navbox.Zexion th {
+aside.portable-infobox.pi-theme-Zexion {
+    border-color: #333366;
+}
+ 
+table.navbox.Zexion th,
+.pi-theme-Zexion .pi-item.pi-title {
 	background-color:#333366 !important;
 	color: white;
 }
@@ -1166,18 +1749,24 @@ table.navbox.Zexion .titrePalette .titreContent a {
 }
 
 table.navbox.Zexion .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Zexion th:not(.titrePalette),
-.Zexion .group {
-	background-color:#8888AA!important;
 	color: white;
 }
 
 table.navbox.Zexion th:not(.titrePalette),
+.Zexion .group,
+.pi-theme-Zexion .pi-item {
+	background-color:#8888AA;
+	color: white;
+}
+
+table.navbox.Zexion th:not(.titrePalette) a,
 .Zexion .group a{
 	color: white;
+}
+
+.pi-theme-Zexion .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Zexion tr td {
@@ -1188,9 +1777,20 @@ table.navbox.Zexion tr:nth-child(odd) td {
 	background-color:#EDEDF8;
 }
 
+.pi-theme-Zexion .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Zexion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Zexion .pi-collapse .pi-item.pi-data {
+	background-color:#EDEDF8;
+}
+
 /* Saïx */
 
-table.navbox.Saix th {
+aside.portable-infobox.pi-theme-Saix {
+    border-color: #336699;
+}
+ 
+table.navbox.Saix th,
+.pi-theme-Saix .pi-item.pi-title {
 	background-color:#336699 !important;
 	color: white;
 }
@@ -1200,18 +1800,24 @@ table.navbox.Saix .titrePalette .titreContent a {
 }
 
 table.navbox.Saix .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Saix th:not(.titrePalette),
-.Saix .group {
-	background-color:#7FBFFF!important;
+.Saix .group,
+.pi-theme-Saix .pi-item {
+	background-color:#7FBFFF;
 	color: black;
 }
 
-table.navbox.Saix th:not(.titrePalette),
+table.navbox.Saix th:not(.titrePalette) a,
 .Saix .group a{
 	color: black;
+}
+
+.pi-theme-Saix .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Saix tr td {
@@ -1222,9 +1828,20 @@ table.navbox.Saix tr:nth-child(odd) td {
 	background-color:#D7E6F4;
 }
 
+.pi-theme-Saix .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Saix .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Saix .pi-collapse .pi-item.pi-data {
+	background-color:#D7E6F4;
+}
+
 /* Axel */
 
-table.navbox.Axel th {
+aside.portable-infobox.pi-theme-Axel {
+    border-color: #CC0000;
+}
+ 
+table.navbox.Axel th,
+.pi-theme-Axel .pi-item.pi-title {
 	background-color:#CC0000 !important;
 	color: white;
 }
@@ -1234,18 +1851,24 @@ table.navbox.Axel .titrePalette .titreContent a {
 }
 
 table.navbox.Axel .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Axel th:not(.titrePalette),
-.Axel .group {
-	background-color:#EE0000!important;
 	color: white;
 }
 
 table.navbox.Axel th:not(.titrePalette),
+.Axel .group,
+.pi-theme-Axel .pi-item {
+	background-color:#EE0000;
+	color: white;
+}
+
+table.navbox.Axel th:not(.titrePalette) a,
 .Axel .group a{
 	color: white;
+}
+
+.pi-theme-Axel .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Axel tr td {
@@ -1256,9 +1879,20 @@ table.navbox.Axel tr:nth-child(odd) td {
 	background-color:#F8EDED;
 }
 
+.pi-theme-Axel .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Axel .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Axel .pi-collapse .pi-item.pi-data {
+	background-color:#F8EDED;
+}
+
 /* Demyx */
 
-table.navbox.Demyx th {
+aside.portable-infobox.pi-theme-Demyx {
+    border-color: #3399CC;
+}
+ 
+table.navbox.Demyx th,
+.pi-theme-Demyx .pi-item.pi-title {
 	background-color:#3399CC !important;
 	color: white;
 }
@@ -1268,18 +1902,24 @@ table.navbox.Demyx .titrePalette .titreContent a {
 }
 
 table.navbox.Demyx .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Demyx th:not(.titrePalette),
-.Demyx .group {
-	background-color:#99DCFF!important;
+.Demyx .group,
+.pi-theme-Demyx .pi-item {
+	background-color:#99DCFF;
 	color: black;
 }
 
-table.navbox.Demyx th:not(.titrePalette),
+table.navbox.Demyx th:not(.titrePalette) a,
 .Demyx .group a{
 	color: black;
+}
+
+.pi-theme-Demyx .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Demyx tr td {
@@ -1290,9 +1930,20 @@ table.navbox.Demyx tr:nth-child(odd) td {
 	background-color:#CDE7F4;
 }
 
+.pi-theme-Demyx .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Demyx .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Demyx .pi-collapse .pi-item.pi-data {
+	background-color:#CDE7F4;
+}
+
 /* Luxord */
 
-table.navbox.Luxord th {
+aside.portable-infobox.pi-theme-Luxord {
+    border-color: #CCCCCC;
+}
+ 
+table.navbox.Luxord th,
+.pi-theme-Luxord .pi-item.pi-title {
 	background-color:#CCCCCC !important;
 	color: black;
 }
@@ -1302,18 +1953,24 @@ table.navbox.Luxord .titrePalette .titreContent a {
 }
 
 table.navbox.Luxord .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Luxord th:not(.titrePalette),
-.Luxord .group {
-	background-color:#DEDEDE!important;
 	color: black;
 }
 
 table.navbox.Luxord th:not(.titrePalette),
+.Luxord .group,
+.pi-theme-Luxord .pi-item {
+	background-color:#DEDEDE;
+	color: black;
+}
+
+table.navbox.Luxord th:not(.titrePalette) a,
 .Luxord .group a{
 	color: black;
+}
+
+.pi-theme-Luxord .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Luxord tr td {
@@ -1324,9 +1981,20 @@ table.navbox.Luxord tr:nth-child(odd) td {
 	background-color:#EDEDED;
 }
 
+.pi-theme-Luxord .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Luxord .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Luxord .pi-collapse .pi-item.pi-data {
+	background-color:#EDEDED;
+}
+
 /* Marluxia */
 
-table.navbox.Marluxia th {
+aside.portable-infobox.pi-theme-Marluxia {
+    border-color: #E68FAC;
+}
+ 
+table.navbox.Marluxia th,
+.pi-theme-Marluxia .pi-item.pi-title {
 	background-color:#E68FAC !important;
 	color: black;
 }
@@ -1336,18 +2004,24 @@ table.navbox.Marluxia .titrePalette .titreContent a {
 }
 
 table.navbox.Marluxia .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Marluxia th:not(.titrePalette),
-.Marluxia .group {
-	background-color:#FF99BA!important;
 	color: black;
 }
 
 table.navbox.Marluxia th:not(.titrePalette),
+.Marluxia .group,
+.pi-theme-Marluxia .pi-item {
+	background-color:#FF99BA;
+	color: black;
+}
+
+table.navbox.Marluxia th:not(.titrePalette) a,
 .Marluxia .group a{
 	color: black;
+}
+
+.pi-theme-Marluxia .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Marluxia tr td {
@@ -1358,9 +2032,20 @@ table.navbox.Marluxia tr:nth-child(odd) td {
 	background-color:#F2DCE3;
 }
 
+.pi-theme-Marluxia .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Marluxia .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Marluxia .pi-collapse .pi-item.pi-data {
+	background-color:#F2DCE3;
+}
+
 /* Larxene */
 
-table.navbox.Larxene th {
+aside.portable-infobox.pi-theme-Larxene {
+    border-color: #FEEF61;
+}
+ 
+table.navbox.Larxene th,
+.pi-theme-Larxene .pi-item.pi-title {
 	background-color:#FEEF61 !important;
 	color: black;
 }
@@ -1370,18 +2055,24 @@ table.navbox.Larxene .titrePalette .titreContent a {
 }
 
 table.navbox.Larxene .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Larxene th:not(.titrePalette),
-.Larxene .group {
-	background-color:#FFF499!important;
 	color: black;
 }
 
 table.navbox.Larxene th:not(.titrePalette),
+.Larxene .group,
+.pi-theme-Larxene .pi-item {
+	background-color:#FFF499;
+	color: black;
+}
+
+table.navbox.Larxene th:not(.titrePalette) a,
 .Larxene .group a{
 	color: black;
+}
+
+.pi-theme-Larxene .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Larxene tr td {
@@ -1392,9 +2083,20 @@ table.navbox.Larxene tr:nth-child(odd) td {
 	background-color:#FFFCE8;
 }
 
+.pi-theme-Larxene .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Larxene .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Larxene .pi-collapse .pi-item.pi-data {
+	background-color:#FFFCE8;
+}
+
 /* Roxas */
 
-table.navbox.Roxas th {
+aside.portable-infobox.pi-theme-Roxas {
+    border-color: #FFCC00;
+}
+ 
+table.navbox.Roxas th,
+.pi-theme-Roxas .pi-item.pi-title {
 	background-color:#FFCC00 !important;
 	color: black;
 }
@@ -1404,18 +2106,24 @@ table.navbox.Roxas .titrePalette .titreContent a {
 }
 
 table.navbox.Roxas .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Roxas th:not(.titrePalette),
-.Roxas .group {
-	background-color:gold!important;
 	color: black;
 }
 
 table.navbox.Roxas th:not(.titrePalette),
+.Roxas .group,
+.pi-theme-Roxas .pi-item {
+	background-color:gold;
+	color: black;
+}
+
+table.navbox.Roxas th:not(.titrePalette) a,
 .Roxas .group a{
 	color: black;
+}
+
+.pi-theme-Roxas .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Roxas tr td {
@@ -1426,9 +2134,20 @@ table.navbox.Roxas tr:nth-child(odd) td {
 	background-color:#FFF8DD;
 }
 
+.pi-theme-Roxas .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Roxas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Roxas .pi-collapse .pi-item.pi-data {
+	background-color:#FFF8DD;
+}
+
 /* Xion */
 
-table.navbox.Xion th {
+aside.portable-infobox.pi-theme-Xion {
+    border-color: #000000;
+}
+ 
+table.navbox.Xion th,
+.pi-theme-Xion .pi-item.pi-title {
 	background-color:#000000 !important;
 	color: white;
 }
@@ -1438,18 +2157,24 @@ table.navbox.Xion .titrePalette .titreContent a {
 }
 
 table.navbox.Xion .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xion th:not(.titrePalette),
-.Xion .group {
-	background-color:#555560!important;
 	color: white;
 }
 
 table.navbox.Xion th:not(.titrePalette),
+.Xion .group,
+.pi-theme-Xion .pi-item {
+	background-color:#555560;
+	color: white;
+}
+
+table.navbox.Xion th:not(.titrePalette) a,
 .Xion .group a{
 	color: white;
+}
+
+.pi-theme-Xion .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Xion tr td {
@@ -1460,9 +2185,20 @@ table.navbox.Xion tr:nth-child(odd) td {
 	background-color:#DCDCED;
 }
 
+.pi-theme-Xion .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xion .pi-collapse .pi-item.pi-data {
+	background-color:#DCDCED;
+}
+
 /* Personnages */
 
-table.navbox.Personnages th {
+aside.portable-infobox.pi-theme-Personnages {
+    border-color: #5b58ec;
+}
+ 
+table.navbox.Personnages th,
+.pi-theme-Personnages .pi-item.pi-title {
 	background-color:#5b58ec !important;
 	color: white;
 }
@@ -1472,18 +2208,24 @@ table.navbox.Personnages .titrePalette .titreContent a {
 }
 
 table.navbox.Personnages .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Personnages th:not(.titrePalette),
-.Personnages .group {
-	background-color:#849aed!important;
+.Personnages .group,
+.pi-theme-Personnages .pi-item {
+	background-color:#a6b7f2;
 	color: black;
 }
 
-table.navbox.Personnages th:not(.titrePalette),
+table.navbox.Personnages th:not(.titrePalette) a,
 .Personnages .group a{
 	color: black;
+}
+
+.pi-theme-Personnages .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Personnages tr td {
@@ -1491,12 +2233,23 @@ table.navbox.Personnages tr td {
 }
 
 table.navbox.Personnages tr:nth-child(odd) td {
-	background-color:#E1E4F2;
+	background-color:#d2dbf9;
+}
+
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Personnages .pi-collapse .pi-item.pi-data {
+	background-color:#d2dbf9;
 }
 
 /* Équipe */
 
-table.navbox.Equipe th {
+aside.portable-infobox.pi-theme-Equipe {
+    border-color: lightseagreen;
+}
+ 
+table.navbox.Equipe th,
+.pi-theme-Equipe .pi-item.pi-title {
 	background-color:lightseagreen !important;
 	color: black;
 }
@@ -1506,18 +2259,24 @@ table.navbox.Equipe .titrePalette .titreContent a {
 }
 
 table.navbox.Equipe .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Equipe th:not(.titrePalette),
-.Equipe .group {
-	background-color:mediumaquamarine!important;
 	color: black;
 }
 
 table.navbox.Equipe th:not(.titrePalette),
+.Equipe .group,
+.pi-theme-Equipe .pi-item {
+	background-color:mediumaquamarine;
+	color: black;
+}
+
+table.navbox.Equipe th:not(.titrePalette) a,
 .Equipe .group a{
 	color: black;
+}
+
+.pi-theme-Equipe .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Equipe tr td {
@@ -1528,9 +2287,20 @@ table.navbox.Equipe tr:nth-child(odd) td {
 	background-color:#DAEDE6;
 }
 
+.pi-theme-Equipe .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Equipe .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Equipe .pi-collapse .pi-item.pi-data {
+	background-color:#DAEDE6;
+}
+
 /* Invocation */
 
-table.navbox.Invocation th {
+aside.portable-infobox.pi-theme-Invocation {
+    border-color: gold;
+}
+ 
+table.navbox.Invocation th,
+.pi-theme-Invocation .pi-item.pi-title {
 	background-color:gold !important;
 	color: black;
 }
@@ -1540,18 +2310,24 @@ table.navbox.Invocation .titrePalette .titreContent a {
 }
 
 table.navbox.Invocation .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Invocation th:not(.titrePalette),
-.Invocation .group {
-	background-color:#FFE44C!important;
 	color: black;
 }
 
 table.navbox.Invocation th:not(.titrePalette),
+.Invocation .group,
+.pi-theme-Invocation .pi-item {
+	background-color:#FFE44C;
+	color: black;
+}
+
+table.navbox.Invocation th:not(.titrePalette) a,
 .Invocation .group a{
 	color: black;
+}
+
+.pi-theme-Invocation .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Invocation tr td {
@@ -1562,9 +2338,20 @@ table.navbox.Invocation tr:nth-child(odd) td {
 	background-color:#FFFBE5;
 }
 
+.pi-theme-Invocation .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Invocation .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Invocation .pi-collapse .pi-item.pi-data {
+	background-color:#FFFBE5;
+}
+
 /* Final Fantasy */
 
-table.navbox.FF th {
+aside.portable-infobox.pi-theme-FF {
+    border-color: #4169E1;
+}
+ 
+table.navbox.FF th,
+.pi-theme-FF .pi-item.pi-title {
 	background-color:#4169E1 !important;
 	color: white;
 }
@@ -1574,18 +2361,24 @@ table.navbox.FF .titrePalette .titreContent a {
 }
 
 table.navbox.FF .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.FF th:not(.titrePalette),
-.FF .group {
-	background-color:#87CEFA!important;
+.FF .group,
+.pi-theme-FF .pi-item {
+	background-color:#87CEFA;
 	color: black;
 }
 
-table.navbox.FF th:not(.titrePalette),
+table.navbox.FF th:not(.titrePalette) a,
 .FF .group a{
 	color: black;
+}
+
+.pi-theme-FF .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FF tr td {
@@ -1596,9 +2389,20 @@ table.navbox.FF tr:nth-child(odd) td {
 	background-color:#CCD8FF;
 }
 
+.pi-theme-FF .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FF .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FF .pi-collapse .pi-item.pi-data {
+	background-color:#CCD8FF;
+}
+
 /* The World Ends With You */
 
-table.navbox.TWEWY th {
+aside.portable-infobox.pi-theme-TWEWY {
+    border-color: #003058;
+}
+ 
+table.navbox.TWEWY th,
+.pi-theme-TWEWY .pi-item.pi-title {
 	background-color:#003058 !important;
 	color: white;
 }
@@ -1608,18 +2412,24 @@ table.navbox.TWEWY .titrePalette .titreContent a {
 }
 
 table.navbox.TWEWY .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.TWEWY th:not(.titrePalette),
-.TWEWY .group {
-	background-color:#C3D6E5!important;
+.TWEWY .group,
+.pi-theme-TWEWY .pi-item {
+	background-color:#C3D6E5;
 	color: black;
 }
 
-table.navbox.TWEWY th:not(.titrePalette),
+table.navbox.TWEWY th:not(.titrePalette) a,
 .TWEWY .group a{
 	color: black;
+}
+
+.pi-theme-TWEWY .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.TWEWY tr td {
@@ -1630,9 +2440,20 @@ table.navbox.TWEWY tr:nth-child(odd) td {
 	background-color:#E3EDF4;
 }
 
+.pi-theme-TWEWY .pi-horizontal-group-item:nth-child(even),
+.pi-theme-TWEWY .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-TWEWY .pi-collapse .pi-item.pi-data {
+	background-color:#E3EDF4;
+}
+
 /* Disney */
 
-table.navbox.Disney th {
+aside.portable-infobox.pi-theme-Disney {
+    border-color: blueviolet;
+}
+ 
+table.navbox.Disney th,
+.pi-theme-Disney .pi-item.pi-title {
 	background-color:blueviolet !important;
 	color: white;
 }
@@ -1642,18 +2463,24 @@ table.navbox.Disney .titrePalette .titreContent a {
 }
 
 table.navbox.Disney .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Disney th:not(.titrePalette),
-.Disney .group {
-	background-color:mediumorchid!important;
 	color: white;
 }
 
 table.navbox.Disney th:not(.titrePalette),
+.Disney .group,
+.pi-theme-Disney .pi-item {
+	background-color:mediumorchid;
+	color: white;
+}
+
+table.navbox.Disney th:not(.titrePalette) a,
 .Disney .group a{
 	color: white;
+}
+
+.pi-theme-Disney .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Disney tr td {
@@ -1664,9 +2491,20 @@ table.navbox.Disney tr:nth-child(odd) td {
 	background-color:#E9DAED;
 }
 
+.pi-theme-Disney .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Disney .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Disney .pi-collapse .pi-item.pi-data {
+	background-color:#E9DAED;
+}
+
 /* Monde */
 
-table.navbox.Monde th {
+aside.portable-infobox.pi-theme-Monde {
+    border-color: #7c45aa;
+}
+ 
+table.navbox.Monde th,
+.pi-theme-Monde .pi-item.pi-title {
 	background-color:#7c45aa !important;
 	color: white;
 }
@@ -1676,18 +2514,24 @@ table.navbox.Monde .titrePalette .titreContent a {
 }
 
 table.navbox.Monde .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Monde th:not(.titrePalette),
-.Monde .group {
-	background-color:#af8eeb!important;
 	color: white;
 }
 
 table.navbox.Monde th:not(.titrePalette),
+.Monde .group,
+.pi-theme-Monde .pi-item {
+	background-color:#af8eeb;
+	color: white;
+}
+
+table.navbox.Monde th:not(.titrePalette) a,
 .Monde .group a{
 	color: white;
+}
+
+.pi-theme-Monde .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Monde tr td {
@@ -1698,9 +2542,20 @@ table.navbox.Monde tr:nth-child(odd) td {
 	background-color:#E3DAED;
 }
 
+.pi-theme-Monde .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Monde .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Monde .pi-collapse .pi-item.pi-data {
+	background-color:#E3DAED;
+}
+
 /* Square Enix */
 
-table.navbox.Square th {
+aside.portable-infobox.pi-theme-Square {
+    border-color: black;
+}
+ 
+table.navbox.Square th,
+.pi-theme-Square .pi-item.pi-title {
 	background-color:black !important;
 	color: white;
 }
@@ -1710,18 +2565,24 @@ table.navbox.Square .titrePalette .titreContent a {
 }
 
 table.navbox.Square .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Square th:not(.titrePalette),
-.Square .group {
-	background-color:gray!important;
 	color: white;
 }
 
 table.navbox.Square th:not(.titrePalette),
+.Square .group,
+.pi-theme-Square .pi-item {
+	background-color:gray;
+	color: white;
+}
+
+table.navbox.Square th:not(.titrePalette) a,
 .Square .group a{
 	color: white;
+}
+
+.pi-theme-Square .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Square tr td {
@@ -1732,9 +2593,20 @@ table.navbox.Square tr:nth-child(odd) td {
 	background-color:lightgray;
 }
 
+.pi-theme-Square .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Square .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Square .pi-collapse .pi-item.pi-data {
+	background-color:lightgray;
+}
+
 /* Minijeux */
 
-table.navbox.Minijeux th {
+aside.portable-infobox.pi-theme-Minijeux {
+    border-color: #FF4500;
+}
+ 
+table.navbox.Minijeux th,
+.pi-theme-Minijeux .pi-item.pi-title {
 	background-color:#FF4500 !important;
 	color: white;
 }
@@ -1744,18 +2616,24 @@ table.navbox.Minijeux .titrePalette .titreContent a {
 }
 
 table.navbox.Minijeux .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Minijeux th:not(.titrePalette),
-.Minijeux .group {
-	background-color:#FF7F50!important;
+.Minijeux .group,
+.pi-theme-Minijeux .pi-item {
+	background-color:#FF7F50;
 	color: black;
 }
 
-table.navbox.Minijeux th:not(.titrePalette),
+table.navbox.Minijeux th:not(.titrePalette) a,
 .Minijeux .group a{
 	color: black;
+}
+
+.pi-theme-Minijeux .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Minijeux tr td {
@@ -1766,9 +2644,20 @@ table.navbox.Minijeux tr:nth-child(odd) td {
 	background-color:#FFDEBA;
 }
 
+.pi-theme-Minijeux .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Minijeux .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Minijeux .pi-collapse .pi-item.pi-data {
+	background-color:#FFDEBA;
+}
+
 /* Gummis */
 
-table.navbox.Gummis th {
+aside.portable-infobox.pi-theme-Gummis {
+    border-color: darkorange;
+}
+ 
+table.navbox.Gummis th,
+.pi-theme-Gummis .pi-item.pi-title {
 	background-color:darkorange !important;
 	color: white;
 }
@@ -1778,18 +2667,24 @@ table.navbox.Gummis .titrePalette .titreContent a {
 }
 
 table.navbox.Gummis .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Gummis th:not(.titrePalette),
-.Gummis .group {
-	background-color:PaleTurquoise!important;
+.Gummis .group,
+.pi-theme-Gummis .pi-item {
+	background-color:PaleTurquoise;
 	color: black;
 }
 
-table.navbox.Gummis th:not(.titrePalette),
+table.navbox.Gummis th:not(.titrePalette) a,
 .Gummis .group a{
 	color: black;
+}
+
+.pi-theme-Gummis .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Gummis tr td {
@@ -1800,9 +2695,20 @@ table.navbox.Gummis tr:nth-child(odd) td {
 	background-color:LightCyan;
 }
 
+.pi-theme-Gummis .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Gummis .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Gummis .pi-collapse .pi-item.pi-data {
+	background-color:LightCyan;
+}
+
 /* Produits dérivés */
 
-table.navbox.Produits th {
+aside.portable-infobox.pi-theme-Produits {
+    border-color: #00BA6A;
+}
+ 
+table.navbox.Produits th,
+.pi-theme-Produits .pi-item.pi-title {
 	background-color:#00BA6A !important;
 	color: white;
 }
@@ -1812,18 +2718,24 @@ table.navbox.Produits .titrePalette .titreContent a {
 }
 
 table.navbox.Produits .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
 table.navbox.Produits th:not(.titrePalette),
-.Produits .group {
-	background-color:#00FA9A!important;
+.Produits .group,
+.pi-theme-Produits .pi-item {
+	background-color:#00FA9A;
 	color: black;
 }
 
-table.navbox.Produits th:not(.titrePalette),
+table.navbox.Produits th:not(.titrePalette) a,
 .Produits .group a{
 	color: black;
+}
+
+.pi-theme-Produits .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Produits tr td {
@@ -1834,9 +2746,20 @@ table.navbox.Produits tr:nth-child(odd) td {
 	background-color:#B0FFDE;
 }
 
+.pi-theme-Produits .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Produits .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Produits .pi-collapse .pi-item.pi-data {
+	background-color:#B0FFDE;
+}
+
 /* Communauté */
 
-table.navbox.Communaute th {
+aside.portable-infobox.pi-theme-Communaute {
+    border-color: midnightblue;
+}
+ 
+table.navbox.Communaute th,
+.pi-theme-Communaute .pi-item.pi-title {
 	background-color:midnightblue !important;
 	color: white;
 }
@@ -1846,18 +2769,24 @@ table.navbox.Communaute .titrePalette .titreContent a {
 }
 
 table.navbox.Communaute .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Communaute th:not(.titrePalette),
-.Communaute .group {
-	background-color:dodgerblue!important;
 	color: white;
 }
 
 table.navbox.Communaute th:not(.titrePalette),
+.Communaute .group,
+.pi-theme-Communaute .pi-item {
+	background-color:dodgerblue;
+	color: white;
+}
+
+table.navbox.Communaute th:not(.titrePalette) a,
 .Communaute .group a{
 	color: white;
+}
+
+.pi-theme-Communaute .pi-item a {
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Communaute tr td {
@@ -1868,9 +2797,20 @@ table.navbox.Communaute tr:nth-child(odd) td {
 	background-color:#E1F1F7;
 }
 
+.pi-theme-Communaute .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Communaute .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Communaute .pi-collapse .pi-item.pi-data {
+	background-color:#E1F1F7;
+}
+
 /* Musiques */
 
-table.navbox.Musique th {
+aside.portable-infobox.pi-theme-Musique {
+    border-color: #174bdb;
+}
+ 
+table.navbox.Musique th,
+.pi-theme-Musique .pi-item.pi-title {
 	background-color:#174bdb !important;
 	color: black;
 }
@@ -1880,18 +2820,24 @@ table.navbox.Musique .titrePalette .titreContent a {
 }
 
 table.navbox.Musique .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Musique th:not(.titrePalette),
-.Musique .group {
-	background-color:#4e71d5!important;
 	color: black;
 }
 
 table.navbox.Musique th:not(.titrePalette),
+.Musique .group,
+.pi-theme-Musique .pi-item {
+	background-color:#4e71d5;
+	color: black;
+}
+
+table.navbox.Musique th:not(.titrePalette) a,
 .Musique .group a{
 	color: black;
+}
+
+.pi-theme-Musique .pi-item a {
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Musique tr td {
@@ -1899,6 +2845,12 @@ table.navbox.Musique tr td {
 }
 
 table.navbox.Musique tr:nth-child(odd) td {
+	background-color:#678beb;
+}
+
+.pi-theme-Musique .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Musique .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Musique .pi-collapse .pi-item.pi-data {
 	background-color:#678beb;
 }
 
