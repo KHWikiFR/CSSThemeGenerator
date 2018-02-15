@@ -8,35 +8,27 @@ aside.portable-infobox.pi-theme-{name} {{
     border-color: {title};
 }}
  
-table.navbox.{name} th,
+table.navbox.{name} th.titrePalette,
 .pi-theme-{name} .pi-item.pi-title {{
 	background-color:{title} !important;
 	color: {title_font};
 }}
 
-table.navbox.{name} .titrePalette .titreContent a {{
-    color: {title_font};
-}}
-
+table.navbox.{name} th.titrePalette .titreContent a,
 table.navbox.{name} .collapseButtonLink {{
 	color: {title_font};
 }}
 
-table.navbox.{name} th:not(.titrePalette),
+table.navbox.{name} th,
 .{name} .group,
 .pi-theme-{name} .pi-item {{
 	background-color:{head};
 	color: {head_font};
 }}
 
-table.navbox.{name} th:not(.titrePalette) a,
+table.navbox.{name} th a,
 .{name} .group a{{
 	color: {head_font};
-}}
-
-.pi-theme-{name} .pi-item a {{
-	color: {head_font};
-	font-weight: bold;
 }}
 
 table.navbox.{name} tr td {{

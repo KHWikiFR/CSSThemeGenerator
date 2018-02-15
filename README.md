@@ -27,6 +27,7 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 ## 0.2.0 - 2018-02-16
  * Ajout des infobox (version de lancement)
  * Modification du thème Personnages
+ * Fix & optimisation des palettes + implémentation de la bordure des sous-titres en couleur
 
 ## 0.1.2 - 2018-02-14
  * Fix des sélecteurs de cellule de contenu (classe .liste dépréciée retirée)
