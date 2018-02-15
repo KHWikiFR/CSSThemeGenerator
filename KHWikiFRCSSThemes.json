@@ -430,13 +430,13 @@
         "Row": "#FFFFFF"
     }, 
     {
-        "Head": "#849aed", 
+        "Head": "#a6b7f2", 
         "TitleFont": "white", 
         "Name": "Personnages", 
         "Title": "#5b58ec", 
         "HeadFont": "black", 
         "FullName": "Personnages", 
-        "RowAlt": "#E1E4F2", 
+        "RowAlt": "#d2dbf9", 
         "Row": "#FFFFFF"
     }, 
     {
