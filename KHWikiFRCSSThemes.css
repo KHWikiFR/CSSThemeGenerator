@@ -2321,7 +2321,7 @@ table.navbox.Monde .collapseButtonLink {
 table.navbox.Monde th,
 .Monde .group,
 .pi-theme-Monde .pi-item {
-	background-color:#af8eeb;
+	background-color:#CDB4F2;
 	color: white;
 }
 
@@ -2339,7 +2339,7 @@ table.navbox.Monde tr:nth-child(odd) td {
 }
 
 table.navbox.Monde td .subTitle {
-	border-color:#af8eeb;
+	border-color:#CDB4F2;
 }
 
 .pi-theme-Monde .pi-horizontal-group-item:nth-child(even),

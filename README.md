@@ -24,6 +24,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.2.0a - 2018-02-16
+ * Modification du thème Monde
+
 ## 0.2.0 - 2018-02-16
  * Ajout des infobox (version de lancement)
  * Modification du thème Personnages
