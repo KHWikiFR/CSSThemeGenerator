@@ -45,12 +45,16 @@ table.navbox.{name} td .subTitle {{
 
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(even),
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(odd),
-.pi-theme-{name} .pi-smart-data-label:nth-child(even),
-.pi-theme-{name} .pi-smart-data-value:nth-child(even),
-.pi-theme-{name} .pi-smart-data-label:nth-child(odd),
-.pi-theme-{name} .pi-smart-data-value:nth-child(odd),
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-{name} .pi-collapse .pi-item.pi-data {{
 	background-color:{row_alt};
+}}
+
+.pi-theme-{name} .pi-group .pi-group + .pi-group.pi-border-color {{
+	border-top-color: {title};
 }}
 
 '''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), row=theme.get("Row"), row_alt=theme.get("RowAlt") )
