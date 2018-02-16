@@ -2322,12 +2322,12 @@ table.navbox.Monde th,
 .Monde .group,
 .pi-theme-Monde .pi-item {
 	background-color:#CDB4F2;
-	color: white;
+	color: black;
 }
 
 table.navbox.Monde th a,
 .Monde .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Monde tr td {

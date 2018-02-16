@@ -494,7 +494,7 @@
         "TitleFont": "white", 
         "Name": "Monde", 
         "Title": "#7c45aa", 
-        "HeadFont": "white", 
+        "HeadFont": "black", 
         "FullName": "Monde", 
         "RowAlt": "#E3DAED", 
         "Row": "#FFFFFF"
