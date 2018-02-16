@@ -41,6 +41,10 @@ table.navbox.KH1 td .subTitle {
 
 .pi-theme-KH1 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-KH1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH1 .pi-smart-data-label:nth-child(even),
+.pi-theme-KH1 .pi-smart-data-value:nth-child(even),
+.pi-theme-KH1 .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH1 .pi-smart-data-value:nth-child(odd),
 .pi-theme-KH1 .pi-collapse .pi-item.pi-data {
 	background-color:#E8E8FA;
 }
@@ -88,6 +92,10 @@ table.navbox.FM1 td .subTitle {
 
 .pi-theme-FM1 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-FM1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM1 .pi-smart-data-label:nth-child(even),
+.pi-theme-FM1 .pi-smart-data-value:nth-child(even),
+.pi-theme-FM1 .pi-smart-data-label:nth-child(odd),
+.pi-theme-FM1 .pi-smart-data-value:nth-child(odd),
 .pi-theme-FM1 .pi-collapse .pi-item.pi-data {
 	background-color:#E6EEFB;
 }
@@ -135,6 +143,10 @@ table.navbox.COM td .subTitle {
 
 .pi-theme-COM .pi-horizontal-group-item:nth-child(even),
 .pi-theme-COM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-COM .pi-smart-data-label:nth-child(even),
+.pi-theme-COM .pi-smart-data-value:nth-child(even),
+.pi-theme-COM .pi-smart-data-label:nth-child(odd),
+.pi-theme-COM .pi-smart-data-value:nth-child(odd),
 .pi-theme-COM .pi-collapse .pi-item.pi-data {
 	background-color:#E4E4E4;
 }
@@ -182,6 +194,10 @@ table.navbox.KH2 td .subTitle {
 
 .pi-theme-KH2 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-KH2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2 .pi-smart-data-label:nth-child(even),
+.pi-theme-KH2 .pi-smart-data-value:nth-child(even),
+.pi-theme-KH2 .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH2 .pi-smart-data-value:nth-child(odd),
 .pi-theme-KH2 .pi-collapse .pi-item.pi-data {
 	background-color:#E0EAF5;
 }
@@ -229,6 +245,10 @@ table.navbox.FM2 td .subTitle {
 
 .pi-theme-FM2 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-FM2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM2 .pi-smart-data-label:nth-child(even),
+.pi-theme-FM2 .pi-smart-data-value:nth-child(even),
+.pi-theme-FM2 .pi-smart-data-label:nth-child(odd),
+.pi-theme-FM2 .pi-smart-data-value:nth-child(odd),
 .pi-theme-FM2 .pi-collapse .pi-item.pi-data {
 	background-color:#E9E9E9;
 }
@@ -276,6 +296,10 @@ table.navbox.Days td .subTitle {
 
 .pi-theme-Days .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Days .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Days .pi-smart-data-label:nth-child(even),
+.pi-theme-Days .pi-smart-data-value:nth-child(even),
+.pi-theme-Days .pi-smart-data-label:nth-child(odd),
+.pi-theme-Days .pi-smart-data-value:nth-child(odd),
 .pi-theme-Days .pi-collapse .pi-item.pi-data {
 	background-color:#FAECEC;
 }
@@ -323,6 +347,10 @@ table.navbox.BBS td .subTitle {
 
 .pi-theme-BBS .pi-horizontal-group-item:nth-child(even),
 .pi-theme-BBS .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBS .pi-smart-data-label:nth-child(even),
+.pi-theme-BBS .pi-smart-data-value:nth-child(even),
+.pi-theme-BBS .pi-smart-data-label:nth-child(odd),
+.pi-theme-BBS .pi-smart-data-value:nth-child(odd),
 .pi-theme-BBS .pi-collapse .pi-item.pi-data {
 	background-color:#DFEDF6;
 }
@@ -370,6 +398,10 @@ table.navbox.BBSFM td .subTitle {
 
 .pi-theme-BBSFM .pi-horizontal-group-item:nth-child(even),
 .pi-theme-BBSFM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBSFM .pi-smart-data-label:nth-child(even),
+.pi-theme-BBSFM .pi-smart-data-value:nth-child(even),
+.pi-theme-BBSFM .pi-smart-data-label:nth-child(odd),
+.pi-theme-BBSFM .pi-smart-data-value:nth-child(odd),
 .pi-theme-BBSFM .pi-collapse .pi-item.pi-data {
 	background-color:#DFE8EF;
 }
@@ -417,6 +449,10 @@ table.navbox.Coded td .subTitle {
 
 .pi-theme-Coded .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Coded .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Coded .pi-smart-data-label:nth-child(even),
+.pi-theme-Coded .pi-smart-data-value:nth-child(even),
+.pi-theme-Coded .pi-smart-data-label:nth-child(odd),
+.pi-theme-Coded .pi-smart-data-value:nth-child(odd),
 .pi-theme-Coded .pi-collapse .pi-item.pi-data {
 	background-color:#FBFBE6;
 }
@@ -464,6 +500,10 @@ table.navbox.DDD td .subTitle {
 
 .pi-theme-DDD .pi-horizontal-group-item:nth-child(even),
 .pi-theme-DDD .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-DDD .pi-smart-data-label:nth-child(even),
+.pi-theme-DDD .pi-smart-data-value:nth-child(even),
+.pi-theme-DDD .pi-smart-data-label:nth-child(odd),
+.pi-theme-DDD .pi-smart-data-value:nth-child(odd),
 .pi-theme-DDD .pi-collapse .pi-item.pi-data {
 	background-color:#F2E6FB;
 }
@@ -511,6 +551,10 @@ table.navbox.CHI td .subTitle {
 
 .pi-theme-CHI .pi-horizontal-group-item:nth-child(even),
 .pi-theme-CHI .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-CHI .pi-smart-data-label:nth-child(even),
+.pi-theme-CHI .pi-smart-data-value:nth-child(even),
+.pi-theme-CHI .pi-smart-data-label:nth-child(odd),
+.pi-theme-CHI .pi-smart-data-value:nth-child(odd),
 .pi-theme-CHI .pi-collapse .pi-item.pi-data {
 	background-color:#DFEFEA;
 }
@@ -558,6 +602,10 @@ table.navbox.UCR td .subTitle {
 
 .pi-theme-UCR .pi-horizontal-group-item:nth-child(even),
 .pi-theme-UCR .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-UCR .pi-smart-data-label:nth-child(even),
+.pi-theme-UCR .pi-smart-data-value:nth-child(even),
+.pi-theme-UCR .pi-smart-data-label:nth-child(odd),
+.pi-theme-UCR .pi-smart-data-value:nth-child(odd),
 .pi-theme-UCR .pi-collapse .pi-item.pi-data {
 	background-color:#E1E1E1;
 }
@@ -605,6 +653,10 @@ table.navbox.KH2_8 td .subTitle {
 
 .pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2_8 .pi-smart-data-label:nth-child(even),
+.pi-theme-KH2_8 .pi-smart-data-value:nth-child(even),
+.pi-theme-KH2_8 .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH2_8 .pi-smart-data-value:nth-child(odd),
 .pi-theme-KH2_8 .pi-collapse .pi-item.pi-data {
 	background-color:#e5c9d6;
 }
@@ -652,6 +704,10 @@ table.navbox.KH3 td .subTitle {
 
 .pi-theme-KH3 .pi-horizontal-group-item:nth-child(even),
 .pi-theme-KH3 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH3 .pi-smart-data-label:nth-child(even),
+.pi-theme-KH3 .pi-smart-data-value:nth-child(even),
+.pi-theme-KH3 .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH3 .pi-smart-data-value:nth-child(odd),
 .pi-theme-KH3 .pi-collapse .pi-item.pi-data {
 	background-color:#DFE0EF;
 }
@@ -699,6 +755,10 @@ table.navbox.serieKH td .subTitle {
 
 .pi-theme-serieKH .pi-horizontal-group-item:nth-child(even),
 .pi-theme-serieKH .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-serieKH .pi-smart-data-label:nth-child(even),
+.pi-theme-serieKH .pi-smart-data-value:nth-child(even),
+.pi-theme-serieKH .pi-smart-data-label:nth-child(odd),
+.pi-theme-serieKH .pi-smart-data-value:nth-child(odd),
 .pi-theme-serieKH .pi-collapse .pi-item.pi-data {
 	background-color:#fdfc94;
 }
@@ -746,6 +806,10 @@ table.navbox.Armes td .subTitle {
 
 .pi-theme-Armes .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Armes .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armes .pi-smart-data-label:nth-child(even),
+.pi-theme-Armes .pi-smart-data-value:nth-child(even),
+.pi-theme-Armes .pi-smart-data-label:nth-child(odd),
+.pi-theme-Armes .pi-smart-data-value:nth-child(odd),
 .pi-theme-Armes .pi-collapse .pi-item.pi-data {
 	background-color:#F7DCDC;
 }
@@ -793,6 +857,10 @@ table.navbox.Keyblade td .subTitle {
 
 .pi-theme-Keyblade .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Keyblade .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Keyblade .pi-smart-data-label:nth-child(even),
+.pi-theme-Keyblade .pi-smart-data-value:nth-child(even),
+.pi-theme-Keyblade .pi-smart-data-label:nth-child(odd),
+.pi-theme-Keyblade .pi-smart-data-value:nth-child(odd),
 .pi-theme-Keyblade .pi-collapse .pi-item.pi-data {
 	background-color:#E6E6EF;
 }
@@ -840,6 +908,10 @@ table.navbox.Sceptre td .subTitle {
 
 .pi-theme-Sceptre .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Sceptre .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Sceptre .pi-smart-data-label:nth-child(even),
+.pi-theme-Sceptre .pi-smart-data-value:nth-child(even),
+.pi-theme-Sceptre .pi-smart-data-label:nth-child(odd),
+.pi-theme-Sceptre .pi-smart-data-value:nth-child(odd),
 .pi-theme-Sceptre .pi-collapse .pi-item.pi-data {
 	background-color:#DAE2EA;
 }
@@ -887,6 +959,10 @@ table.navbox.Bouclier td .subTitle {
 
 .pi-theme-Bouclier .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Bouclier .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Bouclier .pi-smart-data-label:nth-child(even),
+.pi-theme-Bouclier .pi-smart-data-value:nth-child(even),
+.pi-theme-Bouclier .pi-smart-data-label:nth-child(odd),
+.pi-theme-Bouclier .pi-smart-data-value:nth-child(odd),
 .pi-theme-Bouclier .pi-collapse .pi-item.pi-data {
 	background-color:#dfd;
 }
@@ -934,6 +1010,10 @@ table.navbox.Armure td .subTitle {
 
 .pi-theme-Armure .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Armure .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armure .pi-smart-data-label:nth-child(even),
+.pi-theme-Armure .pi-smart-data-value:nth-child(even),
+.pi-theme-Armure .pi-smart-data-label:nth-child(odd),
+.pi-theme-Armure .pi-smart-data-value:nth-child(odd),
 .pi-theme-Armure .pi-collapse .pi-item.pi-data {
 	background-color:#FFF8C9;
 }
@@ -981,6 +1061,10 @@ table.navbox.Accessoire td .subTitle {
 
 .pi-theme-Accessoire .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Accessoire .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Accessoire .pi-smart-data-label:nth-child(even),
+.pi-theme-Accessoire .pi-smart-data-value:nth-child(even),
+.pi-theme-Accessoire .pi-smart-data-label:nth-child(odd),
+.pi-theme-Accessoire .pi-smart-data-value:nth-child(odd),
 .pi-theme-Accessoire .pi-collapse .pi-item.pi-data {
 	background-color:#def;
 }
@@ -1028,6 +1112,10 @@ table.navbox.Objet td .subTitle {
 
 .pi-theme-Objet .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Objet .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Objet .pi-smart-data-label:nth-child(even),
+.pi-theme-Objet .pi-smart-data-value:nth-child(even),
+.pi-theme-Objet .pi-smart-data-label:nth-child(odd),
+.pi-theme-Objet .pi-smart-data-value:nth-child(odd),
 .pi-theme-Objet .pi-collapse .pi-item.pi-data {
 	background-color:#ccffe5;
 }
@@ -1075,6 +1163,10 @@ table.navbox.Synthese td .subTitle {
 
 .pi-theme-Synthese .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Synthese .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Synthese .pi-smart-data-label:nth-child(even),
+.pi-theme-Synthese .pi-smart-data-value:nth-child(even),
+.pi-theme-Synthese .pi-smart-data-label:nth-child(odd),
+.pi-theme-Synthese .pi-smart-data-value:nth-child(odd),
 .pi-theme-Synthese .pi-collapse .pi-item.pi-data {
 	background-color:#FDF5E6;
 }
@@ -1122,6 +1214,10 @@ table.navbox.magie td .subTitle {
 
 .pi-theme-magie .pi-horizontal-group-item:nth-child(even),
 .pi-theme-magie .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-magie .pi-smart-data-label:nth-child(even),
+.pi-theme-magie .pi-smart-data-value:nth-child(even),
+.pi-theme-magie .pi-smart-data-label:nth-child(odd),
+.pi-theme-magie .pi-smart-data-value:nth-child(odd),
 .pi-theme-magie .pi-collapse .pi-item.pi-data {
 	background-color:#E6EFF2;
 }
@@ -1169,6 +1265,10 @@ table.navbox.SansCoeur td .subTitle {
 
 .pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(even),
 .pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-SansCoeur .pi-smart-data-label:nth-child(even),
+.pi-theme-SansCoeur .pi-smart-data-value:nth-child(even),
+.pi-theme-SansCoeur .pi-smart-data-label:nth-child(odd),
+.pi-theme-SansCoeur .pi-smart-data-value:nth-child(odd),
 .pi-theme-SansCoeur .pi-collapse .pi-item.pi-data {
 	background-color:#EDDEDE;
 }
@@ -1216,6 +1316,10 @@ table.navbox.Simili td .subTitle {
 
 .pi-theme-Simili .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Simili .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Simili .pi-smart-data-label:nth-child(even),
+.pi-theme-Simili .pi-smart-data-value:nth-child(even),
+.pi-theme-Simili .pi-smart-data-label:nth-child(odd),
+.pi-theme-Simili .pi-smart-data-value:nth-child(odd),
 .pi-theme-Simili .pi-collapse .pi-item.pi-data {
 	background-color:#C0C0C0;
 }
@@ -1263,6 +1367,10 @@ table.navbox.Nescient td .subTitle {
 
 .pi-theme-Nescient .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Nescient .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Nescient .pi-smart-data-label:nth-child(even),
+.pi-theme-Nescient .pi-smart-data-value:nth-child(even),
+.pi-theme-Nescient .pi-smart-data-label:nth-child(odd),
+.pi-theme-Nescient .pi-smart-data-value:nth-child(odd),
 .pi-theme-Nescient .pi-collapse .pi-item.pi-data {
 	background-color:#DCE2ED;
 }
@@ -1310,6 +1418,10 @@ table.navbox.AvaleReves td .subTitle {
 
 .pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(even),
 .pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-AvaleReves .pi-smart-data-label:nth-child(even),
+.pi-theme-AvaleReves .pi-smart-data-value:nth-child(even),
+.pi-theme-AvaleReves .pi-smart-data-label:nth-child(odd),
+.pi-theme-AvaleReves .pi-smart-data-value:nth-child(odd),
 .pi-theme-AvaleReves .pi-collapse .pi-item.pi-data {
 	background-color:#DCEDEA;
 }
@@ -1357,6 +1469,10 @@ table.navbox.Boss td .subTitle {
 
 .pi-theme-Boss .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Boss .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Boss .pi-smart-data-label:nth-child(even),
+.pi-theme-Boss .pi-smart-data-value:nth-child(even),
+.pi-theme-Boss .pi-smart-data-label:nth-child(odd),
+.pi-theme-Boss .pi-smart-data-value:nth-child(odd),
 .pi-theme-Boss .pi-collapse .pi-item.pi-data {
 	background-color:#FFDD88;
 }
@@ -1404,6 +1520,10 @@ table.navbox.Xemnas td .subTitle {
 
 .pi-theme-Xemnas .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Xemnas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xemnas .pi-smart-data-label:nth-child(even),
+.pi-theme-Xemnas .pi-smart-data-value:nth-child(even),
+.pi-theme-Xemnas .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xemnas .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xemnas .pi-collapse .pi-item.pi-data {
 	background-color:#DDDDDD;
 }
@@ -1451,6 +1571,10 @@ table.navbox.Xigbar td .subTitle {
 
 .pi-theme-Xigbar .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Xigbar .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xigbar .pi-smart-data-label:nth-child(even),
+.pi-theme-Xigbar .pi-smart-data-value:nth-child(even),
+.pi-theme-Xigbar .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xigbar .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xigbar .pi-collapse .pi-item.pi-data {
 	background-color:#EFDEEF;
 }
@@ -1498,6 +1622,10 @@ table.navbox.Xaldin td .subTitle {
 
 .pi-theme-Xaldin .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Xaldin .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xaldin .pi-smart-data-label:nth-child(even),
+.pi-theme-Xaldin .pi-smart-data-value:nth-child(even),
+.pi-theme-Xaldin .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xaldin .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xaldin .pi-collapse .pi-item.pi-data {
 	background-color:#DCD7EF;
 }
@@ -1545,6 +1673,10 @@ table.navbox.Vexen td .subTitle {
 
 .pi-theme-Vexen .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Vexen .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Vexen .pi-smart-data-label:nth-child(even),
+.pi-theme-Vexen .pi-smart-data-value:nth-child(even),
+.pi-theme-Vexen .pi-smart-data-label:nth-child(odd),
+.pi-theme-Vexen .pi-smart-data-value:nth-child(odd),
 .pi-theme-Vexen .pi-collapse .pi-item.pi-data {
 	background-color:#D7E9EF;
 }
@@ -1592,6 +1724,10 @@ table.navbox.Lexaeus td .subTitle {
 
 .pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Lexaeus .pi-smart-data-label:nth-child(even),
+.pi-theme-Lexaeus .pi-smart-data-value:nth-child(even),
+.pi-theme-Lexaeus .pi-smart-data-label:nth-child(odd),
+.pi-theme-Lexaeus .pi-smart-data-value:nth-child(odd),
 .pi-theme-Lexaeus .pi-collapse .pi-item.pi-data {
 	background-color:#F2E0CD;
 }
@@ -1639,6 +1775,10 @@ table.navbox.Zexion td .subTitle {
 
 .pi-theme-Zexion .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Zexion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Zexion .pi-smart-data-label:nth-child(even),
+.pi-theme-Zexion .pi-smart-data-value:nth-child(even),
+.pi-theme-Zexion .pi-smart-data-label:nth-child(odd),
+.pi-theme-Zexion .pi-smart-data-value:nth-child(odd),
 .pi-theme-Zexion .pi-collapse .pi-item.pi-data {
 	background-color:#EDEDF8;
 }
@@ -1686,6 +1826,10 @@ table.navbox.Saix td .subTitle {
 
 .pi-theme-Saix .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Saix .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Saix .pi-smart-data-label:nth-child(even),
+.pi-theme-Saix .pi-smart-data-value:nth-child(even),
+.pi-theme-Saix .pi-smart-data-label:nth-child(odd),
+.pi-theme-Saix .pi-smart-data-value:nth-child(odd),
 .pi-theme-Saix .pi-collapse .pi-item.pi-data {
 	background-color:#D7E6F4;
 }
@@ -1733,6 +1877,10 @@ table.navbox.Axel td .subTitle {
 
 .pi-theme-Axel .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Axel .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Axel .pi-smart-data-label:nth-child(even),
+.pi-theme-Axel .pi-smart-data-value:nth-child(even),
+.pi-theme-Axel .pi-smart-data-label:nth-child(odd),
+.pi-theme-Axel .pi-smart-data-value:nth-child(odd),
 .pi-theme-Axel .pi-collapse .pi-item.pi-data {
 	background-color:#F8EDED;
 }
@@ -1780,6 +1928,10 @@ table.navbox.Demyx td .subTitle {
 
 .pi-theme-Demyx .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Demyx .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Demyx .pi-smart-data-label:nth-child(even),
+.pi-theme-Demyx .pi-smart-data-value:nth-child(even),
+.pi-theme-Demyx .pi-smart-data-label:nth-child(odd),
+.pi-theme-Demyx .pi-smart-data-value:nth-child(odd),
 .pi-theme-Demyx .pi-collapse .pi-item.pi-data {
 	background-color:#CDE7F4;
 }
@@ -1827,6 +1979,10 @@ table.navbox.Luxord td .subTitle {
 
 .pi-theme-Luxord .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Luxord .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Luxord .pi-smart-data-label:nth-child(even),
+.pi-theme-Luxord .pi-smart-data-value:nth-child(even),
+.pi-theme-Luxord .pi-smart-data-label:nth-child(odd),
+.pi-theme-Luxord .pi-smart-data-value:nth-child(odd),
 .pi-theme-Luxord .pi-collapse .pi-item.pi-data {
 	background-color:#EDEDED;
 }
@@ -1874,6 +2030,10 @@ table.navbox.Marluxia td .subTitle {
 
 .pi-theme-Marluxia .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Marluxia .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Marluxia .pi-smart-data-label:nth-child(even),
+.pi-theme-Marluxia .pi-smart-data-value:nth-child(even),
+.pi-theme-Marluxia .pi-smart-data-label:nth-child(odd),
+.pi-theme-Marluxia .pi-smart-data-value:nth-child(odd),
 .pi-theme-Marluxia .pi-collapse .pi-item.pi-data {
 	background-color:#F2DCE3;
 }
@@ -1921,6 +2081,10 @@ table.navbox.Larxene td .subTitle {
 
 .pi-theme-Larxene .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Larxene .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Larxene .pi-smart-data-label:nth-child(even),
+.pi-theme-Larxene .pi-smart-data-value:nth-child(even),
+.pi-theme-Larxene .pi-smart-data-label:nth-child(odd),
+.pi-theme-Larxene .pi-smart-data-value:nth-child(odd),
 .pi-theme-Larxene .pi-collapse .pi-item.pi-data {
 	background-color:#FFFCE8;
 }
@@ -1968,6 +2132,10 @@ table.navbox.Roxas td .subTitle {
 
 .pi-theme-Roxas .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Roxas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Roxas .pi-smart-data-label:nth-child(even),
+.pi-theme-Roxas .pi-smart-data-value:nth-child(even),
+.pi-theme-Roxas .pi-smart-data-label:nth-child(odd),
+.pi-theme-Roxas .pi-smart-data-value:nth-child(odd),
 .pi-theme-Roxas .pi-collapse .pi-item.pi-data {
 	background-color:#FFF8DD;
 }
@@ -2015,6 +2183,10 @@ table.navbox.Xion td .subTitle {
 
 .pi-theme-Xion .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Xion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xion .pi-smart-data-label:nth-child(even),
+.pi-theme-Xion .pi-smart-data-value:nth-child(even),
+.pi-theme-Xion .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xion .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xion .pi-collapse .pi-item.pi-data {
 	background-color:#DCDCED;
 }
@@ -2062,6 +2234,10 @@ table.navbox.Personnages td .subTitle {
 
 .pi-theme-Personnages .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Personnages .pi-smart-data-label:nth-child(even),
+.pi-theme-Personnages .pi-smart-data-value:nth-child(even),
+.pi-theme-Personnages .pi-smart-data-label:nth-child(odd),
+.pi-theme-Personnages .pi-smart-data-value:nth-child(odd),
 .pi-theme-Personnages .pi-collapse .pi-item.pi-data {
 	background-color:#d2dbf9;
 }
@@ -2109,6 +2285,10 @@ table.navbox.Equipe td .subTitle {
 
 .pi-theme-Equipe .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Equipe .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Equipe .pi-smart-data-label:nth-child(even),
+.pi-theme-Equipe .pi-smart-data-value:nth-child(even),
+.pi-theme-Equipe .pi-smart-data-label:nth-child(odd),
+.pi-theme-Equipe .pi-smart-data-value:nth-child(odd),
 .pi-theme-Equipe .pi-collapse .pi-item.pi-data {
 	background-color:#DAEDE6;
 }
@@ -2156,6 +2336,10 @@ table.navbox.Invocation td .subTitle {
 
 .pi-theme-Invocation .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Invocation .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Invocation .pi-smart-data-label:nth-child(even),
+.pi-theme-Invocation .pi-smart-data-value:nth-child(even),
+.pi-theme-Invocation .pi-smart-data-label:nth-child(odd),
+.pi-theme-Invocation .pi-smart-data-value:nth-child(odd),
 .pi-theme-Invocation .pi-collapse .pi-item.pi-data {
 	background-color:#FFFBE5;
 }
@@ -2203,6 +2387,10 @@ table.navbox.FF td .subTitle {
 
 .pi-theme-FF .pi-horizontal-group-item:nth-child(even),
 .pi-theme-FF .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FF .pi-smart-data-label:nth-child(even),
+.pi-theme-FF .pi-smart-data-value:nth-child(even),
+.pi-theme-FF .pi-smart-data-label:nth-child(odd),
+.pi-theme-FF .pi-smart-data-value:nth-child(odd),
 .pi-theme-FF .pi-collapse .pi-item.pi-data {
 	background-color:#CCD8FF;
 }
@@ -2250,6 +2438,10 @@ table.navbox.TWEWY td .subTitle {
 
 .pi-theme-TWEWY .pi-horizontal-group-item:nth-child(even),
 .pi-theme-TWEWY .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-TWEWY .pi-smart-data-label:nth-child(even),
+.pi-theme-TWEWY .pi-smart-data-value:nth-child(even),
+.pi-theme-TWEWY .pi-smart-data-label:nth-child(odd),
+.pi-theme-TWEWY .pi-smart-data-value:nth-child(odd),
 .pi-theme-TWEWY .pi-collapse .pi-item.pi-data {
 	background-color:#E3EDF4;
 }
@@ -2297,6 +2489,10 @@ table.navbox.Disney td .subTitle {
 
 .pi-theme-Disney .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Disney .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Disney .pi-smart-data-label:nth-child(even),
+.pi-theme-Disney .pi-smart-data-value:nth-child(even),
+.pi-theme-Disney .pi-smart-data-label:nth-child(odd),
+.pi-theme-Disney .pi-smart-data-value:nth-child(odd),
 .pi-theme-Disney .pi-collapse .pi-item.pi-data {
 	background-color:#E9DAED;
 }
@@ -2344,6 +2540,10 @@ table.navbox.Monde td .subTitle {
 
 .pi-theme-Monde .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Monde .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Monde .pi-smart-data-label:nth-child(even),
+.pi-theme-Monde .pi-smart-data-value:nth-child(even),
+.pi-theme-Monde .pi-smart-data-label:nth-child(odd),
+.pi-theme-Monde .pi-smart-data-value:nth-child(odd),
 .pi-theme-Monde .pi-collapse .pi-item.pi-data {
 	background-color:#E3DAED;
 }
@@ -2391,6 +2591,10 @@ table.navbox.Square td .subTitle {
 
 .pi-theme-Square .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Square .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Square .pi-smart-data-label:nth-child(even),
+.pi-theme-Square .pi-smart-data-value:nth-child(even),
+.pi-theme-Square .pi-smart-data-label:nth-child(odd),
+.pi-theme-Square .pi-smart-data-value:nth-child(odd),
 .pi-theme-Square .pi-collapse .pi-item.pi-data {
 	background-color:lightgray;
 }
@@ -2438,6 +2642,10 @@ table.navbox.Minijeux td .subTitle {
 
 .pi-theme-Minijeux .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Minijeux .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Minijeux .pi-smart-data-label:nth-child(even),
+.pi-theme-Minijeux .pi-smart-data-value:nth-child(even),
+.pi-theme-Minijeux .pi-smart-data-label:nth-child(odd),
+.pi-theme-Minijeux .pi-smart-data-value:nth-child(odd),
 .pi-theme-Minijeux .pi-collapse .pi-item.pi-data {
 	background-color:#FFDEBA;
 }
@@ -2485,6 +2693,10 @@ table.navbox.Gummis td .subTitle {
 
 .pi-theme-Gummis .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Gummis .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Gummis .pi-smart-data-label:nth-child(even),
+.pi-theme-Gummis .pi-smart-data-value:nth-child(even),
+.pi-theme-Gummis .pi-smart-data-label:nth-child(odd),
+.pi-theme-Gummis .pi-smart-data-value:nth-child(odd),
 .pi-theme-Gummis .pi-collapse .pi-item.pi-data {
 	background-color:LightCyan;
 }
@@ -2532,6 +2744,10 @@ table.navbox.Produits td .subTitle {
 
 .pi-theme-Produits .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Produits .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Produits .pi-smart-data-label:nth-child(even),
+.pi-theme-Produits .pi-smart-data-value:nth-child(even),
+.pi-theme-Produits .pi-smart-data-label:nth-child(odd),
+.pi-theme-Produits .pi-smart-data-value:nth-child(odd),
 .pi-theme-Produits .pi-collapse .pi-item.pi-data {
 	background-color:#B0FFDE;
 }
@@ -2579,6 +2795,10 @@ table.navbox.Communaute td .subTitle {
 
 .pi-theme-Communaute .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Communaute .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Communaute .pi-smart-data-label:nth-child(even),
+.pi-theme-Communaute .pi-smart-data-value:nth-child(even),
+.pi-theme-Communaute .pi-smart-data-label:nth-child(odd),
+.pi-theme-Communaute .pi-smart-data-value:nth-child(odd),
 .pi-theme-Communaute .pi-collapse .pi-item.pi-data {
 	background-color:#E1F1F7;
 }
@@ -2626,6 +2846,10 @@ table.navbox.Musique td .subTitle {
 
 .pi-theme-Musique .pi-horizontal-group-item:nth-child(even),
 .pi-theme-Musique .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Musique .pi-smart-data-label:nth-child(even),
+.pi-theme-Musique .pi-smart-data-value:nth-child(even),
+.pi-theme-Musique .pi-smart-data-label:nth-child(odd),
+.pi-theme-Musique .pi-smart-data-value:nth-child(odd),
 .pi-theme-Musique .pi-collapse .pi-item.pi-data {
 	background-color:#678beb;
 }

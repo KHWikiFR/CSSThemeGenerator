@@ -24,7 +24,8 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
-## 0.2.0a - 2018-02-16
+## 0.2.1 - 2018-02-16
+ * Ajout du CSS pour les infobox utilisant row-items
  * Modification du thème Monde
 
 ## 0.2.0 - 2018-02-16

@@ -45,6 +45,10 @@ table.navbox.{name} td .subTitle {{
 
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(even),
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-{name} .pi-smart-data-label:nth-child(even),
+.pi-theme-{name} .pi-smart-data-value:nth-child(even),
+.pi-theme-{name} .pi-smart-data-label:nth-child(odd),
+.pi-theme-{name} .pi-smart-data-value:nth-child(odd),
 .pi-theme-{name} .pi-collapse .pi-item.pi-data {{
 	background-color:{row_alt};
 }}
