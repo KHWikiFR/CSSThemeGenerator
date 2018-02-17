@@ -1376,12 +1376,12 @@ table.navbox.SansCoeur td .subTitle {
 /* Simili */
 
 aside.portable-infobox.pi-theme-Simili {
-    border-color: darkgrey;
+    border-color: #696969;
 }
  
 table.navbox.Simili th.titrePalette,
 .pi-theme-Simili .pi-item.pi-title {
-	background-color:darkgrey;
+	background-color:#696969;
 	color: white;
 }
 
@@ -1393,13 +1393,13 @@ table.navbox.Simili .collapseButtonLink {
 table.navbox.Simili th,
 .Simili .group,
 .pi-theme-Simili .pi-item {
-	background-color:gray;
-	color: white;
+	background-color:#C0C0C0;
+	color: black;
 }
 
 table.navbox.Simili th a,
 .Simili .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Simili tr td {
@@ -1407,11 +1407,11 @@ table.navbox.Simili tr td {
 }
 
 table.navbox.Simili tr:nth-child(odd) td {
-	background-color:#C0C0C0;
+	background-color:#E0E0E0;
 }
 
 table.navbox.Simili td .subTitle {
-	border-color:gray;
+	border-color:#C0C0C0;
 }
 
 .pi-theme-Simili .pi-horizontal-group-item:nth-child(even),
@@ -1421,11 +1421,11 @@ table.navbox.Simili td .subTitle {
 .pi-theme-Simili.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Simili.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Simili .pi-collapse .pi-item.pi-data {
-	background-color:#C0C0C0;
+	background-color:#E0E0E0;
 }
 
 .pi-theme-Simili .pi-group .pi-group + .pi-group.pi-border-color {
-	border-top-color: darkgrey;
+	border-top-color: #696969;
 }
 
 /* Nescients */

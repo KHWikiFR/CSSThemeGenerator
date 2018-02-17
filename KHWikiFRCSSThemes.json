@@ -300,13 +300,13 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "gray", 
+        "Head": "#C0C0C0", 
         "TitleFont": "white", 
         "Name": "Simili", 
-        "Title": "darkgrey", 
-        "HeadFont": "white", 
+        "Title": "#696969", 
+        "HeadFont": "black", 
         "FullName": "Simili", 
-        "RowAlt": "#C0C0C0", 
+        "RowAlt": "#E0E0E0", 
         "Row": "#FFFFFF",
 		"Palette": 1,
 		"Infobox": 1
