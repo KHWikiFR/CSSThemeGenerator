@@ -140,13 +140,13 @@
         "Row": "#F9F9F9"
     }, 
     {
-        "Head": "#fdf34f", 
+        "Head": "#FDF97F", 
         "TitleFont": "steelblue", 
         "Name": "serieKH", 
         "Title": "#FFFF00", 
         "HeadFont": "steelblue", 
         "FullName": "Série KH", 
-        "RowAlt": "#fdfc94", 
+        "RowAlt": "#fefab3", 
         "Row": "#FFFFFF"
     }, 
     {

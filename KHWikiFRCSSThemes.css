@@ -788,7 +788,7 @@ table.navbox.serieKH .collapseButtonLink {
 table.navbox.serieKH th,
 .serieKH .group,
 .pi-theme-serieKH .pi-item {
-	background-color:#fdf34f;
+	background-color:#FDF97F;
 	color: steelblue;
 }
 
@@ -802,11 +802,11 @@ table.navbox.serieKH tr td {
 }
 
 table.navbox.serieKH tr:nth-child(odd) td {
-	background-color:#fdfc94;
+	background-color:#fefab3;
 }
 
 table.navbox.serieKH td .subTitle {
-	border-color:#fdf34f;
+	border-color:#FDF97F;
 }
 
 .pi-theme-serieKH .pi-horizontal-group-item:nth-child(even),
@@ -816,7 +816,7 @@ table.navbox.serieKH td .subTitle {
 .pi-theme-serieKH.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-serieKH.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-serieKH .pi-collapse .pi-item.pi-data {
-	background-color:#fdfc94;
+	background-color:#fefab3;
 }
 
 .pi-theme-serieKH .pi-group .pi-group + .pi-group.pi-border-color {
