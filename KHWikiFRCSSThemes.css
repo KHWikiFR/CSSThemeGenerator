@@ -3032,12 +3032,12 @@ aside.portable-infobox.pi-theme-Musique {
 table.navbox.Musique th.titrePalette,
 .pi-theme-Musique .pi-item.pi-title {
 	background-color:#174bdb;
-	color: black;
+	color: white;
 }
 
 table.navbox.Musique th.titrePalette .titreContent a,
 table.navbox.Musique .collapseButtonLink {
-	color: black;
+	color: white;
 }
 
 table.navbox.Musique th,

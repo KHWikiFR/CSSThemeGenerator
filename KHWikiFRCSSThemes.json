@@ -551,7 +551,7 @@
     }, 
     {
         "Head": "#4e71d5", 
-        "TitleFont": "black", 
+        "TitleFont": "white", 
         "Name": "Musique", 
         "Title": "#174bdb", 
         "HeadFont": "black", 
