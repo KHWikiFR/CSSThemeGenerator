@@ -600,13 +600,13 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "gray", 
+        "Head": "#BEBEBE", 
         "TitleFont": "white", 
         "Name": "Square", 
         "Title": "black", 
-        "HeadFont": "white", 
+        "HeadFont": "black", 
         "FullName": "Square Enix", 
-        "RowAlt": "lightgray", 
+        "RowAlt": "#D9D9D9", 
         "Row": "#FFFFFF",
 		"Palette": 1,
 		"Infobox": 1

@@ -2768,13 +2768,13 @@ table.navbox.Square .collapseButtonLink {
 table.navbox.Square th,
 .Square .group,
 .pi-theme-Square .pi-item {
-	background-color:gray;
-	color: white;
+	background-color:#BEBEBE;
+	color: black;
 }
 
 table.navbox.Square th a,
 .Square .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Square tr td {
@@ -2782,11 +2782,11 @@ table.navbox.Square tr td {
 }
 
 table.navbox.Square tr:nth-child(odd) td {
-	background-color:lightgray;
+	background-color:#D9D9D9;
 }
 
 table.navbox.Square td .subTitle {
-	border-color:gray;
+	border-color:#BEBEBE;
 }
 
 .pi-theme-Square .pi-horizontal-group-item:nth-child(even),
@@ -2796,7 +2796,7 @@ table.navbox.Square td .subTitle {
 .pi-theme-Square.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Square.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Square .pi-collapse .pi-item.pi-data {
-	background-color:lightgray;
+	background-color:#D9D9D9;
 }
 
 .pi-theme-Square .pi-group .pi-group + .pi-group.pi-border-color {
