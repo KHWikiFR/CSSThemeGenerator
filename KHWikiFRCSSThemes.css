@@ -2916,12 +2916,12 @@ table.navbox.Gummis td .subTitle {
 /* Produits dérivés */
 
 aside.portable-infobox.pi-theme-Produits {
-    border-color: #00BA6A;
+    border-color: #00cc7e;
 }
  
 table.navbox.Produits th.titrePalette,
 .pi-theme-Produits .pi-item.pi-title {
-	background-color:#00BA6A;
+	background-color:#00cc7e;
 	color: white;
 }
 
@@ -2933,7 +2933,7 @@ table.navbox.Produits .collapseButtonLink {
 table.navbox.Produits th,
 .Produits .group,
 .pi-theme-Produits .pi-item {
-	background-color:#00FA9A;
+	background-color:#80ffce;
 	color: black;
 }
 
@@ -2947,11 +2947,11 @@ table.navbox.Produits tr td {
 }
 
 table.navbox.Produits tr:nth-child(odd) td {
-	background-color:#B0FFDE;
+	background-color:#ccffeb;
 }
 
 table.navbox.Produits td .subTitle {
-	border-color:#00FA9A;
+	border-color:#80ffce;
 }
 
 .pi-theme-Produits .pi-horizontal-group-item:nth-child(even),
@@ -2961,11 +2961,11 @@ table.navbox.Produits td .subTitle {
 .pi-theme-Produits.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Produits.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Produits .pi-collapse .pi-item.pi-data {
-	background-color:#B0FFDE;
+	background-color:#ccffeb;
 }
 
 .pi-theme-Produits .pi-group .pi-group + .pi-group.pi-border-color {
-	border-top-color: #00BA6A;
+	border-top-color: #00cc7e;
 }
 
 /* Communauté */

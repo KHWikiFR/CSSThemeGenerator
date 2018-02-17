@@ -636,16 +636,16 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#00FA9A", 
+        "Head": "#80ffce", 
         "TitleFont": "white", 
         "Name": "Produits", 
-        "Title": "#00BA6A", 
+        "Title": "#00cc7e", 
         "HeadFont": "black", 
         "FullName": "Produits dérivés", 
-        "RowAlt": "#B0FFDE", 
+        "RowAlt": "#ccffeb", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "dodgerblue", 
