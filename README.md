@@ -11,14 +11,14 @@ Le script utilise le fichier source __KHWikiFRCSSThemes.json__, et crée les th�
 ## Source
 Le fichier __KHWikiFRCSSThemes.json__ contient une liste de thèmes. Chacun de ceux-ci est un dictionnaire, et doit contenir les paramètres suivants:
 
- * Name : Le nom utilisé par la classe CSS globale du modèle
- * FullName : Nom lisible (ajouté en commentaire au-dessus du code CSS du thème pour lisibilité)
- * Title : Couleur de fond pour la zone de titre principal
- * TitleFont : Couleur de police pour la zone de titre principal
- * Head : Couleur de fond pour les zones de sous-titres/labels/groupes
- * HeadFont : Couleur de police pour les zones de sous-titres/labels/groupes
- * Row : Couleur de fond pour les zones de contenu
- * RowAlt : Couleur de fond pour les zones de contenu quand celles-ci alternent de couleur
+ * Name : Le nom utilisé par la classe CSS globale du modèle.
+ * FullName : Nom lisible (ajouté en commentaire au-dessus du code CSS du thème pour lisibilité).
+ * Title : Couleur de fond pour la zone de titre principal. Sert aussi à séparer les lignes dans les sous-groupes d'infobox.
+ * TitleFont : Couleur de police pour la zone de titre principal.
+ * Head : Couleur de fond pour les zones de titre de groupe des palettes, et les lignes de contenu standard des infobox. Sert aussi à la ligne qui souligne les sous-titres de palette.
+ * HeadFont : Couleur de police pour les zones affectées par Head.
+ * Row : Couleur de fond pour les zones de contenu des palettes.
+ * RowAlt : Couleur de fond pour les zones de contenu des palettes quand celles-ci alternent de couleur, et les lignes de contenu de sous-groupes des infobox.
 
 Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en CSS.
 
