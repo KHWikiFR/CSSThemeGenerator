@@ -660,13 +660,13 @@
 		"Infobox": 0
     }, 
     {
-        "Head": "#4e71d5", 
+        "Head": "#a3b9f5", 
         "TitleFont": "white", 
         "Name": "Musique", 
         "Title": "#174bdb", 
         "HeadFont": "black", 
         "FullName": "Musiques", 
-        "RowAlt": "#678beb", 
+        "RowAlt": "#daeaf5", 
         "Row": "#FFFFFF",
 		"Palette": 0,
 		"Infobox": 1

@@ -3043,7 +3043,7 @@ table.navbox.Musique .collapseButtonLink {
 table.navbox.Musique th,
 .Musique .group,
 .pi-theme-Musique .pi-item {
-	background-color:#4e71d5;
+	background-color:#a3b9f5;
 	color: black;
 }
 
@@ -3057,11 +3057,11 @@ table.navbox.Musique tr td {
 }
 
 table.navbox.Musique tr:nth-child(odd) td {
-	background-color:#678beb;
+	background-color:#daeaf5;
 }
 
 table.navbox.Musique td .subTitle {
-	border-color:#4e71d5;
+	border-color:#a3b9f5;
 }
 
 .pi-theme-Musique .pi-horizontal-group-item:nth-child(even),
@@ -3071,7 +3071,7 @@ table.navbox.Musique td .subTitle {
 .pi-theme-Musique.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Musique.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Musique .pi-collapse .pi-item.pi-data {
-	background-color:#678beb;
+	background-color:#daeaf5;
 }
 
 .pi-theme-Musique .pi-group .pi-group + .pi-group.pi-border-color {
