@@ -600,8 +600,8 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#edc4c4", 
-        "TitleFont": "white", 
+        "Head": "#f6bcbd", 
+        "TitleFont": "black", 
         "Name": "Lieu", 
         "Title": "#CD5C5C", 
         "HeadFont": "black", 

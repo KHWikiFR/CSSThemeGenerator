@@ -2757,18 +2757,18 @@ aside.portable-infobox.pi-theme-Lieu {
 table.navbox.Lieu th.titrePalette,
 .pi-theme-Lieu .pi-item.pi-title {
 	background-color:#CD5C5C;
-	color: white;
+	color: black;
 }
 
 table.navbox.Lieu th.titrePalette .titreContent a,
 table.navbox.Lieu .collapseButtonLink {
-	color: white;
+	color: black;
 }
 
 table.navbox.Lieu th,
 .Lieu .group,
 .pi-theme-Lieu .pi-item {
-	background-color:#edc4c4;
+	background-color:#f6bcbd;
 	color: black;
 }
 
@@ -2786,7 +2786,7 @@ table.navbox.Lieu tr:nth-child(odd) td {
 }
 
 table.navbox.Lieu td .subTitle {
-	border-color:#edc4c4;
+	border-color:#f6bcbd;
 }
 
 .pi-theme-Lieu .pi-horizontal-group-item:nth-child(even),
