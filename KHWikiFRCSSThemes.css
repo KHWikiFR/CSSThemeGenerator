@@ -1083,7 +1083,7 @@ table.navbox.Armure th,
 .Armure .group,
 .pi-theme-Armure .pi-item,
 .pi-theme-Armure .pi-header {
-	background-color:#FFFF00;
+	background-color:#fff080;
 	color: black;
 }
 
@@ -1101,7 +1101,7 @@ table.navbox.Armure tr:nth-child(odd) td {
 }
 
 table.navbox.Armure td .subTitle {
-	border-color:#FFFF00;
+	border-color:#fff080;
 }
 
 .pi-theme-Armure .pi-horizontal-group-item:nth-child(even),
