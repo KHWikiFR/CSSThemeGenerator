@@ -610,7 +610,19 @@
         "Row": "#FFFFFF",
 		"Palette": 1,
 		"Infobox": 1
-    }, 
+    },
+    {
+        "Head": "#edc4c4", 
+        "TitleFont": "white", 
+        "Name": "Evenement", 
+        "Title": "#e54145", 
+        "HeadFont": "black", 
+        "FullName": "Événement", 
+        "RowAlt": "#fce9e9", 
+        "Row": "#FFFFFF",
+		"Palette": 0,
+		"Infobox": 1
+    },
     {
         "Head": "#BEBEBE", 
         "TitleFont": "white", 

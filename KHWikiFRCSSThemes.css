@@ -2803,6 +2803,61 @@ table.navbox.Lieu td .subTitle {
 	border-top-color: #CD5C5C;
 }
 
+/* Événement */
+
+aside.portable-infobox.pi-theme-Evenement {
+    border-color: #e54145;
+}
+ 
+table.navbox.Evenement th.titrePalette,
+.pi-theme-Evenement .pi-item.pi-title {
+	background-color:#e54145;
+	color: white;
+}
+
+table.navbox.Evenement th.titrePalette .titreContent a,
+table.navbox.Evenement .collapseButtonLink {
+	color: white;
+}
+
+table.navbox.Evenement th,
+.Evenement .group,
+.pi-theme-Evenement .pi-item,
+	background-color:#edc4c4;
+	color: black;
+}
+
+table.navbox.Evenement th a,
+.Evenement .group a{
+	color: black;
+}
+
+table.navbox.Evenement tr td {
+	background-color:#FFFFFF;
+}
+
+table.navbox.Evenement tr:nth-child(odd) td {
+	background-color:#fce9e9;
+}
+
+table.navbox.Evenement td .subTitle {
+	border-color:#edc4c4;
+}
+
+.pi-theme-Evenement .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Evenement .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Evenement.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Evenement.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Evenement.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Evenement.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Evenement .pi-collapse .pi-item.pi-data {
+	background-color:#fce9e9;
+}
+
+.pi-theme-Evenement .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #e54145;
+}
+
 /* Square Enix */
 
 aside.portable-infobox.pi-theme-Square {
