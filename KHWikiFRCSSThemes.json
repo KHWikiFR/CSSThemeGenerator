@@ -69,7 +69,7 @@
         "RowAlt": "#FAECEC", 
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#D7E8F4", 
