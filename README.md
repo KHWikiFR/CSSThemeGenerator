@@ -25,6 +25,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.2.3 - 2018-02-26
+ * Fix des priorités pour les headers
+
 ## 0.2.2 - 2018-02-26
  * Fix des infobox: les sous-groupes ont maintenant une couleur de police fixée au lieu d'hériter HeadFont
 
