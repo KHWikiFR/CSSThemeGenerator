@@ -19,10 +19,14 @@ Le fichier __KHWikiFRCSSThemes.json__ contient une liste de thèmes. Chacun de c
  * HeadFont : Couleur de police pour les zones affectées par Head.
  * Row : Couleur de fond pour les zones de contenu des palettes.
  * RowAlt : Couleur de fond pour les zones de contenu des palettes quand celles-ci alternent de couleur, et les lignes de contenu de sous-groupes des infobox.
+ * RowAltFont: Couleur de police pour les zones affectées par RowAlt.
 
 Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en CSS.
 
 # Changelog
+
+## 0.2.2 - 2018-02-26
+ * Fix des infobox: les sous-groupes ont maintenant une couleur de police fixée au lieu d'hériter HeadFont
 
 ## 0.2.1 - 2018-02-16
  * Ajout du CSS pour les infobox utilisant row-items
