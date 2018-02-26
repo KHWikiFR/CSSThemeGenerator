@@ -357,7 +357,7 @@
         "RowAlt": "#DDDDDD", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#991199", 
@@ -369,7 +369,7 @@
         "RowAlt": "#EFDEEF", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#997FFF", 
@@ -381,7 +381,7 @@
         "RowAlt": "#DCD7EF", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#7FDFFF", 
@@ -393,7 +393,7 @@
         "RowAlt": "#D7E9EF", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#99724C", 
@@ -405,7 +405,7 @@
         "RowAlt": "#F2E0CD", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#8888AA", 
@@ -417,7 +417,7 @@
         "RowAlt": "#EDEDF8", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#7FBFFF", 
@@ -429,7 +429,7 @@
         "RowAlt": "#D7E6F4", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#EE0000", 
@@ -441,7 +441,7 @@
         "RowAlt": "#F8EDED", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#99DCFF", 
@@ -453,7 +453,7 @@
         "RowAlt": "#CDE7F4", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#DEDEDE", 
@@ -465,7 +465,7 @@
         "RowAlt": "#EDEDED", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#FF99BA", 
@@ -477,7 +477,7 @@
         "RowAlt": "#F2DCE3", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#FFF499", 
@@ -489,7 +489,7 @@
         "RowAlt": "#FFFCE8", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "gold", 
@@ -501,7 +501,7 @@
         "RowAlt": "#FFF8DD", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#555560", 
@@ -513,7 +513,7 @@
         "RowAlt": "#DCDCED", 
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 1
     }, 
     {
         "Head": "#a6b7f2", 
