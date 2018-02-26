@@ -38,6 +38,7 @@ table.navbox.{name} tr td {{
 
 table.navbox.{name} tr:nth-child(odd) td {{
 	background-color:{row_alt};
+	color:{row_alt_font};
 }}
 
 table.navbox.{name} td .subTitle {{
@@ -52,13 +53,14 @@ table.navbox.{name} td .subTitle {{
 .pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-{name} .pi-collapse .pi-item.pi-data {{
 	background-color:{row_alt};
+	color:{row_alt_font};
 }}
 
 .pi-theme-{name} .pi-group .pi-group + .pi-group.pi-border-color {{
 	border-top-color: {title};
 }}
 
-'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), row=theme.get("Row"), row_alt=theme.get("RowAlt") )
+'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont") )
 	return output
 	#.group for the sale of compatibility with infoboxes, to remove eventually
 
