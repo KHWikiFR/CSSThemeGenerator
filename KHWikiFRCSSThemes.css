@@ -18,7 +18,7 @@ table.navbox.KH1 .collapseButtonLink {
 table.navbox.KH1 th,
 .KH1 .group,
 .pi-theme-KH1 .pi-item,
-.pi-theme-KH1 .pi-header {
+.pi-europa.pi-theme-KH1 .pi-header {
 	background-color:#D9D9F7;
 	color: black;
 }
@@ -76,7 +76,7 @@ table.navbox.FM1 .collapseButtonLink {
 table.navbox.FM1 th,
 .FM1 .group,
 .pi-theme-FM1 .pi-item,
-.pi-theme-FM1 .pi-header {
+.pi-europa.pi-theme-FM1 .pi-header {
 	background-color:#DBE6F9;
 	color: black;
 }
@@ -134,7 +134,7 @@ table.navbox.COM .collapseButtonLink {
 table.navbox.COM th,
 .COM .group,
 .pi-theme-COM .pi-item,
-.pi-theme-COM .pi-header {
+.pi-europa.pi-theme-COM .pi-header {
 	background-color:#DDDDDD;
 	color: black;
 }
@@ -192,7 +192,7 @@ table.navbox.KH2 .collapseButtonLink {
 table.navbox.KH2 th,
 .KH2 .group,
 .pi-theme-KH2 .pi-item,
-.pi-theme-KH2 .pi-header {
+.pi-europa.pi-theme-KH2 .pi-header {
 	background-color:#D2E1F1;
 	color: black;
 }
@@ -250,7 +250,7 @@ table.navbox.FM2 .collapseButtonLink {
 table.navbox.FM2 th,
 .FM2 .group,
 .pi-theme-FM2 .pi-item,
-.pi-theme-FM2 .pi-header {
+.pi-europa.pi-theme-FM2 .pi-header {
 	background-color:#E0E0E0;
 	color: black;
 }
@@ -308,7 +308,7 @@ table.navbox.Days .collapseButtonLink {
 table.navbox.Days th,
 .Days .group,
 .pi-theme-Days .pi-item,
-.pi-theme-Days .pi-header {
+.pi-europa.pi-theme-Days .pi-header {
 	background-color:#F9E0E0;
 	color: black;
 }
@@ -366,7 +366,7 @@ table.navbox.BBS .collapseButtonLink {
 table.navbox.BBS th,
 .BBS .group,
 .pi-theme-BBS .pi-item,
-.pi-theme-BBS .pi-header {
+.pi-europa.pi-theme-BBS .pi-header {
 	background-color:#D7E8F4;
 	color: black;
 }
@@ -424,7 +424,7 @@ table.navbox.BBSFM .collapseButtonLink {
 table.navbox.BBSFM th,
 .BBSFM .group,
 .pi-theme-BBSFM .pi-item,
-.pi-theme-BBSFM .pi-header {
+.pi-europa.pi-theme-BBSFM .pi-header {
 	background-color:#C9D9E5;
 	color: black;
 }
@@ -482,7 +482,7 @@ table.navbox.Coded .collapseButtonLink {
 table.navbox.Coded th,
 .Coded .group,
 .pi-theme-Coded .pi-item,
-.pi-theme-Coded .pi-header {
+.pi-europa.pi-theme-Coded .pi-header {
 	background-color:#F9F9DB;
 	color: black;
 }
@@ -540,7 +540,7 @@ table.navbox.DDD .collapseButtonLink {
 table.navbox.DDD th,
 .DDD .group,
 .pi-theme-DDD .pi-item,
-.pi-theme-DDD .pi-header {
+.pi-europa.pi-theme-DDD .pi-header {
 	background-color:#EDDBF9;
 	color: black;
 }
@@ -598,7 +598,7 @@ table.navbox.CHI .collapseButtonLink {
 table.navbox.CHI th,
 .CHI .group,
 .pi-theme-CHI .pi-item,
-.pi-theme-CHI .pi-header {
+.pi-europa.pi-theme-CHI .pi-header {
 	background-color:#C9E5DC;
 	color: black;
 }
@@ -656,7 +656,7 @@ table.navbox.UCR .collapseButtonLink {
 table.navbox.UCR th,
 .UCR .group,
 .pi-theme-UCR .pi-item,
-.pi-theme-UCR .pi-header {
+.pi-europa.pi-theme-UCR .pi-header {
 	background-color:#D0D0D0;
 	color: black;
 }
@@ -714,7 +714,7 @@ table.navbox.KH2_8 .collapseButtonLink {
 table.navbox.KH2_8 th,
 .KH2_8 .group,
 .pi-theme-KH2_8 .pi-item,
-.pi-theme-KH2_8 .pi-header {
+.pi-europa.pi-theme-KH2_8 .pi-header {
 	background-color:#6d6d6d;
 	color: white;
 }
@@ -772,7 +772,7 @@ table.navbox.KH3 .collapseButtonLink {
 table.navbox.KH3 th,
 .KH3 .group,
 .pi-theme-KH3 .pi-item,
-.pi-theme-KH3 .pi-header {
+.pi-europa.pi-theme-KH3 .pi-header {
 	background-color:#C9CBE5;
 	color: black;
 }
@@ -830,7 +830,7 @@ table.navbox.serieKH .collapseButtonLink {
 table.navbox.serieKH th,
 .serieKH .group,
 .pi-theme-serieKH .pi-item,
-.pi-theme-serieKH .pi-header {
+.pi-europa.pi-theme-serieKH .pi-header {
 	background-color:#FDF97F;
 	color: steelblue;
 }
@@ -888,7 +888,7 @@ table.navbox.Armes .collapseButtonLink {
 table.navbox.Armes th,
 .Armes .group,
 .pi-theme-Armes .pi-item,
-.pi-theme-Armes .pi-header {
+.pi-europa.pi-theme-Armes .pi-header {
 	background-color:#FFCCCD;
 	color: black;
 }
@@ -946,7 +946,7 @@ table.navbox.Keyblade .collapseButtonLink {
 table.navbox.Keyblade th,
 .Keyblade .group,
 .pi-theme-Keyblade .pi-item,
-.pi-theme-Keyblade .pi-header {
+.pi-europa.pi-theme-Keyblade .pi-header {
 	background-color:gold;
 	color: black;
 }
@@ -1004,7 +1004,7 @@ table.navbox.Sceptre .collapseButtonLink {
 table.navbox.Sceptre th,
 .Sceptre .group,
 .pi-theme-Sceptre .pi-item,
-.pi-theme-Sceptre .pi-header {
+.pi-europa.pi-theme-Sceptre .pi-header {
 	background-color:gold;
 	color: black;
 }
@@ -1062,7 +1062,7 @@ table.navbox.Bouclier .collapseButtonLink {
 table.navbox.Bouclier th,
 .Bouclier .group,
 .pi-theme-Bouclier .pi-item,
-.pi-theme-Bouclier .pi-header {
+.pi-europa.pi-theme-Bouclier .pi-header {
 	background-color:gold;
 	color: black;
 }
@@ -1120,7 +1120,7 @@ table.navbox.Armure .collapseButtonLink {
 table.navbox.Armure th,
 .Armure .group,
 .pi-theme-Armure .pi-item,
-.pi-theme-Armure .pi-header {
+.pi-europa.pi-theme-Armure .pi-header {
 	background-color:#fff080;
 	color: black;
 }
@@ -1178,7 +1178,7 @@ table.navbox.Accessoire .collapseButtonLink {
 table.navbox.Accessoire th,
 .Accessoire .group,
 .pi-theme-Accessoire .pi-item,
-.pi-theme-Accessoire .pi-header {
+.pi-europa.pi-theme-Accessoire .pi-header {
 	background-color:#2bd;
 	color: black;
 }
@@ -1236,7 +1236,7 @@ table.navbox.Objet .collapseButtonLink {
 table.navbox.Objet th,
 .Objet .group,
 .pi-theme-Objet .pi-item,
-.pi-theme-Objet .pi-header {
+.pi-europa.pi-theme-Objet .pi-header {
 	background-color:forestgreen;
 	color: white;
 }
@@ -1294,7 +1294,7 @@ table.navbox.Synthese .collapseButtonLink {
 table.navbox.Synthese th,
 .Synthese .group,
 .pi-theme-Synthese .pi-item,
-.pi-theme-Synthese .pi-header {
+.pi-europa.pi-theme-Synthese .pi-header {
 	background-color:#FA8072;
 	color: black;
 }
@@ -1352,7 +1352,7 @@ table.navbox.magie .collapseButtonLink {
 table.navbox.magie th,
 .magie .group,
 .pi-theme-magie .pi-item,
-.pi-theme-magie .pi-header {
+.pi-europa.pi-theme-magie .pi-header {
 	background-color:#C7DDE5;
 	color: black;
 }
@@ -1410,7 +1410,7 @@ table.navbox.SansCoeur .collapseButtonLink {
 table.navbox.SansCoeur th,
 .SansCoeur .group,
 .pi-theme-SansCoeur .pi-item,
-.pi-theme-SansCoeur .pi-header {
+.pi-europa.pi-theme-SansCoeur .pi-header {
 	background-color:#8c0000;
 	color: white;
 }
@@ -1468,7 +1468,7 @@ table.navbox.Simili .collapseButtonLink {
 table.navbox.Simili th,
 .Simili .group,
 .pi-theme-Simili .pi-item,
-.pi-theme-Simili .pi-header {
+.pi-europa.pi-theme-Simili .pi-header {
 	background-color:#C0C0C0;
 	color: black;
 }
@@ -1526,7 +1526,7 @@ table.navbox.Nescient .collapseButtonLink {
 table.navbox.Nescient th,
 .Nescient .group,
 .pi-theme-Nescient .pi-item,
-.pi-theme-Nescient .pi-header {
+.pi-europa.pi-theme-Nescient .pi-header {
 	background-color:cornflowerblue;
 	color: white;
 }
@@ -1584,7 +1584,7 @@ table.navbox.AvaleReves .collapseButtonLink {
 table.navbox.AvaleReves th,
 .AvaleReves .group,
 .pi-theme-AvaleReves .pi-item,
-.pi-theme-AvaleReves .pi-header {
+.pi-europa.pi-theme-AvaleReves .pi-header {
 	background-color:#88FFEA;
 	color: black;
 }
@@ -1642,7 +1642,7 @@ table.navbox.Boss .collapseButtonLink {
 table.navbox.Boss th,
 .Boss .group,
 .pi-theme-Boss .pi-item,
-.pi-theme-Boss .pi-header {
+.pi-europa.pi-theme-Boss .pi-header {
 	background-color:#CC6633;
 	color: black;
 }
@@ -1700,7 +1700,7 @@ table.navbox.Xemnas .collapseButtonLink {
 table.navbox.Xemnas th,
 .Xemnas .group,
 .pi-theme-Xemnas .pi-item,
-.pi-theme-Xemnas .pi-header {
+.pi-europa.pi-theme-Xemnas .pi-header {
 	background-color:#666666;
 	color: white;
 }
@@ -1758,7 +1758,7 @@ table.navbox.Xigbar .collapseButtonLink {
 table.navbox.Xigbar th,
 .Xigbar .group,
 .pi-theme-Xigbar .pi-item,
-.pi-theme-Xigbar .pi-header {
+.pi-europa.pi-theme-Xigbar .pi-header {
 	background-color:#991199;
 	color: white;
 }
@@ -1816,7 +1816,7 @@ table.navbox.Xaldin .collapseButtonLink {
 table.navbox.Xaldin th,
 .Xaldin .group,
 .pi-theme-Xaldin .pi-item,
-.pi-theme-Xaldin .pi-header {
+.pi-europa.pi-theme-Xaldin .pi-header {
 	background-color:#997FFF;
 	color: black;
 }
@@ -1874,7 +1874,7 @@ table.navbox.Vexen .collapseButtonLink {
 table.navbox.Vexen th,
 .Vexen .group,
 .pi-theme-Vexen .pi-item,
-.pi-theme-Vexen .pi-header {
+.pi-europa.pi-theme-Vexen .pi-header {
 	background-color:#7FDFFF;
 	color: black;
 }
@@ -1932,7 +1932,7 @@ table.navbox.Lexaeus .collapseButtonLink {
 table.navbox.Lexaeus th,
 .Lexaeus .group,
 .pi-theme-Lexaeus .pi-item,
-.pi-theme-Lexaeus .pi-header {
+.pi-europa.pi-theme-Lexaeus .pi-header {
 	background-color:#99724C;
 	color: white;
 }
@@ -1990,7 +1990,7 @@ table.navbox.Zexion .collapseButtonLink {
 table.navbox.Zexion th,
 .Zexion .group,
 .pi-theme-Zexion .pi-item,
-.pi-theme-Zexion .pi-header {
+.pi-europa.pi-theme-Zexion .pi-header {
 	background-color:#8888AA;
 	color: white;
 }
@@ -2048,7 +2048,7 @@ table.navbox.Saix .collapseButtonLink {
 table.navbox.Saix th,
 .Saix .group,
 .pi-theme-Saix .pi-item,
-.pi-theme-Saix .pi-header {
+.pi-europa.pi-theme-Saix .pi-header {
 	background-color:#7FBFFF;
 	color: black;
 }
@@ -2106,7 +2106,7 @@ table.navbox.Axel .collapseButtonLink {
 table.navbox.Axel th,
 .Axel .group,
 .pi-theme-Axel .pi-item,
-.pi-theme-Axel .pi-header {
+.pi-europa.pi-theme-Axel .pi-header {
 	background-color:#EE0000;
 	color: white;
 }
@@ -2164,7 +2164,7 @@ table.navbox.Demyx .collapseButtonLink {
 table.navbox.Demyx th,
 .Demyx .group,
 .pi-theme-Demyx .pi-item,
-.pi-theme-Demyx .pi-header {
+.pi-europa.pi-theme-Demyx .pi-header {
 	background-color:#99DCFF;
 	color: black;
 }
@@ -2222,7 +2222,7 @@ table.navbox.Luxord .collapseButtonLink {
 table.navbox.Luxord th,
 .Luxord .group,
 .pi-theme-Luxord .pi-item,
-.pi-theme-Luxord .pi-header {
+.pi-europa.pi-theme-Luxord .pi-header {
 	background-color:#DEDEDE;
 	color: black;
 }
@@ -2280,7 +2280,7 @@ table.navbox.Marluxia .collapseButtonLink {
 table.navbox.Marluxia th,
 .Marluxia .group,
 .pi-theme-Marluxia .pi-item,
-.pi-theme-Marluxia .pi-header {
+.pi-europa.pi-theme-Marluxia .pi-header {
 	background-color:#FF99BA;
 	color: black;
 }
@@ -2338,7 +2338,7 @@ table.navbox.Larxene .collapseButtonLink {
 table.navbox.Larxene th,
 .Larxene .group,
 .pi-theme-Larxene .pi-item,
-.pi-theme-Larxene .pi-header {
+.pi-europa.pi-theme-Larxene .pi-header {
 	background-color:#FFF499;
 	color: black;
 }
@@ -2396,7 +2396,7 @@ table.navbox.Roxas .collapseButtonLink {
 table.navbox.Roxas th,
 .Roxas .group,
 .pi-theme-Roxas .pi-item,
-.pi-theme-Roxas .pi-header {
+.pi-europa.pi-theme-Roxas .pi-header {
 	background-color:gold;
 	color: black;
 }
@@ -2454,7 +2454,7 @@ table.navbox.Xion .collapseButtonLink {
 table.navbox.Xion th,
 .Xion .group,
 .pi-theme-Xion .pi-item,
-.pi-theme-Xion .pi-header {
+.pi-europa.pi-theme-Xion .pi-header {
 	background-color:#555560;
 	color: white;
 }
@@ -2512,7 +2512,7 @@ table.navbox.Personnages .collapseButtonLink {
 table.navbox.Personnages th,
 .Personnages .group,
 .pi-theme-Personnages .pi-item,
-.pi-theme-Personnages .pi-header {
+.pi-europa.pi-theme-Personnages .pi-header {
 	background-color:#a6b7f2;
 	color: black;
 }
@@ -2570,7 +2570,7 @@ table.navbox.Equipe .collapseButtonLink {
 table.navbox.Equipe th,
 .Equipe .group,
 .pi-theme-Equipe .pi-item,
-.pi-theme-Equipe .pi-header {
+.pi-europa.pi-theme-Equipe .pi-header {
 	background-color:mediumaquamarine;
 	color: black;
 }
@@ -2628,7 +2628,7 @@ table.navbox.Invocation .collapseButtonLink {
 table.navbox.Invocation th,
 .Invocation .group,
 .pi-theme-Invocation .pi-item,
-.pi-theme-Invocation .pi-header {
+.pi-europa.pi-theme-Invocation .pi-header {
 	background-color:#FFE44C;
 	color: black;
 }
@@ -2686,7 +2686,7 @@ table.navbox.FF .collapseButtonLink {
 table.navbox.FF th,
 .FF .group,
 .pi-theme-FF .pi-item,
-.pi-theme-FF .pi-header {
+.pi-europa.pi-theme-FF .pi-header {
 	background-color:#87CEFA;
 	color: black;
 }
@@ -2744,7 +2744,7 @@ table.navbox.TWEWY .collapseButtonLink {
 table.navbox.TWEWY th,
 .TWEWY .group,
 .pi-theme-TWEWY .pi-item,
-.pi-theme-TWEWY .pi-header {
+.pi-europa.pi-theme-TWEWY .pi-header {
 	background-color:#C3D6E5;
 	color: black;
 }
@@ -2802,7 +2802,7 @@ table.navbox.Disney .collapseButtonLink {
 table.navbox.Disney th,
 .Disney .group,
 .pi-theme-Disney .pi-item,
-.pi-theme-Disney .pi-header {
+.pi-europa.pi-theme-Disney .pi-header {
 	background-color:mediumorchid;
 	color: white;
 }
@@ -2860,7 +2860,7 @@ table.navbox.Monde .collapseButtonLink {
 table.navbox.Monde th,
 .Monde .group,
 .pi-theme-Monde .pi-item,
-.pi-theme-Monde .pi-header {
+.pi-europa.pi-theme-Monde .pi-header {
 	background-color:#CDB4F2;
 	color: black;
 }
@@ -2918,7 +2918,7 @@ table.navbox.Lieu .collapseButtonLink {
 table.navbox.Lieu th,
 .Lieu .group,
 .pi-theme-Lieu .pi-item,
-.pi-theme-Lieu .pi-header {
+.pi-europa.pi-theme-Lieu .pi-header {
 	background-color:#f6bcbd;
 	color: black;
 }
@@ -2976,7 +2976,7 @@ table.navbox.Evenement .collapseButtonLink {
 table.navbox.Evenement th,
 .Evenement .group,
 .pi-theme-Evenement .pi-item,
-.pi-theme-Evenement .pi-header {
+.pi-europa.pi-theme-Evenement .pi-header {
 	background-color:#edc4c4;
 	color: black;
 }
@@ -3034,7 +3034,7 @@ table.navbox.Square .collapseButtonLink {
 table.navbox.Square th,
 .Square .group,
 .pi-theme-Square .pi-item,
-.pi-theme-Square .pi-header {
+.pi-europa.pi-theme-Square .pi-header {
 	background-color:#BEBEBE;
 	color: black;
 }
@@ -3092,7 +3092,7 @@ table.navbox.Minijeux .collapseButtonLink {
 table.navbox.Minijeux th,
 .Minijeux .group,
 .pi-theme-Minijeux .pi-item,
-.pi-theme-Minijeux .pi-header {
+.pi-europa.pi-theme-Minijeux .pi-header {
 	background-color:#FF7F50;
 	color: black;
 }
@@ -3150,7 +3150,7 @@ table.navbox.Gummis .collapseButtonLink {
 table.navbox.Gummis th,
 .Gummis .group,
 .pi-theme-Gummis .pi-item,
-.pi-theme-Gummis .pi-header {
+.pi-europa.pi-theme-Gummis .pi-header {
 	background-color:PaleTurquoise;
 	color: black;
 }
@@ -3208,7 +3208,7 @@ table.navbox.Produits .collapseButtonLink {
 table.navbox.Produits th,
 .Produits .group,
 .pi-theme-Produits .pi-item,
-.pi-theme-Produits .pi-header {
+.pi-europa.pi-theme-Produits .pi-header {
 	background-color:#80ffce;
 	color: black;
 }
@@ -3266,7 +3266,7 @@ table.navbox.Communaute .collapseButtonLink {
 table.navbox.Communaute th,
 .Communaute .group,
 .pi-theme-Communaute .pi-item,
-.pi-theme-Communaute .pi-header {
+.pi-europa.pi-theme-Communaute .pi-header {
 	background-color:dodgerblue;
 	color: white;
 }
@@ -3324,7 +3324,7 @@ table.navbox.Musique .collapseButtonLink {
 table.navbox.Musique th,
 .Musique .group,
 .pi-theme-Musique .pi-item,
-.pi-theme-Musique .pi-header {
+.pi-europa.pi-theme-Musique .pi-header {
 	background-color:#a3b9f5;
 	color: black;
 }

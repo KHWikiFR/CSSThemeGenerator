@@ -22,7 +22,7 @@ table.navbox.{name} .collapseButtonLink {{
 table.navbox.{name} th,
 .{name} .group,
 .pi-theme-{name} .pi-item,
-.pi-theme-{name} .pi-header {{
+.pi-europa.pi-theme-{name} .pi-header {{
 	background-color:{head};
 	color: {head_font};
 }}
