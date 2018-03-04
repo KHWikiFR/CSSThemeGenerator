@@ -25,10 +25,10 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
-## 0.2.3b - 2018-03-04
+## 0.3.0a - 2018-03-04
  * Uniformisation des thèmes de l'Organisation
 
-## 0.2.3a - 2018-02-28
+## 0.3.0 - 2018-02-28
  * Suppression du code déprécié (plus nécessaire)
 
 ## 0.2.3 - 2018-02-26
