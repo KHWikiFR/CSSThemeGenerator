@@ -377,7 +377,7 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Xemnas", 
         "Title": "#333333", 
@@ -390,11 +390,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Xigbar", 
-        "Title": "#660066", 
-        "HeadFont": "black", 
+        "Title": "#936c93", 
+        "HeadFont": "white", 
         "FullName": "Xigbar", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -403,11 +403,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Xaldin", 
-        "Title": "#3300FF", 
-        "HeadFont": "black", 
+        "Title": "#6c609f", 
+        "HeadFont": "white", 
         "FullName": "Xaldin", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -416,11 +416,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Vexen", 
-        "Title": "#33CCFF", 
-        "HeadFont": "black", 
+        "Title": "#75abbd", 
+        "HeadFont": "white", 
         "FullName": "Vexen", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -429,10 +429,10 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Lexaeus", 
-        "Title": "#663300", 
+        "Title": "#815931", 
         "HeadFont": "black", 
         "FullName": "Lexaeus", 
 		"RowAltFont": "black",
@@ -442,11 +442,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Zexion", 
-        "Title": "#333366", 
-        "HeadFont": "black", 
+        "Title": "#6666b2", 
+        "HeadFont": "white", 
         "FullName": "Zexion", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -455,11 +455,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Saix", 
-        "Title": "#336699", 
-        "HeadFont": "black", 
+        "Title": "#648cb4", 
+        "HeadFont": "white", 
         "FullName": "Saïx", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -468,11 +468,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Axel", 
-        "Title": "#CC0000", 
-        "HeadFont": "black", 
+        "Title": "#c63939", 
+        "HeadFont": "white", 
         "FullName": "Axel", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -481,11 +481,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "white", 
         "Name": "Demyx", 
-        "Title": "#3399CC", 
-        "HeadFont": "black", 
+        "Title": "#408cbf", 
+        "HeadFont": "white", 
         "FullName": "Demyx", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -494,11 +494,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "black", 
         "Name": "Luxord", 
-        "Title": "#CCCCCC", 
-        "HeadFont": "black", 
+        "Title": "#BBBBBB", 
+        "HeadFont": "white", 
         "FullName": "Luxord", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -507,11 +507,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "black", 
         "Name": "Marluxia", 
-        "Title": "#E68FAC", 
-        "HeadFont": "black", 
+        "Title": "#e3b5c4", 
+        "HeadFont": "white", 
         "FullName": "Marluxia", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
@@ -520,11 +520,11 @@
 		"Infobox": 1
     }, 
     {
-        "Head": "#AAAAAA", 
+        "Head": "#666", 
         "TitleFont": "black", 
         "Name": "Larxene", 
-        "Title": "#FEEF61", 
-        "HeadFont": "black", 
+        "Title": "#f7f769", 
+        "HeadFont": "white", 
         "FullName": "Larxene", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
