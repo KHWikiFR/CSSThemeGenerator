@@ -1701,13 +1701,13 @@ table.navbox.Xemnas th,
 .Xemnas .group,
 .pi-theme-Xemnas .pi-item,
 .pi-europa.pi-theme-Xemnas .pi-header {
-	background-color:#666666;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Xemnas th a,
 .Xemnas .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Xemnas tr td {
@@ -1720,7 +1720,7 @@ table.navbox.Xemnas tr:nth-child(odd) td {
 }
 
 table.navbox.Xemnas td .subTitle {
-	border-color:#666666;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Xemnas .pi-horizontal-group-item:nth-child(even),
@@ -1759,13 +1759,13 @@ table.navbox.Xigbar th,
 .Xigbar .group,
 .pi-theme-Xigbar .pi-item,
 .pi-europa.pi-theme-Xigbar .pi-header {
-	background-color:#991199;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Xigbar th a,
 .Xigbar .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Xigbar tr td {
@@ -1773,12 +1773,12 @@ table.navbox.Xigbar tr td {
 }
 
 table.navbox.Xigbar tr:nth-child(odd) td {
-	background-color:#EFDEEF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Xigbar td .subTitle {
-	border-color:#991199;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Xigbar .pi-horizontal-group-item:nth-child(even),
@@ -1788,7 +1788,7 @@ table.navbox.Xigbar td .subTitle {
 .pi-theme-Xigbar.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Xigbar.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xigbar .pi-collapse .pi-item.pi-data {
-	background-color:#EFDEEF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -1817,7 +1817,7 @@ table.navbox.Xaldin th,
 .Xaldin .group,
 .pi-theme-Xaldin .pi-item,
 .pi-europa.pi-theme-Xaldin .pi-header {
-	background-color:#997FFF;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -1831,12 +1831,12 @@ table.navbox.Xaldin tr td {
 }
 
 table.navbox.Xaldin tr:nth-child(odd) td {
-	background-color:#DCD7EF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Xaldin td .subTitle {
-	border-color:#997FFF;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Xaldin .pi-horizontal-group-item:nth-child(even),
@@ -1846,7 +1846,7 @@ table.navbox.Xaldin td .subTitle {
 .pi-theme-Xaldin.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Xaldin.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xaldin .pi-collapse .pi-item.pi-data {
-	background-color:#DCD7EF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -1875,7 +1875,7 @@ table.navbox.Vexen th,
 .Vexen .group,
 .pi-theme-Vexen .pi-item,
 .pi-europa.pi-theme-Vexen .pi-header {
-	background-color:#7FDFFF;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -1889,12 +1889,12 @@ table.navbox.Vexen tr td {
 }
 
 table.navbox.Vexen tr:nth-child(odd) td {
-	background-color:#D7E9EF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Vexen td .subTitle {
-	border-color:#7FDFFF;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Vexen .pi-horizontal-group-item:nth-child(even),
@@ -1904,7 +1904,7 @@ table.navbox.Vexen td .subTitle {
 .pi-theme-Vexen.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Vexen.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Vexen .pi-collapse .pi-item.pi-data {
-	background-color:#D7E9EF;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -1933,13 +1933,13 @@ table.navbox.Lexaeus th,
 .Lexaeus .group,
 .pi-theme-Lexaeus .pi-item,
 .pi-europa.pi-theme-Lexaeus .pi-header {
-	background-color:#99724C;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Lexaeus th a,
 .Lexaeus .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Lexaeus tr td {
@@ -1947,12 +1947,12 @@ table.navbox.Lexaeus tr td {
 }
 
 table.navbox.Lexaeus tr:nth-child(odd) td {
-	background-color:#F2E0CD;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Lexaeus td .subTitle {
-	border-color:#99724C;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(even),
@@ -1962,7 +1962,7 @@ table.navbox.Lexaeus td .subTitle {
 .pi-theme-Lexaeus.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Lexaeus.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Lexaeus .pi-collapse .pi-item.pi-data {
-	background-color:#F2E0CD;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -1991,13 +1991,13 @@ table.navbox.Zexion th,
 .Zexion .group,
 .pi-theme-Zexion .pi-item,
 .pi-europa.pi-theme-Zexion .pi-header {
-	background-color:#8888AA;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Zexion th a,
 .Zexion .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Zexion tr td {
@@ -2005,12 +2005,12 @@ table.navbox.Zexion tr td {
 }
 
 table.navbox.Zexion tr:nth-child(odd) td {
-	background-color:#EDEDF8;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Zexion td .subTitle {
-	border-color:#8888AA;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Zexion .pi-horizontal-group-item:nth-child(even),
@@ -2020,7 +2020,7 @@ table.navbox.Zexion td .subTitle {
 .pi-theme-Zexion.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Zexion.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Zexion .pi-collapse .pi-item.pi-data {
-	background-color:#EDEDF8;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2049,7 +2049,7 @@ table.navbox.Saix th,
 .Saix .group,
 .pi-theme-Saix .pi-item,
 .pi-europa.pi-theme-Saix .pi-header {
-	background-color:#7FBFFF;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2063,12 +2063,12 @@ table.navbox.Saix tr td {
 }
 
 table.navbox.Saix tr:nth-child(odd) td {
-	background-color:#D7E6F4;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Saix td .subTitle {
-	border-color:#7FBFFF;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Saix .pi-horizontal-group-item:nth-child(even),
@@ -2078,7 +2078,7 @@ table.navbox.Saix td .subTitle {
 .pi-theme-Saix.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Saix.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Saix .pi-collapse .pi-item.pi-data {
-	background-color:#D7E6F4;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2107,13 +2107,13 @@ table.navbox.Axel th,
 .Axel .group,
 .pi-theme-Axel .pi-item,
 .pi-europa.pi-theme-Axel .pi-header {
-	background-color:#EE0000;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Axel th a,
 .Axel .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Axel tr td {
@@ -2121,12 +2121,12 @@ table.navbox.Axel tr td {
 }
 
 table.navbox.Axel tr:nth-child(odd) td {
-	background-color:#F8EDED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Axel td .subTitle {
-	border-color:#EE0000;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Axel .pi-horizontal-group-item:nth-child(even),
@@ -2136,7 +2136,7 @@ table.navbox.Axel td .subTitle {
 .pi-theme-Axel.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Axel.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Axel .pi-collapse .pi-item.pi-data {
-	background-color:#F8EDED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2165,7 +2165,7 @@ table.navbox.Demyx th,
 .Demyx .group,
 .pi-theme-Demyx .pi-item,
 .pi-europa.pi-theme-Demyx .pi-header {
-	background-color:#99DCFF;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2179,12 +2179,12 @@ table.navbox.Demyx tr td {
 }
 
 table.navbox.Demyx tr:nth-child(odd) td {
-	background-color:#CDE7F4;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Demyx td .subTitle {
-	border-color:#99DCFF;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Demyx .pi-horizontal-group-item:nth-child(even),
@@ -2194,7 +2194,7 @@ table.navbox.Demyx td .subTitle {
 .pi-theme-Demyx.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Demyx.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Demyx .pi-collapse .pi-item.pi-data {
-	background-color:#CDE7F4;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2223,7 +2223,7 @@ table.navbox.Luxord th,
 .Luxord .group,
 .pi-theme-Luxord .pi-item,
 .pi-europa.pi-theme-Luxord .pi-header {
-	background-color:#DEDEDE;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2237,12 +2237,12 @@ table.navbox.Luxord tr td {
 }
 
 table.navbox.Luxord tr:nth-child(odd) td {
-	background-color:#EDEDED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Luxord td .subTitle {
-	border-color:#DEDEDE;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Luxord .pi-horizontal-group-item:nth-child(even),
@@ -2252,7 +2252,7 @@ table.navbox.Luxord td .subTitle {
 .pi-theme-Luxord.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Luxord.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Luxord .pi-collapse .pi-item.pi-data {
-	background-color:#EDEDED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2281,7 +2281,7 @@ table.navbox.Marluxia th,
 .Marluxia .group,
 .pi-theme-Marluxia .pi-item,
 .pi-europa.pi-theme-Marluxia .pi-header {
-	background-color:#FF99BA;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2295,12 +2295,12 @@ table.navbox.Marluxia tr td {
 }
 
 table.navbox.Marluxia tr:nth-child(odd) td {
-	background-color:#F2DCE3;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Marluxia td .subTitle {
-	border-color:#FF99BA;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Marluxia .pi-horizontal-group-item:nth-child(even),
@@ -2310,7 +2310,7 @@ table.navbox.Marluxia td .subTitle {
 .pi-theme-Marluxia.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Marluxia.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Marluxia .pi-collapse .pi-item.pi-data {
-	background-color:#F2DCE3;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2339,7 +2339,7 @@ table.navbox.Larxene th,
 .Larxene .group,
 .pi-theme-Larxene .pi-item,
 .pi-europa.pi-theme-Larxene .pi-header {
-	background-color:#FFF499;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2353,12 +2353,12 @@ table.navbox.Larxene tr td {
 }
 
 table.navbox.Larxene tr:nth-child(odd) td {
-	background-color:#FFFCE8;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Larxene td .subTitle {
-	border-color:#FFF499;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Larxene .pi-horizontal-group-item:nth-child(even),
@@ -2368,7 +2368,7 @@ table.navbox.Larxene td .subTitle {
 .pi-theme-Larxene.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Larxene.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Larxene .pi-collapse .pi-item.pi-data {
-	background-color:#FFFCE8;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2397,7 +2397,7 @@ table.navbox.Roxas th,
 .Roxas .group,
 .pi-theme-Roxas .pi-item,
 .pi-europa.pi-theme-Roxas .pi-header {
-	background-color:gold;
+	background-color:#AAAAAA;
 	color: black;
 }
 
@@ -2411,12 +2411,12 @@ table.navbox.Roxas tr td {
 }
 
 table.navbox.Roxas tr:nth-child(odd) td {
-	background-color:#FFF8DD;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Roxas td .subTitle {
-	border-color:gold;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Roxas .pi-horizontal-group-item:nth-child(even),
@@ -2426,7 +2426,7 @@ table.navbox.Roxas td .subTitle {
 .pi-theme-Roxas.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Roxas.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Roxas .pi-collapse .pi-item.pi-data {
-	background-color:#FFF8DD;
+	background-color:#DDDDDD;
 	color:black;
 }
 
@@ -2455,13 +2455,13 @@ table.navbox.Xion th,
 .Xion .group,
 .pi-theme-Xion .pi-item,
 .pi-europa.pi-theme-Xion .pi-header {
-	background-color:#555560;
-	color: white;
+	background-color:#AAAAAA;
+	color: black;
 }
 
 table.navbox.Xion th a,
 .Xion .group a{
-	color: white;
+	color: black;
 }
 
 table.navbox.Xion tr td {
@@ -2469,12 +2469,12 @@ table.navbox.Xion tr td {
 }
 
 table.navbox.Xion tr:nth-child(odd) td {
-	background-color:#DCDCED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
 table.navbox.Xion td .subTitle {
-	border-color:#555560;
+	border-color:#AAAAAA;
 }
 
 .pi-theme-Xion .pi-horizontal-group-item:nth-child(even),
@@ -2484,7 +2484,7 @@ table.navbox.Xion td .subTitle {
 .pi-theme-Xion.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-Xion.pi-europa .pi-smart-data-value:nth-child(odd),
 .pi-theme-Xion .pi-collapse .pi-item.pi-data {
-	background-color:#DCDCED;
+	background-color:#DDDDDD;
 	color:black;
 }
 
