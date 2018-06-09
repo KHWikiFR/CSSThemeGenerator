@@ -29,8 +29,7 @@ table.navbox.{name} th,
 
 table.navbox.{name} th a,
 .{name} .group a,
-.pi-theme-{name} .pi-item a,
-.pi-europa.pi-theme-{name} .pi-header a{{
+.pi-theme-{name} .pi-item > .pi-data-value a{{
 	color: {head_font};
 	font-weight: bold;
 }}
