@@ -1,27 +1,34 @@
 /* Kingdom Hearts */
 
-table.navbox.KH1 th {
-	background-color:#000080 !important;
+aside.portable-infobox.pi-theme-KH1 {
+    border-color: #000080;
+}
+ 
+table.navbox.KH1 th.titrePalette,
+.pi-theme-KH1 .pi-item.pi-title {
+	background-color:#000080;
 	color: white;
 }
 
-table.navbox.KH1 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.KH1 th.titrePalette .titreContent a,
 table.navbox.KH1 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.KH1 th:not(.titrePalette),
-.KH1 .group {
-	background-color:#D9D9F7!important;
+table.navbox.KH1 th,
+.KH1 .group,
+.pi-theme-KH1 .pi-item,
+.pi-europa.pi-theme-KH1 .pi-header {
+	background-color:#D9D9F7;
 	color: black;
 }
 
-table.navbox.KH1 th:not(.titrePalette),
-.KH1 .group a{
+table.navbox.KH1 th a,
+.KH1 .group a,
+.pi-theme-KH1 .pi-item a,
+.pi-europa.pi-theme-KH1 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH1 tr td {
@@ -30,32 +37,59 @@ table.navbox.KH1 tr td {
 
 table.navbox.KH1 tr:nth-child(odd) td {
 	background-color:#E8E8FA;
+	color:black;
+}
+
+table.navbox.KH1 td .subTitle {
+	border-color:#D9D9F7;
+}
+
+.pi-theme-KH1 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH1.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-KH1.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-KH1.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH1.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-KH1 .pi-collapse .pi-item.pi-data {
+	background-color:#E8E8FA;
+	color:black;
+}
+
+.pi-theme-KH1 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #000080;
 }
 
 /* Kingdom Hearts: Final Mix */
 
-table.navbox.FM1 th {
-	background-color:#6495ED !important;
+aside.portable-infobox.pi-theme-FM1 {
+    border-color: #6495ED;
+}
+ 
+table.navbox.FM1 th.titrePalette,
+.pi-theme-FM1 .pi-item.pi-title {
+	background-color:#6495ED;
 	color: white;
 }
 
-table.navbox.FM1 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.FM1 th.titrePalette .titreContent a,
 table.navbox.FM1 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.FM1 th:not(.titrePalette),
-.FM1 .group {
-	background-color:#DBE6F9!important;
+table.navbox.FM1 th,
+.FM1 .group,
+.pi-theme-FM1 .pi-item,
+.pi-europa.pi-theme-FM1 .pi-header {
+	background-color:#DBE6F9;
 	color: black;
 }
 
-table.navbox.FM1 th:not(.titrePalette),
-.FM1 .group a{
+table.navbox.FM1 th a,
+.FM1 .group a,
+.pi-theme-FM1 .pi-item a,
+.pi-europa.pi-theme-FM1 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM1 tr td {
@@ -64,32 +98,59 @@ table.navbox.FM1 tr td {
 
 table.navbox.FM1 tr:nth-child(odd) td {
 	background-color:#E6EEFB;
+	color:black;
+}
+
+table.navbox.FM1 td .subTitle {
+	border-color:#DBE6F9;
+}
+
+.pi-theme-FM1 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FM1 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM1.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-FM1.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-FM1.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-FM1.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-FM1 .pi-collapse .pi-item.pi-data {
+	background-color:#E6EEFB;
+	color:black;
+}
+
+.pi-theme-FM1 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #6495ED;
 }
 
 /* Kingdom Hearts: Chain of Memories */
 
-table.navbox.COM th {
-	background-color:#A9A9A9 !important;
+aside.portable-infobox.pi-theme-COM {
+    border-color: #A9A9A9;
+}
+ 
+table.navbox.COM th.titrePalette,
+.pi-theme-COM .pi-item.pi-title {
+	background-color:#A9A9A9;
 	color: white;
 }
 
-table.navbox.COM .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.COM th.titrePalette .titreContent a,
 table.navbox.COM .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.COM th:not(.titrePalette),
-.COM .group {
-	background-color:#DDDDDD!important;
+table.navbox.COM th,
+.COM .group,
+.pi-theme-COM .pi-item,
+.pi-europa.pi-theme-COM .pi-header {
+	background-color:#DDDDDD;
 	color: black;
 }
 
-table.navbox.COM th:not(.titrePalette),
-.COM .group a{
+table.navbox.COM th a,
+.COM .group a,
+.pi-theme-COM .pi-item a,
+.pi-europa.pi-theme-COM .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.COM tr td {
@@ -98,32 +159,59 @@ table.navbox.COM tr td {
 
 table.navbox.COM tr:nth-child(odd) td {
 	background-color:#E4E4E4;
+	color:black;
+}
+
+table.navbox.COM td .subTitle {
+	border-color:#DDDDDD;
+}
+
+.pi-theme-COM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-COM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-COM.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-COM.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-COM.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-COM.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-COM .pi-collapse .pi-item.pi-data {
+	background-color:#E4E4E4;
+	color:black;
+}
+
+.pi-theme-COM .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #A9A9A9;
 }
 
 /* Kingdom Hearts II */
 
-table.navbox.KH2 th {
-	background-color:#4682B4 !important;
+aside.portable-infobox.pi-theme-KH2 {
+    border-color: #4682B4;
+}
+ 
+table.navbox.KH2 th.titrePalette,
+.pi-theme-KH2 .pi-item.pi-title {
+	background-color:#4682B4;
 	color: white;
 }
 
-table.navbox.KH2 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.KH2 th.titrePalette .titreContent a,
 table.navbox.KH2 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.KH2 th:not(.titrePalette),
-.KH2 .group {
-	background-color:#D2E1F1!important;
+table.navbox.KH2 th,
+.KH2 .group,
+.pi-theme-KH2 .pi-item,
+.pi-europa.pi-theme-KH2 .pi-header {
+	background-color:#D2E1F1;
 	color: black;
 }
 
-table.navbox.KH2 th:not(.titrePalette),
-.KH2 .group a{
+table.navbox.KH2 th a,
+.KH2 .group a,
+.pi-theme-KH2 .pi-item a,
+.pi-europa.pi-theme-KH2 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH2 tr td {
@@ -132,32 +220,59 @@ table.navbox.KH2 tr td {
 
 table.navbox.KH2 tr:nth-child(odd) td {
 	background-color:#E0EAF5;
+	color:black;
+}
+
+table.navbox.KH2 td .subTitle {
+	border-color:#D2E1F1;
+}
+
+.pi-theme-KH2 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-KH2.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-KH2.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH2.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-KH2 .pi-collapse .pi-item.pi-data {
+	background-color:#E0EAF5;
+	color:black;
+}
+
+.pi-theme-KH2 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #4682B4;
 }
 
 /* Kingdom Hearts II: Final Mix */
 
-table.navbox.FM2 th {
-	background-color:#C0C0C0 !important;
+aside.portable-infobox.pi-theme-FM2 {
+    border-color: #C0C0C0;
+}
+ 
+table.navbox.FM2 th.titrePalette,
+.pi-theme-FM2 .pi-item.pi-title {
+	background-color:#C0C0C0;
 	color: white;
 }
 
-table.navbox.FM2 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.FM2 th.titrePalette .titreContent a,
 table.navbox.FM2 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.FM2 th:not(.titrePalette),
-.FM2 .group {
-	background-color:#E0E0E0!important;
+table.navbox.FM2 th,
+.FM2 .group,
+.pi-theme-FM2 .pi-item,
+.pi-europa.pi-theme-FM2 .pi-header {
+	background-color:#E0E0E0;
 	color: black;
 }
 
-table.navbox.FM2 th:not(.titrePalette),
-.FM2 .group a{
+table.navbox.FM2 th a,
+.FM2 .group a,
+.pi-theme-FM2 .pi-item a,
+.pi-europa.pi-theme-FM2 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM2 tr td {
@@ -166,32 +281,59 @@ table.navbox.FM2 tr td {
 
 table.navbox.FM2 tr:nth-child(odd) td {
 	background-color:#E9E9E9;
+	color:black;
+}
+
+table.navbox.FM2 td .subTitle {
+	border-color:#E0E0E0;
+}
+
+.pi-theme-FM2 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FM2 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FM2.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-FM2.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-FM2.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-FM2.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-FM2 .pi-collapse .pi-item.pi-data {
+	background-color:#E9E9E9;
+	color:black;
+}
+
+.pi-theme-FM2 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #C0C0C0;
 }
 
 /* Kingdom Hearts: 358/2 Days */
 
-table.navbox.Days th {
-	background-color:#B22222 !important;
+aside.portable-infobox.pi-theme-Days {
+    border-color: #B22222;
+}
+ 
+table.navbox.Days th.titrePalette,
+.pi-theme-Days .pi-item.pi-title {
+	background-color:#B22222;
 	color: white;
 }
 
-table.navbox.Days .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Days th.titrePalette .titreContent a,
 table.navbox.Days .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Days th:not(.titrePalette),
-.Days .group {
-	background-color:#F9E0E0!important;
+table.navbox.Days th,
+.Days .group,
+.pi-theme-Days .pi-item,
+.pi-europa.pi-theme-Days .pi-header {
+	background-color:#F9E0E0;
 	color: black;
 }
 
-table.navbox.Days th:not(.titrePalette),
-.Days .group a{
+table.navbox.Days th a,
+.Days .group a,
+.pi-theme-Days .pi-item a,
+.pi-europa.pi-theme-Days .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Days tr td {
@@ -200,32 +342,59 @@ table.navbox.Days tr td {
 
 table.navbox.Days tr:nth-child(odd) td {
 	background-color:#FAECEC;
+	color:black;
+}
+
+table.navbox.Days td .subTitle {
+	border-color:#F9E0E0;
+}
+
+.pi-theme-Days .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Days .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Days.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Days.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Days.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Days.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Days .pi-collapse .pi-item.pi-data {
+	background-color:#FAECEC;
+	color:black;
+}
+
+.pi-theme-Days .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #B22222;
 }
 
 /* Birth by Sleep */
 
-table.navbox.BBS th {
-	background-color:#7EB6F2 !important;
+aside.portable-infobox.pi-theme-BBS {
+    border-color: #7EB6F2;
+}
+ 
+table.navbox.BBS th.titrePalette,
+.pi-theme-BBS .pi-item.pi-title {
+	background-color:#7EB6F2;
 	color: white;
 }
 
-table.navbox.BBS .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.BBS th.titrePalette .titreContent a,
 table.navbox.BBS .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.BBS th:not(.titrePalette),
-.BBS .group {
-	background-color:#D7E8F4!important;
+table.navbox.BBS th,
+.BBS .group,
+.pi-theme-BBS .pi-item,
+.pi-europa.pi-theme-BBS .pi-header {
+	background-color:#D7E8F4;
 	color: black;
 }
 
-table.navbox.BBS th:not(.titrePalette),
-.BBS .group a{
+table.navbox.BBS th a,
+.BBS .group a,
+.pi-theme-BBS .pi-item a,
+.pi-europa.pi-theme-BBS .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBS tr td {
@@ -234,32 +403,59 @@ table.navbox.BBS tr td {
 
 table.navbox.BBS tr:nth-child(odd) td {
 	background-color:#DFEDF6;
+	color:black;
+}
+
+table.navbox.BBS td .subTitle {
+	border-color:#D7E8F4;
+}
+
+.pi-theme-BBS .pi-horizontal-group-item:nth-child(even),
+.pi-theme-BBS .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBS.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-BBS.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-BBS.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-BBS.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-BBS .pi-collapse .pi-item.pi-data {
+	background-color:#DFEDF6;
+	color:black;
+}
+
+.pi-theme-BBS .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #7EB6F2;
 }
 
 /* Kingdom Hearts: Birth by Sleep Final Mix */
 
-table.navbox.BBSFM th {
-	background-color:#34526D !important;
+aside.portable-infobox.pi-theme-BBSFM {
+    border-color: #34526D;
+}
+ 
+table.navbox.BBSFM th.titrePalette,
+.pi-theme-BBSFM .pi-item.pi-title {
+	background-color:#34526D;
 	color: white;
 }
 
-table.navbox.BBSFM .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.BBSFM th.titrePalette .titreContent a,
 table.navbox.BBSFM .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.BBSFM th:not(.titrePalette),
-.BBSFM .group {
-	background-color:#C9D9E5!important;
+table.navbox.BBSFM th,
+.BBSFM .group,
+.pi-theme-BBSFM .pi-item,
+.pi-europa.pi-theme-BBSFM .pi-header {
+	background-color:#C9D9E5;
 	color: black;
 }
 
-table.navbox.BBSFM th:not(.titrePalette),
-.BBSFM .group a{
+table.navbox.BBSFM th a,
+.BBSFM .group a,
+.pi-theme-BBSFM .pi-item a,
+.pi-europa.pi-theme-BBSFM .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBSFM tr td {
@@ -268,32 +464,59 @@ table.navbox.BBSFM tr td {
 
 table.navbox.BBSFM tr:nth-child(odd) td {
 	background-color:#DFE8EF;
+	color:black;
+}
+
+table.navbox.BBSFM td .subTitle {
+	border-color:#C9D9E5;
+}
+
+.pi-theme-BBSFM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-BBSFM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-BBSFM.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-BBSFM.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-BBSFM.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-BBSFM.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-BBSFM .pi-collapse .pi-item.pi-data {
+	background-color:#DFE8EF;
+	color:black;
+}
+
+.pi-theme-BBSFM .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #34526D;
 }
 
 /* Kingdom Hearts: coded */
 
-table.navbox.Coded th {
-	background-color:#FFFF00 !important;
+aside.portable-infobox.pi-theme-Coded {
+    border-color: #FFFF00;
+}
+ 
+table.navbox.Coded th.titrePalette,
+.pi-theme-Coded .pi-item.pi-title {
+	background-color:#FFFF00;
 	color: black;
 }
 
-table.navbox.Coded .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Coded th.titrePalette .titreContent a,
 table.navbox.Coded .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Coded th:not(.titrePalette),
-.Coded .group {
-	background-color:#F9F9DB!important;
 	color: black;
 }
 
-table.navbox.Coded th:not(.titrePalette),
-.Coded .group a{
+table.navbox.Coded th,
+.Coded .group,
+.pi-theme-Coded .pi-item,
+.pi-europa.pi-theme-Coded .pi-header {
+	background-color:#F9F9DB;
 	color: black;
+}
+
+table.navbox.Coded th a,
+.Coded .group a,
+.pi-theme-Coded .pi-item a,
+.pi-europa.pi-theme-Coded .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Coded tr td {
@@ -302,32 +525,59 @@ table.navbox.Coded tr td {
 
 table.navbox.Coded tr:nth-child(odd) td {
 	background-color:#FBFBE6;
+	color:black;
+}
+
+table.navbox.Coded td .subTitle {
+	border-color:#F9F9DB;
+}
+
+.pi-theme-Coded .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Coded .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Coded.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Coded.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Coded.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Coded.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Coded .pi-collapse .pi-item.pi-data {
+	background-color:#FBFBE6;
+	color:black;
+}
+
+.pi-theme-Coded .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FFFF00;
 }
 
 /* Kingdom Hearts 3D: Dream Drop Distance */
 
-table.navbox.DDD th {
-	background-color:#4B0082 !important;
+aside.portable-infobox.pi-theme-DDD {
+    border-color: #4B0082;
+}
+ 
+table.navbox.DDD th.titrePalette,
+.pi-theme-DDD .pi-item.pi-title {
+	background-color:#4B0082;
 	color: white;
 }
 
-table.navbox.DDD .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.DDD th.titrePalette .titreContent a,
 table.navbox.DDD .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.DDD th:not(.titrePalette),
-.DDD .group {
-	background-color:#EDDBF9!important;
+table.navbox.DDD th,
+.DDD .group,
+.pi-theme-DDD .pi-item,
+.pi-europa.pi-theme-DDD .pi-header {
+	background-color:#EDDBF9;
 	color: black;
 }
 
-table.navbox.DDD th:not(.titrePalette),
-.DDD .group a{
+table.navbox.DDD th a,
+.DDD .group a,
+.pi-theme-DDD .pi-item a,
+.pi-europa.pi-theme-DDD .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.DDD tr td {
@@ -336,32 +586,59 @@ table.navbox.DDD tr td {
 
 table.navbox.DDD tr:nth-child(odd) td {
 	background-color:#F2E6FB;
+	color:black;
+}
+
+table.navbox.DDD td .subTitle {
+	border-color:#EDDBF9;
+}
+
+.pi-theme-DDD .pi-horizontal-group-item:nth-child(even),
+.pi-theme-DDD .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-DDD.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-DDD.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-DDD.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-DDD.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-DDD .pi-collapse .pi-item.pi-data {
+	background-color:#F2E6FB;
+	color:black;
+}
+
+.pi-theme-DDD .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #4B0082;
 }
 
 /* Kingdom Hearts χ [chi] */
 
-table.navbox.CHI th {
-	background-color:#00CC88 !important;
+aside.portable-infobox.pi-theme-CHI {
+    border-color: #00CC88;
+}
+ 
+table.navbox.CHI th.titrePalette,
+.pi-theme-CHI .pi-item.pi-title {
+	background-color:#00CC88;
 	color: white;
 }
 
-table.navbox.CHI .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.CHI th.titrePalette .titreContent a,
 table.navbox.CHI .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.CHI th:not(.titrePalette),
-.CHI .group {
-	background-color:#C9E5DC!important;
+table.navbox.CHI th,
+.CHI .group,
+.pi-theme-CHI .pi-item,
+.pi-europa.pi-theme-CHI .pi-header {
+	background-color:#C9E5DC;
 	color: black;
 }
 
-table.navbox.CHI th:not(.titrePalette),
-.CHI .group a{
+table.navbox.CHI th a,
+.CHI .group a,
+.pi-theme-CHI .pi-item a,
+.pi-europa.pi-theme-CHI .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.CHI tr td {
@@ -370,32 +647,59 @@ table.navbox.CHI tr td {
 
 table.navbox.CHI tr:nth-child(odd) td {
 	background-color:#DFEFEA;
+	color:black;
+}
+
+table.navbox.CHI td .subTitle {
+	border-color:#C9E5DC;
+}
+
+.pi-theme-CHI .pi-horizontal-group-item:nth-child(even),
+.pi-theme-CHI .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-CHI.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-CHI.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-CHI.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-CHI.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-CHI .pi-collapse .pi-item.pi-data {
+	background-color:#DFEFEA;
+	color:black;
+}
+
+.pi-theme-CHI .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #00CC88;
 }
 
 /* Kingdom Hearts: Union χ [cross] */
 
-table.navbox.UCR th {
-	background-color:#808482 !important;
+aside.portable-infobox.pi-theme-UCR {
+    border-color: #808482;
+}
+ 
+table.navbox.UCR th.titrePalette,
+.pi-theme-UCR .pi-item.pi-title {
+	background-color:#808482;
 	color: white;
 }
 
-table.navbox.UCR .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.UCR th.titrePalette .titreContent a,
 table.navbox.UCR .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.UCR th:not(.titrePalette),
-.UCR .group {
-	background-color:#D0D0D0!important;
+table.navbox.UCR th,
+.UCR .group,
+.pi-theme-UCR .pi-item,
+.pi-europa.pi-theme-UCR .pi-header {
+	background-color:#D0D0D0;
 	color: black;
 }
 
-table.navbox.UCR th:not(.titrePalette),
-.UCR .group a{
+table.navbox.UCR th a,
+.UCR .group a,
+.pi-theme-UCR .pi-item a,
+.pi-europa.pi-theme-UCR .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.UCR tr td {
@@ -404,32 +708,59 @@ table.navbox.UCR tr td {
 
 table.navbox.UCR tr:nth-child(odd) td {
 	background-color:#E1E1E1;
+	color:black;
+}
+
+table.navbox.UCR td .subTitle {
+	border-color:#D0D0D0;
+}
+
+.pi-theme-UCR .pi-horizontal-group-item:nth-child(even),
+.pi-theme-UCR .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-UCR.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-UCR.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-UCR.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-UCR.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-UCR .pi-collapse .pi-item.pi-data {
+	background-color:#E1E1E1;
+	color:black;
+}
+
+.pi-theme-UCR .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #808482;
 }
 
 /* Kingdom Hearts: HD 2.8 Final Chapter Prologue */
 
-table.navbox.KH2_8 th {
-	background-color:#c62870 !important;
+aside.portable-infobox.pi-theme-KH2_8 {
+    border-color: #c62870;
+}
+ 
+table.navbox.KH2_8 th.titrePalette,
+.pi-theme-KH2_8 .pi-item.pi-title {
+	background-color:#c62870;
 	color: white;
 }
 
-table.navbox.KH2_8 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.KH2_8 th.titrePalette .titreContent a,
 table.navbox.KH2_8 .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.KH2_8 th:not(.titrePalette),
-.KH2_8 .group {
-	background-color:#6d6d6d!important;
 	color: white;
 }
 
-table.navbox.KH2_8 th:not(.titrePalette),
-.KH2_8 .group a{
+table.navbox.KH2_8 th,
+.KH2_8 .group,
+.pi-theme-KH2_8 .pi-item,
+.pi-europa.pi-theme-KH2_8 .pi-header {
+	background-color:#6d6d6d;
 	color: white;
+}
+
+table.navbox.KH2_8 th a,
+.KH2_8 .group a,
+.pi-theme-KH2_8 .pi-item a,
+.pi-europa.pi-theme-KH2_8 .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.KH2_8 tr td {
@@ -438,32 +769,59 @@ table.navbox.KH2_8 tr td {
 
 table.navbox.KH2_8 tr:nth-child(odd) td {
 	background-color:#e5c9d6;
+	color:black;
+}
+
+table.navbox.KH2_8 td .subTitle {
+	border-color:#6d6d6d;
+}
+
+.pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH2_8 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH2_8.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-KH2_8.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-KH2_8.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH2_8.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-KH2_8 .pi-collapse .pi-item.pi-data {
+	background-color:#e5c9d6;
+	color:black;
+}
+
+.pi-theme-KH2_8 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #c62870;
 }
 
 /* Kingdom Hearts III */
 
-table.navbox.KH3 th {
-	background-color:#67698A !important;
+aside.portable-infobox.pi-theme-KH3 {
+    border-color: #67698A;
+}
+ 
+table.navbox.KH3 th.titrePalette,
+.pi-theme-KH3 .pi-item.pi-title {
+	background-color:#67698A;
 	color: white;
 }
 
-table.navbox.KH3 .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.KH3 th.titrePalette .titreContent a,
 table.navbox.KH3 .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.KH3 th:not(.titrePalette),
-.KH3 .group {
-	background-color:#C9CBE5!important;
+table.navbox.KH3 th,
+.KH3 .group,
+.pi-theme-KH3 .pi-item,
+.pi-europa.pi-theme-KH3 .pi-header {
+	background-color:#C9CBE5;
 	color: black;
 }
 
-table.navbox.KH3 th:not(.titrePalette),
-.KH3 .group a{
+table.navbox.KH3 th a,
+.KH3 .group a,
+.pi-theme-KH3 .pi-item a,
+.pi-europa.pi-theme-KH3 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH3 tr td {
@@ -472,32 +830,59 @@ table.navbox.KH3 tr td {
 
 table.navbox.KH3 tr:nth-child(odd) td {
 	background-color:#DFE0EF;
+	color:black;
+}
+
+table.navbox.KH3 td .subTitle {
+	border-color:#C9CBE5;
+}
+
+.pi-theme-KH3 .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KH3 .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KH3.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-KH3.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-KH3.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-KH3.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-KH3 .pi-collapse .pi-item.pi-data {
+	background-color:#DFE0EF;
+	color:black;
+}
+
+.pi-theme-KH3 .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #67698A;
 }
 
 /* Série KH */
 
-table.navbox.serieKH th {
-	background-color:#FFFF00 !important;
+aside.portable-infobox.pi-theme-serieKH {
+    border-color: #FFFF00;
+}
+ 
+table.navbox.serieKH th.titrePalette,
+.pi-theme-serieKH .pi-item.pi-title {
+	background-color:#FFFF00;
 	color: steelblue;
 }
 
-table.navbox.serieKH .titrePalette .titreContent a {
-    color: steelblue;
-}
-
+table.navbox.serieKH th.titrePalette .titreContent a,
 table.navbox.serieKH .collapseButtonLink {
-	color: steelblue !important;
-}
-
-table.navbox.serieKH th:not(.titrePalette),
-.serieKH .group {
-	background-color:#fdf34f!important;
 	color: steelblue;
 }
 
-table.navbox.serieKH th:not(.titrePalette),
-.serieKH .group a{
+table.navbox.serieKH th,
+.serieKH .group,
+.pi-theme-serieKH .pi-item,
+.pi-europa.pi-theme-serieKH .pi-header {
+	background-color:#FDF97F;
 	color: steelblue;
+}
+
+table.navbox.serieKH th a,
+.serieKH .group a,
+.pi-theme-serieKH .pi-item a,
+.pi-europa.pi-theme-serieKH .pi-header a{
+	color: steelblue;
+	font-weight: bold;
 }
 
 table.navbox.serieKH tr td {
@@ -505,33 +890,60 @@ table.navbox.serieKH tr td {
 }
 
 table.navbox.serieKH tr:nth-child(odd) td {
-	background-color:#fdfc94;
+	background-color:#fefab3;
+	color:black;
+}
+
+table.navbox.serieKH td .subTitle {
+	border-color:#FDF97F;
+}
+
+.pi-theme-serieKH .pi-horizontal-group-item:nth-child(even),
+.pi-theme-serieKH .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-serieKH.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-serieKH.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-serieKH.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-serieKH.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-serieKH .pi-collapse .pi-item.pi-data {
+	background-color:#fefab3;
+	color:black;
+}
+
+.pi-theme-serieKH .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FFFF00;
 }
 
 /* Armes */
 
-table.navbox.Armes th {
-	background-color:#FF6666 !important;
+aside.portable-infobox.pi-theme-Armes {
+    border-color: #FF6666;
+}
+ 
+table.navbox.Armes th.titrePalette,
+.pi-theme-Armes .pi-item.pi-title {
+	background-color:#FF6666;
 	color: white;
 }
 
-table.navbox.Armes .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Armes th.titrePalette .titreContent a,
 table.navbox.Armes .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Armes th:not(.titrePalette),
-.Armes .group {
-	background-color:#FFCCCD!important;
+table.navbox.Armes th,
+.Armes .group,
+.pi-theme-Armes .pi-item,
+.pi-europa.pi-theme-Armes .pi-header {
+	background-color:#FFCCCD;
 	color: black;
 }
 
-table.navbox.Armes th:not(.titrePalette),
-.Armes .group a{
+table.navbox.Armes th a,
+.Armes .group a,
+.pi-theme-Armes .pi-item a,
+.pi-europa.pi-theme-Armes .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armes tr td {
@@ -540,32 +952,59 @@ table.navbox.Armes tr td {
 
 table.navbox.Armes tr:nth-child(odd) td {
 	background-color:#F7DCDC;
+	color:black;
+}
+
+table.navbox.Armes td .subTitle {
+	border-color:#FFCCCD;
+}
+
+.pi-theme-Armes .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Armes .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armes.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Armes.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Armes.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Armes.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Armes .pi-collapse .pi-item.pi-data {
+	background-color:#F7DCDC;
+	color:black;
+}
+
+.pi-theme-Armes .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FF6666;
 }
 
 /* Keyblades */
 
-table.navbox.Keyblade th {
-	background-color:#000080 !important;
+aside.portable-infobox.pi-theme-Keyblade {
+    border-color: #000080;
+}
+ 
+table.navbox.Keyblade th.titrePalette,
+.pi-theme-Keyblade .pi-item.pi-title {
+	background-color:#000080;
 	color: white;
 }
 
-table.navbox.Keyblade .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Keyblade th.titrePalette .titreContent a,
 table.navbox.Keyblade .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Keyblade th:not(.titrePalette),
-.Keyblade .group {
-	background-color:gold!important;
+table.navbox.Keyblade th,
+.Keyblade .group,
+.pi-theme-Keyblade .pi-item,
+.pi-europa.pi-theme-Keyblade .pi-header {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Keyblade th:not(.titrePalette),
-.Keyblade .group a{
+table.navbox.Keyblade th a,
+.Keyblade .group a,
+.pi-theme-Keyblade .pi-item a,
+.pi-europa.pi-theme-Keyblade .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Keyblade tr td {
@@ -574,32 +1013,59 @@ table.navbox.Keyblade tr td {
 
 table.navbox.Keyblade tr:nth-child(odd) td {
 	background-color:#E6E6EF;
+	color:black;
+}
+
+table.navbox.Keyblade td .subTitle {
+	border-color:gold;
+}
+
+.pi-theme-Keyblade .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Keyblade .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Keyblade.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Keyblade.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Keyblade.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Keyblade.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Keyblade .pi-collapse .pi-item.pi-data {
+	background-color:#E6E6EF;
+	color:black;
+}
+
+.pi-theme-Keyblade .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #000080;
 }
 
 /* Sceptre */
 
-table.navbox.Sceptre th {
-	background-color:#0c72cc !important;
+aside.portable-infobox.pi-theme-Sceptre {
+    border-color: #0c72cc;
+}
+ 
+table.navbox.Sceptre th.titrePalette,
+.pi-theme-Sceptre .pi-item.pi-title {
+	background-color:#0c72cc;
 	color: white;
 }
 
-table.navbox.Sceptre .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Sceptre th.titrePalette .titreContent a,
 table.navbox.Sceptre .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Sceptre th:not(.titrePalette),
-.Sceptre .group {
-	background-color:gold!important;
+table.navbox.Sceptre th,
+.Sceptre .group,
+.pi-theme-Sceptre .pi-item,
+.pi-europa.pi-theme-Sceptre .pi-header {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Sceptre th:not(.titrePalette),
-.Sceptre .group a{
+table.navbox.Sceptre th a,
+.Sceptre .group a,
+.pi-theme-Sceptre .pi-item a,
+.pi-europa.pi-theme-Sceptre .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Sceptre tr td {
@@ -608,32 +1074,59 @@ table.navbox.Sceptre tr td {
 
 table.navbox.Sceptre tr:nth-child(odd) td {
 	background-color:#DAE2EA;
+	color:black;
+}
+
+table.navbox.Sceptre td .subTitle {
+	border-color:gold;
+}
+
+.pi-theme-Sceptre .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Sceptre .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Sceptre.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Sceptre.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Sceptre.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Sceptre.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Sceptre .pi-collapse .pi-item.pi-data {
+	background-color:#DAE2EA;
+	color:black;
+}
+
+.pi-theme-Sceptre .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #0c72cc;
 }
 
 /* Bouclier */
 
-table.navbox.Bouclier th {
-	background-color:#0c0 !important;
+aside.portable-infobox.pi-theme-Bouclier {
+    border-color: #0c0;
+}
+ 
+table.navbox.Bouclier th.titrePalette,
+.pi-theme-Bouclier .pi-item.pi-title {
+	background-color:#0c0;
 	color: white;
 }
 
-table.navbox.Bouclier .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Bouclier th.titrePalette .titreContent a,
 table.navbox.Bouclier .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Bouclier th:not(.titrePalette),
-.Bouclier .group {
-	background-color:gold!important;
+table.navbox.Bouclier th,
+.Bouclier .group,
+.pi-theme-Bouclier .pi-item,
+.pi-europa.pi-theme-Bouclier .pi-header {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Bouclier th:not(.titrePalette),
-.Bouclier .group a{
+table.navbox.Bouclier th a,
+.Bouclier .group a,
+.pi-theme-Bouclier .pi-item a,
+.pi-europa.pi-theme-Bouclier .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Bouclier tr td {
@@ -642,32 +1135,59 @@ table.navbox.Bouclier tr td {
 
 table.navbox.Bouclier tr:nth-child(odd) td {
 	background-color:#dfd;
+	color:black;
+}
+
+table.navbox.Bouclier td .subTitle {
+	border-color:gold;
+}
+
+.pi-theme-Bouclier .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Bouclier .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Bouclier.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Bouclier.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Bouclier.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Bouclier.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Bouclier .pi-collapse .pi-item.pi-data {
+	background-color:#dfd;
+	color:black;
+}
+
+.pi-theme-Bouclier .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #0c0;
 }
 
 /* Armures */
 
-table.navbox.Armure th {
-	background-color:#FFE000 !important;
+aside.portable-infobox.pi-theme-Armure {
+    border-color: #FFE000;
+}
+ 
+table.navbox.Armure th.titrePalette,
+.pi-theme-Armure .pi-item.pi-title {
+	background-color:#FFE000;
 	color: black;
 }
 
-table.navbox.Armure .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Armure th.titrePalette .titreContent a,
 table.navbox.Armure .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Armure th:not(.titrePalette),
-.Armure .group {
-	background-color:#FFFF00!important;
 	color: black;
 }
 
-table.navbox.Armure th:not(.titrePalette),
-.Armure .group a{
+table.navbox.Armure th,
+.Armure .group,
+.pi-theme-Armure .pi-item,
+.pi-europa.pi-theme-Armure .pi-header {
+	background-color:#fff080;
 	color: black;
+}
+
+table.navbox.Armure th a,
+.Armure .group a,
+.pi-theme-Armure .pi-item a,
+.pi-europa.pi-theme-Armure .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armure tr td {
@@ -676,32 +1196,59 @@ table.navbox.Armure tr td {
 
 table.navbox.Armure tr:nth-child(odd) td {
 	background-color:#FFF8C9;
+	color:black;
+}
+
+table.navbox.Armure td .subTitle {
+	border-color:#fff080;
+}
+
+.pi-theme-Armure .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Armure .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Armure.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Armure.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Armure.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Armure.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Armure .pi-collapse .pi-item.pi-data {
+	background-color:#FFF8C9;
+	color:black;
+}
+
+.pi-theme-Armure .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FFE000;
 }
 
 /* Accessoires */
 
-table.navbox.Accessoire th {
-	background-color:#0ac !important;
+aside.portable-infobox.pi-theme-Accessoire {
+    border-color: #0ac;
+}
+ 
+table.navbox.Accessoire th.titrePalette,
+.pi-theme-Accessoire .pi-item.pi-title {
+	background-color:#0ac;
 	color: white;
 }
 
-table.navbox.Accessoire .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Accessoire th.titrePalette .titreContent a,
 table.navbox.Accessoire .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Accessoire th:not(.titrePalette),
-.Accessoire .group {
-	background-color:#2bd!important;
+table.navbox.Accessoire th,
+.Accessoire .group,
+.pi-theme-Accessoire .pi-item,
+.pi-europa.pi-theme-Accessoire .pi-header {
+	background-color:#2bd;
 	color: black;
 }
 
-table.navbox.Accessoire th:not(.titrePalette),
-.Accessoire .group a{
+table.navbox.Accessoire th a,
+.Accessoire .group a,
+.pi-theme-Accessoire .pi-item a,
+.pi-europa.pi-theme-Accessoire .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Accessoire tr td {
@@ -710,32 +1257,59 @@ table.navbox.Accessoire tr td {
 
 table.navbox.Accessoire tr:nth-child(odd) td {
 	background-color:#def;
+	color:black;
+}
+
+table.navbox.Accessoire td .subTitle {
+	border-color:#2bd;
+}
+
+.pi-theme-Accessoire .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Accessoire .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Accessoire.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Accessoire.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Accessoire.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Accessoire.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Accessoire .pi-collapse .pi-item.pi-data {
+	background-color:#def;
+	color:black;
+}
+
+.pi-theme-Accessoire .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #0ac;
 }
 
 /* Objets */
 
-table.navbox.Objet th {
-	background-color:darkgreen !important;
+aside.portable-infobox.pi-theme-Objet {
+    border-color: darkgreen;
+}
+ 
+table.navbox.Objet th.titrePalette,
+.pi-theme-Objet .pi-item.pi-title {
+	background-color:darkgreen;
 	color: white;
 }
 
-table.navbox.Objet .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Objet th.titrePalette .titreContent a,
 table.navbox.Objet .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Objet th:not(.titrePalette),
-.Objet .group {
-	background-color:forestgreen!important;
 	color: white;
 }
 
-table.navbox.Objet th:not(.titrePalette),
-.Objet .group a{
+table.navbox.Objet th,
+.Objet .group,
+.pi-theme-Objet .pi-item,
+.pi-europa.pi-theme-Objet .pi-header {
+	background-color:forestgreen;
 	color: white;
+}
+
+table.navbox.Objet th a,
+.Objet .group a,
+.pi-theme-Objet .pi-item a,
+.pi-europa.pi-theme-Objet .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Objet tr td {
@@ -744,32 +1318,59 @@ table.navbox.Objet tr td {
 
 table.navbox.Objet tr:nth-child(odd) td {
 	background-color:#ccffe5;
+	color:black;
+}
+
+table.navbox.Objet td .subTitle {
+	border-color:forestgreen;
+}
+
+.pi-theme-Objet .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Objet .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Objet.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Objet.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Objet.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Objet.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Objet .pi-collapse .pi-item.pi-data {
+	background-color:#ccffe5;
+	color:black;
+}
+
+.pi-theme-Objet .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: darkgreen;
 }
 
 /* Synthèse */
 
-table.navbox.Synthese th {
-	background-color:#FF0000 !important;
+aside.portable-infobox.pi-theme-Synthese {
+    border-color: #FF0000;
+}
+ 
+table.navbox.Synthese th.titrePalette,
+.pi-theme-Synthese .pi-item.pi-title {
+	background-color:#FF0000;
 	color: white;
 }
 
-table.navbox.Synthese .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Synthese th.titrePalette .titreContent a,
 table.navbox.Synthese .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Synthese th:not(.titrePalette),
-.Synthese .group {
-	background-color:#FA8072!important;
+table.navbox.Synthese th,
+.Synthese .group,
+.pi-theme-Synthese .pi-item,
+.pi-europa.pi-theme-Synthese .pi-header {
+	background-color:#FA8072;
 	color: black;
 }
 
-table.navbox.Synthese th:not(.titrePalette),
-.Synthese .group a{
+table.navbox.Synthese th a,
+.Synthese .group a,
+.pi-theme-Synthese .pi-item a,
+.pi-europa.pi-theme-Synthese .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Synthese tr td {
@@ -778,32 +1379,59 @@ table.navbox.Synthese tr td {
 
 table.navbox.Synthese tr:nth-child(odd) td {
 	background-color:#FDF5E6;
+	color:black;
+}
+
+table.navbox.Synthese td .subTitle {
+	border-color:#FA8072;
+}
+
+.pi-theme-Synthese .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Synthese .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Synthese.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Synthese.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Synthese.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Synthese.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Synthese .pi-collapse .pi-item.pi-data {
+	background-color:#FDF5E6;
+	color:black;
+}
+
+.pi-theme-Synthese .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FF0000;
 }
 
 /* Magies */
 
-table.navbox.magie th {
-	background-color:#007BA7 !important;
+aside.portable-infobox.pi-theme-magie {
+    border-color: #007BA7;
+}
+ 
+table.navbox.magie th.titrePalette,
+.pi-theme-magie .pi-item.pi-title {
+	background-color:#007BA7;
 	color: white;
 }
 
-table.navbox.magie .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.magie th.titrePalette .titreContent a,
 table.navbox.magie .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.magie th:not(.titrePalette),
-.magie .group {
-	background-color:#C7DDE5!important;
+table.navbox.magie th,
+.magie .group,
+.pi-theme-magie .pi-item,
+.pi-europa.pi-theme-magie .pi-header {
+	background-color:#C7DDE5;
 	color: black;
 }
 
-table.navbox.magie th:not(.titrePalette),
-.magie .group a{
+table.navbox.magie th a,
+.magie .group a,
+.pi-theme-magie .pi-item a,
+.pi-europa.pi-theme-magie .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.magie tr td {
@@ -812,32 +1440,59 @@ table.navbox.magie tr td {
 
 table.navbox.magie tr:nth-child(odd) td {
 	background-color:#E6EFF2;
+	color:black;
+}
+
+table.navbox.magie td .subTitle {
+	border-color:#C7DDE5;
+}
+
+.pi-theme-magie .pi-horizontal-group-item:nth-child(even),
+.pi-theme-magie .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-magie.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-magie.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-magie.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-magie.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-magie .pi-collapse .pi-item.pi-data {
+	background-color:#E6EFF2;
+	color:black;
+}
+
+.pi-theme-magie .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #007BA7;
 }
 
 /* Sans-cœur */
 
-table.navbox.SansCoeur th {
-	background-color:black !important;
+aside.portable-infobox.pi-theme-SansCoeur {
+    border-color: black;
+}
+ 
+table.navbox.SansCoeur th.titrePalette,
+.pi-theme-SansCoeur .pi-item.pi-title {
+	background-color:black;
 	color: white;
 }
 
-table.navbox.SansCoeur .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.SansCoeur th.titrePalette .titreContent a,
 table.navbox.SansCoeur .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.SansCoeur th:not(.titrePalette),
-.SansCoeur .group {
-	background-color:#8c0000!important;
 	color: white;
 }
 
-table.navbox.SansCoeur th:not(.titrePalette),
-.SansCoeur .group a{
+table.navbox.SansCoeur th,
+.SansCoeur .group,
+.pi-theme-SansCoeur .pi-item,
+.pi-europa.pi-theme-SansCoeur .pi-header {
+	background-color:#8c0000;
 	color: white;
+}
+
+table.navbox.SansCoeur th a,
+.SansCoeur .group a,
+.pi-theme-SansCoeur .pi-item a,
+.pi-europa.pi-theme-SansCoeur .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.SansCoeur tr td {
@@ -846,32 +1501,59 @@ table.navbox.SansCoeur tr td {
 
 table.navbox.SansCoeur tr:nth-child(odd) td {
 	background-color:#EDDEDE;
+	color:black;
+}
+
+table.navbox.SansCoeur td .subTitle {
+	border-color:#8c0000;
+}
+
+.pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(even),
+.pi-theme-SansCoeur .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-SansCoeur.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-SansCoeur.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-SansCoeur.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-SansCoeur.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-SansCoeur .pi-collapse .pi-item.pi-data {
+	background-color:#EDDEDE;
+	color:black;
+}
+
+.pi-theme-SansCoeur .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: black;
 }
 
 /* Simili */
 
-table.navbox.Simili th {
-	background-color:darkgrey !important;
+aside.portable-infobox.pi-theme-Simili {
+    border-color: #696969;
+}
+ 
+table.navbox.Simili th.titrePalette,
+.pi-theme-Simili .pi-item.pi-title {
+	background-color:#696969;
 	color: white;
 }
 
-table.navbox.Simili .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Simili th.titrePalette .titreContent a,
 table.navbox.Simili .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Simili th:not(.titrePalette),
-.Simili .group {
-	background-color:gray!important;
 	color: white;
 }
 
-table.navbox.Simili th:not(.titrePalette),
-.Simili .group a{
-	color: white;
+table.navbox.Simili th,
+.Simili .group,
+.pi-theme-Simili .pi-item,
+.pi-europa.pi-theme-Simili .pi-header {
+	background-color:#C0C0C0;
+	color: black;
+}
+
+table.navbox.Simili th a,
+.Simili .group a,
+.pi-theme-Simili .pi-item a,
+.pi-europa.pi-theme-Simili .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Simili tr td {
@@ -879,33 +1561,60 @@ table.navbox.Simili tr td {
 }
 
 table.navbox.Simili tr:nth-child(odd) td {
-	background-color:#C0C0C0;
+	background-color:#E0E0E0;
+	color:black;
+}
+
+table.navbox.Simili td .subTitle {
+	border-color:#C0C0C0;
+}
+
+.pi-theme-Simili .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Simili .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Simili.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Simili.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Simili.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Simili.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Simili .pi-collapse .pi-item.pi-data {
+	background-color:#E0E0E0;
+	color:black;
+}
+
+.pi-theme-Simili .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #696969;
 }
 
 /* Nescients */
 
-table.navbox.Nescient th {
-	background-color:#000a7a !important;
+aside.portable-infobox.pi-theme-Nescient {
+    border-color: #000a7a;
+}
+ 
+table.navbox.Nescient th.titrePalette,
+.pi-theme-Nescient .pi-item.pi-title {
+	background-color:#000a7a;
 	color: white;
 }
 
-table.navbox.Nescient .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Nescient th.titrePalette .titreContent a,
 table.navbox.Nescient .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Nescient th:not(.titrePalette),
-.Nescient .group {
-	background-color:cornflowerblue!important;
 	color: white;
 }
 
-table.navbox.Nescient th:not(.titrePalette),
-.Nescient .group a{
+table.navbox.Nescient th,
+.Nescient .group,
+.pi-theme-Nescient .pi-item,
+.pi-europa.pi-theme-Nescient .pi-header {
+	background-color:cornflowerblue;
 	color: white;
+}
+
+table.navbox.Nescient th a,
+.Nescient .group a,
+.pi-theme-Nescient .pi-item a,
+.pi-europa.pi-theme-Nescient .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Nescient tr td {
@@ -914,32 +1623,59 @@ table.navbox.Nescient tr td {
 
 table.navbox.Nescient tr:nth-child(odd) td {
 	background-color:#DCE2ED;
+	color:black;
+}
+
+table.navbox.Nescient td .subTitle {
+	border-color:cornflowerblue;
+}
+
+.pi-theme-Nescient .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Nescient .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Nescient.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Nescient.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Nescient.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Nescient.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Nescient .pi-collapse .pi-item.pi-data {
+	background-color:#DCE2ED;
+	color:black;
+}
+
+.pi-theme-Nescient .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #000a7a;
 }
 
 /* Avale-Rêves */
 
-table.navbox.AvaleReves th {
-	background-color:#DA70D6 !important;
+aside.portable-infobox.pi-theme-AvaleReves {
+    border-color: #DA70D6;
+}
+ 
+table.navbox.AvaleReves th.titrePalette,
+.pi-theme-AvaleReves .pi-item.pi-title {
+	background-color:#DA70D6;
 	color: white;
 }
 
-table.navbox.AvaleReves .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.AvaleReves th.titrePalette .titreContent a,
 table.navbox.AvaleReves .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.AvaleReves th:not(.titrePalette),
-.AvaleReves .group {
-	background-color:#88FFEA!important;
+table.navbox.AvaleReves th,
+.AvaleReves .group,
+.pi-theme-AvaleReves .pi-item,
+.pi-europa.pi-theme-AvaleReves .pi-header {
+	background-color:#88FFEA;
 	color: black;
 }
 
-table.navbox.AvaleReves th:not(.titrePalette),
-.AvaleReves .group a{
+table.navbox.AvaleReves th a,
+.AvaleReves .group a,
+.pi-theme-AvaleReves .pi-item a,
+.pi-europa.pi-theme-AvaleReves .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.AvaleReves tr td {
@@ -948,32 +1684,59 @@ table.navbox.AvaleReves tr td {
 
 table.navbox.AvaleReves tr:nth-child(odd) td {
 	background-color:#DCEDEA;
+	color:black;
+}
+
+table.navbox.AvaleReves td .subTitle {
+	border-color:#88FFEA;
+}
+
+.pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(even),
+.pi-theme-AvaleReves .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-AvaleReves.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-AvaleReves.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-AvaleReves.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-AvaleReves.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-AvaleReves .pi-collapse .pi-item.pi-data {
+	background-color:#DCEDEA;
+	color:black;
+}
+
+.pi-theme-AvaleReves .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #DA70D6;
 }
 
 /* Boss */
 
-table.navbox.Boss th {
-	background-color:#990000 !important;
+aside.portable-infobox.pi-theme-Boss {
+    border-color: #990000;
+}
+ 
+table.navbox.Boss th.titrePalette,
+.pi-theme-Boss .pi-item.pi-title {
+	background-color:#990000;
 	color: white;
 }
 
-table.navbox.Boss .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Boss th.titrePalette .titreContent a,
 table.navbox.Boss .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Boss th:not(.titrePalette),
-.Boss .group {
-	background-color:#CC6633!important;
+table.navbox.Boss th,
+.Boss .group,
+.pi-theme-Boss .pi-item,
+.pi-europa.pi-theme-Boss .pi-header {
+	background-color:#CC6633;
 	color: black;
 }
 
-table.navbox.Boss th:not(.titrePalette),
-.Boss .group a{
+table.navbox.Boss th a,
+.Boss .group a,
+.pi-theme-Boss .pi-item a,
+.pi-europa.pi-theme-Boss .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Boss tr td {
@@ -982,32 +1745,59 @@ table.navbox.Boss tr td {
 
 table.navbox.Boss tr:nth-child(odd) td {
 	background-color:#FFDD88;
+	color:black;
+}
+
+table.navbox.Boss td .subTitle {
+	border-color:#CC6633;
+}
+
+.pi-theme-Boss .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Boss .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Boss.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Boss.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Boss.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Boss.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Boss .pi-collapse .pi-item.pi-data {
+	background-color:#FFDD88;
+	color:black;
+}
+
+.pi-theme-Boss .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #990000;
 }
 
 /* Xemnas */
 
-table.navbox.Xemnas th {
-	background-color:#333333 !important;
+aside.portable-infobox.pi-theme-Xemnas {
+    border-color: #333333;
+}
+ 
+table.navbox.Xemnas th.titrePalette,
+.pi-theme-Xemnas .pi-item.pi-title {
+	background-color:#333333;
 	color: white;
 }
 
-table.navbox.Xemnas .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Xemnas th.titrePalette .titreContent a,
 table.navbox.Xemnas .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xemnas th:not(.titrePalette),
-.Xemnas .group {
-	background-color:#666666!important;
 	color: white;
 }
 
-table.navbox.Xemnas th:not(.titrePalette),
-.Xemnas .group a{
-	color: white;
+table.navbox.Xemnas th,
+.Xemnas .group,
+.pi-theme-Xemnas .pi-item,
+.pi-europa.pi-theme-Xemnas .pi-header {
+	background-color:#AAA;
+	color: black;
+}
+
+table.navbox.Xemnas th a,
+.Xemnas .group a,
+.pi-theme-Xemnas .pi-item a,
+.pi-europa.pi-theme-Xemnas .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xemnas tr td {
@@ -1016,32 +1806,59 @@ table.navbox.Xemnas tr td {
 
 table.navbox.Xemnas tr:nth-child(odd) td {
 	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Xemnas td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Xemnas .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xemnas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xemnas.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Xemnas.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Xemnas.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xemnas.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Xemnas .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Xemnas .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #333333;
 }
 
 /* Xigbar */
 
-table.navbox.Xigbar th {
-	background-color:#660066 !important;
+aside.portable-infobox.pi-theme-Xigbar {
+    border-color: #936c93;
+}
+ 
+table.navbox.Xigbar th.titrePalette,
+.pi-theme-Xigbar .pi-item.pi-title {
+	background-color:#936c93;
 	color: white;
 }
 
-table.navbox.Xigbar .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Xigbar th.titrePalette .titreContent a,
 table.navbox.Xigbar .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xigbar th:not(.titrePalette),
-.Xigbar .group {
-	background-color:#991199!important;
 	color: white;
 }
 
-table.navbox.Xigbar th:not(.titrePalette),
-.Xigbar .group a{
-	color: white;
+table.navbox.Xigbar th,
+.Xigbar .group,
+.pi-theme-Xigbar .pi-item,
+.pi-europa.pi-theme-Xigbar .pi-header {
+	background-color:#AAA;
+	color: black;
+}
+
+table.navbox.Xigbar th a,
+.Xigbar .group a,
+.pi-theme-Xigbar .pi-item a,
+.pi-europa.pi-theme-Xigbar .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xigbar tr td {
@@ -1049,33 +1866,60 @@ table.navbox.Xigbar tr td {
 }
 
 table.navbox.Xigbar tr:nth-child(odd) td {
-	background-color:#EFDEEF;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Xigbar td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Xigbar .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xigbar .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xigbar.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Xigbar.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Xigbar.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xigbar.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Xigbar .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Xigbar .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #936c93;
 }
 
 /* Xaldin */
 
-table.navbox.Xaldin th {
-	background-color:#3300FF !important;
+aside.portable-infobox.pi-theme-Xaldin {
+    border-color: #6c609f;
+}
+ 
+table.navbox.Xaldin th.titrePalette,
+.pi-theme-Xaldin .pi-item.pi-title {
+	background-color:#6c609f;
 	color: white;
 }
 
-table.navbox.Xaldin .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Xaldin th.titrePalette .titreContent a,
 table.navbox.Xaldin .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Xaldin th:not(.titrePalette),
-.Xaldin .group {
-	background-color:#997FFF!important;
+table.navbox.Xaldin th,
+.Xaldin .group,
+.pi-theme-Xaldin .pi-item,
+.pi-europa.pi-theme-Xaldin .pi-header {
+	background-color:#AAA;
 	color: black;
 }
 
-table.navbox.Xaldin th:not(.titrePalette),
-.Xaldin .group a{
+table.navbox.Xaldin th a,
+.Xaldin .group a,
+.pi-theme-Xaldin .pi-item a,
+.pi-europa.pi-theme-Xaldin .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xaldin tr td {
@@ -1083,33 +1927,60 @@ table.navbox.Xaldin tr td {
 }
 
 table.navbox.Xaldin tr:nth-child(odd) td {
-	background-color:#DCD7EF;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Xaldin td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Xaldin .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xaldin .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xaldin.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Xaldin.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Xaldin.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xaldin.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Xaldin .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Xaldin .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #6c609f;
 }
 
 /* Vexen */
 
-table.navbox.Vexen th {
-	background-color:#33CCFF !important;
+aside.portable-infobox.pi-theme-Vexen {
+    border-color: #75abbd;
+}
+ 
+table.navbox.Vexen th.titrePalette,
+.pi-theme-Vexen .pi-item.pi-title {
+	background-color:#75abbd;
 	color: white;
 }
 
-table.navbox.Vexen .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Vexen th.titrePalette .titreContent a,
 table.navbox.Vexen .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Vexen th:not(.titrePalette),
-.Vexen .group {
-	background-color:#7FDFFF!important;
+table.navbox.Vexen th,
+.Vexen .group,
+.pi-theme-Vexen .pi-item,
+.pi-europa.pi-theme-Vexen .pi-header {
+	background-color:#AAA;
 	color: black;
 }
 
-table.navbox.Vexen th:not(.titrePalette),
-.Vexen .group a{
+table.navbox.Vexen th a,
+.Vexen .group a,
+.pi-theme-Vexen .pi-item a,
+.pi-europa.pi-theme-Vexen .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Vexen tr td {
@@ -1117,33 +1988,60 @@ table.navbox.Vexen tr td {
 }
 
 table.navbox.Vexen tr:nth-child(odd) td {
-	background-color:#D7E9EF;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Vexen td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Vexen .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Vexen .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Vexen.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Vexen.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Vexen.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Vexen.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Vexen .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Vexen .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #75abbd;
 }
 
 /* Lexaeus */
 
-table.navbox.Lexaeus th {
-	background-color:#663300 !important;
+aside.portable-infobox.pi-theme-Lexaeus {
+    border-color: #815931;
+}
+ 
+table.navbox.Lexaeus th.titrePalette,
+.pi-theme-Lexaeus .pi-item.pi-title {
+	background-color:#815931;
 	color: white;
 }
 
-table.navbox.Lexaeus .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Lexaeus th.titrePalette .titreContent a,
 table.navbox.Lexaeus .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Lexaeus th:not(.titrePalette),
-.Lexaeus .group {
-	background-color:#99724C!important;
 	color: white;
 }
 
-table.navbox.Lexaeus th:not(.titrePalette),
-.Lexaeus .group a{
-	color: white;
+table.navbox.Lexaeus th,
+.Lexaeus .group,
+.pi-theme-Lexaeus .pi-item,
+.pi-europa.pi-theme-Lexaeus .pi-header {
+	background-color:#AAA;
+	color: black;
+}
+
+table.navbox.Lexaeus th a,
+.Lexaeus .group a,
+.pi-theme-Lexaeus .pi-item a,
+.pi-europa.pi-theme-Lexaeus .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Lexaeus tr td {
@@ -1151,33 +2049,60 @@ table.navbox.Lexaeus tr td {
 }
 
 table.navbox.Lexaeus tr:nth-child(odd) td {
-	background-color:#F2E0CD;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Lexaeus td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Lexaeus .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Lexaeus.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Lexaeus.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Lexaeus.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Lexaeus.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Lexaeus .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Lexaeus .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #815931;
 }
 
 /* Zexion */
 
-table.navbox.Zexion th {
-	background-color:#333366 !important;
+aside.portable-infobox.pi-theme-Zexion {
+    border-color: #6666b2;
+}
+ 
+table.navbox.Zexion th.titrePalette,
+.pi-theme-Zexion .pi-item.pi-title {
+	background-color:#6666b2;
 	color: white;
 }
 
-table.navbox.Zexion .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Zexion th.titrePalette .titreContent a,
 table.navbox.Zexion .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Zexion th:not(.titrePalette),
-.Zexion .group {
-	background-color:#8888AA!important;
 	color: white;
 }
 
-table.navbox.Zexion th:not(.titrePalette),
-.Zexion .group a{
-	color: white;
+table.navbox.Zexion th,
+.Zexion .group,
+.pi-theme-Zexion .pi-item,
+.pi-europa.pi-theme-Zexion .pi-header {
+	background-color:#AAA;
+	color: black;
+}
+
+table.navbox.Zexion th a,
+.Zexion .group a,
+.pi-theme-Zexion .pi-item a,
+.pi-europa.pi-theme-Zexion .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Zexion tr td {
@@ -1185,33 +2110,60 @@ table.navbox.Zexion tr td {
 }
 
 table.navbox.Zexion tr:nth-child(odd) td {
-	background-color:#EDEDF8;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Zexion td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Zexion .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Zexion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Zexion.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Zexion.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Zexion.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Zexion.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Zexion .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Zexion .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #6666b2;
 }
 
 /* Saïx */
 
-table.navbox.Saix th {
-	background-color:#336699 !important;
+aside.portable-infobox.pi-theme-Saix {
+    border-color: #648cb4;
+}
+ 
+table.navbox.Saix th.titrePalette,
+.pi-theme-Saix .pi-item.pi-title {
+	background-color:#648cb4;
 	color: white;
 }
 
-table.navbox.Saix .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Saix th.titrePalette .titreContent a,
 table.navbox.Saix .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Saix th:not(.titrePalette),
-.Saix .group {
-	background-color:#7FBFFF!important;
+table.navbox.Saix th,
+.Saix .group,
+.pi-theme-Saix .pi-item,
+.pi-europa.pi-theme-Saix .pi-header {
+	background-color:#AAA;
 	color: black;
 }
 
-table.navbox.Saix th:not(.titrePalette),
-.Saix .group a{
+table.navbox.Saix th a,
+.Saix .group a,
+.pi-theme-Saix .pi-item a,
+.pi-europa.pi-theme-Saix .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Saix tr td {
@@ -1219,33 +2171,60 @@ table.navbox.Saix tr td {
 }
 
 table.navbox.Saix tr:nth-child(odd) td {
-	background-color:#D7E6F4;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Saix td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Saix .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Saix .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Saix.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Saix.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Saix.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Saix.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Saix .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Saix .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #648cb4;
 }
 
 /* Axel */
 
-table.navbox.Axel th {
-	background-color:#CC0000 !important;
+aside.portable-infobox.pi-theme-Axel {
+    border-color: #c63939;
+}
+ 
+table.navbox.Axel th.titrePalette,
+.pi-theme-Axel .pi-item.pi-title {
+	background-color:#c63939;
 	color: white;
 }
 
-table.navbox.Axel .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Axel th.titrePalette .titreContent a,
 table.navbox.Axel .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Axel th:not(.titrePalette),
-.Axel .group {
-	background-color:#EE0000!important;
 	color: white;
 }
 
-table.navbox.Axel th:not(.titrePalette),
-.Axel .group a{
-	color: white;
+table.navbox.Axel th,
+.Axel .group,
+.pi-theme-Axel .pi-item,
+.pi-europa.pi-theme-Axel .pi-header {
+	background-color:#AAA;
+	color: black;
+}
+
+table.navbox.Axel th a,
+.Axel .group a,
+.pi-theme-Axel .pi-item a,
+.pi-europa.pi-theme-Axel .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Axel tr td {
@@ -1253,33 +2232,60 @@ table.navbox.Axel tr td {
 }
 
 table.navbox.Axel tr:nth-child(odd) td {
-	background-color:#F8EDED;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Axel td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Axel .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Axel .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Axel.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Axel.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Axel.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Axel.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Axel .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Axel .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #c63939;
 }
 
 /* Demyx */
 
-table.navbox.Demyx th {
-	background-color:#3399CC !important;
+aside.portable-infobox.pi-theme-Demyx {
+    border-color: #408cbf;
+}
+ 
+table.navbox.Demyx th.titrePalette,
+.pi-theme-Demyx .pi-item.pi-title {
+	background-color:#408cbf;
 	color: white;
 }
 
-table.navbox.Demyx .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Demyx th.titrePalette .titreContent a,
 table.navbox.Demyx .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Demyx th:not(.titrePalette),
-.Demyx .group {
-	background-color:#99DCFF!important;
+table.navbox.Demyx th,
+.Demyx .group,
+.pi-theme-Demyx .pi-item,
+.pi-europa.pi-theme-Demyx .pi-header {
+	background-color:#AAA;
 	color: black;
 }
 
-table.navbox.Demyx th:not(.titrePalette),
-.Demyx .group a{
+table.navbox.Demyx th a,
+.Demyx .group a,
+.pi-theme-Demyx .pi-item a,
+.pi-europa.pi-theme-Demyx .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Demyx tr td {
@@ -1287,33 +2293,60 @@ table.navbox.Demyx tr td {
 }
 
 table.navbox.Demyx tr:nth-child(odd) td {
-	background-color:#CDE7F4;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Demyx td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Demyx .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Demyx .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Demyx.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Demyx.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Demyx.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Demyx.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Demyx .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Demyx .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #408cbf;
 }
 
 /* Luxord */
 
-table.navbox.Luxord th {
-	background-color:#CCCCCC !important;
+aside.portable-infobox.pi-theme-Luxord {
+    border-color: #BBBBBB;
+}
+ 
+table.navbox.Luxord th.titrePalette,
+.pi-theme-Luxord .pi-item.pi-title {
+	background-color:#BBBBBB;
 	color: black;
 }
 
-table.navbox.Luxord .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Luxord th.titrePalette .titreContent a,
 table.navbox.Luxord .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Luxord th:not(.titrePalette),
-.Luxord .group {
-	background-color:#DEDEDE!important;
 	color: black;
 }
 
-table.navbox.Luxord th:not(.titrePalette),
-.Luxord .group a{
+table.navbox.Luxord th,
+.Luxord .group,
+.pi-theme-Luxord .pi-item,
+.pi-europa.pi-theme-Luxord .pi-header {
+	background-color:#AAA;
 	color: black;
+}
+
+table.navbox.Luxord th a,
+.Luxord .group a,
+.pi-theme-Luxord .pi-item a,
+.pi-europa.pi-theme-Luxord .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Luxord tr td {
@@ -1321,33 +2354,60 @@ table.navbox.Luxord tr td {
 }
 
 table.navbox.Luxord tr:nth-child(odd) td {
-	background-color:#EDEDED;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Luxord td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Luxord .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Luxord .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Luxord.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Luxord.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Luxord.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Luxord.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Luxord .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Luxord .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #BBBBBB;
 }
 
 /* Marluxia */
 
-table.navbox.Marluxia th {
-	background-color:#E68FAC !important;
+aside.portable-infobox.pi-theme-Marluxia {
+    border-color: #e3b5c4;
+}
+ 
+table.navbox.Marluxia th.titrePalette,
+.pi-theme-Marluxia .pi-item.pi-title {
+	background-color:#e3b5c4;
 	color: black;
 }
 
-table.navbox.Marluxia .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Marluxia th.titrePalette .titreContent a,
 table.navbox.Marluxia .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Marluxia th:not(.titrePalette),
-.Marluxia .group {
-	background-color:#FF99BA!important;
 	color: black;
 }
 
-table.navbox.Marluxia th:not(.titrePalette),
-.Marluxia .group a{
+table.navbox.Marluxia th,
+.Marluxia .group,
+.pi-theme-Marluxia .pi-item,
+.pi-europa.pi-theme-Marluxia .pi-header {
+	background-color:#AAA;
 	color: black;
+}
+
+table.navbox.Marluxia th a,
+.Marluxia .group a,
+.pi-theme-Marluxia .pi-item a,
+.pi-europa.pi-theme-Marluxia .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Marluxia tr td {
@@ -1355,33 +2415,60 @@ table.navbox.Marluxia tr td {
 }
 
 table.navbox.Marluxia tr:nth-child(odd) td {
-	background-color:#F2DCE3;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Marluxia td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Marluxia .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Marluxia .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Marluxia.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Marluxia.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Marluxia.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Marluxia.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Marluxia .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Marluxia .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #e3b5c4;
 }
 
 /* Larxene */
 
-table.navbox.Larxene th {
-	background-color:#FEEF61 !important;
+aside.portable-infobox.pi-theme-Larxene {
+    border-color: #f7f769;
+}
+ 
+table.navbox.Larxene th.titrePalette,
+.pi-theme-Larxene .pi-item.pi-title {
+	background-color:#f7f769;
 	color: black;
 }
 
-table.navbox.Larxene .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Larxene th.titrePalette .titreContent a,
 table.navbox.Larxene .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Larxene th:not(.titrePalette),
-.Larxene .group {
-	background-color:#FFF499!important;
 	color: black;
 }
 
-table.navbox.Larxene th:not(.titrePalette),
-.Larxene .group a{
+table.navbox.Larxene th,
+.Larxene .group,
+.pi-theme-Larxene .pi-item,
+.pi-europa.pi-theme-Larxene .pi-header {
+	background-color:#AAA;
 	color: black;
+}
+
+table.navbox.Larxene th a,
+.Larxene .group a,
+.pi-theme-Larxene .pi-item a,
+.pi-europa.pi-theme-Larxene .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Larxene tr td {
@@ -1389,33 +2476,60 @@ table.navbox.Larxene tr td {
 }
 
 table.navbox.Larxene tr:nth-child(odd) td {
-	background-color:#FFFCE8;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Larxene td .subTitle {
+	border-color:#AAA;
+}
+
+.pi-theme-Larxene .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Larxene .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Larxene.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Larxene.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Larxene.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Larxene.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Larxene .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Larxene .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #f7f769;
 }
 
 /* Roxas */
 
-table.navbox.Roxas th {
-	background-color:#FFCC00 !important;
+aside.portable-infobox.pi-theme-Roxas {
+    border-color: #FFCC00;
+}
+ 
+table.navbox.Roxas th.titrePalette,
+.pi-theme-Roxas .pi-item.pi-title {
+	background-color:#FFCC00;
 	color: black;
 }
 
-table.navbox.Roxas .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Roxas th.titrePalette .titreContent a,
 table.navbox.Roxas .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Roxas th:not(.titrePalette),
-.Roxas .group {
-	background-color:gold!important;
 	color: black;
 }
 
-table.navbox.Roxas th:not(.titrePalette),
-.Roxas .group a{
+table.navbox.Roxas th,
+.Roxas .group,
+.pi-theme-Roxas .pi-item,
+.pi-europa.pi-theme-Roxas .pi-header {
+	background-color:#AAAAAA;
 	color: black;
+}
+
+table.navbox.Roxas th a,
+.Roxas .group a,
+.pi-theme-Roxas .pi-item a,
+.pi-europa.pi-theme-Roxas .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Roxas tr td {
@@ -1423,33 +2537,60 @@ table.navbox.Roxas tr td {
 }
 
 table.navbox.Roxas tr:nth-child(odd) td {
-	background-color:#FFF8DD;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Roxas td .subTitle {
+	border-color:#AAAAAA;
+}
+
+.pi-theme-Roxas .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Roxas .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Roxas.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Roxas.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Roxas.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Roxas.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Roxas .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Roxas .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FFCC00;
 }
 
 /* Xion */
 
-table.navbox.Xion th {
-	background-color:#000000 !important;
+aside.portable-infobox.pi-theme-Xion {
+    border-color: #000000;
+}
+ 
+table.navbox.Xion th.titrePalette,
+.pi-theme-Xion .pi-item.pi-title {
+	background-color:#000000;
 	color: white;
 }
 
-table.navbox.Xion .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Xion th.titrePalette .titreContent a,
 table.navbox.Xion .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Xion th:not(.titrePalette),
-.Xion .group {
-	background-color:#555560!important;
 	color: white;
 }
 
-table.navbox.Xion th:not(.titrePalette),
-.Xion .group a{
-	color: white;
+table.navbox.Xion th,
+.Xion .group,
+.pi-theme-Xion .pi-item,
+.pi-europa.pi-theme-Xion .pi-header {
+	background-color:#AAAAAA;
+	color: black;
+}
+
+table.navbox.Xion th a,
+.Xion .group a,
+.pi-theme-Xion .pi-item a,
+.pi-europa.pi-theme-Xion .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xion tr td {
@@ -1457,33 +2598,60 @@ table.navbox.Xion tr td {
 }
 
 table.navbox.Xion tr:nth-child(odd) td {
-	background-color:#DCDCED;
+	background-color:#DDDDDD;
+	color:black;
+}
+
+table.navbox.Xion td .subTitle {
+	border-color:#AAAAAA;
+}
+
+.pi-theme-Xion .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Xion .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Xion.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Xion.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Xion.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Xion.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Xion .pi-collapse .pi-item.pi-data {
+	background-color:#DDDDDD;
+	color:black;
+}
+
+.pi-theme-Xion .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #000000;
 }
 
 /* Personnages */
 
-table.navbox.Personnages th {
-	background-color:#5b58ec !important;
+aside.portable-infobox.pi-theme-Personnages {
+    border-color: #5b58ec;
+}
+ 
+table.navbox.Personnages th.titrePalette,
+.pi-theme-Personnages .pi-item.pi-title {
+	background-color:#5b58ec;
 	color: white;
 }
 
-table.navbox.Personnages .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Personnages th.titrePalette .titreContent a,
 table.navbox.Personnages .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Personnages th:not(.titrePalette),
-.Personnages .group {
-	background-color:#849aed!important;
+table.navbox.Personnages th,
+.Personnages .group,
+.pi-theme-Personnages .pi-item,
+.pi-europa.pi-theme-Personnages .pi-header {
+	background-color:#a6b7f2;
 	color: black;
 }
 
-table.navbox.Personnages th:not(.titrePalette),
-.Personnages .group a{
+table.navbox.Personnages th a,
+.Personnages .group a,
+.pi-theme-Personnages .pi-item a,
+.pi-europa.pi-theme-Personnages .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Personnages tr td {
@@ -1491,33 +2659,60 @@ table.navbox.Personnages tr td {
 }
 
 table.navbox.Personnages tr:nth-child(odd) td {
-	background-color:#E1E4F2;
+	background-color:#d2dbf9;
+	color:black;
+}
+
+table.navbox.Personnages td .subTitle {
+	border-color:#a6b7f2;
+}
+
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Personnages .pi-collapse .pi-item.pi-data {
+	background-color:#d2dbf9;
+	color:black;
+}
+
+.pi-theme-Personnages .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #5b58ec;
 }
 
 /* Équipe */
 
-table.navbox.Equipe th {
-	background-color:lightseagreen !important;
+aside.portable-infobox.pi-theme-Equipe {
+    border-color: lightseagreen;
+}
+ 
+table.navbox.Equipe th.titrePalette,
+.pi-theme-Equipe .pi-item.pi-title {
+	background-color:lightseagreen;
 	color: black;
 }
 
-table.navbox.Equipe .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Equipe th.titrePalette .titreContent a,
 table.navbox.Equipe .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Equipe th:not(.titrePalette),
-.Equipe .group {
-	background-color:mediumaquamarine!important;
 	color: black;
 }
 
-table.navbox.Equipe th:not(.titrePalette),
-.Equipe .group a{
+table.navbox.Equipe th,
+.Equipe .group,
+.pi-theme-Equipe .pi-item,
+.pi-europa.pi-theme-Equipe .pi-header {
+	background-color:mediumaquamarine;
 	color: black;
+}
+
+table.navbox.Equipe th a,
+.Equipe .group a,
+.pi-theme-Equipe .pi-item a,
+.pi-europa.pi-theme-Equipe .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Equipe tr td {
@@ -1526,32 +2721,59 @@ table.navbox.Equipe tr td {
 
 table.navbox.Equipe tr:nth-child(odd) td {
 	background-color:#DAEDE6;
+	color:black;
+}
+
+table.navbox.Equipe td .subTitle {
+	border-color:mediumaquamarine;
+}
+
+.pi-theme-Equipe .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Equipe .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Equipe.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Equipe.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Equipe.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Equipe.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Equipe .pi-collapse .pi-item.pi-data {
+	background-color:#DAEDE6;
+	color:black;
+}
+
+.pi-theme-Equipe .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: lightseagreen;
 }
 
 /* Invocation */
 
-table.navbox.Invocation th {
-	background-color:gold !important;
+aside.portable-infobox.pi-theme-Invocation {
+    border-color: gold;
+}
+ 
+table.navbox.Invocation th.titrePalette,
+.pi-theme-Invocation .pi-item.pi-title {
+	background-color:gold;
 	color: black;
 }
 
-table.navbox.Invocation .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Invocation th.titrePalette .titreContent a,
 table.navbox.Invocation .collapseButtonLink {
-	color: black !important;
-}
-
-table.navbox.Invocation th:not(.titrePalette),
-.Invocation .group {
-	background-color:#FFE44C!important;
 	color: black;
 }
 
-table.navbox.Invocation th:not(.titrePalette),
-.Invocation .group a{
+table.navbox.Invocation th,
+.Invocation .group,
+.pi-theme-Invocation .pi-item,
+.pi-europa.pi-theme-Invocation .pi-header {
+	background-color:#FFE44C;
 	color: black;
+}
+
+table.navbox.Invocation th a,
+.Invocation .group a,
+.pi-theme-Invocation .pi-item a,
+.pi-europa.pi-theme-Invocation .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Invocation tr td {
@@ -1560,32 +2782,59 @@ table.navbox.Invocation tr td {
 
 table.navbox.Invocation tr:nth-child(odd) td {
 	background-color:#FFFBE5;
+	color:black;
+}
+
+table.navbox.Invocation td .subTitle {
+	border-color:#FFE44C;
+}
+
+.pi-theme-Invocation .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Invocation .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Invocation.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Invocation.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Invocation.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Invocation.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Invocation .pi-collapse .pi-item.pi-data {
+	background-color:#FFFBE5;
+	color:black;
+}
+
+.pi-theme-Invocation .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: gold;
 }
 
 /* Final Fantasy */
 
-table.navbox.FF th {
-	background-color:#4169E1 !important;
+aside.portable-infobox.pi-theme-FF {
+    border-color: #4169E1;
+}
+ 
+table.navbox.FF th.titrePalette,
+.pi-theme-FF .pi-item.pi-title {
+	background-color:#4169E1;
 	color: white;
 }
 
-table.navbox.FF .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.FF th.titrePalette .titreContent a,
 table.navbox.FF .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.FF th:not(.titrePalette),
-.FF .group {
-	background-color:#87CEFA!important;
+table.navbox.FF th,
+.FF .group,
+.pi-theme-FF .pi-item,
+.pi-europa.pi-theme-FF .pi-header {
+	background-color:#87CEFA;
 	color: black;
 }
 
-table.navbox.FF th:not(.titrePalette),
-.FF .group a{
+table.navbox.FF th a,
+.FF .group a,
+.pi-theme-FF .pi-item a,
+.pi-europa.pi-theme-FF .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FF tr td {
@@ -1594,32 +2843,59 @@ table.navbox.FF tr td {
 
 table.navbox.FF tr:nth-child(odd) td {
 	background-color:#CCD8FF;
+	color:black;
+}
+
+table.navbox.FF td .subTitle {
+	border-color:#87CEFA;
+}
+
+.pi-theme-FF .pi-horizontal-group-item:nth-child(even),
+.pi-theme-FF .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-FF.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-FF.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-FF.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-FF.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-FF .pi-collapse .pi-item.pi-data {
+	background-color:#CCD8FF;
+	color:black;
+}
+
+.pi-theme-FF .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #4169E1;
 }
 
 /* The World Ends With You */
 
-table.navbox.TWEWY th {
-	background-color:#003058 !important;
+aside.portable-infobox.pi-theme-TWEWY {
+    border-color: #003058;
+}
+ 
+table.navbox.TWEWY th.titrePalette,
+.pi-theme-TWEWY .pi-item.pi-title {
+	background-color:#003058;
 	color: white;
 }
 
-table.navbox.TWEWY .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.TWEWY th.titrePalette .titreContent a,
 table.navbox.TWEWY .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.TWEWY th:not(.titrePalette),
-.TWEWY .group {
-	background-color:#C3D6E5!important;
+table.navbox.TWEWY th,
+.TWEWY .group,
+.pi-theme-TWEWY .pi-item,
+.pi-europa.pi-theme-TWEWY .pi-header {
+	background-color:#C3D6E5;
 	color: black;
 }
 
-table.navbox.TWEWY th:not(.titrePalette),
-.TWEWY .group a{
+table.navbox.TWEWY th a,
+.TWEWY .group a,
+.pi-theme-TWEWY .pi-item a,
+.pi-europa.pi-theme-TWEWY .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.TWEWY tr td {
@@ -1628,32 +2904,59 @@ table.navbox.TWEWY tr td {
 
 table.navbox.TWEWY tr:nth-child(odd) td {
 	background-color:#E3EDF4;
+	color:black;
+}
+
+table.navbox.TWEWY td .subTitle {
+	border-color:#C3D6E5;
+}
+
+.pi-theme-TWEWY .pi-horizontal-group-item:nth-child(even),
+.pi-theme-TWEWY .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-TWEWY.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-TWEWY.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-TWEWY.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-TWEWY.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-TWEWY .pi-collapse .pi-item.pi-data {
+	background-color:#E3EDF4;
+	color:black;
+}
+
+.pi-theme-TWEWY .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #003058;
 }
 
 /* Disney */
 
-table.navbox.Disney th {
-	background-color:blueviolet !important;
+aside.portable-infobox.pi-theme-Disney {
+    border-color: blueviolet;
+}
+ 
+table.navbox.Disney th.titrePalette,
+.pi-theme-Disney .pi-item.pi-title {
+	background-color:blueviolet;
 	color: white;
 }
 
-table.navbox.Disney .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Disney th.titrePalette .titreContent a,
 table.navbox.Disney .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Disney th:not(.titrePalette),
-.Disney .group {
-	background-color:mediumorchid!important;
 	color: white;
 }
 
-table.navbox.Disney th:not(.titrePalette),
-.Disney .group a{
+table.navbox.Disney th,
+.Disney .group,
+.pi-theme-Disney .pi-item,
+.pi-europa.pi-theme-Disney .pi-header {
+	background-color:mediumorchid;
 	color: white;
+}
+
+table.navbox.Disney th a,
+.Disney .group a,
+.pi-theme-Disney .pi-item a,
+.pi-europa.pi-theme-Disney .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Disney tr td {
@@ -1662,32 +2965,59 @@ table.navbox.Disney tr td {
 
 table.navbox.Disney tr:nth-child(odd) td {
 	background-color:#E9DAED;
+	color:black;
+}
+
+table.navbox.Disney td .subTitle {
+	border-color:mediumorchid;
+}
+
+.pi-theme-Disney .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Disney .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Disney.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Disney.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Disney.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Disney.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Disney .pi-collapse .pi-item.pi-data {
+	background-color:#E9DAED;
+	color:black;
+}
+
+.pi-theme-Disney .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: blueviolet;
 }
 
 /* Monde */
 
-table.navbox.Monde th {
-	background-color:#7c45aa !important;
+aside.portable-infobox.pi-theme-Monde {
+    border-color: #7c45aa;
+}
+ 
+table.navbox.Monde th.titrePalette,
+.pi-theme-Monde .pi-item.pi-title {
+	background-color:#7c45aa;
 	color: white;
 }
 
-table.navbox.Monde .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Monde th.titrePalette .titreContent a,
 table.navbox.Monde .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Monde th:not(.titrePalette),
-.Monde .group {
-	background-color:#af8eeb!important;
 	color: white;
 }
 
-table.navbox.Monde th:not(.titrePalette),
-.Monde .group a{
-	color: white;
+table.navbox.Monde th,
+.Monde .group,
+.pi-theme-Monde .pi-item,
+.pi-europa.pi-theme-Monde .pi-header {
+	background-color:#CDB4F2;
+	color: black;
+}
+
+table.navbox.Monde th a,
+.Monde .group a,
+.pi-theme-Monde .pi-item a,
+.pi-europa.pi-theme-Monde .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Monde tr td {
@@ -1696,32 +3026,181 @@ table.navbox.Monde tr td {
 
 table.navbox.Monde tr:nth-child(odd) td {
 	background-color:#E3DAED;
+	color:black;
+}
+
+table.navbox.Monde td .subTitle {
+	border-color:#CDB4F2;
+}
+
+.pi-theme-Monde .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Monde .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Monde.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Monde.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Monde.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Monde.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Monde .pi-collapse .pi-item.pi-data {
+	background-color:#E3DAED;
+	color:black;
+}
+
+.pi-theme-Monde .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #7c45aa;
+}
+
+/* Lieu */
+
+aside.portable-infobox.pi-theme-Lieu {
+    border-color: #CD5C5C;
+}
+ 
+table.navbox.Lieu th.titrePalette,
+.pi-theme-Lieu .pi-item.pi-title {
+	background-color:#CD5C5C;
+	color: black;
+}
+
+table.navbox.Lieu th.titrePalette .titreContent a,
+table.navbox.Lieu .collapseButtonLink {
+	color: black;
+}
+
+table.navbox.Lieu th,
+.Lieu .group,
+.pi-theme-Lieu .pi-item,
+.pi-europa.pi-theme-Lieu .pi-header {
+	background-color:#f6bcbd;
+	color: black;
+}
+
+table.navbox.Lieu th a,
+.Lieu .group a,
+.pi-theme-Lieu .pi-item a,
+.pi-europa.pi-theme-Lieu .pi-header a{
+	color: black;
+	font-weight: bold;
+}
+
+table.navbox.Lieu tr td {
+	background-color:#FFFFFF;
+}
+
+table.navbox.Lieu tr:nth-child(odd) td {
+	background-color:#f9ebeb;
+	color:black;
+}
+
+table.navbox.Lieu td .subTitle {
+	border-color:#f6bcbd;
+}
+
+.pi-theme-Lieu .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Lieu .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Lieu.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Lieu.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Lieu.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Lieu.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Lieu .pi-collapse .pi-item.pi-data {
+	background-color:#f9ebeb;
+	color:black;
+}
+
+.pi-theme-Lieu .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #CD5C5C;
+}
+
+/* Événement */
+
+aside.portable-infobox.pi-theme-Evenement {
+    border-color: #e54145;
+}
+ 
+table.navbox.Evenement th.titrePalette,
+.pi-theme-Evenement .pi-item.pi-title {
+	background-color:#e54145;
+	color: white;
+}
+
+table.navbox.Evenement th.titrePalette .titreContent a,
+table.navbox.Evenement .collapseButtonLink {
+	color: white;
+}
+
+table.navbox.Evenement th,
+.Evenement .group,
+.pi-theme-Evenement .pi-item,
+.pi-europa.pi-theme-Evenement .pi-header {
+	background-color:#edc4c4;
+	color: black;
+}
+
+table.navbox.Evenement th a,
+.Evenement .group a,
+.pi-theme-Evenement .pi-item a,
+.pi-europa.pi-theme-Evenement .pi-header a{
+	color: black;
+	font-weight: bold;
+}
+
+table.navbox.Evenement tr td {
+	background-color:#FFFFFF;
+}
+
+table.navbox.Evenement tr:nth-child(odd) td {
+	background-color:#fce9e9;
+	color:black;
+}
+
+table.navbox.Evenement td .subTitle {
+	border-color:#edc4c4;
+}
+
+.pi-theme-Evenement .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Evenement .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Evenement.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Evenement.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Evenement.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Evenement.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Evenement .pi-collapse .pi-item.pi-data {
+	background-color:#fce9e9;
+	color:black;
+}
+
+.pi-theme-Evenement .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #e54145;
 }
 
 /* Square Enix */
 
-table.navbox.Square th {
-	background-color:black !important;
+aside.portable-infobox.pi-theme-Square {
+    border-color: black;
+}
+ 
+table.navbox.Square th.titrePalette,
+.pi-theme-Square .pi-item.pi-title {
+	background-color:black;
 	color: white;
 }
 
-table.navbox.Square .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Square th.titrePalette .titreContent a,
 table.navbox.Square .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Square th:not(.titrePalette),
-.Square .group {
-	background-color:gray!important;
 	color: white;
 }
 
-table.navbox.Square th:not(.titrePalette),
-.Square .group a{
-	color: white;
+table.navbox.Square th,
+.Square .group,
+.pi-theme-Square .pi-item,
+.pi-europa.pi-theme-Square .pi-header {
+	background-color:#BEBEBE;
+	color: black;
+}
+
+table.navbox.Square th a,
+.Square .group a,
+.pi-theme-Square .pi-item a,
+.pi-europa.pi-theme-Square .pi-header a{
+	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Square tr td {
@@ -1729,33 +3208,60 @@ table.navbox.Square tr td {
 }
 
 table.navbox.Square tr:nth-child(odd) td {
-	background-color:lightgray;
+	background-color:#D9D9D9;
+	color:black;
+}
+
+table.navbox.Square td .subTitle {
+	border-color:#BEBEBE;
+}
+
+.pi-theme-Square .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Square .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Square.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Square.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Square.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Square.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Square .pi-collapse .pi-item.pi-data {
+	background-color:#D9D9D9;
+	color:black;
+}
+
+.pi-theme-Square .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: black;
 }
 
 /* Minijeux */
 
-table.navbox.Minijeux th {
-	background-color:#FF4500 !important;
+aside.portable-infobox.pi-theme-Minijeux {
+    border-color: #FF4500;
+}
+ 
+table.navbox.Minijeux th.titrePalette,
+.pi-theme-Minijeux .pi-item.pi-title {
+	background-color:#FF4500;
 	color: white;
 }
 
-table.navbox.Minijeux .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Minijeux th.titrePalette .titreContent a,
 table.navbox.Minijeux .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Minijeux th:not(.titrePalette),
-.Minijeux .group {
-	background-color:#FF7F50!important;
+table.navbox.Minijeux th,
+.Minijeux .group,
+.pi-theme-Minijeux .pi-item,
+.pi-europa.pi-theme-Minijeux .pi-header {
+	background-color:#FF7F50;
 	color: black;
 }
 
-table.navbox.Minijeux th:not(.titrePalette),
-.Minijeux .group a{
+table.navbox.Minijeux th a,
+.Minijeux .group a,
+.pi-theme-Minijeux .pi-item a,
+.pi-europa.pi-theme-Minijeux .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Minijeux tr td {
@@ -1764,32 +3270,59 @@ table.navbox.Minijeux tr td {
 
 table.navbox.Minijeux tr:nth-child(odd) td {
 	background-color:#FFDEBA;
+	color:black;
+}
+
+table.navbox.Minijeux td .subTitle {
+	border-color:#FF7F50;
+}
+
+.pi-theme-Minijeux .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Minijeux .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Minijeux.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Minijeux.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Minijeux.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Minijeux.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Minijeux .pi-collapse .pi-item.pi-data {
+	background-color:#FFDEBA;
+	color:black;
+}
+
+.pi-theme-Minijeux .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #FF4500;
 }
 
 /* Gummis */
 
-table.navbox.Gummis th {
-	background-color:darkorange !important;
+aside.portable-infobox.pi-theme-Gummis {
+    border-color: darkorange;
+}
+ 
+table.navbox.Gummis th.titrePalette,
+.pi-theme-Gummis .pi-item.pi-title {
+	background-color:darkorange;
 	color: white;
 }
 
-table.navbox.Gummis .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Gummis th.titrePalette .titreContent a,
 table.navbox.Gummis .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Gummis th:not(.titrePalette),
-.Gummis .group {
-	background-color:PaleTurquoise!important;
+table.navbox.Gummis th,
+.Gummis .group,
+.pi-theme-Gummis .pi-item,
+.pi-europa.pi-theme-Gummis .pi-header {
+	background-color:PaleTurquoise;
 	color: black;
 }
 
-table.navbox.Gummis th:not(.titrePalette),
-.Gummis .group a{
+table.navbox.Gummis th a,
+.Gummis .group a,
+.pi-theme-Gummis .pi-item a,
+.pi-europa.pi-theme-Gummis .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Gummis tr td {
@@ -1798,32 +3331,59 @@ table.navbox.Gummis tr td {
 
 table.navbox.Gummis tr:nth-child(odd) td {
 	background-color:LightCyan;
+	color:black;
+}
+
+table.navbox.Gummis td .subTitle {
+	border-color:PaleTurquoise;
+}
+
+.pi-theme-Gummis .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Gummis .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Gummis.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Gummis.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Gummis.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Gummis.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Gummis .pi-collapse .pi-item.pi-data {
+	background-color:LightCyan;
+	color:black;
+}
+
+.pi-theme-Gummis .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: darkorange;
 }
 
 /* Produits dérivés */
 
-table.navbox.Produits th {
-	background-color:#00BA6A !important;
+aside.portable-infobox.pi-theme-Produits {
+    border-color: #00cc7e;
+}
+ 
+table.navbox.Produits th.titrePalette,
+.pi-theme-Produits .pi-item.pi-title {
+	background-color:#00cc7e;
 	color: white;
 }
 
-table.navbox.Produits .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Produits th.titrePalette .titreContent a,
 table.navbox.Produits .collapseButtonLink {
-	color: white !important;
+	color: white;
 }
 
-table.navbox.Produits th:not(.titrePalette),
-.Produits .group {
-	background-color:#00FA9A!important;
+table.navbox.Produits th,
+.Produits .group,
+.pi-theme-Produits .pi-item,
+.pi-europa.pi-theme-Produits .pi-header {
+	background-color:#80ffce;
 	color: black;
 }
 
-table.navbox.Produits th:not(.titrePalette),
-.Produits .group a{
+table.navbox.Produits th a,
+.Produits .group a,
+.pi-theme-Produits .pi-item a,
+.pi-europa.pi-theme-Produits .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Produits tr td {
@@ -1831,33 +3391,60 @@ table.navbox.Produits tr td {
 }
 
 table.navbox.Produits tr:nth-child(odd) td {
-	background-color:#B0FFDE;
+	background-color:#ccffeb;
+	color:black;
+}
+
+table.navbox.Produits td .subTitle {
+	border-color:#80ffce;
+}
+
+.pi-theme-Produits .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Produits .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Produits.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Produits.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Produits.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Produits.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Produits .pi-collapse .pi-item.pi-data {
+	background-color:#ccffeb;
+	color:black;
+}
+
+.pi-theme-Produits .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #00cc7e;
 }
 
 /* Communauté */
 
-table.navbox.Communaute th {
-	background-color:midnightblue !important;
+aside.portable-infobox.pi-theme-Communaute {
+    border-color: midnightblue;
+}
+ 
+table.navbox.Communaute th.titrePalette,
+.pi-theme-Communaute .pi-item.pi-title {
+	background-color:midnightblue;
 	color: white;
 }
 
-table.navbox.Communaute .titrePalette .titreContent a {
-    color: white;
-}
-
+table.navbox.Communaute th.titrePalette .titreContent a,
 table.navbox.Communaute .collapseButtonLink {
-	color: white !important;
-}
-
-table.navbox.Communaute th:not(.titrePalette),
-.Communaute .group {
-	background-color:dodgerblue!important;
 	color: white;
 }
 
-table.navbox.Communaute th:not(.titrePalette),
-.Communaute .group a{
+table.navbox.Communaute th,
+.Communaute .group,
+.pi-theme-Communaute .pi-item,
+.pi-europa.pi-theme-Communaute .pi-header {
+	background-color:dodgerblue;
 	color: white;
+}
+
+table.navbox.Communaute th a,
+.Communaute .group a,
+.pi-theme-Communaute .pi-item a,
+.pi-europa.pi-theme-Communaute .pi-header a{
+	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Communaute tr td {
@@ -1866,32 +3453,59 @@ table.navbox.Communaute tr td {
 
 table.navbox.Communaute tr:nth-child(odd) td {
 	background-color:#E1F1F7;
+	color:black;
+}
+
+table.navbox.Communaute td .subTitle {
+	border-color:dodgerblue;
+}
+
+.pi-theme-Communaute .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Communaute .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Communaute.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Communaute.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Communaute.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Communaute.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Communaute .pi-collapse .pi-item.pi-data {
+	background-color:#E1F1F7;
+	color:black;
+}
+
+.pi-theme-Communaute .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: midnightblue;
 }
 
 /* Musiques */
 
-table.navbox.Musique th {
-	background-color:#174bdb !important;
-	color: black;
+aside.portable-infobox.pi-theme-Musique {
+    border-color: #174bdb;
+}
+ 
+table.navbox.Musique th.titrePalette,
+.pi-theme-Musique .pi-item.pi-title {
+	background-color:#174bdb;
+	color: white;
 }
 
-table.navbox.Musique .titrePalette .titreContent a {
-    color: black;
-}
-
+table.navbox.Musique th.titrePalette .titreContent a,
 table.navbox.Musique .collapseButtonLink {
-	color: black !important;
+	color: white;
 }
 
-table.navbox.Musique th:not(.titrePalette),
-.Musique .group {
-	background-color:#4e71d5!important;
+table.navbox.Musique th,
+.Musique .group,
+.pi-theme-Musique .pi-item,
+.pi-europa.pi-theme-Musique .pi-header {
+	background-color:#a3b9f5;
 	color: black;
 }
 
-table.navbox.Musique th:not(.titrePalette),
-.Musique .group a{
+table.navbox.Musique th a,
+.Musique .group a,
+.pi-theme-Musique .pi-item a,
+.pi-europa.pi-theme-Musique .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Musique tr td {
@@ -1899,6 +3513,26 @@ table.navbox.Musique tr td {
 }
 
 table.navbox.Musique tr:nth-child(odd) td {
-	background-color:#678beb;
+	background-color:#daeaf5;
+	color:black;
+}
+
+table.navbox.Musique td .subTitle {
+	border-color:#a3b9f5;
+}
+
+.pi-theme-Musique .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Musique .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Musique.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Musique.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Musique.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Musique.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Musique .pi-collapse .pi-item.pi-data {
+	background-color:#daeaf5;
+	color:black;
+}
+
+.pi-theme-Musique .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #174bdb;
 }
 
