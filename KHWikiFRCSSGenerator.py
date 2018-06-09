@@ -28,8 +28,11 @@ table.navbox.{name} th,
 }}
 
 table.navbox.{name} th a,
-.{name} .group a{{
+.{name} .group a,
+.pi-theme-{name} .pi-item a,
+.pi-europa.pi-theme-{name} .pi-header a{{
 	color: {head_font};
+	font-weight: bold;
 }}
 
 table.navbox.{name} tr td {{

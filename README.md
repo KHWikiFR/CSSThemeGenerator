@@ -25,6 +25,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.3.1 - 2018-06-09
+ * Fix des liens dans les champs utilisant la couleur Head dans les infobox et palettes
+
 ## 0.3.0a - 2018-03-04
  * Uniformisation des thèmes de l'Organisation
 
