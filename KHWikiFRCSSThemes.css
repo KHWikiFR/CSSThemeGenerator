@@ -24,8 +24,11 @@ table.navbox.KH1 th,
 }
 
 table.navbox.KH1 th a,
-.KH1 .group a{
+.KH1 .group a,
+.pi-theme-KH1 .pi-item a,
+.pi-europa.pi-theme-KH1 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH1 tr td {
@@ -82,8 +85,11 @@ table.navbox.FM1 th,
 }
 
 table.navbox.FM1 th a,
-.FM1 .group a{
+.FM1 .group a,
+.pi-theme-FM1 .pi-item a,
+.pi-europa.pi-theme-FM1 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM1 tr td {
@@ -140,8 +146,11 @@ table.navbox.COM th,
 }
 
 table.navbox.COM th a,
-.COM .group a{
+.COM .group a,
+.pi-theme-COM .pi-item a,
+.pi-europa.pi-theme-COM .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.COM tr td {
@@ -198,8 +207,11 @@ table.navbox.KH2 th,
 }
 
 table.navbox.KH2 th a,
-.KH2 .group a{
+.KH2 .group a,
+.pi-theme-KH2 .pi-item a,
+.pi-europa.pi-theme-KH2 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH2 tr td {
@@ -256,8 +268,11 @@ table.navbox.FM2 th,
 }
 
 table.navbox.FM2 th a,
-.FM2 .group a{
+.FM2 .group a,
+.pi-theme-FM2 .pi-item a,
+.pi-europa.pi-theme-FM2 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FM2 tr td {
@@ -314,8 +329,11 @@ table.navbox.Days th,
 }
 
 table.navbox.Days th a,
-.Days .group a{
+.Days .group a,
+.pi-theme-Days .pi-item a,
+.pi-europa.pi-theme-Days .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Days tr td {
@@ -372,8 +390,11 @@ table.navbox.BBS th,
 }
 
 table.navbox.BBS th a,
-.BBS .group a{
+.BBS .group a,
+.pi-theme-BBS .pi-item a,
+.pi-europa.pi-theme-BBS .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBS tr td {
@@ -430,8 +451,11 @@ table.navbox.BBSFM th,
 }
 
 table.navbox.BBSFM th a,
-.BBSFM .group a{
+.BBSFM .group a,
+.pi-theme-BBSFM .pi-item a,
+.pi-europa.pi-theme-BBSFM .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.BBSFM tr td {
@@ -488,8 +512,11 @@ table.navbox.Coded th,
 }
 
 table.navbox.Coded th a,
-.Coded .group a{
+.Coded .group a,
+.pi-theme-Coded .pi-item a,
+.pi-europa.pi-theme-Coded .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Coded tr td {
@@ -546,8 +573,11 @@ table.navbox.DDD th,
 }
 
 table.navbox.DDD th a,
-.DDD .group a{
+.DDD .group a,
+.pi-theme-DDD .pi-item a,
+.pi-europa.pi-theme-DDD .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.DDD tr td {
@@ -604,8 +634,11 @@ table.navbox.CHI th,
 }
 
 table.navbox.CHI th a,
-.CHI .group a{
+.CHI .group a,
+.pi-theme-CHI .pi-item a,
+.pi-europa.pi-theme-CHI .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.CHI tr td {
@@ -662,8 +695,11 @@ table.navbox.UCR th,
 }
 
 table.navbox.UCR th a,
-.UCR .group a{
+.UCR .group a,
+.pi-theme-UCR .pi-item a,
+.pi-europa.pi-theme-UCR .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.UCR tr td {
@@ -720,8 +756,11 @@ table.navbox.KH2_8 th,
 }
 
 table.navbox.KH2_8 th a,
-.KH2_8 .group a{
+.KH2_8 .group a,
+.pi-theme-KH2_8 .pi-item a,
+.pi-europa.pi-theme-KH2_8 .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.KH2_8 tr td {
@@ -778,8 +817,11 @@ table.navbox.KH3 th,
 }
 
 table.navbox.KH3 th a,
-.KH3 .group a{
+.KH3 .group a,
+.pi-theme-KH3 .pi-item a,
+.pi-europa.pi-theme-KH3 .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.KH3 tr td {
@@ -836,8 +878,11 @@ table.navbox.serieKH th,
 }
 
 table.navbox.serieKH th a,
-.serieKH .group a{
+.serieKH .group a,
+.pi-theme-serieKH .pi-item a,
+.pi-europa.pi-theme-serieKH .pi-header a{
 	color: steelblue;
+	font-weight: bold;
 }
 
 table.navbox.serieKH tr td {
@@ -894,8 +939,11 @@ table.navbox.Armes th,
 }
 
 table.navbox.Armes th a,
-.Armes .group a{
+.Armes .group a,
+.pi-theme-Armes .pi-item a,
+.pi-europa.pi-theme-Armes .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armes tr td {
@@ -952,8 +1000,11 @@ table.navbox.Keyblade th,
 }
 
 table.navbox.Keyblade th a,
-.Keyblade .group a{
+.Keyblade .group a,
+.pi-theme-Keyblade .pi-item a,
+.pi-europa.pi-theme-Keyblade .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Keyblade tr td {
@@ -1010,8 +1061,11 @@ table.navbox.Sceptre th,
 }
 
 table.navbox.Sceptre th a,
-.Sceptre .group a{
+.Sceptre .group a,
+.pi-theme-Sceptre .pi-item a,
+.pi-europa.pi-theme-Sceptre .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Sceptre tr td {
@@ -1068,8 +1122,11 @@ table.navbox.Bouclier th,
 }
 
 table.navbox.Bouclier th a,
-.Bouclier .group a{
+.Bouclier .group a,
+.pi-theme-Bouclier .pi-item a,
+.pi-europa.pi-theme-Bouclier .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Bouclier tr td {
@@ -1126,8 +1183,11 @@ table.navbox.Armure th,
 }
 
 table.navbox.Armure th a,
-.Armure .group a{
+.Armure .group a,
+.pi-theme-Armure .pi-item a,
+.pi-europa.pi-theme-Armure .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Armure tr td {
@@ -1184,8 +1244,11 @@ table.navbox.Accessoire th,
 }
 
 table.navbox.Accessoire th a,
-.Accessoire .group a{
+.Accessoire .group a,
+.pi-theme-Accessoire .pi-item a,
+.pi-europa.pi-theme-Accessoire .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Accessoire tr td {
@@ -1242,8 +1305,11 @@ table.navbox.Objet th,
 }
 
 table.navbox.Objet th a,
-.Objet .group a{
+.Objet .group a,
+.pi-theme-Objet .pi-item a,
+.pi-europa.pi-theme-Objet .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Objet tr td {
@@ -1300,8 +1366,11 @@ table.navbox.Synthese th,
 }
 
 table.navbox.Synthese th a,
-.Synthese .group a{
+.Synthese .group a,
+.pi-theme-Synthese .pi-item a,
+.pi-europa.pi-theme-Synthese .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Synthese tr td {
@@ -1358,8 +1427,11 @@ table.navbox.magie th,
 }
 
 table.navbox.magie th a,
-.magie .group a{
+.magie .group a,
+.pi-theme-magie .pi-item a,
+.pi-europa.pi-theme-magie .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.magie tr td {
@@ -1416,8 +1488,11 @@ table.navbox.SansCoeur th,
 }
 
 table.navbox.SansCoeur th a,
-.SansCoeur .group a{
+.SansCoeur .group a,
+.pi-theme-SansCoeur .pi-item a,
+.pi-europa.pi-theme-SansCoeur .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.SansCoeur tr td {
@@ -1474,8 +1549,11 @@ table.navbox.Simili th,
 }
 
 table.navbox.Simili th a,
-.Simili .group a{
+.Simili .group a,
+.pi-theme-Simili .pi-item a,
+.pi-europa.pi-theme-Simili .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Simili tr td {
@@ -1532,8 +1610,11 @@ table.navbox.Nescient th,
 }
 
 table.navbox.Nescient th a,
-.Nescient .group a{
+.Nescient .group a,
+.pi-theme-Nescient .pi-item a,
+.pi-europa.pi-theme-Nescient .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Nescient tr td {
@@ -1590,8 +1671,11 @@ table.navbox.AvaleReves th,
 }
 
 table.navbox.AvaleReves th a,
-.AvaleReves .group a{
+.AvaleReves .group a,
+.pi-theme-AvaleReves .pi-item a,
+.pi-europa.pi-theme-AvaleReves .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.AvaleReves tr td {
@@ -1648,8 +1732,11 @@ table.navbox.Boss th,
 }
 
 table.navbox.Boss th a,
-.Boss .group a{
+.Boss .group a,
+.pi-theme-Boss .pi-item a,
+.pi-europa.pi-theme-Boss .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Boss tr td {
@@ -1706,8 +1793,11 @@ table.navbox.Xemnas th,
 }
 
 table.navbox.Xemnas th a,
-.Xemnas .group a{
+.Xemnas .group a,
+.pi-theme-Xemnas .pi-item a,
+.pi-europa.pi-theme-Xemnas .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xemnas tr td {
@@ -1764,8 +1854,11 @@ table.navbox.Xigbar th,
 }
 
 table.navbox.Xigbar th a,
-.Xigbar .group a{
+.Xigbar .group a,
+.pi-theme-Xigbar .pi-item a,
+.pi-europa.pi-theme-Xigbar .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xigbar tr td {
@@ -1822,8 +1915,11 @@ table.navbox.Xaldin th,
 }
 
 table.navbox.Xaldin th a,
-.Xaldin .group a{
+.Xaldin .group a,
+.pi-theme-Xaldin .pi-item a,
+.pi-europa.pi-theme-Xaldin .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xaldin tr td {
@@ -1880,8 +1976,11 @@ table.navbox.Vexen th,
 }
 
 table.navbox.Vexen th a,
-.Vexen .group a{
+.Vexen .group a,
+.pi-theme-Vexen .pi-item a,
+.pi-europa.pi-theme-Vexen .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Vexen tr td {
@@ -1938,8 +2037,11 @@ table.navbox.Lexaeus th,
 }
 
 table.navbox.Lexaeus th a,
-.Lexaeus .group a{
+.Lexaeus .group a,
+.pi-theme-Lexaeus .pi-item a,
+.pi-europa.pi-theme-Lexaeus .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Lexaeus tr td {
@@ -1996,8 +2098,11 @@ table.navbox.Zexion th,
 }
 
 table.navbox.Zexion th a,
-.Zexion .group a{
+.Zexion .group a,
+.pi-theme-Zexion .pi-item a,
+.pi-europa.pi-theme-Zexion .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Zexion tr td {
@@ -2054,8 +2159,11 @@ table.navbox.Saix th,
 }
 
 table.navbox.Saix th a,
-.Saix .group a{
+.Saix .group a,
+.pi-theme-Saix .pi-item a,
+.pi-europa.pi-theme-Saix .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Saix tr td {
@@ -2112,8 +2220,11 @@ table.navbox.Axel th,
 }
 
 table.navbox.Axel th a,
-.Axel .group a{
+.Axel .group a,
+.pi-theme-Axel .pi-item a,
+.pi-europa.pi-theme-Axel .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Axel tr td {
@@ -2170,8 +2281,11 @@ table.navbox.Demyx th,
 }
 
 table.navbox.Demyx th a,
-.Demyx .group a{
+.Demyx .group a,
+.pi-theme-Demyx .pi-item a,
+.pi-europa.pi-theme-Demyx .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Demyx tr td {
@@ -2228,8 +2342,11 @@ table.navbox.Luxord th,
 }
 
 table.navbox.Luxord th a,
-.Luxord .group a{
+.Luxord .group a,
+.pi-theme-Luxord .pi-item a,
+.pi-europa.pi-theme-Luxord .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Luxord tr td {
@@ -2286,8 +2403,11 @@ table.navbox.Marluxia th,
 }
 
 table.navbox.Marluxia th a,
-.Marluxia .group a{
+.Marluxia .group a,
+.pi-theme-Marluxia .pi-item a,
+.pi-europa.pi-theme-Marluxia .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Marluxia tr td {
@@ -2344,8 +2464,11 @@ table.navbox.Larxene th,
 }
 
 table.navbox.Larxene th a,
-.Larxene .group a{
+.Larxene .group a,
+.pi-theme-Larxene .pi-item a,
+.pi-europa.pi-theme-Larxene .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Larxene tr td {
@@ -2402,8 +2525,11 @@ table.navbox.Roxas th,
 }
 
 table.navbox.Roxas th a,
-.Roxas .group a{
+.Roxas .group a,
+.pi-theme-Roxas .pi-item a,
+.pi-europa.pi-theme-Roxas .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Roxas tr td {
@@ -2460,8 +2586,11 @@ table.navbox.Xion th,
 }
 
 table.navbox.Xion th a,
-.Xion .group a{
+.Xion .group a,
+.pi-theme-Xion .pi-item a,
+.pi-europa.pi-theme-Xion .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Xion tr td {
@@ -2518,8 +2647,11 @@ table.navbox.Personnages th,
 }
 
 table.navbox.Personnages th a,
-.Personnages .group a{
+.Personnages .group a,
+.pi-theme-Personnages .pi-item a,
+.pi-europa.pi-theme-Personnages .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Personnages tr td {
@@ -2576,8 +2708,11 @@ table.navbox.Equipe th,
 }
 
 table.navbox.Equipe th a,
-.Equipe .group a{
+.Equipe .group a,
+.pi-theme-Equipe .pi-item a,
+.pi-europa.pi-theme-Equipe .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Equipe tr td {
@@ -2634,8 +2769,11 @@ table.navbox.Invocation th,
 }
 
 table.navbox.Invocation th a,
-.Invocation .group a{
+.Invocation .group a,
+.pi-theme-Invocation .pi-item a,
+.pi-europa.pi-theme-Invocation .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Invocation tr td {
@@ -2692,8 +2830,11 @@ table.navbox.FF th,
 }
 
 table.navbox.FF th a,
-.FF .group a{
+.FF .group a,
+.pi-theme-FF .pi-item a,
+.pi-europa.pi-theme-FF .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.FF tr td {
@@ -2750,8 +2891,11 @@ table.navbox.TWEWY th,
 }
 
 table.navbox.TWEWY th a,
-.TWEWY .group a{
+.TWEWY .group a,
+.pi-theme-TWEWY .pi-item a,
+.pi-europa.pi-theme-TWEWY .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.TWEWY tr td {
@@ -2808,8 +2952,11 @@ table.navbox.Disney th,
 }
 
 table.navbox.Disney th a,
-.Disney .group a{
+.Disney .group a,
+.pi-theme-Disney .pi-item a,
+.pi-europa.pi-theme-Disney .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Disney tr td {
@@ -2866,8 +3013,11 @@ table.navbox.Monde th,
 }
 
 table.navbox.Monde th a,
-.Monde .group a{
+.Monde .group a,
+.pi-theme-Monde .pi-item a,
+.pi-europa.pi-theme-Monde .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Monde tr td {
@@ -2924,8 +3074,11 @@ table.navbox.Lieu th,
 }
 
 table.navbox.Lieu th a,
-.Lieu .group a{
+.Lieu .group a,
+.pi-theme-Lieu .pi-item a,
+.pi-europa.pi-theme-Lieu .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Lieu tr td {
@@ -2982,8 +3135,11 @@ table.navbox.Evenement th,
 }
 
 table.navbox.Evenement th a,
-.Evenement .group a{
+.Evenement .group a,
+.pi-theme-Evenement .pi-item a,
+.pi-europa.pi-theme-Evenement .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Evenement tr td {
@@ -3040,8 +3196,11 @@ table.navbox.Square th,
 }
 
 table.navbox.Square th a,
-.Square .group a{
+.Square .group a,
+.pi-theme-Square .pi-item a,
+.pi-europa.pi-theme-Square .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Square tr td {
@@ -3098,8 +3257,11 @@ table.navbox.Minijeux th,
 }
 
 table.navbox.Minijeux th a,
-.Minijeux .group a{
+.Minijeux .group a,
+.pi-theme-Minijeux .pi-item a,
+.pi-europa.pi-theme-Minijeux .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Minijeux tr td {
@@ -3156,8 +3318,11 @@ table.navbox.Gummis th,
 }
 
 table.navbox.Gummis th a,
-.Gummis .group a{
+.Gummis .group a,
+.pi-theme-Gummis .pi-item a,
+.pi-europa.pi-theme-Gummis .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Gummis tr td {
@@ -3214,8 +3379,11 @@ table.navbox.Produits th,
 }
 
 table.navbox.Produits th a,
-.Produits .group a{
+.Produits .group a,
+.pi-theme-Produits .pi-item a,
+.pi-europa.pi-theme-Produits .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Produits tr td {
@@ -3272,8 +3440,11 @@ table.navbox.Communaute th,
 }
 
 table.navbox.Communaute th a,
-.Communaute .group a{
+.Communaute .group a,
+.pi-theme-Communaute .pi-item a,
+.pi-europa.pi-theme-Communaute .pi-header a{
 	color: white;
+	font-weight: bold;
 }
 
 table.navbox.Communaute tr td {
@@ -3330,8 +3501,11 @@ table.navbox.Musique th,
 }
 
 table.navbox.Musique th a,
-.Musique .group a{
+.Musique .group a,
+.pi-theme-Musique .pi-item a,
+.pi-europa.pi-theme-Musique .pi-header a{
 	color: black;
+	font-weight: bold;
 }
 
 table.navbox.Musique tr td {
