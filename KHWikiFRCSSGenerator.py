@@ -30,8 +30,7 @@ table.navbox.{name} th,
 table.navbox.{name} th a,
 .{name} .group a,
 .pi-theme-{name} .pi-item > .pi-data-value a{{
-	color: {head_font};
-	font-weight: bold;
+	color: {head_font_link};
 }}
 
 table.navbox.{name} tr td {{
@@ -62,7 +61,7 @@ table.navbox.{name} td .subTitle {{
 	border-top-color: {title};
 }}
 
-'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont") )
+'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), head_font_link=theme.get("HeadFontLink"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont") )
 	return output
 	#.group for the sale of compatibility with infoboxes, to remove eventually
 
