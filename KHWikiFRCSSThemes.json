@@ -756,6 +756,20 @@
 		"Infobox": 0
     }, 
     {
+        "Name": "ClassicKingdom", 
+        "Head": "#C0C0C0", 
+        "TitleFont": "black", 
+        "Title": "#A6A7A6", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Classic Kingdom", 
+		"RowAltFont": "black",
+        "RowAlt": "#E7E7E7", 
+        "Row": "#FFFFFF",
+		"Palette": 1,
+		"Infobox": 1
+    }, 
+    {
         "Head": "PaleTurquoise", 
         "TitleFont": "white", 
         "Name": "Gummis", 
