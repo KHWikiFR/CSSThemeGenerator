@@ -758,7 +758,7 @@
     {
         "Name": "ClassicKingdom", 
         "Head": "#C0C0C0", 
-        "TitleFont": "black", 
+        "TitleFont": "white", 
         "Title": "#A6A7A6", 
         "HeadFont": "black", 
         "HeadFontLink": "#0148c2", 

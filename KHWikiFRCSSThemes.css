@@ -3193,12 +3193,12 @@ aside.portable-infobox.pi-theme-ClassicKingdom {
 table.navbox.ClassicKingdom th.titrePalette,
 .pi-theme-ClassicKingdom .pi-item.pi-title {
 	background-color:#A6A7A6;
-	color: black;
+	color: white;
 }
 
 table.navbox.ClassicKingdom th.titrePalette .titreContent a,
 table.navbox.ClassicKingdom .collapseButtonLink {
-	color: black;
+	color: white;
 }
 
 table.navbox.ClassicKingdom th,
