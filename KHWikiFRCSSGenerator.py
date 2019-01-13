@@ -41,17 +41,13 @@ table.navbox.{name} tr td {{
 	background-color:{row};
 }}
 
-table.navbox.{name} tr:nth-child(odd) td,
-.StatBox.{name} tr.DataRow,
-.StatBox.{name} tr.MixedRow td.Data {{
-	background-color:{row_alt};
-	color:{row_alt_font};
-}}
-
 table.navbox.{name} td .subTitle {{
 	border-color:{head};
 }}
 
+table.navbox.{name} tr:nth-child(odd) td,
+.StatBox.{name} tr.DataRow,
+.StatBox.{name} tr.MixedRow td.Data,
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(even),
 .pi-theme-{name} .pi-horizontal-group-item:nth-child(odd),
 .pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(even),
@@ -61,6 +57,19 @@ table.navbox.{name} td .subTitle {{
 .pi-theme-{name} .pi-collapse .pi-item.pi-data {{
 	background-color:{row_alt};
 	color:{row_alt_font};
+}}
+
+table.navbox.{name} tr:nth-child(odd) td a,
+.StatBox.{name} tr.DataRow a,
+.StatBox.{name} tr.MixedRow td.Data a,
+.pi-theme-{name} .pi-horizontal-group-item:nth-child(even) a,
+.pi-theme-{name} .pi-horizontal-group-item:nth-child(odd) a,
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(even) a,
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(even) a,
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(odd) a,
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd) a,
+.pi-theme-{name} .pi-collapse .pi-item.pi-data a {{
+	color:{row_alt_link_font};
 }}
 
 .pi-theme-{name} .pi-group .pi-group + .pi-group.pi-border-color {{
@@ -83,7 +92,7 @@ table.navbox.{name} td .subTitle {{
  
 
 
-'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), head_font_link=theme.get("HeadFontLink"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont") )
+'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), head_font_link=theme.get("HeadFontLink"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont"), row_alt_link_font = theme.get("RowAltLinkFont") )
 	return output
 	#.group for the sale of compatibility with infoboxes, to remove eventually
 
