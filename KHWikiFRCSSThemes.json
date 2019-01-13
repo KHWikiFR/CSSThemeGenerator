@@ -657,7 +657,7 @@
         "Row": "#FFFFFF",
 		"Palette": 1,
 		"Infobox": 1,
-		"Stats" : 0
+		"Stats" : 1
     }, 
     {
         "Head": "mediumaquamarine", 
