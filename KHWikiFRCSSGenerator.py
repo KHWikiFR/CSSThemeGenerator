@@ -4,28 +4,33 @@ import codecs
 def generate_css(theme):
 	output = u'''/* {full_name} */
 
-table.navbox.{name} th {{
-	background-color:{title} !important;
+aside.portable-infobox.pi-theme-{name} {{
+    border-color: {title};
+}}
+ 
+table.navbox.{name} th.titrePalette,
+.pi-theme-{name} .pi-item.pi-title {{
+	background-color:{title};
 	color: {title_font};
 }}
 
-table.navbox.{name} .titrePalette .titreContent a {{
-    color: {title_font};
-}}
-
+table.navbox.{name} th.titrePalette .titreContent a,
 table.navbox.{name} .collapseButtonLink {{
-	color: {title_font} !important;
+	color: {title_font};
 }}
 
-table.navbox.{name} th:not(.titrePalette),
-.{name} .group {{
-	background-color:{head}!important;
+table.navbox.{name} th,
+.{name} .group,
+.pi-theme-{name} .pi-item,
+.pi-europa.pi-theme-{name} .pi-header {{
+	background-color:{head};
 	color: {head_font};
 }}
 
-table.navbox.{name} th:not(.titrePalette),
-.{name} .group a{{
-	color: {head_font};
+table.navbox.{name} th a,
+.{name} .group a,
+.pi-theme-{name} .pi-item > .pi-data-value a{{
+	color: {head_font_link};
 }}
 
 table.navbox.{name} tr td {{
@@ -34,9 +39,29 @@ table.navbox.{name} tr td {{
 
 table.navbox.{name} tr:nth-child(odd) td {{
 	background-color:{row_alt};
+	color:{row_alt_font};
 }}
 
-'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), row=theme.get("Row"), row_alt=theme.get("RowAlt") )
+table.navbox.{name} td .subTitle {{
+	border-color:{head};
+}}
+
+.pi-theme-{name} .pi-horizontal-group-item:nth-child(even),
+.pi-theme-{name} .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-{name} .pi-collapse .pi-item.pi-data {{
+	background-color:{row_alt};
+	color:{row_alt_font};
+}}
+
+.pi-theme-{name} .pi-group .pi-group + .pi-group.pi-border-color {{
+	border-top-color: {title};
+}}
+
+'''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), head_font_link=theme.get("HeadFontLink"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont") )
 	return output
 	#.group for the sale of compatibility with infoboxes, to remove eventually
 
