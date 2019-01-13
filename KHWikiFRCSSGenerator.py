@@ -71,13 +71,14 @@ table.navbox.{name} td .subTitle {{
 .StatTabber.{name} ul.tabbernav li a:hover,
 .StatTabber.{name} ul.tabbernav li a:visited,
 .StatTabber.{name} ul.tabbernav li a:link {{
-    color:{row_alt_font};
+    color:{head};
 }}
  
 .StatTabber.{name} ul.tabbernav li.tabberactive a,
 .StatTabber.{name} ul.tabbernav li.tabberactive a:hover{{
     background-color: {row_alt};
     border-bottom-color:{row_alt};
+    color:{row_alt_font};
 }}
  
 

@@ -67,13 +67,14 @@ table.navbox.KH1 td .subTitle {
 .StatTabber.KH1 ul.tabbernav li a:hover,
 .StatTabber.KH1 ul.tabbernav li a:visited,
 .StatTabber.KH1 ul.tabbernav li a:link {
-    color:black;
+    color:#D9D9F7;
 }
  
 .StatTabber.KH1 ul.tabbernav li.tabberactive a,
 .StatTabber.KH1 ul.tabbernav li.tabberactive a:hover{
     background-color: #E8E8FA;
     border-bottom-color:#E8E8FA;
+    color:black;
 }
  
 
@@ -147,13 +148,14 @@ table.navbox.FM1 td .subTitle {
 .StatTabber.FM1 ul.tabbernav li a:hover,
 .StatTabber.FM1 ul.tabbernav li a:visited,
 .StatTabber.FM1 ul.tabbernav li a:link {
-    color:black;
+    color:#DBE6F9;
 }
  
 .StatTabber.FM1 ul.tabbernav li.tabberactive a,
 .StatTabber.FM1 ul.tabbernav li.tabberactive a:hover{
     background-color: #E6EEFB;
     border-bottom-color:#E6EEFB;
+    color:black;
 }
  
 
@@ -227,13 +229,14 @@ table.navbox.COM td .subTitle {
 .StatTabber.COM ul.tabbernav li a:hover,
 .StatTabber.COM ul.tabbernav li a:visited,
 .StatTabber.COM ul.tabbernav li a:link {
-    color:black;
+    color:#DDDDDD;
 }
  
 .StatTabber.COM ul.tabbernav li.tabberactive a,
 .StatTabber.COM ul.tabbernav li.tabberactive a:hover{
     background-color: #E4E4E4;
     border-bottom-color:#E4E4E4;
+    color:black;
 }
  
 
@@ -307,13 +310,14 @@ table.navbox.KH2 td .subTitle {
 .StatTabber.KH2 ul.tabbernav li a:hover,
 .StatTabber.KH2 ul.tabbernav li a:visited,
 .StatTabber.KH2 ul.tabbernav li a:link {
-    color:black;
+    color:#D2E1F1;
 }
  
 .StatTabber.KH2 ul.tabbernav li.tabberactive a,
 .StatTabber.KH2 ul.tabbernav li.tabberactive a:hover{
     background-color: #E0EAF5;
     border-bottom-color:#E0EAF5;
+    color:black;
 }
  
 
@@ -387,13 +391,14 @@ table.navbox.FM2 td .subTitle {
 .StatTabber.FM2 ul.tabbernav li a:hover,
 .StatTabber.FM2 ul.tabbernav li a:visited,
 .StatTabber.FM2 ul.tabbernav li a:link {
-    color:black;
+    color:#E0E0E0;
 }
  
 .StatTabber.FM2 ul.tabbernav li.tabberactive a,
 .StatTabber.FM2 ul.tabbernav li.tabberactive a:hover{
     background-color: #E9E9E9;
     border-bottom-color:#E9E9E9;
+    color:black;
 }
  
 
@@ -467,13 +472,14 @@ table.navbox.Days td .subTitle {
 .StatTabber.Days ul.tabbernav li a:hover,
 .StatTabber.Days ul.tabbernav li a:visited,
 .StatTabber.Days ul.tabbernav li a:link {
-    color:black;
+    color:#F9E0E0;
 }
  
 .StatTabber.Days ul.tabbernav li.tabberactive a,
 .StatTabber.Days ul.tabbernav li.tabberactive a:hover{
     background-color: #FAECEC;
     border-bottom-color:#FAECEC;
+    color:black;
 }
  
 
@@ -547,13 +553,14 @@ table.navbox.BBS td .subTitle {
 .StatTabber.BBS ul.tabbernav li a:hover,
 .StatTabber.BBS ul.tabbernav li a:visited,
 .StatTabber.BBS ul.tabbernav li a:link {
-    color:black;
+    color:#D7E8F4;
 }
  
 .StatTabber.BBS ul.tabbernav li.tabberactive a,
 .StatTabber.BBS ul.tabbernav li.tabberactive a:hover{
     background-color: #DFEDF6;
     border-bottom-color:#DFEDF6;
+    color:black;
 }
  
 
@@ -627,13 +634,14 @@ table.navbox.BBSFM td .subTitle {
 .StatTabber.BBSFM ul.tabbernav li a:hover,
 .StatTabber.BBSFM ul.tabbernav li a:visited,
 .StatTabber.BBSFM ul.tabbernav li a:link {
-    color:black;
+    color:#C9D9E5;
 }
  
 .StatTabber.BBSFM ul.tabbernav li.tabberactive a,
 .StatTabber.BBSFM ul.tabbernav li.tabberactive a:hover{
     background-color: #DFE8EF;
     border-bottom-color:#DFE8EF;
+    color:black;
 }
  
 
@@ -707,13 +715,14 @@ table.navbox.Coded td .subTitle {
 .StatTabber.Coded ul.tabbernav li a:hover,
 .StatTabber.Coded ul.tabbernav li a:visited,
 .StatTabber.Coded ul.tabbernav li a:link {
-    color:black;
+    color:#F9F9DB;
 }
  
 .StatTabber.Coded ul.tabbernav li.tabberactive a,
 .StatTabber.Coded ul.tabbernav li.tabberactive a:hover{
     background-color: #FBFBE6;
     border-bottom-color:#FBFBE6;
+    color:black;
 }
  
 
@@ -787,13 +796,14 @@ table.navbox.DDD td .subTitle {
 .StatTabber.DDD ul.tabbernav li a:hover,
 .StatTabber.DDD ul.tabbernav li a:visited,
 .StatTabber.DDD ul.tabbernav li a:link {
-    color:black;
+    color:#EDDBF9;
 }
  
 .StatTabber.DDD ul.tabbernav li.tabberactive a,
 .StatTabber.DDD ul.tabbernav li.tabberactive a:hover{
     background-color: #F2E6FB;
     border-bottom-color:#F2E6FB;
+    color:black;
 }
  
 
@@ -867,13 +877,14 @@ table.navbox.CHI td .subTitle {
 .StatTabber.CHI ul.tabbernav li a:hover,
 .StatTabber.CHI ul.tabbernav li a:visited,
 .StatTabber.CHI ul.tabbernav li a:link {
-    color:black;
+    color:#C9E5DC;
 }
  
 .StatTabber.CHI ul.tabbernav li.tabberactive a,
 .StatTabber.CHI ul.tabbernav li.tabberactive a:hover{
     background-color: #DFEFEA;
     border-bottom-color:#DFEFEA;
+    color:black;
 }
  
 
@@ -947,13 +958,14 @@ table.navbox.UCR td .subTitle {
 .StatTabber.UCR ul.tabbernav li a:hover,
 .StatTabber.UCR ul.tabbernav li a:visited,
 .StatTabber.UCR ul.tabbernav li a:link {
-    color:black;
+    color:#D0D0D0;
 }
  
 .StatTabber.UCR ul.tabbernav li.tabberactive a,
 .StatTabber.UCR ul.tabbernav li.tabberactive a:hover{
     background-color: #E1E1E1;
     border-bottom-color:#E1E1E1;
+    color:black;
 }
  
 
@@ -1027,13 +1039,14 @@ table.navbox.KH2_8 td .subTitle {
 .StatTabber.KH2_8 ul.tabbernav li a:hover,
 .StatTabber.KH2_8 ul.tabbernav li a:visited,
 .StatTabber.KH2_8 ul.tabbernav li a:link {
-    color:black;
+    color:#6d6d6d;
 }
  
 .StatTabber.KH2_8 ul.tabbernav li.tabberactive a,
 .StatTabber.KH2_8 ul.tabbernav li.tabberactive a:hover{
     background-color: #e5c9d6;
     border-bottom-color:#e5c9d6;
+    color:black;
 }
  
 
@@ -1107,13 +1120,14 @@ table.navbox.KH3 td .subTitle {
 .StatTabber.KH3 ul.tabbernav li a:hover,
 .StatTabber.KH3 ul.tabbernav li a:visited,
 .StatTabber.KH3 ul.tabbernav li a:link {
-    color:black;
+    color:#C9CBE5;
 }
  
 .StatTabber.KH3 ul.tabbernav li.tabberactive a,
 .StatTabber.KH3 ul.tabbernav li.tabberactive a:hover{
     background-color: #DFE0EF;
     border-bottom-color:#DFE0EF;
+    color:black;
 }
  
 
@@ -1187,13 +1201,14 @@ table.navbox.serieKH td .subTitle {
 .StatTabber.serieKH ul.tabbernav li a:hover,
 .StatTabber.serieKH ul.tabbernav li a:visited,
 .StatTabber.serieKH ul.tabbernav li a:link {
-    color:black;
+    color:#FDF97F;
 }
  
 .StatTabber.serieKH ul.tabbernav li.tabberactive a,
 .StatTabber.serieKH ul.tabbernav li.tabberactive a:hover{
     background-color: #fefab3;
     border-bottom-color:#fefab3;
+    color:black;
 }
  
 
@@ -1267,13 +1282,14 @@ table.navbox.Armes td .subTitle {
 .StatTabber.Armes ul.tabbernav li a:hover,
 .StatTabber.Armes ul.tabbernav li a:visited,
 .StatTabber.Armes ul.tabbernav li a:link {
-    color:black;
+    color:#FFCCCD;
 }
  
 .StatTabber.Armes ul.tabbernav li.tabberactive a,
 .StatTabber.Armes ul.tabbernav li.tabberactive a:hover{
     background-color: #F7DCDC;
     border-bottom-color:#F7DCDC;
+    color:black;
 }
  
 
@@ -1347,13 +1363,14 @@ table.navbox.Keyblade td .subTitle {
 .StatTabber.Keyblade ul.tabbernav li a:hover,
 .StatTabber.Keyblade ul.tabbernav li a:visited,
 .StatTabber.Keyblade ul.tabbernav li a:link {
-    color:black;
+    color:gold;
 }
  
 .StatTabber.Keyblade ul.tabbernav li.tabberactive a,
 .StatTabber.Keyblade ul.tabbernav li.tabberactive a:hover{
     background-color: #E6E6EF;
     border-bottom-color:#E6E6EF;
+    color:black;
 }
  
 
@@ -1427,13 +1444,14 @@ table.navbox.Sceptre td .subTitle {
 .StatTabber.Sceptre ul.tabbernav li a:hover,
 .StatTabber.Sceptre ul.tabbernav li a:visited,
 .StatTabber.Sceptre ul.tabbernav li a:link {
-    color:black;
+    color:gold;
 }
  
 .StatTabber.Sceptre ul.tabbernav li.tabberactive a,
 .StatTabber.Sceptre ul.tabbernav li.tabberactive a:hover{
     background-color: #DAE2EA;
     border-bottom-color:#DAE2EA;
+    color:black;
 }
  
 
@@ -1507,13 +1525,14 @@ table.navbox.Bouclier td .subTitle {
 .StatTabber.Bouclier ul.tabbernav li a:hover,
 .StatTabber.Bouclier ul.tabbernav li a:visited,
 .StatTabber.Bouclier ul.tabbernav li a:link {
-    color:black;
+    color:gold;
 }
  
 .StatTabber.Bouclier ul.tabbernav li.tabberactive a,
 .StatTabber.Bouclier ul.tabbernav li.tabberactive a:hover{
     background-color: #dfd;
     border-bottom-color:#dfd;
+    color:black;
 }
  
 
@@ -1587,13 +1606,14 @@ table.navbox.Armure td .subTitle {
 .StatTabber.Armure ul.tabbernav li a:hover,
 .StatTabber.Armure ul.tabbernav li a:visited,
 .StatTabber.Armure ul.tabbernav li a:link {
-    color:black;
+    color:#fff080;
 }
  
 .StatTabber.Armure ul.tabbernav li.tabberactive a,
 .StatTabber.Armure ul.tabbernav li.tabberactive a:hover{
     background-color: #FFF8C9;
     border-bottom-color:#FFF8C9;
+    color:black;
 }
  
 
@@ -1667,13 +1687,14 @@ table.navbox.Accessoire td .subTitle {
 .StatTabber.Accessoire ul.tabbernav li a:hover,
 .StatTabber.Accessoire ul.tabbernav li a:visited,
 .StatTabber.Accessoire ul.tabbernav li a:link {
-    color:black;
+    color:#2bd;
 }
  
 .StatTabber.Accessoire ul.tabbernav li.tabberactive a,
 .StatTabber.Accessoire ul.tabbernav li.tabberactive a:hover{
     background-color: #def;
     border-bottom-color:#def;
+    color:black;
 }
  
 
@@ -1747,13 +1768,14 @@ table.navbox.Objet td .subTitle {
 .StatTabber.Objet ul.tabbernav li a:hover,
 .StatTabber.Objet ul.tabbernav li a:visited,
 .StatTabber.Objet ul.tabbernav li a:link {
-    color:black;
+    color:forestgreen;
 }
  
 .StatTabber.Objet ul.tabbernav li.tabberactive a,
 .StatTabber.Objet ul.tabbernav li.tabberactive a:hover{
     background-color: #ccffe5;
     border-bottom-color:#ccffe5;
+    color:black;
 }
  
 
@@ -1827,13 +1849,14 @@ table.navbox.Synthese td .subTitle {
 .StatTabber.Synthese ul.tabbernav li a:hover,
 .StatTabber.Synthese ul.tabbernav li a:visited,
 .StatTabber.Synthese ul.tabbernav li a:link {
-    color:black;
+    color:#FA8072;
 }
  
 .StatTabber.Synthese ul.tabbernav li.tabberactive a,
 .StatTabber.Synthese ul.tabbernav li.tabberactive a:hover{
     background-color: #FDF5E6;
     border-bottom-color:#FDF5E6;
+    color:black;
 }
  
 
@@ -1907,13 +1930,14 @@ table.navbox.magie td .subTitle {
 .StatTabber.magie ul.tabbernav li a:hover,
 .StatTabber.magie ul.tabbernav li a:visited,
 .StatTabber.magie ul.tabbernav li a:link {
-    color:black;
+    color:#C7DDE5;
 }
  
 .StatTabber.magie ul.tabbernav li.tabberactive a,
 .StatTabber.magie ul.tabbernav li.tabberactive a:hover{
     background-color: #E6EFF2;
     border-bottom-color:#E6EFF2;
+    color:black;
 }
  
 
@@ -1987,13 +2011,14 @@ table.navbox.SansCoeur td .subTitle {
 .StatTabber.SansCoeur ul.tabbernav li a:hover,
 .StatTabber.SansCoeur ul.tabbernav li a:visited,
 .StatTabber.SansCoeur ul.tabbernav li a:link {
-    color:black;
+    color:#8c0000;
 }
  
 .StatTabber.SansCoeur ul.tabbernav li.tabberactive a,
 .StatTabber.SansCoeur ul.tabbernav li.tabberactive a:hover{
     background-color: #EDDEDE;
     border-bottom-color:#EDDEDE;
+    color:black;
 }
  
 
@@ -2067,13 +2092,14 @@ table.navbox.Simili td .subTitle {
 .StatTabber.Simili ul.tabbernav li a:hover,
 .StatTabber.Simili ul.tabbernav li a:visited,
 .StatTabber.Simili ul.tabbernav li a:link {
-    color:black;
+    color:#C0C0C0;
 }
  
 .StatTabber.Simili ul.tabbernav li.tabberactive a,
 .StatTabber.Simili ul.tabbernav li.tabberactive a:hover{
     background-color: #E0E0E0;
     border-bottom-color:#E0E0E0;
+    color:black;
 }
  
 
@@ -2147,13 +2173,14 @@ table.navbox.Nescient td .subTitle {
 .StatTabber.Nescient ul.tabbernav li a:hover,
 .StatTabber.Nescient ul.tabbernav li a:visited,
 .StatTabber.Nescient ul.tabbernav li a:link {
-    color:black;
+    color:cornflowerblue;
 }
  
 .StatTabber.Nescient ul.tabbernav li.tabberactive a,
 .StatTabber.Nescient ul.tabbernav li.tabberactive a:hover{
     background-color: #DCE2ED;
     border-bottom-color:#DCE2ED;
+    color:black;
 }
  
 
@@ -2227,13 +2254,14 @@ table.navbox.AvaleReves td .subTitle {
 .StatTabber.AvaleReves ul.tabbernav li a:hover,
 .StatTabber.AvaleReves ul.tabbernav li a:visited,
 .StatTabber.AvaleReves ul.tabbernav li a:link {
-    color:black;
+    color:#88FFEA;
 }
  
 .StatTabber.AvaleReves ul.tabbernav li.tabberactive a,
 .StatTabber.AvaleReves ul.tabbernav li.tabberactive a:hover{
     background-color: #DCEDEA;
     border-bottom-color:#DCEDEA;
+    color:black;
 }
  
 
@@ -2307,13 +2335,14 @@ table.navbox.Boss td .subTitle {
 .StatTabber.Boss ul.tabbernav li a:hover,
 .StatTabber.Boss ul.tabbernav li a:visited,
 .StatTabber.Boss ul.tabbernav li a:link {
-    color:black;
+    color:#CC6633;
 }
  
 .StatTabber.Boss ul.tabbernav li.tabberactive a,
 .StatTabber.Boss ul.tabbernav li.tabberactive a:hover{
     background-color: #FFDD88;
     border-bottom-color:#FFDD88;
+    color:black;
 }
  
 
@@ -2387,13 +2416,14 @@ table.navbox.Xemnas td .subTitle {
 .StatTabber.Xemnas ul.tabbernav li a:hover,
 .StatTabber.Xemnas ul.tabbernav li a:visited,
 .StatTabber.Xemnas ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Xemnas ul.tabbernav li.tabberactive a,
 .StatTabber.Xemnas ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2467,13 +2497,14 @@ table.navbox.Xigbar td .subTitle {
 .StatTabber.Xigbar ul.tabbernav li a:hover,
 .StatTabber.Xigbar ul.tabbernav li a:visited,
 .StatTabber.Xigbar ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Xigbar ul.tabbernav li.tabberactive a,
 .StatTabber.Xigbar ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2547,13 +2578,14 @@ table.navbox.Xaldin td .subTitle {
 .StatTabber.Xaldin ul.tabbernav li a:hover,
 .StatTabber.Xaldin ul.tabbernav li a:visited,
 .StatTabber.Xaldin ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Xaldin ul.tabbernav li.tabberactive a,
 .StatTabber.Xaldin ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2627,13 +2659,14 @@ table.navbox.Vexen td .subTitle {
 .StatTabber.Vexen ul.tabbernav li a:hover,
 .StatTabber.Vexen ul.tabbernav li a:visited,
 .StatTabber.Vexen ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Vexen ul.tabbernav li.tabberactive a,
 .StatTabber.Vexen ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2707,13 +2740,14 @@ table.navbox.Lexaeus td .subTitle {
 .StatTabber.Lexaeus ul.tabbernav li a:hover,
 .StatTabber.Lexaeus ul.tabbernav li a:visited,
 .StatTabber.Lexaeus ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Lexaeus ul.tabbernav li.tabberactive a,
 .StatTabber.Lexaeus ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2787,13 +2821,14 @@ table.navbox.Zexion td .subTitle {
 .StatTabber.Zexion ul.tabbernav li a:hover,
 .StatTabber.Zexion ul.tabbernav li a:visited,
 .StatTabber.Zexion ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Zexion ul.tabbernav li.tabberactive a,
 .StatTabber.Zexion ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2867,13 +2902,14 @@ table.navbox.Saix td .subTitle {
 .StatTabber.Saix ul.tabbernav li a:hover,
 .StatTabber.Saix ul.tabbernav li a:visited,
 .StatTabber.Saix ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Saix ul.tabbernav li.tabberactive a,
 .StatTabber.Saix ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -2947,13 +2983,14 @@ table.navbox.Axel td .subTitle {
 .StatTabber.Axel ul.tabbernav li a:hover,
 .StatTabber.Axel ul.tabbernav li a:visited,
 .StatTabber.Axel ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Axel ul.tabbernav li.tabberactive a,
 .StatTabber.Axel ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3027,13 +3064,14 @@ table.navbox.Demyx td .subTitle {
 .StatTabber.Demyx ul.tabbernav li a:hover,
 .StatTabber.Demyx ul.tabbernav li a:visited,
 .StatTabber.Demyx ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Demyx ul.tabbernav li.tabberactive a,
 .StatTabber.Demyx ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3107,13 +3145,14 @@ table.navbox.Luxord td .subTitle {
 .StatTabber.Luxord ul.tabbernav li a:hover,
 .StatTabber.Luxord ul.tabbernav li a:visited,
 .StatTabber.Luxord ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Luxord ul.tabbernav li.tabberactive a,
 .StatTabber.Luxord ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3187,13 +3226,14 @@ table.navbox.Marluxia td .subTitle {
 .StatTabber.Marluxia ul.tabbernav li a:hover,
 .StatTabber.Marluxia ul.tabbernav li a:visited,
 .StatTabber.Marluxia ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Marluxia ul.tabbernav li.tabberactive a,
 .StatTabber.Marluxia ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3267,13 +3307,14 @@ table.navbox.Larxene td .subTitle {
 .StatTabber.Larxene ul.tabbernav li a:hover,
 .StatTabber.Larxene ul.tabbernav li a:visited,
 .StatTabber.Larxene ul.tabbernav li a:link {
-    color:black;
+    color:#AAA;
 }
  
 .StatTabber.Larxene ul.tabbernav li.tabberactive a,
 .StatTabber.Larxene ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3347,13 +3388,14 @@ table.navbox.Roxas td .subTitle {
 .StatTabber.Roxas ul.tabbernav li a:hover,
 .StatTabber.Roxas ul.tabbernav li a:visited,
 .StatTabber.Roxas ul.tabbernav li a:link {
-    color:black;
+    color:#AAAAAA;
 }
  
 .StatTabber.Roxas ul.tabbernav li.tabberactive a,
 .StatTabber.Roxas ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3427,13 +3469,14 @@ table.navbox.Xion td .subTitle {
 .StatTabber.Xion ul.tabbernav li a:hover,
 .StatTabber.Xion ul.tabbernav li a:visited,
 .StatTabber.Xion ul.tabbernav li a:link {
-    color:black;
+    color:#AAAAAA;
 }
  
 .StatTabber.Xion ul.tabbernav li.tabberactive a,
 .StatTabber.Xion ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
+    color:black;
 }
  
 
@@ -3507,13 +3550,14 @@ table.navbox.Personnages td .subTitle {
 .StatTabber.Personnages ul.tabbernav li a:hover,
 .StatTabber.Personnages ul.tabbernav li a:visited,
 .StatTabber.Personnages ul.tabbernav li a:link {
-    color:black;
+    color:#a6b7f2;
 }
  
 .StatTabber.Personnages ul.tabbernav li.tabberactive a,
 .StatTabber.Personnages ul.tabbernav li.tabberactive a:hover{
     background-color: #d2dbf9;
     border-bottom-color:#d2dbf9;
+    color:black;
 }
  
 
@@ -3587,13 +3631,14 @@ table.navbox.Equipe td .subTitle {
 .StatTabber.Equipe ul.tabbernav li a:hover,
 .StatTabber.Equipe ul.tabbernav li a:visited,
 .StatTabber.Equipe ul.tabbernav li a:link {
-    color:black;
+    color:mediumaquamarine;
 }
  
 .StatTabber.Equipe ul.tabbernav li.tabberactive a,
 .StatTabber.Equipe ul.tabbernav li.tabberactive a:hover{
     background-color: #DAEDE6;
     border-bottom-color:#DAEDE6;
+    color:black;
 }
  
 
@@ -3667,13 +3712,14 @@ table.navbox.Invocation td .subTitle {
 .StatTabber.Invocation ul.tabbernav li a:hover,
 .StatTabber.Invocation ul.tabbernav li a:visited,
 .StatTabber.Invocation ul.tabbernav li a:link {
-    color:black;
+    color:#FFE44C;
 }
  
 .StatTabber.Invocation ul.tabbernav li.tabberactive a,
 .StatTabber.Invocation ul.tabbernav li.tabberactive a:hover{
     background-color: #FFFBE5;
     border-bottom-color:#FFFBE5;
+    color:black;
 }
  
 
@@ -3747,13 +3793,14 @@ table.navbox.FF td .subTitle {
 .StatTabber.FF ul.tabbernav li a:hover,
 .StatTabber.FF ul.tabbernav li a:visited,
 .StatTabber.FF ul.tabbernav li a:link {
-    color:black;
+    color:#87CEFA;
 }
  
 .StatTabber.FF ul.tabbernav li.tabberactive a,
 .StatTabber.FF ul.tabbernav li.tabberactive a:hover{
     background-color: #CCD8FF;
     border-bottom-color:#CCD8FF;
+    color:black;
 }
  
 
@@ -3827,13 +3874,14 @@ table.navbox.TWEWY td .subTitle {
 .StatTabber.TWEWY ul.tabbernav li a:hover,
 .StatTabber.TWEWY ul.tabbernav li a:visited,
 .StatTabber.TWEWY ul.tabbernav li a:link {
-    color:black;
+    color:#C3D6E5;
 }
  
 .StatTabber.TWEWY ul.tabbernav li.tabberactive a,
 .StatTabber.TWEWY ul.tabbernav li.tabberactive a:hover{
     background-color: #E3EDF4;
     border-bottom-color:#E3EDF4;
+    color:black;
 }
  
 
@@ -3907,13 +3955,14 @@ table.navbox.Disney td .subTitle {
 .StatTabber.Disney ul.tabbernav li a:hover,
 .StatTabber.Disney ul.tabbernav li a:visited,
 .StatTabber.Disney ul.tabbernav li a:link {
-    color:black;
+    color:mediumorchid;
 }
  
 .StatTabber.Disney ul.tabbernav li.tabberactive a,
 .StatTabber.Disney ul.tabbernav li.tabberactive a:hover{
     background-color: #E9DAED;
     border-bottom-color:#E9DAED;
+    color:black;
 }
  
 
@@ -3987,13 +4036,14 @@ table.navbox.Monde td .subTitle {
 .StatTabber.Monde ul.tabbernav li a:hover,
 .StatTabber.Monde ul.tabbernav li a:visited,
 .StatTabber.Monde ul.tabbernav li a:link {
-    color:black;
+    color:#CDB4F2;
 }
  
 .StatTabber.Monde ul.tabbernav li.tabberactive a,
 .StatTabber.Monde ul.tabbernav li.tabberactive a:hover{
     background-color: #E3DAED;
     border-bottom-color:#E3DAED;
+    color:black;
 }
  
 
@@ -4067,13 +4117,14 @@ table.navbox.Lieu td .subTitle {
 .StatTabber.Lieu ul.tabbernav li a:hover,
 .StatTabber.Lieu ul.tabbernav li a:visited,
 .StatTabber.Lieu ul.tabbernav li a:link {
-    color:black;
+    color:#f6bcbd;
 }
  
 .StatTabber.Lieu ul.tabbernav li.tabberactive a,
 .StatTabber.Lieu ul.tabbernav li.tabberactive a:hover{
     background-color: #f9ebeb;
     border-bottom-color:#f9ebeb;
+    color:black;
 }
  
 
@@ -4147,13 +4198,14 @@ table.navbox.Evenement td .subTitle {
 .StatTabber.Evenement ul.tabbernav li a:hover,
 .StatTabber.Evenement ul.tabbernav li a:visited,
 .StatTabber.Evenement ul.tabbernav li a:link {
-    color:black;
+    color:#edc4c4;
 }
  
 .StatTabber.Evenement ul.tabbernav li.tabberactive a,
 .StatTabber.Evenement ul.tabbernav li.tabberactive a:hover{
     background-color: #fce9e9;
     border-bottom-color:#fce9e9;
+    color:black;
 }
  
 
@@ -4227,13 +4279,14 @@ table.navbox.Square td .subTitle {
 .StatTabber.Square ul.tabbernav li a:hover,
 .StatTabber.Square ul.tabbernav li a:visited,
 .StatTabber.Square ul.tabbernav li a:link {
-    color:black;
+    color:#BEBEBE;
 }
  
 .StatTabber.Square ul.tabbernav li.tabberactive a,
 .StatTabber.Square ul.tabbernav li.tabberactive a:hover{
     background-color: #D9D9D9;
     border-bottom-color:#D9D9D9;
+    color:black;
 }
  
 
@@ -4307,13 +4360,14 @@ table.navbox.Minijeux td .subTitle {
 .StatTabber.Minijeux ul.tabbernav li a:hover,
 .StatTabber.Minijeux ul.tabbernav li a:visited,
 .StatTabber.Minijeux ul.tabbernav li a:link {
-    color:black;
+    color:#FF7F50;
 }
  
 .StatTabber.Minijeux ul.tabbernav li.tabberactive a,
 .StatTabber.Minijeux ul.tabbernav li.tabberactive a:hover{
     background-color: #FFDEBA;
     border-bottom-color:#FFDEBA;
+    color:black;
 }
  
 
@@ -4387,13 +4441,14 @@ table.navbox.ClassicKingdom td .subTitle {
 .StatTabber.ClassicKingdom ul.tabbernav li a:hover,
 .StatTabber.ClassicKingdom ul.tabbernav li a:visited,
 .StatTabber.ClassicKingdom ul.tabbernav li a:link {
-    color:black;
+    color:#C0C0C0;
 }
  
 .StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a,
 .StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a:hover{
     background-color: #E7E7E7;
     border-bottom-color:#E7E7E7;
+    color:black;
 }
  
 
@@ -4467,13 +4522,14 @@ table.navbox.Gummis td .subTitle {
 .StatTabber.Gummis ul.tabbernav li a:hover,
 .StatTabber.Gummis ul.tabbernav li a:visited,
 .StatTabber.Gummis ul.tabbernav li a:link {
-    color:black;
+    color:PaleTurquoise;
 }
  
 .StatTabber.Gummis ul.tabbernav li.tabberactive a,
 .StatTabber.Gummis ul.tabbernav li.tabberactive a:hover{
     background-color: LightCyan;
     border-bottom-color:LightCyan;
+    color:black;
 }
  
 
@@ -4547,13 +4603,14 @@ table.navbox.Produits td .subTitle {
 .StatTabber.Produits ul.tabbernav li a:hover,
 .StatTabber.Produits ul.tabbernav li a:visited,
 .StatTabber.Produits ul.tabbernav li a:link {
-    color:black;
+    color:#80ffce;
 }
  
 .StatTabber.Produits ul.tabbernav li.tabberactive a,
 .StatTabber.Produits ul.tabbernav li.tabberactive a:hover{
     background-color: #ccffeb;
     border-bottom-color:#ccffeb;
+    color:black;
 }
  
 
@@ -4627,13 +4684,14 @@ table.navbox.Communaute td .subTitle {
 .StatTabber.Communaute ul.tabbernav li a:hover,
 .StatTabber.Communaute ul.tabbernav li a:visited,
 .StatTabber.Communaute ul.tabbernav li a:link {
-    color:black;
+    color:dodgerblue;
 }
  
 .StatTabber.Communaute ul.tabbernav li.tabberactive a,
 .StatTabber.Communaute ul.tabbernav li.tabberactive a:hover{
     background-color: #E1F1F7;
     border-bottom-color:#E1F1F7;
+    color:black;
 }
  
 
@@ -4707,13 +4765,14 @@ table.navbox.Musique td .subTitle {
 .StatTabber.Musique ul.tabbernav li a:hover,
 .StatTabber.Musique ul.tabbernav li a:visited,
 .StatTabber.Musique ul.tabbernav li a:link {
-    color:black;
+    color:#a3b9f5;
 }
  
 .StatTabber.Musique ul.tabbernav li.tabberactive a,
 .StatTabber.Musique ul.tabbernav li.tabberactive a:hover{
     background-color: #daeaf5;
     border-bottom-color:#daeaf5;
+    color:black;
 }
  
 
