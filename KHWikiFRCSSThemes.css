@@ -1,11 +1,13 @@
 /* Kingdom Hearts */
 
-aside.portable-infobox.pi-theme-KH1 {
+aside.portable-infobox.pi-theme-KH1,
+.StatBox.KH1{
     border-color: #000080;
 }
  
 table.navbox.KH1 th.titrePalette,
-.pi-theme-KH1 .pi-item.pi-title {
+.pi-theme-KH1 .pi-item.pi-title,
+.StatBox.KH1 th.SectionHeader {
 	background-color:#000080;
 	color: white;
 }
@@ -18,7 +20,9 @@ table.navbox.KH1 .collapseButtonLink {
 table.navbox.KH1 th,
 .KH1 .group,
 .pi-theme-KH1 .pi-item,
-.pi-europa.pi-theme-KH1 .pi-header {
+.pi-europa.pi-theme-KH1 .pi-header,
+.StatBox.KH1 tr.LabelRow,
+.StatBox.KH1 tr.MixedRow th.Label {
 	background-color:#D9D9F7;
 	color: black;
 }
@@ -33,7 +37,9 @@ table.navbox.KH1 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.KH1 tr:nth-child(odd) td {
+table.navbox.KH1 tr:nth-child(odd) td,
+.StatBox.KH1 tr.DataRow,
+.StatBox.KH1 tr.MixedRow td.Data {
 	background-color:#E8E8FA;
 	color:black;
 }
@@ -57,14 +63,31 @@ table.navbox.KH1 td .subTitle {
 	border-top-color: #000080;
 }
 
+.StatTabber.KH1 ul.tabbernav li a,
+.StatTabber.KH1 ul.tabbernav li a:hover,
+.StatTabber.KH1 ul.tabbernav li a:visited,
+.StatTabber.KH1 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.KH1 ul.tabbernav li.tabberactive a,
+.StatTabber.KH1 ul.tabbernav li.tabberactive a:hover{
+    background-color: #E8E8FA;
+    border-bottom-color:#E8E8FA;
+}
+ 
+
+
 /* Kingdom Hearts: Final Mix */
 
-aside.portable-infobox.pi-theme-FM1 {
+aside.portable-infobox.pi-theme-FM1,
+.StatBox.FM1{
     border-color: #6495ED;
 }
  
 table.navbox.FM1 th.titrePalette,
-.pi-theme-FM1 .pi-item.pi-title {
+.pi-theme-FM1 .pi-item.pi-title,
+.StatBox.FM1 th.SectionHeader {
 	background-color:#6495ED;
 	color: white;
 }
@@ -77,7 +100,9 @@ table.navbox.FM1 .collapseButtonLink {
 table.navbox.FM1 th,
 .FM1 .group,
 .pi-theme-FM1 .pi-item,
-.pi-europa.pi-theme-FM1 .pi-header {
+.pi-europa.pi-theme-FM1 .pi-header,
+.StatBox.FM1 tr.LabelRow,
+.StatBox.FM1 tr.MixedRow th.Label {
 	background-color:#DBE6F9;
 	color: black;
 }
@@ -92,7 +117,9 @@ table.navbox.FM1 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.FM1 tr:nth-child(odd) td {
+table.navbox.FM1 tr:nth-child(odd) td,
+.StatBox.FM1 tr.DataRow,
+.StatBox.FM1 tr.MixedRow td.Data {
 	background-color:#E6EEFB;
 	color:black;
 }
@@ -116,14 +143,31 @@ table.navbox.FM1 td .subTitle {
 	border-top-color: #6495ED;
 }
 
+.StatTabber.FM1 ul.tabbernav li a,
+.StatTabber.FM1 ul.tabbernav li a:hover,
+.StatTabber.FM1 ul.tabbernav li a:visited,
+.StatTabber.FM1 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.FM1 ul.tabbernav li.tabberactive a,
+.StatTabber.FM1 ul.tabbernav li.tabberactive a:hover{
+    background-color: #E6EEFB;
+    border-bottom-color:#E6EEFB;
+}
+ 
+
+
 /* Kingdom Hearts: Chain of Memories */
 
-aside.portable-infobox.pi-theme-COM {
+aside.portable-infobox.pi-theme-COM,
+.StatBox.COM{
     border-color: #A9A9A9;
 }
  
 table.navbox.COM th.titrePalette,
-.pi-theme-COM .pi-item.pi-title {
+.pi-theme-COM .pi-item.pi-title,
+.StatBox.COM th.SectionHeader {
 	background-color:#A9A9A9;
 	color: white;
 }
@@ -136,7 +180,9 @@ table.navbox.COM .collapseButtonLink {
 table.navbox.COM th,
 .COM .group,
 .pi-theme-COM .pi-item,
-.pi-europa.pi-theme-COM .pi-header {
+.pi-europa.pi-theme-COM .pi-header,
+.StatBox.COM tr.LabelRow,
+.StatBox.COM tr.MixedRow th.Label {
 	background-color:#DDDDDD;
 	color: black;
 }
@@ -151,7 +197,9 @@ table.navbox.COM tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.COM tr:nth-child(odd) td {
+table.navbox.COM tr:nth-child(odd) td,
+.StatBox.COM tr.DataRow,
+.StatBox.COM tr.MixedRow td.Data {
 	background-color:#E4E4E4;
 	color:black;
 }
@@ -175,14 +223,31 @@ table.navbox.COM td .subTitle {
 	border-top-color: #A9A9A9;
 }
 
+.StatTabber.COM ul.tabbernav li a,
+.StatTabber.COM ul.tabbernav li a:hover,
+.StatTabber.COM ul.tabbernav li a:visited,
+.StatTabber.COM ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.COM ul.tabbernav li.tabberactive a,
+.StatTabber.COM ul.tabbernav li.tabberactive a:hover{
+    background-color: #E4E4E4;
+    border-bottom-color:#E4E4E4;
+}
+ 
+
+
 /* Kingdom Hearts II */
 
-aside.portable-infobox.pi-theme-KH2 {
+aside.portable-infobox.pi-theme-KH2,
+.StatBox.KH2{
     border-color: #4682B4;
 }
  
 table.navbox.KH2 th.titrePalette,
-.pi-theme-KH2 .pi-item.pi-title {
+.pi-theme-KH2 .pi-item.pi-title,
+.StatBox.KH2 th.SectionHeader {
 	background-color:#4682B4;
 	color: white;
 }
@@ -195,7 +260,9 @@ table.navbox.KH2 .collapseButtonLink {
 table.navbox.KH2 th,
 .KH2 .group,
 .pi-theme-KH2 .pi-item,
-.pi-europa.pi-theme-KH2 .pi-header {
+.pi-europa.pi-theme-KH2 .pi-header,
+.StatBox.KH2 tr.LabelRow,
+.StatBox.KH2 tr.MixedRow th.Label {
 	background-color:#D2E1F1;
 	color: black;
 }
@@ -210,7 +277,9 @@ table.navbox.KH2 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.KH2 tr:nth-child(odd) td {
+table.navbox.KH2 tr:nth-child(odd) td,
+.StatBox.KH2 tr.DataRow,
+.StatBox.KH2 tr.MixedRow td.Data {
 	background-color:#E0EAF5;
 	color:black;
 }
@@ -234,14 +303,31 @@ table.navbox.KH2 td .subTitle {
 	border-top-color: #4682B4;
 }
 
+.StatTabber.KH2 ul.tabbernav li a,
+.StatTabber.KH2 ul.tabbernav li a:hover,
+.StatTabber.KH2 ul.tabbernav li a:visited,
+.StatTabber.KH2 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.KH2 ul.tabbernav li.tabberactive a,
+.StatTabber.KH2 ul.tabbernav li.tabberactive a:hover{
+    background-color: #E0EAF5;
+    border-bottom-color:#E0EAF5;
+}
+ 
+
+
 /* Kingdom Hearts II: Final Mix */
 
-aside.portable-infobox.pi-theme-FM2 {
+aside.portable-infobox.pi-theme-FM2,
+.StatBox.FM2{
     border-color: #C0C0C0;
 }
  
 table.navbox.FM2 th.titrePalette,
-.pi-theme-FM2 .pi-item.pi-title {
+.pi-theme-FM2 .pi-item.pi-title,
+.StatBox.FM2 th.SectionHeader {
 	background-color:#C0C0C0;
 	color: white;
 }
@@ -254,7 +340,9 @@ table.navbox.FM2 .collapseButtonLink {
 table.navbox.FM2 th,
 .FM2 .group,
 .pi-theme-FM2 .pi-item,
-.pi-europa.pi-theme-FM2 .pi-header {
+.pi-europa.pi-theme-FM2 .pi-header,
+.StatBox.FM2 tr.LabelRow,
+.StatBox.FM2 tr.MixedRow th.Label {
 	background-color:#E0E0E0;
 	color: black;
 }
@@ -269,7 +357,9 @@ table.navbox.FM2 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.FM2 tr:nth-child(odd) td {
+table.navbox.FM2 tr:nth-child(odd) td,
+.StatBox.FM2 tr.DataRow,
+.StatBox.FM2 tr.MixedRow td.Data {
 	background-color:#E9E9E9;
 	color:black;
 }
@@ -293,14 +383,31 @@ table.navbox.FM2 td .subTitle {
 	border-top-color: #C0C0C0;
 }
 
+.StatTabber.FM2 ul.tabbernav li a,
+.StatTabber.FM2 ul.tabbernav li a:hover,
+.StatTabber.FM2 ul.tabbernav li a:visited,
+.StatTabber.FM2 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.FM2 ul.tabbernav li.tabberactive a,
+.StatTabber.FM2 ul.tabbernav li.tabberactive a:hover{
+    background-color: #E9E9E9;
+    border-bottom-color:#E9E9E9;
+}
+ 
+
+
 /* Kingdom Hearts: 358/2 Days */
 
-aside.portable-infobox.pi-theme-Days {
+aside.portable-infobox.pi-theme-Days,
+.StatBox.Days{
     border-color: #B22222;
 }
  
 table.navbox.Days th.titrePalette,
-.pi-theme-Days .pi-item.pi-title {
+.pi-theme-Days .pi-item.pi-title,
+.StatBox.Days th.SectionHeader {
 	background-color:#B22222;
 	color: white;
 }
@@ -313,7 +420,9 @@ table.navbox.Days .collapseButtonLink {
 table.navbox.Days th,
 .Days .group,
 .pi-theme-Days .pi-item,
-.pi-europa.pi-theme-Days .pi-header {
+.pi-europa.pi-theme-Days .pi-header,
+.StatBox.Days tr.LabelRow,
+.StatBox.Days tr.MixedRow th.Label {
 	background-color:#F9E0E0;
 	color: black;
 }
@@ -328,7 +437,9 @@ table.navbox.Days tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.Days tr:nth-child(odd) td {
+table.navbox.Days tr:nth-child(odd) td,
+.StatBox.Days tr.DataRow,
+.StatBox.Days tr.MixedRow td.Data {
 	background-color:#FAECEC;
 	color:black;
 }
@@ -352,14 +463,31 @@ table.navbox.Days td .subTitle {
 	border-top-color: #B22222;
 }
 
+.StatTabber.Days ul.tabbernav li a,
+.StatTabber.Days ul.tabbernav li a:hover,
+.StatTabber.Days ul.tabbernav li a:visited,
+.StatTabber.Days ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Days ul.tabbernav li.tabberactive a,
+.StatTabber.Days ul.tabbernav li.tabberactive a:hover{
+    background-color: #FAECEC;
+    border-bottom-color:#FAECEC;
+}
+ 
+
+
 /* Birth by Sleep */
 
-aside.portable-infobox.pi-theme-BBS {
+aside.portable-infobox.pi-theme-BBS,
+.StatBox.BBS{
     border-color: #7EB6F2;
 }
  
 table.navbox.BBS th.titrePalette,
-.pi-theme-BBS .pi-item.pi-title {
+.pi-theme-BBS .pi-item.pi-title,
+.StatBox.BBS th.SectionHeader {
 	background-color:#7EB6F2;
 	color: white;
 }
@@ -372,7 +500,9 @@ table.navbox.BBS .collapseButtonLink {
 table.navbox.BBS th,
 .BBS .group,
 .pi-theme-BBS .pi-item,
-.pi-europa.pi-theme-BBS .pi-header {
+.pi-europa.pi-theme-BBS .pi-header,
+.StatBox.BBS tr.LabelRow,
+.StatBox.BBS tr.MixedRow th.Label {
 	background-color:#D7E8F4;
 	color: black;
 }
@@ -387,7 +517,9 @@ table.navbox.BBS tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.BBS tr:nth-child(odd) td {
+table.navbox.BBS tr:nth-child(odd) td,
+.StatBox.BBS tr.DataRow,
+.StatBox.BBS tr.MixedRow td.Data {
 	background-color:#DFEDF6;
 	color:black;
 }
@@ -411,14 +543,31 @@ table.navbox.BBS td .subTitle {
 	border-top-color: #7EB6F2;
 }
 
+.StatTabber.BBS ul.tabbernav li a,
+.StatTabber.BBS ul.tabbernav li a:hover,
+.StatTabber.BBS ul.tabbernav li a:visited,
+.StatTabber.BBS ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.BBS ul.tabbernav li.tabberactive a,
+.StatTabber.BBS ul.tabbernav li.tabberactive a:hover{
+    background-color: #DFEDF6;
+    border-bottom-color:#DFEDF6;
+}
+ 
+
+
 /* Kingdom Hearts: Birth by Sleep Final Mix */
 
-aside.portable-infobox.pi-theme-BBSFM {
+aside.portable-infobox.pi-theme-BBSFM,
+.StatBox.BBSFM{
     border-color: #34526D;
 }
  
 table.navbox.BBSFM th.titrePalette,
-.pi-theme-BBSFM .pi-item.pi-title {
+.pi-theme-BBSFM .pi-item.pi-title,
+.StatBox.BBSFM th.SectionHeader {
 	background-color:#34526D;
 	color: white;
 }
@@ -431,7 +580,9 @@ table.navbox.BBSFM .collapseButtonLink {
 table.navbox.BBSFM th,
 .BBSFM .group,
 .pi-theme-BBSFM .pi-item,
-.pi-europa.pi-theme-BBSFM .pi-header {
+.pi-europa.pi-theme-BBSFM .pi-header,
+.StatBox.BBSFM tr.LabelRow,
+.StatBox.BBSFM tr.MixedRow th.Label {
 	background-color:#C9D9E5;
 	color: black;
 }
@@ -446,7 +597,9 @@ table.navbox.BBSFM tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.BBSFM tr:nth-child(odd) td {
+table.navbox.BBSFM tr:nth-child(odd) td,
+.StatBox.BBSFM tr.DataRow,
+.StatBox.BBSFM tr.MixedRow td.Data {
 	background-color:#DFE8EF;
 	color:black;
 }
@@ -470,14 +623,31 @@ table.navbox.BBSFM td .subTitle {
 	border-top-color: #34526D;
 }
 
+.StatTabber.BBSFM ul.tabbernav li a,
+.StatTabber.BBSFM ul.tabbernav li a:hover,
+.StatTabber.BBSFM ul.tabbernav li a:visited,
+.StatTabber.BBSFM ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.BBSFM ul.tabbernav li.tabberactive a,
+.StatTabber.BBSFM ul.tabbernav li.tabberactive a:hover{
+    background-color: #DFE8EF;
+    border-bottom-color:#DFE8EF;
+}
+ 
+
+
 /* Kingdom Hearts: coded */
 
-aside.portable-infobox.pi-theme-Coded {
+aside.portable-infobox.pi-theme-Coded,
+.StatBox.Coded{
     border-color: #FFFF00;
 }
  
 table.navbox.Coded th.titrePalette,
-.pi-theme-Coded .pi-item.pi-title {
+.pi-theme-Coded .pi-item.pi-title,
+.StatBox.Coded th.SectionHeader {
 	background-color:#FFFF00;
 	color: black;
 }
@@ -490,7 +660,9 @@ table.navbox.Coded .collapseButtonLink {
 table.navbox.Coded th,
 .Coded .group,
 .pi-theme-Coded .pi-item,
-.pi-europa.pi-theme-Coded .pi-header {
+.pi-europa.pi-theme-Coded .pi-header,
+.StatBox.Coded tr.LabelRow,
+.StatBox.Coded tr.MixedRow th.Label {
 	background-color:#F9F9DB;
 	color: black;
 }
@@ -505,7 +677,9 @@ table.navbox.Coded tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Coded tr:nth-child(odd) td {
+table.navbox.Coded tr:nth-child(odd) td,
+.StatBox.Coded tr.DataRow,
+.StatBox.Coded tr.MixedRow td.Data {
 	background-color:#FBFBE6;
 	color:black;
 }
@@ -529,14 +703,31 @@ table.navbox.Coded td .subTitle {
 	border-top-color: #FFFF00;
 }
 
+.StatTabber.Coded ul.tabbernav li a,
+.StatTabber.Coded ul.tabbernav li a:hover,
+.StatTabber.Coded ul.tabbernav li a:visited,
+.StatTabber.Coded ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Coded ul.tabbernav li.tabberactive a,
+.StatTabber.Coded ul.tabbernav li.tabberactive a:hover{
+    background-color: #FBFBE6;
+    border-bottom-color:#FBFBE6;
+}
+ 
+
+
 /* Kingdom Hearts 3D: Dream Drop Distance */
 
-aside.portable-infobox.pi-theme-DDD {
+aside.portable-infobox.pi-theme-DDD,
+.StatBox.DDD{
     border-color: #4B0082;
 }
  
 table.navbox.DDD th.titrePalette,
-.pi-theme-DDD .pi-item.pi-title {
+.pi-theme-DDD .pi-item.pi-title,
+.StatBox.DDD th.SectionHeader {
 	background-color:#4B0082;
 	color: white;
 }
@@ -549,7 +740,9 @@ table.navbox.DDD .collapseButtonLink {
 table.navbox.DDD th,
 .DDD .group,
 .pi-theme-DDD .pi-item,
-.pi-europa.pi-theme-DDD .pi-header {
+.pi-europa.pi-theme-DDD .pi-header,
+.StatBox.DDD tr.LabelRow,
+.StatBox.DDD tr.MixedRow th.Label {
 	background-color:#EDDBF9;
 	color: black;
 }
@@ -564,7 +757,9 @@ table.navbox.DDD tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.DDD tr:nth-child(odd) td {
+table.navbox.DDD tr:nth-child(odd) td,
+.StatBox.DDD tr.DataRow,
+.StatBox.DDD tr.MixedRow td.Data {
 	background-color:#F2E6FB;
 	color:black;
 }
@@ -588,14 +783,31 @@ table.navbox.DDD td .subTitle {
 	border-top-color: #4B0082;
 }
 
+.StatTabber.DDD ul.tabbernav li a,
+.StatTabber.DDD ul.tabbernav li a:hover,
+.StatTabber.DDD ul.tabbernav li a:visited,
+.StatTabber.DDD ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.DDD ul.tabbernav li.tabberactive a,
+.StatTabber.DDD ul.tabbernav li.tabberactive a:hover{
+    background-color: #F2E6FB;
+    border-bottom-color:#F2E6FB;
+}
+ 
+
+
 /* Kingdom Hearts χ [chi] */
 
-aside.portable-infobox.pi-theme-CHI {
+aside.portable-infobox.pi-theme-CHI,
+.StatBox.CHI{
     border-color: #00CC88;
 }
  
 table.navbox.CHI th.titrePalette,
-.pi-theme-CHI .pi-item.pi-title {
+.pi-theme-CHI .pi-item.pi-title,
+.StatBox.CHI th.SectionHeader {
 	background-color:#00CC88;
 	color: white;
 }
@@ -608,7 +820,9 @@ table.navbox.CHI .collapseButtonLink {
 table.navbox.CHI th,
 .CHI .group,
 .pi-theme-CHI .pi-item,
-.pi-europa.pi-theme-CHI .pi-header {
+.pi-europa.pi-theme-CHI .pi-header,
+.StatBox.CHI tr.LabelRow,
+.StatBox.CHI tr.MixedRow th.Label {
 	background-color:#C9E5DC;
 	color: black;
 }
@@ -623,7 +837,9 @@ table.navbox.CHI tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.CHI tr:nth-child(odd) td {
+table.navbox.CHI tr:nth-child(odd) td,
+.StatBox.CHI tr.DataRow,
+.StatBox.CHI tr.MixedRow td.Data {
 	background-color:#DFEFEA;
 	color:black;
 }
@@ -647,14 +863,31 @@ table.navbox.CHI td .subTitle {
 	border-top-color: #00CC88;
 }
 
+.StatTabber.CHI ul.tabbernav li a,
+.StatTabber.CHI ul.tabbernav li a:hover,
+.StatTabber.CHI ul.tabbernav li a:visited,
+.StatTabber.CHI ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.CHI ul.tabbernav li.tabberactive a,
+.StatTabber.CHI ul.tabbernav li.tabberactive a:hover{
+    background-color: #DFEFEA;
+    border-bottom-color:#DFEFEA;
+}
+ 
+
+
 /* Kingdom Hearts: Union χ [cross] */
 
-aside.portable-infobox.pi-theme-UCR {
+aside.portable-infobox.pi-theme-UCR,
+.StatBox.UCR{
     border-color: #808482;
 }
  
 table.navbox.UCR th.titrePalette,
-.pi-theme-UCR .pi-item.pi-title {
+.pi-theme-UCR .pi-item.pi-title,
+.StatBox.UCR th.SectionHeader {
 	background-color:#808482;
 	color: white;
 }
@@ -667,7 +900,9 @@ table.navbox.UCR .collapseButtonLink {
 table.navbox.UCR th,
 .UCR .group,
 .pi-theme-UCR .pi-item,
-.pi-europa.pi-theme-UCR .pi-header {
+.pi-europa.pi-theme-UCR .pi-header,
+.StatBox.UCR tr.LabelRow,
+.StatBox.UCR tr.MixedRow th.Label {
 	background-color:#D0D0D0;
 	color: black;
 }
@@ -682,7 +917,9 @@ table.navbox.UCR tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.UCR tr:nth-child(odd) td {
+table.navbox.UCR tr:nth-child(odd) td,
+.StatBox.UCR tr.DataRow,
+.StatBox.UCR tr.MixedRow td.Data {
 	background-color:#E1E1E1;
 	color:black;
 }
@@ -706,14 +943,31 @@ table.navbox.UCR td .subTitle {
 	border-top-color: #808482;
 }
 
+.StatTabber.UCR ul.tabbernav li a,
+.StatTabber.UCR ul.tabbernav li a:hover,
+.StatTabber.UCR ul.tabbernav li a:visited,
+.StatTabber.UCR ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.UCR ul.tabbernav li.tabberactive a,
+.StatTabber.UCR ul.tabbernav li.tabberactive a:hover{
+    background-color: #E1E1E1;
+    border-bottom-color:#E1E1E1;
+}
+ 
+
+
 /* Kingdom Hearts: HD 2.8 Final Chapter Prologue */
 
-aside.portable-infobox.pi-theme-KH2_8 {
+aside.portable-infobox.pi-theme-KH2_8,
+.StatBox.KH2_8{
     border-color: #c62870;
 }
  
 table.navbox.KH2_8 th.titrePalette,
-.pi-theme-KH2_8 .pi-item.pi-title {
+.pi-theme-KH2_8 .pi-item.pi-title,
+.StatBox.KH2_8 th.SectionHeader {
 	background-color:#c62870;
 	color: white;
 }
@@ -726,7 +980,9 @@ table.navbox.KH2_8 .collapseButtonLink {
 table.navbox.KH2_8 th,
 .KH2_8 .group,
 .pi-theme-KH2_8 .pi-item,
-.pi-europa.pi-theme-KH2_8 .pi-header {
+.pi-europa.pi-theme-KH2_8 .pi-header,
+.StatBox.KH2_8 tr.LabelRow,
+.StatBox.KH2_8 tr.MixedRow th.Label {
 	background-color:#6d6d6d;
 	color: white;
 }
@@ -741,7 +997,9 @@ table.navbox.KH2_8 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.KH2_8 tr:nth-child(odd) td {
+table.navbox.KH2_8 tr:nth-child(odd) td,
+.StatBox.KH2_8 tr.DataRow,
+.StatBox.KH2_8 tr.MixedRow td.Data {
 	background-color:#e5c9d6;
 	color:black;
 }
@@ -765,14 +1023,31 @@ table.navbox.KH2_8 td .subTitle {
 	border-top-color: #c62870;
 }
 
+.StatTabber.KH2_8 ul.tabbernav li a,
+.StatTabber.KH2_8 ul.tabbernav li a:hover,
+.StatTabber.KH2_8 ul.tabbernav li a:visited,
+.StatTabber.KH2_8 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.KH2_8 ul.tabbernav li.tabberactive a,
+.StatTabber.KH2_8 ul.tabbernav li.tabberactive a:hover{
+    background-color: #e5c9d6;
+    border-bottom-color:#e5c9d6;
+}
+ 
+
+
 /* Kingdom Hearts III */
 
-aside.portable-infobox.pi-theme-KH3 {
+aside.portable-infobox.pi-theme-KH3,
+.StatBox.KH3{
     border-color: #67698A;
 }
  
 table.navbox.KH3 th.titrePalette,
-.pi-theme-KH3 .pi-item.pi-title {
+.pi-theme-KH3 .pi-item.pi-title,
+.StatBox.KH3 th.SectionHeader {
 	background-color:#67698A;
 	color: white;
 }
@@ -785,7 +1060,9 @@ table.navbox.KH3 .collapseButtonLink {
 table.navbox.KH3 th,
 .KH3 .group,
 .pi-theme-KH3 .pi-item,
-.pi-europa.pi-theme-KH3 .pi-header {
+.pi-europa.pi-theme-KH3 .pi-header,
+.StatBox.KH3 tr.LabelRow,
+.StatBox.KH3 tr.MixedRow th.Label {
 	background-color:#C9CBE5;
 	color: black;
 }
@@ -800,7 +1077,9 @@ table.navbox.KH3 tr td {
 	background-color:#F9F9F9;
 }
 
-table.navbox.KH3 tr:nth-child(odd) td {
+table.navbox.KH3 tr:nth-child(odd) td,
+.StatBox.KH3 tr.DataRow,
+.StatBox.KH3 tr.MixedRow td.Data {
 	background-color:#DFE0EF;
 	color:black;
 }
@@ -824,14 +1103,31 @@ table.navbox.KH3 td .subTitle {
 	border-top-color: #67698A;
 }
 
+.StatTabber.KH3 ul.tabbernav li a,
+.StatTabber.KH3 ul.tabbernav li a:hover,
+.StatTabber.KH3 ul.tabbernav li a:visited,
+.StatTabber.KH3 ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.KH3 ul.tabbernav li.tabberactive a,
+.StatTabber.KH3 ul.tabbernav li.tabberactive a:hover{
+    background-color: #DFE0EF;
+    border-bottom-color:#DFE0EF;
+}
+ 
+
+
 /* Série KH */
 
-aside.portable-infobox.pi-theme-serieKH {
+aside.portable-infobox.pi-theme-serieKH,
+.StatBox.serieKH{
     border-color: #FFFF00;
 }
  
 table.navbox.serieKH th.titrePalette,
-.pi-theme-serieKH .pi-item.pi-title {
+.pi-theme-serieKH .pi-item.pi-title,
+.StatBox.serieKH th.SectionHeader {
 	background-color:#FFFF00;
 	color: steelblue;
 }
@@ -844,7 +1140,9 @@ table.navbox.serieKH .collapseButtonLink {
 table.navbox.serieKH th,
 .serieKH .group,
 .pi-theme-serieKH .pi-item,
-.pi-europa.pi-theme-serieKH .pi-header {
+.pi-europa.pi-theme-serieKH .pi-header,
+.StatBox.serieKH tr.LabelRow,
+.StatBox.serieKH tr.MixedRow th.Label {
 	background-color:#FDF97F;
 	color: steelblue;
 }
@@ -859,7 +1157,9 @@ table.navbox.serieKH tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.serieKH tr:nth-child(odd) td {
+table.navbox.serieKH tr:nth-child(odd) td,
+.StatBox.serieKH tr.DataRow,
+.StatBox.serieKH tr.MixedRow td.Data {
 	background-color:#fefab3;
 	color:black;
 }
@@ -883,14 +1183,31 @@ table.navbox.serieKH td .subTitle {
 	border-top-color: #FFFF00;
 }
 
+.StatTabber.serieKH ul.tabbernav li a,
+.StatTabber.serieKH ul.tabbernav li a:hover,
+.StatTabber.serieKH ul.tabbernav li a:visited,
+.StatTabber.serieKH ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.serieKH ul.tabbernav li.tabberactive a,
+.StatTabber.serieKH ul.tabbernav li.tabberactive a:hover{
+    background-color: #fefab3;
+    border-bottom-color:#fefab3;
+}
+ 
+
+
 /* Armes */
 
-aside.portable-infobox.pi-theme-Armes {
+aside.portable-infobox.pi-theme-Armes,
+.StatBox.Armes{
     border-color: #FF6666;
 }
  
 table.navbox.Armes th.titrePalette,
-.pi-theme-Armes .pi-item.pi-title {
+.pi-theme-Armes .pi-item.pi-title,
+.StatBox.Armes th.SectionHeader {
 	background-color:#FF6666;
 	color: white;
 }
@@ -903,7 +1220,9 @@ table.navbox.Armes .collapseButtonLink {
 table.navbox.Armes th,
 .Armes .group,
 .pi-theme-Armes .pi-item,
-.pi-europa.pi-theme-Armes .pi-header {
+.pi-europa.pi-theme-Armes .pi-header,
+.StatBox.Armes tr.LabelRow,
+.StatBox.Armes tr.MixedRow th.Label {
 	background-color:#FFCCCD;
 	color: black;
 }
@@ -918,7 +1237,9 @@ table.navbox.Armes tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Armes tr:nth-child(odd) td {
+table.navbox.Armes tr:nth-child(odd) td,
+.StatBox.Armes tr.DataRow,
+.StatBox.Armes tr.MixedRow td.Data {
 	background-color:#F7DCDC;
 	color:black;
 }
@@ -942,14 +1263,31 @@ table.navbox.Armes td .subTitle {
 	border-top-color: #FF6666;
 }
 
+.StatTabber.Armes ul.tabbernav li a,
+.StatTabber.Armes ul.tabbernav li a:hover,
+.StatTabber.Armes ul.tabbernav li a:visited,
+.StatTabber.Armes ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Armes ul.tabbernav li.tabberactive a,
+.StatTabber.Armes ul.tabbernav li.tabberactive a:hover{
+    background-color: #F7DCDC;
+    border-bottom-color:#F7DCDC;
+}
+ 
+
+
 /* Keyblades */
 
-aside.portable-infobox.pi-theme-Keyblade {
+aside.portable-infobox.pi-theme-Keyblade,
+.StatBox.Keyblade{
     border-color: #000080;
 }
  
 table.navbox.Keyblade th.titrePalette,
-.pi-theme-Keyblade .pi-item.pi-title {
+.pi-theme-Keyblade .pi-item.pi-title,
+.StatBox.Keyblade th.SectionHeader {
 	background-color:#000080;
 	color: white;
 }
@@ -962,7 +1300,9 @@ table.navbox.Keyblade .collapseButtonLink {
 table.navbox.Keyblade th,
 .Keyblade .group,
 .pi-theme-Keyblade .pi-item,
-.pi-europa.pi-theme-Keyblade .pi-header {
+.pi-europa.pi-theme-Keyblade .pi-header,
+.StatBox.Keyblade tr.LabelRow,
+.StatBox.Keyblade tr.MixedRow th.Label {
 	background-color:gold;
 	color: black;
 }
@@ -977,7 +1317,9 @@ table.navbox.Keyblade tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Keyblade tr:nth-child(odd) td {
+table.navbox.Keyblade tr:nth-child(odd) td,
+.StatBox.Keyblade tr.DataRow,
+.StatBox.Keyblade tr.MixedRow td.Data {
 	background-color:#E6E6EF;
 	color:black;
 }
@@ -1001,14 +1343,31 @@ table.navbox.Keyblade td .subTitle {
 	border-top-color: #000080;
 }
 
+.StatTabber.Keyblade ul.tabbernav li a,
+.StatTabber.Keyblade ul.tabbernav li a:hover,
+.StatTabber.Keyblade ul.tabbernav li a:visited,
+.StatTabber.Keyblade ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Keyblade ul.tabbernav li.tabberactive a,
+.StatTabber.Keyblade ul.tabbernav li.tabberactive a:hover{
+    background-color: #E6E6EF;
+    border-bottom-color:#E6E6EF;
+}
+ 
+
+
 /* Sceptre */
 
-aside.portable-infobox.pi-theme-Sceptre {
+aside.portable-infobox.pi-theme-Sceptre,
+.StatBox.Sceptre{
     border-color: #0c72cc;
 }
  
 table.navbox.Sceptre th.titrePalette,
-.pi-theme-Sceptre .pi-item.pi-title {
+.pi-theme-Sceptre .pi-item.pi-title,
+.StatBox.Sceptre th.SectionHeader {
 	background-color:#0c72cc;
 	color: white;
 }
@@ -1021,7 +1380,9 @@ table.navbox.Sceptre .collapseButtonLink {
 table.navbox.Sceptre th,
 .Sceptre .group,
 .pi-theme-Sceptre .pi-item,
-.pi-europa.pi-theme-Sceptre .pi-header {
+.pi-europa.pi-theme-Sceptre .pi-header,
+.StatBox.Sceptre tr.LabelRow,
+.StatBox.Sceptre tr.MixedRow th.Label {
 	background-color:gold;
 	color: black;
 }
@@ -1036,7 +1397,9 @@ table.navbox.Sceptre tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Sceptre tr:nth-child(odd) td {
+table.navbox.Sceptre tr:nth-child(odd) td,
+.StatBox.Sceptre tr.DataRow,
+.StatBox.Sceptre tr.MixedRow td.Data {
 	background-color:#DAE2EA;
 	color:black;
 }
@@ -1060,14 +1423,31 @@ table.navbox.Sceptre td .subTitle {
 	border-top-color: #0c72cc;
 }
 
+.StatTabber.Sceptre ul.tabbernav li a,
+.StatTabber.Sceptre ul.tabbernav li a:hover,
+.StatTabber.Sceptre ul.tabbernav li a:visited,
+.StatTabber.Sceptre ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Sceptre ul.tabbernav li.tabberactive a,
+.StatTabber.Sceptre ul.tabbernav li.tabberactive a:hover{
+    background-color: #DAE2EA;
+    border-bottom-color:#DAE2EA;
+}
+ 
+
+
 /* Bouclier */
 
-aside.portable-infobox.pi-theme-Bouclier {
+aside.portable-infobox.pi-theme-Bouclier,
+.StatBox.Bouclier{
     border-color: #0c0;
 }
  
 table.navbox.Bouclier th.titrePalette,
-.pi-theme-Bouclier .pi-item.pi-title {
+.pi-theme-Bouclier .pi-item.pi-title,
+.StatBox.Bouclier th.SectionHeader {
 	background-color:#0c0;
 	color: white;
 }
@@ -1080,7 +1460,9 @@ table.navbox.Bouclier .collapseButtonLink {
 table.navbox.Bouclier th,
 .Bouclier .group,
 .pi-theme-Bouclier .pi-item,
-.pi-europa.pi-theme-Bouclier .pi-header {
+.pi-europa.pi-theme-Bouclier .pi-header,
+.StatBox.Bouclier tr.LabelRow,
+.StatBox.Bouclier tr.MixedRow th.Label {
 	background-color:gold;
 	color: black;
 }
@@ -1095,7 +1477,9 @@ table.navbox.Bouclier tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Bouclier tr:nth-child(odd) td {
+table.navbox.Bouclier tr:nth-child(odd) td,
+.StatBox.Bouclier tr.DataRow,
+.StatBox.Bouclier tr.MixedRow td.Data {
 	background-color:#dfd;
 	color:black;
 }
@@ -1119,14 +1503,31 @@ table.navbox.Bouclier td .subTitle {
 	border-top-color: #0c0;
 }
 
+.StatTabber.Bouclier ul.tabbernav li a,
+.StatTabber.Bouclier ul.tabbernav li a:hover,
+.StatTabber.Bouclier ul.tabbernav li a:visited,
+.StatTabber.Bouclier ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Bouclier ul.tabbernav li.tabberactive a,
+.StatTabber.Bouclier ul.tabbernav li.tabberactive a:hover{
+    background-color: #dfd;
+    border-bottom-color:#dfd;
+}
+ 
+
+
 /* Armures */
 
-aside.portable-infobox.pi-theme-Armure {
+aside.portable-infobox.pi-theme-Armure,
+.StatBox.Armure{
     border-color: #FFE000;
 }
  
 table.navbox.Armure th.titrePalette,
-.pi-theme-Armure .pi-item.pi-title {
+.pi-theme-Armure .pi-item.pi-title,
+.StatBox.Armure th.SectionHeader {
 	background-color:#FFE000;
 	color: black;
 }
@@ -1139,7 +1540,9 @@ table.navbox.Armure .collapseButtonLink {
 table.navbox.Armure th,
 .Armure .group,
 .pi-theme-Armure .pi-item,
-.pi-europa.pi-theme-Armure .pi-header {
+.pi-europa.pi-theme-Armure .pi-header,
+.StatBox.Armure tr.LabelRow,
+.StatBox.Armure tr.MixedRow th.Label {
 	background-color:#fff080;
 	color: black;
 }
@@ -1154,7 +1557,9 @@ table.navbox.Armure tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Armure tr:nth-child(odd) td {
+table.navbox.Armure tr:nth-child(odd) td,
+.StatBox.Armure tr.DataRow,
+.StatBox.Armure tr.MixedRow td.Data {
 	background-color:#FFF8C9;
 	color:black;
 }
@@ -1178,14 +1583,31 @@ table.navbox.Armure td .subTitle {
 	border-top-color: #FFE000;
 }
 
+.StatTabber.Armure ul.tabbernav li a,
+.StatTabber.Armure ul.tabbernav li a:hover,
+.StatTabber.Armure ul.tabbernav li a:visited,
+.StatTabber.Armure ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Armure ul.tabbernav li.tabberactive a,
+.StatTabber.Armure ul.tabbernav li.tabberactive a:hover{
+    background-color: #FFF8C9;
+    border-bottom-color:#FFF8C9;
+}
+ 
+
+
 /* Accessoires */
 
-aside.portable-infobox.pi-theme-Accessoire {
+aside.portable-infobox.pi-theme-Accessoire,
+.StatBox.Accessoire{
     border-color: #0ac;
 }
  
 table.navbox.Accessoire th.titrePalette,
-.pi-theme-Accessoire .pi-item.pi-title {
+.pi-theme-Accessoire .pi-item.pi-title,
+.StatBox.Accessoire th.SectionHeader {
 	background-color:#0ac;
 	color: white;
 }
@@ -1198,7 +1620,9 @@ table.navbox.Accessoire .collapseButtonLink {
 table.navbox.Accessoire th,
 .Accessoire .group,
 .pi-theme-Accessoire .pi-item,
-.pi-europa.pi-theme-Accessoire .pi-header {
+.pi-europa.pi-theme-Accessoire .pi-header,
+.StatBox.Accessoire tr.LabelRow,
+.StatBox.Accessoire tr.MixedRow th.Label {
 	background-color:#2bd;
 	color: black;
 }
@@ -1213,7 +1637,9 @@ table.navbox.Accessoire tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Accessoire tr:nth-child(odd) td {
+table.navbox.Accessoire tr:nth-child(odd) td,
+.StatBox.Accessoire tr.DataRow,
+.StatBox.Accessoire tr.MixedRow td.Data {
 	background-color:#def;
 	color:black;
 }
@@ -1237,14 +1663,31 @@ table.navbox.Accessoire td .subTitle {
 	border-top-color: #0ac;
 }
 
+.StatTabber.Accessoire ul.tabbernav li a,
+.StatTabber.Accessoire ul.tabbernav li a:hover,
+.StatTabber.Accessoire ul.tabbernav li a:visited,
+.StatTabber.Accessoire ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Accessoire ul.tabbernav li.tabberactive a,
+.StatTabber.Accessoire ul.tabbernav li.tabberactive a:hover{
+    background-color: #def;
+    border-bottom-color:#def;
+}
+ 
+
+
 /* Objets */
 
-aside.portable-infobox.pi-theme-Objet {
+aside.portable-infobox.pi-theme-Objet,
+.StatBox.Objet{
     border-color: darkgreen;
 }
  
 table.navbox.Objet th.titrePalette,
-.pi-theme-Objet .pi-item.pi-title {
+.pi-theme-Objet .pi-item.pi-title,
+.StatBox.Objet th.SectionHeader {
 	background-color:darkgreen;
 	color: white;
 }
@@ -1257,7 +1700,9 @@ table.navbox.Objet .collapseButtonLink {
 table.navbox.Objet th,
 .Objet .group,
 .pi-theme-Objet .pi-item,
-.pi-europa.pi-theme-Objet .pi-header {
+.pi-europa.pi-theme-Objet .pi-header,
+.StatBox.Objet tr.LabelRow,
+.StatBox.Objet tr.MixedRow th.Label {
 	background-color:forestgreen;
 	color: white;
 }
@@ -1272,7 +1717,9 @@ table.navbox.Objet tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Objet tr:nth-child(odd) td {
+table.navbox.Objet tr:nth-child(odd) td,
+.StatBox.Objet tr.DataRow,
+.StatBox.Objet tr.MixedRow td.Data {
 	background-color:#ccffe5;
 	color:black;
 }
@@ -1296,14 +1743,31 @@ table.navbox.Objet td .subTitle {
 	border-top-color: darkgreen;
 }
 
+.StatTabber.Objet ul.tabbernav li a,
+.StatTabber.Objet ul.tabbernav li a:hover,
+.StatTabber.Objet ul.tabbernav li a:visited,
+.StatTabber.Objet ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Objet ul.tabbernav li.tabberactive a,
+.StatTabber.Objet ul.tabbernav li.tabberactive a:hover{
+    background-color: #ccffe5;
+    border-bottom-color:#ccffe5;
+}
+ 
+
+
 /* Synthèse */
 
-aside.portable-infobox.pi-theme-Synthese {
+aside.portable-infobox.pi-theme-Synthese,
+.StatBox.Synthese{
     border-color: #FF0000;
 }
  
 table.navbox.Synthese th.titrePalette,
-.pi-theme-Synthese .pi-item.pi-title {
+.pi-theme-Synthese .pi-item.pi-title,
+.StatBox.Synthese th.SectionHeader {
 	background-color:#FF0000;
 	color: white;
 }
@@ -1316,7 +1780,9 @@ table.navbox.Synthese .collapseButtonLink {
 table.navbox.Synthese th,
 .Synthese .group,
 .pi-theme-Synthese .pi-item,
-.pi-europa.pi-theme-Synthese .pi-header {
+.pi-europa.pi-theme-Synthese .pi-header,
+.StatBox.Synthese tr.LabelRow,
+.StatBox.Synthese tr.MixedRow th.Label {
 	background-color:#FA8072;
 	color: black;
 }
@@ -1331,7 +1797,9 @@ table.navbox.Synthese tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Synthese tr:nth-child(odd) td {
+table.navbox.Synthese tr:nth-child(odd) td,
+.StatBox.Synthese tr.DataRow,
+.StatBox.Synthese tr.MixedRow td.Data {
 	background-color:#FDF5E6;
 	color:black;
 }
@@ -1355,14 +1823,31 @@ table.navbox.Synthese td .subTitle {
 	border-top-color: #FF0000;
 }
 
+.StatTabber.Synthese ul.tabbernav li a,
+.StatTabber.Synthese ul.tabbernav li a:hover,
+.StatTabber.Synthese ul.tabbernav li a:visited,
+.StatTabber.Synthese ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Synthese ul.tabbernav li.tabberactive a,
+.StatTabber.Synthese ul.tabbernav li.tabberactive a:hover{
+    background-color: #FDF5E6;
+    border-bottom-color:#FDF5E6;
+}
+ 
+
+
 /* Magies */
 
-aside.portable-infobox.pi-theme-magie {
+aside.portable-infobox.pi-theme-magie,
+.StatBox.magie{
     border-color: #007BA7;
 }
  
 table.navbox.magie th.titrePalette,
-.pi-theme-magie .pi-item.pi-title {
+.pi-theme-magie .pi-item.pi-title,
+.StatBox.magie th.SectionHeader {
 	background-color:#007BA7;
 	color: white;
 }
@@ -1375,7 +1860,9 @@ table.navbox.magie .collapseButtonLink {
 table.navbox.magie th,
 .magie .group,
 .pi-theme-magie .pi-item,
-.pi-europa.pi-theme-magie .pi-header {
+.pi-europa.pi-theme-magie .pi-header,
+.StatBox.magie tr.LabelRow,
+.StatBox.magie tr.MixedRow th.Label {
 	background-color:#C7DDE5;
 	color: black;
 }
@@ -1390,7 +1877,9 @@ table.navbox.magie tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.magie tr:nth-child(odd) td {
+table.navbox.magie tr:nth-child(odd) td,
+.StatBox.magie tr.DataRow,
+.StatBox.magie tr.MixedRow td.Data {
 	background-color:#E6EFF2;
 	color:black;
 }
@@ -1414,14 +1903,31 @@ table.navbox.magie td .subTitle {
 	border-top-color: #007BA7;
 }
 
+.StatTabber.magie ul.tabbernav li a,
+.StatTabber.magie ul.tabbernav li a:hover,
+.StatTabber.magie ul.tabbernav li a:visited,
+.StatTabber.magie ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.magie ul.tabbernav li.tabberactive a,
+.StatTabber.magie ul.tabbernav li.tabberactive a:hover{
+    background-color: #E6EFF2;
+    border-bottom-color:#E6EFF2;
+}
+ 
+
+
 /* Sans-cœur */
 
-aside.portable-infobox.pi-theme-SansCoeur {
+aside.portable-infobox.pi-theme-SansCoeur,
+.StatBox.SansCoeur{
     border-color: black;
 }
  
 table.navbox.SansCoeur th.titrePalette,
-.pi-theme-SansCoeur .pi-item.pi-title {
+.pi-theme-SansCoeur .pi-item.pi-title,
+.StatBox.SansCoeur th.SectionHeader {
 	background-color:black;
 	color: white;
 }
@@ -1434,7 +1940,9 @@ table.navbox.SansCoeur .collapseButtonLink {
 table.navbox.SansCoeur th,
 .SansCoeur .group,
 .pi-theme-SansCoeur .pi-item,
-.pi-europa.pi-theme-SansCoeur .pi-header {
+.pi-europa.pi-theme-SansCoeur .pi-header,
+.StatBox.SansCoeur tr.LabelRow,
+.StatBox.SansCoeur tr.MixedRow th.Label {
 	background-color:#8c0000;
 	color: white;
 }
@@ -1449,7 +1957,9 @@ table.navbox.SansCoeur tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.SansCoeur tr:nth-child(odd) td {
+table.navbox.SansCoeur tr:nth-child(odd) td,
+.StatBox.SansCoeur tr.DataRow,
+.StatBox.SansCoeur tr.MixedRow td.Data {
 	background-color:#EDDEDE;
 	color:black;
 }
@@ -1473,14 +1983,31 @@ table.navbox.SansCoeur td .subTitle {
 	border-top-color: black;
 }
 
+.StatTabber.SansCoeur ul.tabbernav li a,
+.StatTabber.SansCoeur ul.tabbernav li a:hover,
+.StatTabber.SansCoeur ul.tabbernav li a:visited,
+.StatTabber.SansCoeur ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.SansCoeur ul.tabbernav li.tabberactive a,
+.StatTabber.SansCoeur ul.tabbernav li.tabberactive a:hover{
+    background-color: #EDDEDE;
+    border-bottom-color:#EDDEDE;
+}
+ 
+
+
 /* Simili */
 
-aside.portable-infobox.pi-theme-Simili {
+aside.portable-infobox.pi-theme-Simili,
+.StatBox.Simili{
     border-color: #696969;
 }
  
 table.navbox.Simili th.titrePalette,
-.pi-theme-Simili .pi-item.pi-title {
+.pi-theme-Simili .pi-item.pi-title,
+.StatBox.Simili th.SectionHeader {
 	background-color:#696969;
 	color: white;
 }
@@ -1493,7 +2020,9 @@ table.navbox.Simili .collapseButtonLink {
 table.navbox.Simili th,
 .Simili .group,
 .pi-theme-Simili .pi-item,
-.pi-europa.pi-theme-Simili .pi-header {
+.pi-europa.pi-theme-Simili .pi-header,
+.StatBox.Simili tr.LabelRow,
+.StatBox.Simili tr.MixedRow th.Label {
 	background-color:#C0C0C0;
 	color: black;
 }
@@ -1508,7 +2037,9 @@ table.navbox.Simili tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Simili tr:nth-child(odd) td {
+table.navbox.Simili tr:nth-child(odd) td,
+.StatBox.Simili tr.DataRow,
+.StatBox.Simili tr.MixedRow td.Data {
 	background-color:#E0E0E0;
 	color:black;
 }
@@ -1532,14 +2063,31 @@ table.navbox.Simili td .subTitle {
 	border-top-color: #696969;
 }
 
+.StatTabber.Simili ul.tabbernav li a,
+.StatTabber.Simili ul.tabbernav li a:hover,
+.StatTabber.Simili ul.tabbernav li a:visited,
+.StatTabber.Simili ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Simili ul.tabbernav li.tabberactive a,
+.StatTabber.Simili ul.tabbernav li.tabberactive a:hover{
+    background-color: #E0E0E0;
+    border-bottom-color:#E0E0E0;
+}
+ 
+
+
 /* Nescients */
 
-aside.portable-infobox.pi-theme-Nescient {
+aside.portable-infobox.pi-theme-Nescient,
+.StatBox.Nescient{
     border-color: #000a7a;
 }
  
 table.navbox.Nescient th.titrePalette,
-.pi-theme-Nescient .pi-item.pi-title {
+.pi-theme-Nescient .pi-item.pi-title,
+.StatBox.Nescient th.SectionHeader {
 	background-color:#000a7a;
 	color: white;
 }
@@ -1552,7 +2100,9 @@ table.navbox.Nescient .collapseButtonLink {
 table.navbox.Nescient th,
 .Nescient .group,
 .pi-theme-Nescient .pi-item,
-.pi-europa.pi-theme-Nescient .pi-header {
+.pi-europa.pi-theme-Nescient .pi-header,
+.StatBox.Nescient tr.LabelRow,
+.StatBox.Nescient tr.MixedRow th.Label {
 	background-color:cornflowerblue;
 	color: white;
 }
@@ -1567,7 +2117,9 @@ table.navbox.Nescient tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Nescient tr:nth-child(odd) td {
+table.navbox.Nescient tr:nth-child(odd) td,
+.StatBox.Nescient tr.DataRow,
+.StatBox.Nescient tr.MixedRow td.Data {
 	background-color:#DCE2ED;
 	color:black;
 }
@@ -1591,14 +2143,31 @@ table.navbox.Nescient td .subTitle {
 	border-top-color: #000a7a;
 }
 
+.StatTabber.Nescient ul.tabbernav li a,
+.StatTabber.Nescient ul.tabbernav li a:hover,
+.StatTabber.Nescient ul.tabbernav li a:visited,
+.StatTabber.Nescient ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Nescient ul.tabbernav li.tabberactive a,
+.StatTabber.Nescient ul.tabbernav li.tabberactive a:hover{
+    background-color: #DCE2ED;
+    border-bottom-color:#DCE2ED;
+}
+ 
+
+
 /* Avale-Rêves */
 
-aside.portable-infobox.pi-theme-AvaleReves {
+aside.portable-infobox.pi-theme-AvaleReves,
+.StatBox.AvaleReves{
     border-color: #DA70D6;
 }
  
 table.navbox.AvaleReves th.titrePalette,
-.pi-theme-AvaleReves .pi-item.pi-title {
+.pi-theme-AvaleReves .pi-item.pi-title,
+.StatBox.AvaleReves th.SectionHeader {
 	background-color:#DA70D6;
 	color: white;
 }
@@ -1611,7 +2180,9 @@ table.navbox.AvaleReves .collapseButtonLink {
 table.navbox.AvaleReves th,
 .AvaleReves .group,
 .pi-theme-AvaleReves .pi-item,
-.pi-europa.pi-theme-AvaleReves .pi-header {
+.pi-europa.pi-theme-AvaleReves .pi-header,
+.StatBox.AvaleReves tr.LabelRow,
+.StatBox.AvaleReves tr.MixedRow th.Label {
 	background-color:#88FFEA;
 	color: black;
 }
@@ -1626,7 +2197,9 @@ table.navbox.AvaleReves tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.AvaleReves tr:nth-child(odd) td {
+table.navbox.AvaleReves tr:nth-child(odd) td,
+.StatBox.AvaleReves tr.DataRow,
+.StatBox.AvaleReves tr.MixedRow td.Data {
 	background-color:#DCEDEA;
 	color:black;
 }
@@ -1650,14 +2223,31 @@ table.navbox.AvaleReves td .subTitle {
 	border-top-color: #DA70D6;
 }
 
+.StatTabber.AvaleReves ul.tabbernav li a,
+.StatTabber.AvaleReves ul.tabbernav li a:hover,
+.StatTabber.AvaleReves ul.tabbernav li a:visited,
+.StatTabber.AvaleReves ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.AvaleReves ul.tabbernav li.tabberactive a,
+.StatTabber.AvaleReves ul.tabbernav li.tabberactive a:hover{
+    background-color: #DCEDEA;
+    border-bottom-color:#DCEDEA;
+}
+ 
+
+
 /* Boss */
 
-aside.portable-infobox.pi-theme-Boss {
+aside.portable-infobox.pi-theme-Boss,
+.StatBox.Boss{
     border-color: #990000;
 }
  
 table.navbox.Boss th.titrePalette,
-.pi-theme-Boss .pi-item.pi-title {
+.pi-theme-Boss .pi-item.pi-title,
+.StatBox.Boss th.SectionHeader {
 	background-color:#990000;
 	color: white;
 }
@@ -1670,7 +2260,9 @@ table.navbox.Boss .collapseButtonLink {
 table.navbox.Boss th,
 .Boss .group,
 .pi-theme-Boss .pi-item,
-.pi-europa.pi-theme-Boss .pi-header {
+.pi-europa.pi-theme-Boss .pi-header,
+.StatBox.Boss tr.LabelRow,
+.StatBox.Boss tr.MixedRow th.Label {
 	background-color:#CC6633;
 	color: black;
 }
@@ -1685,7 +2277,9 @@ table.navbox.Boss tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Boss tr:nth-child(odd) td {
+table.navbox.Boss tr:nth-child(odd) td,
+.StatBox.Boss tr.DataRow,
+.StatBox.Boss tr.MixedRow td.Data {
 	background-color:#FFDD88;
 	color:black;
 }
@@ -1709,14 +2303,31 @@ table.navbox.Boss td .subTitle {
 	border-top-color: #990000;
 }
 
+.StatTabber.Boss ul.tabbernav li a,
+.StatTabber.Boss ul.tabbernav li a:hover,
+.StatTabber.Boss ul.tabbernav li a:visited,
+.StatTabber.Boss ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Boss ul.tabbernav li.tabberactive a,
+.StatTabber.Boss ul.tabbernav li.tabberactive a:hover{
+    background-color: #FFDD88;
+    border-bottom-color:#FFDD88;
+}
+ 
+
+
 /* Xemnas */
 
-aside.portable-infobox.pi-theme-Xemnas {
+aside.portable-infobox.pi-theme-Xemnas,
+.StatBox.Xemnas{
     border-color: #333333;
 }
  
 table.navbox.Xemnas th.titrePalette,
-.pi-theme-Xemnas .pi-item.pi-title {
+.pi-theme-Xemnas .pi-item.pi-title,
+.StatBox.Xemnas th.SectionHeader {
 	background-color:#333333;
 	color: white;
 }
@@ -1729,7 +2340,9 @@ table.navbox.Xemnas .collapseButtonLink {
 table.navbox.Xemnas th,
 .Xemnas .group,
 .pi-theme-Xemnas .pi-item,
-.pi-europa.pi-theme-Xemnas .pi-header {
+.pi-europa.pi-theme-Xemnas .pi-header,
+.StatBox.Xemnas tr.LabelRow,
+.StatBox.Xemnas tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -1744,7 +2357,9 @@ table.navbox.Xemnas tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Xemnas tr:nth-child(odd) td {
+table.navbox.Xemnas tr:nth-child(odd) td,
+.StatBox.Xemnas tr.DataRow,
+.StatBox.Xemnas tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -1768,14 +2383,31 @@ table.navbox.Xemnas td .subTitle {
 	border-top-color: #333333;
 }
 
+.StatTabber.Xemnas ul.tabbernav li a,
+.StatTabber.Xemnas ul.tabbernav li a:hover,
+.StatTabber.Xemnas ul.tabbernav li a:visited,
+.StatTabber.Xemnas ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Xemnas ul.tabbernav li.tabberactive a,
+.StatTabber.Xemnas ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Xigbar */
 
-aside.portable-infobox.pi-theme-Xigbar {
+aside.portable-infobox.pi-theme-Xigbar,
+.StatBox.Xigbar{
     border-color: #936c93;
 }
  
 table.navbox.Xigbar th.titrePalette,
-.pi-theme-Xigbar .pi-item.pi-title {
+.pi-theme-Xigbar .pi-item.pi-title,
+.StatBox.Xigbar th.SectionHeader {
 	background-color:#936c93;
 	color: white;
 }
@@ -1788,7 +2420,9 @@ table.navbox.Xigbar .collapseButtonLink {
 table.navbox.Xigbar th,
 .Xigbar .group,
 .pi-theme-Xigbar .pi-item,
-.pi-europa.pi-theme-Xigbar .pi-header {
+.pi-europa.pi-theme-Xigbar .pi-header,
+.StatBox.Xigbar tr.LabelRow,
+.StatBox.Xigbar tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -1803,7 +2437,9 @@ table.navbox.Xigbar tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Xigbar tr:nth-child(odd) td {
+table.navbox.Xigbar tr:nth-child(odd) td,
+.StatBox.Xigbar tr.DataRow,
+.StatBox.Xigbar tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -1827,14 +2463,31 @@ table.navbox.Xigbar td .subTitle {
 	border-top-color: #936c93;
 }
 
+.StatTabber.Xigbar ul.tabbernav li a,
+.StatTabber.Xigbar ul.tabbernav li a:hover,
+.StatTabber.Xigbar ul.tabbernav li a:visited,
+.StatTabber.Xigbar ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Xigbar ul.tabbernav li.tabberactive a,
+.StatTabber.Xigbar ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Xaldin */
 
-aside.portable-infobox.pi-theme-Xaldin {
+aside.portable-infobox.pi-theme-Xaldin,
+.StatBox.Xaldin{
     border-color: #6c609f;
 }
  
 table.navbox.Xaldin th.titrePalette,
-.pi-theme-Xaldin .pi-item.pi-title {
+.pi-theme-Xaldin .pi-item.pi-title,
+.StatBox.Xaldin th.SectionHeader {
 	background-color:#6c609f;
 	color: white;
 }
@@ -1847,7 +2500,9 @@ table.navbox.Xaldin .collapseButtonLink {
 table.navbox.Xaldin th,
 .Xaldin .group,
 .pi-theme-Xaldin .pi-item,
-.pi-europa.pi-theme-Xaldin .pi-header {
+.pi-europa.pi-theme-Xaldin .pi-header,
+.StatBox.Xaldin tr.LabelRow,
+.StatBox.Xaldin tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -1862,7 +2517,9 @@ table.navbox.Xaldin tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Xaldin tr:nth-child(odd) td {
+table.navbox.Xaldin tr:nth-child(odd) td,
+.StatBox.Xaldin tr.DataRow,
+.StatBox.Xaldin tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -1886,14 +2543,31 @@ table.navbox.Xaldin td .subTitle {
 	border-top-color: #6c609f;
 }
 
+.StatTabber.Xaldin ul.tabbernav li a,
+.StatTabber.Xaldin ul.tabbernav li a:hover,
+.StatTabber.Xaldin ul.tabbernav li a:visited,
+.StatTabber.Xaldin ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Xaldin ul.tabbernav li.tabberactive a,
+.StatTabber.Xaldin ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Vexen */
 
-aside.portable-infobox.pi-theme-Vexen {
+aside.portable-infobox.pi-theme-Vexen,
+.StatBox.Vexen{
     border-color: #75abbd;
 }
  
 table.navbox.Vexen th.titrePalette,
-.pi-theme-Vexen .pi-item.pi-title {
+.pi-theme-Vexen .pi-item.pi-title,
+.StatBox.Vexen th.SectionHeader {
 	background-color:#75abbd;
 	color: white;
 }
@@ -1906,7 +2580,9 @@ table.navbox.Vexen .collapseButtonLink {
 table.navbox.Vexen th,
 .Vexen .group,
 .pi-theme-Vexen .pi-item,
-.pi-europa.pi-theme-Vexen .pi-header {
+.pi-europa.pi-theme-Vexen .pi-header,
+.StatBox.Vexen tr.LabelRow,
+.StatBox.Vexen tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -1921,7 +2597,9 @@ table.navbox.Vexen tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Vexen tr:nth-child(odd) td {
+table.navbox.Vexen tr:nth-child(odd) td,
+.StatBox.Vexen tr.DataRow,
+.StatBox.Vexen tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -1945,14 +2623,31 @@ table.navbox.Vexen td .subTitle {
 	border-top-color: #75abbd;
 }
 
+.StatTabber.Vexen ul.tabbernav li a,
+.StatTabber.Vexen ul.tabbernav li a:hover,
+.StatTabber.Vexen ul.tabbernav li a:visited,
+.StatTabber.Vexen ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Vexen ul.tabbernav li.tabberactive a,
+.StatTabber.Vexen ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Lexaeus */
 
-aside.portable-infobox.pi-theme-Lexaeus {
+aside.portable-infobox.pi-theme-Lexaeus,
+.StatBox.Lexaeus{
     border-color: #815931;
 }
  
 table.navbox.Lexaeus th.titrePalette,
-.pi-theme-Lexaeus .pi-item.pi-title {
+.pi-theme-Lexaeus .pi-item.pi-title,
+.StatBox.Lexaeus th.SectionHeader {
 	background-color:#815931;
 	color: white;
 }
@@ -1965,7 +2660,9 @@ table.navbox.Lexaeus .collapseButtonLink {
 table.navbox.Lexaeus th,
 .Lexaeus .group,
 .pi-theme-Lexaeus .pi-item,
-.pi-europa.pi-theme-Lexaeus .pi-header {
+.pi-europa.pi-theme-Lexaeus .pi-header,
+.StatBox.Lexaeus tr.LabelRow,
+.StatBox.Lexaeus tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -1980,7 +2677,9 @@ table.navbox.Lexaeus tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Lexaeus tr:nth-child(odd) td {
+table.navbox.Lexaeus tr:nth-child(odd) td,
+.StatBox.Lexaeus tr.DataRow,
+.StatBox.Lexaeus tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2004,14 +2703,31 @@ table.navbox.Lexaeus td .subTitle {
 	border-top-color: #815931;
 }
 
+.StatTabber.Lexaeus ul.tabbernav li a,
+.StatTabber.Lexaeus ul.tabbernav li a:hover,
+.StatTabber.Lexaeus ul.tabbernav li a:visited,
+.StatTabber.Lexaeus ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Lexaeus ul.tabbernav li.tabberactive a,
+.StatTabber.Lexaeus ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Zexion */
 
-aside.portable-infobox.pi-theme-Zexion {
+aside.portable-infobox.pi-theme-Zexion,
+.StatBox.Zexion{
     border-color: #6666b2;
 }
  
 table.navbox.Zexion th.titrePalette,
-.pi-theme-Zexion .pi-item.pi-title {
+.pi-theme-Zexion .pi-item.pi-title,
+.StatBox.Zexion th.SectionHeader {
 	background-color:#6666b2;
 	color: white;
 }
@@ -2024,7 +2740,9 @@ table.navbox.Zexion .collapseButtonLink {
 table.navbox.Zexion th,
 .Zexion .group,
 .pi-theme-Zexion .pi-item,
-.pi-europa.pi-theme-Zexion .pi-header {
+.pi-europa.pi-theme-Zexion .pi-header,
+.StatBox.Zexion tr.LabelRow,
+.StatBox.Zexion tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2039,7 +2757,9 @@ table.navbox.Zexion tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Zexion tr:nth-child(odd) td {
+table.navbox.Zexion tr:nth-child(odd) td,
+.StatBox.Zexion tr.DataRow,
+.StatBox.Zexion tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2063,14 +2783,31 @@ table.navbox.Zexion td .subTitle {
 	border-top-color: #6666b2;
 }
 
+.StatTabber.Zexion ul.tabbernav li a,
+.StatTabber.Zexion ul.tabbernav li a:hover,
+.StatTabber.Zexion ul.tabbernav li a:visited,
+.StatTabber.Zexion ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Zexion ul.tabbernav li.tabberactive a,
+.StatTabber.Zexion ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Saïx */
 
-aside.portable-infobox.pi-theme-Saix {
+aside.portable-infobox.pi-theme-Saix,
+.StatBox.Saix{
     border-color: #648cb4;
 }
  
 table.navbox.Saix th.titrePalette,
-.pi-theme-Saix .pi-item.pi-title {
+.pi-theme-Saix .pi-item.pi-title,
+.StatBox.Saix th.SectionHeader {
 	background-color:#648cb4;
 	color: white;
 }
@@ -2083,7 +2820,9 @@ table.navbox.Saix .collapseButtonLink {
 table.navbox.Saix th,
 .Saix .group,
 .pi-theme-Saix .pi-item,
-.pi-europa.pi-theme-Saix .pi-header {
+.pi-europa.pi-theme-Saix .pi-header,
+.StatBox.Saix tr.LabelRow,
+.StatBox.Saix tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2098,7 +2837,9 @@ table.navbox.Saix tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Saix tr:nth-child(odd) td {
+table.navbox.Saix tr:nth-child(odd) td,
+.StatBox.Saix tr.DataRow,
+.StatBox.Saix tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2122,14 +2863,31 @@ table.navbox.Saix td .subTitle {
 	border-top-color: #648cb4;
 }
 
+.StatTabber.Saix ul.tabbernav li a,
+.StatTabber.Saix ul.tabbernav li a:hover,
+.StatTabber.Saix ul.tabbernav li a:visited,
+.StatTabber.Saix ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Saix ul.tabbernav li.tabberactive a,
+.StatTabber.Saix ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Axel */
 
-aside.portable-infobox.pi-theme-Axel {
+aside.portable-infobox.pi-theme-Axel,
+.StatBox.Axel{
     border-color: #c63939;
 }
  
 table.navbox.Axel th.titrePalette,
-.pi-theme-Axel .pi-item.pi-title {
+.pi-theme-Axel .pi-item.pi-title,
+.StatBox.Axel th.SectionHeader {
 	background-color:#c63939;
 	color: white;
 }
@@ -2142,7 +2900,9 @@ table.navbox.Axel .collapseButtonLink {
 table.navbox.Axel th,
 .Axel .group,
 .pi-theme-Axel .pi-item,
-.pi-europa.pi-theme-Axel .pi-header {
+.pi-europa.pi-theme-Axel .pi-header,
+.StatBox.Axel tr.LabelRow,
+.StatBox.Axel tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2157,7 +2917,9 @@ table.navbox.Axel tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Axel tr:nth-child(odd) td {
+table.navbox.Axel tr:nth-child(odd) td,
+.StatBox.Axel tr.DataRow,
+.StatBox.Axel tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2181,14 +2943,31 @@ table.navbox.Axel td .subTitle {
 	border-top-color: #c63939;
 }
 
+.StatTabber.Axel ul.tabbernav li a,
+.StatTabber.Axel ul.tabbernav li a:hover,
+.StatTabber.Axel ul.tabbernav li a:visited,
+.StatTabber.Axel ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Axel ul.tabbernav li.tabberactive a,
+.StatTabber.Axel ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Demyx */
 
-aside.portable-infobox.pi-theme-Demyx {
+aside.portable-infobox.pi-theme-Demyx,
+.StatBox.Demyx{
     border-color: #408cbf;
 }
  
 table.navbox.Demyx th.titrePalette,
-.pi-theme-Demyx .pi-item.pi-title {
+.pi-theme-Demyx .pi-item.pi-title,
+.StatBox.Demyx th.SectionHeader {
 	background-color:#408cbf;
 	color: white;
 }
@@ -2201,7 +2980,9 @@ table.navbox.Demyx .collapseButtonLink {
 table.navbox.Demyx th,
 .Demyx .group,
 .pi-theme-Demyx .pi-item,
-.pi-europa.pi-theme-Demyx .pi-header {
+.pi-europa.pi-theme-Demyx .pi-header,
+.StatBox.Demyx tr.LabelRow,
+.StatBox.Demyx tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2216,7 +2997,9 @@ table.navbox.Demyx tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Demyx tr:nth-child(odd) td {
+table.navbox.Demyx tr:nth-child(odd) td,
+.StatBox.Demyx tr.DataRow,
+.StatBox.Demyx tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2240,14 +3023,31 @@ table.navbox.Demyx td .subTitle {
 	border-top-color: #408cbf;
 }
 
+.StatTabber.Demyx ul.tabbernav li a,
+.StatTabber.Demyx ul.tabbernav li a:hover,
+.StatTabber.Demyx ul.tabbernav li a:visited,
+.StatTabber.Demyx ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Demyx ul.tabbernav li.tabberactive a,
+.StatTabber.Demyx ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Luxord */
 
-aside.portable-infobox.pi-theme-Luxord {
+aside.portable-infobox.pi-theme-Luxord,
+.StatBox.Luxord{
     border-color: #BBBBBB;
 }
  
 table.navbox.Luxord th.titrePalette,
-.pi-theme-Luxord .pi-item.pi-title {
+.pi-theme-Luxord .pi-item.pi-title,
+.StatBox.Luxord th.SectionHeader {
 	background-color:#BBBBBB;
 	color: black;
 }
@@ -2260,7 +3060,9 @@ table.navbox.Luxord .collapseButtonLink {
 table.navbox.Luxord th,
 .Luxord .group,
 .pi-theme-Luxord .pi-item,
-.pi-europa.pi-theme-Luxord .pi-header {
+.pi-europa.pi-theme-Luxord .pi-header,
+.StatBox.Luxord tr.LabelRow,
+.StatBox.Luxord tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2275,7 +3077,9 @@ table.navbox.Luxord tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Luxord tr:nth-child(odd) td {
+table.navbox.Luxord tr:nth-child(odd) td,
+.StatBox.Luxord tr.DataRow,
+.StatBox.Luxord tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2299,14 +3103,31 @@ table.navbox.Luxord td .subTitle {
 	border-top-color: #BBBBBB;
 }
 
+.StatTabber.Luxord ul.tabbernav li a,
+.StatTabber.Luxord ul.tabbernav li a:hover,
+.StatTabber.Luxord ul.tabbernav li a:visited,
+.StatTabber.Luxord ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Luxord ul.tabbernav li.tabberactive a,
+.StatTabber.Luxord ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Marluxia */
 
-aside.portable-infobox.pi-theme-Marluxia {
+aside.portable-infobox.pi-theme-Marluxia,
+.StatBox.Marluxia{
     border-color: #e3b5c4;
 }
  
 table.navbox.Marluxia th.titrePalette,
-.pi-theme-Marluxia .pi-item.pi-title {
+.pi-theme-Marluxia .pi-item.pi-title,
+.StatBox.Marluxia th.SectionHeader {
 	background-color:#e3b5c4;
 	color: black;
 }
@@ -2319,7 +3140,9 @@ table.navbox.Marluxia .collapseButtonLink {
 table.navbox.Marluxia th,
 .Marluxia .group,
 .pi-theme-Marluxia .pi-item,
-.pi-europa.pi-theme-Marluxia .pi-header {
+.pi-europa.pi-theme-Marluxia .pi-header,
+.StatBox.Marluxia tr.LabelRow,
+.StatBox.Marluxia tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2334,7 +3157,9 @@ table.navbox.Marluxia tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Marluxia tr:nth-child(odd) td {
+table.navbox.Marluxia tr:nth-child(odd) td,
+.StatBox.Marluxia tr.DataRow,
+.StatBox.Marluxia tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2358,14 +3183,31 @@ table.navbox.Marluxia td .subTitle {
 	border-top-color: #e3b5c4;
 }
 
+.StatTabber.Marluxia ul.tabbernav li a,
+.StatTabber.Marluxia ul.tabbernav li a:hover,
+.StatTabber.Marluxia ul.tabbernav li a:visited,
+.StatTabber.Marluxia ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Marluxia ul.tabbernav li.tabberactive a,
+.StatTabber.Marluxia ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Larxene */
 
-aside.portable-infobox.pi-theme-Larxene {
+aside.portable-infobox.pi-theme-Larxene,
+.StatBox.Larxene{
     border-color: #f7f769;
 }
  
 table.navbox.Larxene th.titrePalette,
-.pi-theme-Larxene .pi-item.pi-title {
+.pi-theme-Larxene .pi-item.pi-title,
+.StatBox.Larxene th.SectionHeader {
 	background-color:#f7f769;
 	color: black;
 }
@@ -2378,7 +3220,9 @@ table.navbox.Larxene .collapseButtonLink {
 table.navbox.Larxene th,
 .Larxene .group,
 .pi-theme-Larxene .pi-item,
-.pi-europa.pi-theme-Larxene .pi-header {
+.pi-europa.pi-theme-Larxene .pi-header,
+.StatBox.Larxene tr.LabelRow,
+.StatBox.Larxene tr.MixedRow th.Label {
 	background-color:#AAA;
 	color: black;
 }
@@ -2393,7 +3237,9 @@ table.navbox.Larxene tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Larxene tr:nth-child(odd) td {
+table.navbox.Larxene tr:nth-child(odd) td,
+.StatBox.Larxene tr.DataRow,
+.StatBox.Larxene tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2417,14 +3263,31 @@ table.navbox.Larxene td .subTitle {
 	border-top-color: #f7f769;
 }
 
+.StatTabber.Larxene ul.tabbernav li a,
+.StatTabber.Larxene ul.tabbernav li a:hover,
+.StatTabber.Larxene ul.tabbernav li a:visited,
+.StatTabber.Larxene ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Larxene ul.tabbernav li.tabberactive a,
+.StatTabber.Larxene ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Roxas */
 
-aside.portable-infobox.pi-theme-Roxas {
+aside.portable-infobox.pi-theme-Roxas,
+.StatBox.Roxas{
     border-color: #FFCC00;
 }
  
 table.navbox.Roxas th.titrePalette,
-.pi-theme-Roxas .pi-item.pi-title {
+.pi-theme-Roxas .pi-item.pi-title,
+.StatBox.Roxas th.SectionHeader {
 	background-color:#FFCC00;
 	color: black;
 }
@@ -2437,7 +3300,9 @@ table.navbox.Roxas .collapseButtonLink {
 table.navbox.Roxas th,
 .Roxas .group,
 .pi-theme-Roxas .pi-item,
-.pi-europa.pi-theme-Roxas .pi-header {
+.pi-europa.pi-theme-Roxas .pi-header,
+.StatBox.Roxas tr.LabelRow,
+.StatBox.Roxas tr.MixedRow th.Label {
 	background-color:#AAAAAA;
 	color: black;
 }
@@ -2452,7 +3317,9 @@ table.navbox.Roxas tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Roxas tr:nth-child(odd) td {
+table.navbox.Roxas tr:nth-child(odd) td,
+.StatBox.Roxas tr.DataRow,
+.StatBox.Roxas tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2476,14 +3343,31 @@ table.navbox.Roxas td .subTitle {
 	border-top-color: #FFCC00;
 }
 
+.StatTabber.Roxas ul.tabbernav li a,
+.StatTabber.Roxas ul.tabbernav li a:hover,
+.StatTabber.Roxas ul.tabbernav li a:visited,
+.StatTabber.Roxas ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Roxas ul.tabbernav li.tabberactive a,
+.StatTabber.Roxas ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Xion */
 
-aside.portable-infobox.pi-theme-Xion {
+aside.portable-infobox.pi-theme-Xion,
+.StatBox.Xion{
     border-color: #000000;
 }
  
 table.navbox.Xion th.titrePalette,
-.pi-theme-Xion .pi-item.pi-title {
+.pi-theme-Xion .pi-item.pi-title,
+.StatBox.Xion th.SectionHeader {
 	background-color:#000000;
 	color: white;
 }
@@ -2496,7 +3380,9 @@ table.navbox.Xion .collapseButtonLink {
 table.navbox.Xion th,
 .Xion .group,
 .pi-theme-Xion .pi-item,
-.pi-europa.pi-theme-Xion .pi-header {
+.pi-europa.pi-theme-Xion .pi-header,
+.StatBox.Xion tr.LabelRow,
+.StatBox.Xion tr.MixedRow th.Label {
 	background-color:#AAAAAA;
 	color: black;
 }
@@ -2511,7 +3397,9 @@ table.navbox.Xion tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Xion tr:nth-child(odd) td {
+table.navbox.Xion tr:nth-child(odd) td,
+.StatBox.Xion tr.DataRow,
+.StatBox.Xion tr.MixedRow td.Data {
 	background-color:#DDDDDD;
 	color:black;
 }
@@ -2535,14 +3423,31 @@ table.navbox.Xion td .subTitle {
 	border-top-color: #000000;
 }
 
+.StatTabber.Xion ul.tabbernav li a,
+.StatTabber.Xion ul.tabbernav li a:hover,
+.StatTabber.Xion ul.tabbernav li a:visited,
+.StatTabber.Xion ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Xion ul.tabbernav li.tabberactive a,
+.StatTabber.Xion ul.tabbernav li.tabberactive a:hover{
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+}
+ 
+
+
 /* Personnages */
 
-aside.portable-infobox.pi-theme-Personnages {
+aside.portable-infobox.pi-theme-Personnages,
+.StatBox.Personnages{
     border-color: #5b58ec;
 }
  
 table.navbox.Personnages th.titrePalette,
-.pi-theme-Personnages .pi-item.pi-title {
+.pi-theme-Personnages .pi-item.pi-title,
+.StatBox.Personnages th.SectionHeader {
 	background-color:#5b58ec;
 	color: white;
 }
@@ -2555,7 +3460,9 @@ table.navbox.Personnages .collapseButtonLink {
 table.navbox.Personnages th,
 .Personnages .group,
 .pi-theme-Personnages .pi-item,
-.pi-europa.pi-theme-Personnages .pi-header {
+.pi-europa.pi-theme-Personnages .pi-header,
+.StatBox.Personnages tr.LabelRow,
+.StatBox.Personnages tr.MixedRow th.Label {
 	background-color:#a6b7f2;
 	color: black;
 }
@@ -2570,7 +3477,9 @@ table.navbox.Personnages tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Personnages tr:nth-child(odd) td {
+table.navbox.Personnages tr:nth-child(odd) td,
+.StatBox.Personnages tr.DataRow,
+.StatBox.Personnages tr.MixedRow td.Data {
 	background-color:#d2dbf9;
 	color:black;
 }
@@ -2594,14 +3503,31 @@ table.navbox.Personnages td .subTitle {
 	border-top-color: #5b58ec;
 }
 
+.StatTabber.Personnages ul.tabbernav li a,
+.StatTabber.Personnages ul.tabbernav li a:hover,
+.StatTabber.Personnages ul.tabbernav li a:visited,
+.StatTabber.Personnages ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Personnages ul.tabbernav li.tabberactive a,
+.StatTabber.Personnages ul.tabbernav li.tabberactive a:hover{
+    background-color: #d2dbf9;
+    border-bottom-color:#d2dbf9;
+}
+ 
+
+
 /* Équipe */
 
-aside.portable-infobox.pi-theme-Equipe {
+aside.portable-infobox.pi-theme-Equipe,
+.StatBox.Equipe{
     border-color: lightseagreen;
 }
  
 table.navbox.Equipe th.titrePalette,
-.pi-theme-Equipe .pi-item.pi-title {
+.pi-theme-Equipe .pi-item.pi-title,
+.StatBox.Equipe th.SectionHeader {
 	background-color:lightseagreen;
 	color: black;
 }
@@ -2614,7 +3540,9 @@ table.navbox.Equipe .collapseButtonLink {
 table.navbox.Equipe th,
 .Equipe .group,
 .pi-theme-Equipe .pi-item,
-.pi-europa.pi-theme-Equipe .pi-header {
+.pi-europa.pi-theme-Equipe .pi-header,
+.StatBox.Equipe tr.LabelRow,
+.StatBox.Equipe tr.MixedRow th.Label {
 	background-color:mediumaquamarine;
 	color: black;
 }
@@ -2629,7 +3557,9 @@ table.navbox.Equipe tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Equipe tr:nth-child(odd) td {
+table.navbox.Equipe tr:nth-child(odd) td,
+.StatBox.Equipe tr.DataRow,
+.StatBox.Equipe tr.MixedRow td.Data {
 	background-color:#DAEDE6;
 	color:black;
 }
@@ -2653,14 +3583,31 @@ table.navbox.Equipe td .subTitle {
 	border-top-color: lightseagreen;
 }
 
+.StatTabber.Equipe ul.tabbernav li a,
+.StatTabber.Equipe ul.tabbernav li a:hover,
+.StatTabber.Equipe ul.tabbernav li a:visited,
+.StatTabber.Equipe ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Equipe ul.tabbernav li.tabberactive a,
+.StatTabber.Equipe ul.tabbernav li.tabberactive a:hover{
+    background-color: #DAEDE6;
+    border-bottom-color:#DAEDE6;
+}
+ 
+
+
 /* Invocation */
 
-aside.portable-infobox.pi-theme-Invocation {
+aside.portable-infobox.pi-theme-Invocation,
+.StatBox.Invocation{
     border-color: gold;
 }
  
 table.navbox.Invocation th.titrePalette,
-.pi-theme-Invocation .pi-item.pi-title {
+.pi-theme-Invocation .pi-item.pi-title,
+.StatBox.Invocation th.SectionHeader {
 	background-color:gold;
 	color: black;
 }
@@ -2673,7 +3620,9 @@ table.navbox.Invocation .collapseButtonLink {
 table.navbox.Invocation th,
 .Invocation .group,
 .pi-theme-Invocation .pi-item,
-.pi-europa.pi-theme-Invocation .pi-header {
+.pi-europa.pi-theme-Invocation .pi-header,
+.StatBox.Invocation tr.LabelRow,
+.StatBox.Invocation tr.MixedRow th.Label {
 	background-color:#FFE44C;
 	color: black;
 }
@@ -2688,7 +3637,9 @@ table.navbox.Invocation tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Invocation tr:nth-child(odd) td {
+table.navbox.Invocation tr:nth-child(odd) td,
+.StatBox.Invocation tr.DataRow,
+.StatBox.Invocation tr.MixedRow td.Data {
 	background-color:#FFFBE5;
 	color:black;
 }
@@ -2712,14 +3663,31 @@ table.navbox.Invocation td .subTitle {
 	border-top-color: gold;
 }
 
+.StatTabber.Invocation ul.tabbernav li a,
+.StatTabber.Invocation ul.tabbernav li a:hover,
+.StatTabber.Invocation ul.tabbernav li a:visited,
+.StatTabber.Invocation ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Invocation ul.tabbernav li.tabberactive a,
+.StatTabber.Invocation ul.tabbernav li.tabberactive a:hover{
+    background-color: #FFFBE5;
+    border-bottom-color:#FFFBE5;
+}
+ 
+
+
 /* Final Fantasy */
 
-aside.portable-infobox.pi-theme-FF {
+aside.portable-infobox.pi-theme-FF,
+.StatBox.FF{
     border-color: #4169E1;
 }
  
 table.navbox.FF th.titrePalette,
-.pi-theme-FF .pi-item.pi-title {
+.pi-theme-FF .pi-item.pi-title,
+.StatBox.FF th.SectionHeader {
 	background-color:#4169E1;
 	color: white;
 }
@@ -2732,7 +3700,9 @@ table.navbox.FF .collapseButtonLink {
 table.navbox.FF th,
 .FF .group,
 .pi-theme-FF .pi-item,
-.pi-europa.pi-theme-FF .pi-header {
+.pi-europa.pi-theme-FF .pi-header,
+.StatBox.FF tr.LabelRow,
+.StatBox.FF tr.MixedRow th.Label {
 	background-color:#87CEFA;
 	color: black;
 }
@@ -2747,7 +3717,9 @@ table.navbox.FF tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.FF tr:nth-child(odd) td {
+table.navbox.FF tr:nth-child(odd) td,
+.StatBox.FF tr.DataRow,
+.StatBox.FF tr.MixedRow td.Data {
 	background-color:#CCD8FF;
 	color:black;
 }
@@ -2771,14 +3743,31 @@ table.navbox.FF td .subTitle {
 	border-top-color: #4169E1;
 }
 
+.StatTabber.FF ul.tabbernav li a,
+.StatTabber.FF ul.tabbernav li a:hover,
+.StatTabber.FF ul.tabbernav li a:visited,
+.StatTabber.FF ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.FF ul.tabbernav li.tabberactive a,
+.StatTabber.FF ul.tabbernav li.tabberactive a:hover{
+    background-color: #CCD8FF;
+    border-bottom-color:#CCD8FF;
+}
+ 
+
+
 /* The World Ends With You */
 
-aside.portable-infobox.pi-theme-TWEWY {
+aside.portable-infobox.pi-theme-TWEWY,
+.StatBox.TWEWY{
     border-color: #003058;
 }
  
 table.navbox.TWEWY th.titrePalette,
-.pi-theme-TWEWY .pi-item.pi-title {
+.pi-theme-TWEWY .pi-item.pi-title,
+.StatBox.TWEWY th.SectionHeader {
 	background-color:#003058;
 	color: white;
 }
@@ -2791,7 +3780,9 @@ table.navbox.TWEWY .collapseButtonLink {
 table.navbox.TWEWY th,
 .TWEWY .group,
 .pi-theme-TWEWY .pi-item,
-.pi-europa.pi-theme-TWEWY .pi-header {
+.pi-europa.pi-theme-TWEWY .pi-header,
+.StatBox.TWEWY tr.LabelRow,
+.StatBox.TWEWY tr.MixedRow th.Label {
 	background-color:#C3D6E5;
 	color: black;
 }
@@ -2806,7 +3797,9 @@ table.navbox.TWEWY tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.TWEWY tr:nth-child(odd) td {
+table.navbox.TWEWY tr:nth-child(odd) td,
+.StatBox.TWEWY tr.DataRow,
+.StatBox.TWEWY tr.MixedRow td.Data {
 	background-color:#E3EDF4;
 	color:black;
 }
@@ -2830,14 +3823,31 @@ table.navbox.TWEWY td .subTitle {
 	border-top-color: #003058;
 }
 
+.StatTabber.TWEWY ul.tabbernav li a,
+.StatTabber.TWEWY ul.tabbernav li a:hover,
+.StatTabber.TWEWY ul.tabbernav li a:visited,
+.StatTabber.TWEWY ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.TWEWY ul.tabbernav li.tabberactive a,
+.StatTabber.TWEWY ul.tabbernav li.tabberactive a:hover{
+    background-color: #E3EDF4;
+    border-bottom-color:#E3EDF4;
+}
+ 
+
+
 /* Disney */
 
-aside.portable-infobox.pi-theme-Disney {
+aside.portable-infobox.pi-theme-Disney,
+.StatBox.Disney{
     border-color: blueviolet;
 }
  
 table.navbox.Disney th.titrePalette,
-.pi-theme-Disney .pi-item.pi-title {
+.pi-theme-Disney .pi-item.pi-title,
+.StatBox.Disney th.SectionHeader {
 	background-color:blueviolet;
 	color: white;
 }
@@ -2850,7 +3860,9 @@ table.navbox.Disney .collapseButtonLink {
 table.navbox.Disney th,
 .Disney .group,
 .pi-theme-Disney .pi-item,
-.pi-europa.pi-theme-Disney .pi-header {
+.pi-europa.pi-theme-Disney .pi-header,
+.StatBox.Disney tr.LabelRow,
+.StatBox.Disney tr.MixedRow th.Label {
 	background-color:mediumorchid;
 	color: white;
 }
@@ -2865,7 +3877,9 @@ table.navbox.Disney tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Disney tr:nth-child(odd) td {
+table.navbox.Disney tr:nth-child(odd) td,
+.StatBox.Disney tr.DataRow,
+.StatBox.Disney tr.MixedRow td.Data {
 	background-color:#E9DAED;
 	color:black;
 }
@@ -2889,14 +3903,31 @@ table.navbox.Disney td .subTitle {
 	border-top-color: blueviolet;
 }
 
+.StatTabber.Disney ul.tabbernav li a,
+.StatTabber.Disney ul.tabbernav li a:hover,
+.StatTabber.Disney ul.tabbernav li a:visited,
+.StatTabber.Disney ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Disney ul.tabbernav li.tabberactive a,
+.StatTabber.Disney ul.tabbernav li.tabberactive a:hover{
+    background-color: #E9DAED;
+    border-bottom-color:#E9DAED;
+}
+ 
+
+
 /* Monde */
 
-aside.portable-infobox.pi-theme-Monde {
+aside.portable-infobox.pi-theme-Monde,
+.StatBox.Monde{
     border-color: #7c45aa;
 }
  
 table.navbox.Monde th.titrePalette,
-.pi-theme-Monde .pi-item.pi-title {
+.pi-theme-Monde .pi-item.pi-title,
+.StatBox.Monde th.SectionHeader {
 	background-color:#7c45aa;
 	color: white;
 }
@@ -2909,7 +3940,9 @@ table.navbox.Monde .collapseButtonLink {
 table.navbox.Monde th,
 .Monde .group,
 .pi-theme-Monde .pi-item,
-.pi-europa.pi-theme-Monde .pi-header {
+.pi-europa.pi-theme-Monde .pi-header,
+.StatBox.Monde tr.LabelRow,
+.StatBox.Monde tr.MixedRow th.Label {
 	background-color:#CDB4F2;
 	color: black;
 }
@@ -2924,7 +3957,9 @@ table.navbox.Monde tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Monde tr:nth-child(odd) td {
+table.navbox.Monde tr:nth-child(odd) td,
+.StatBox.Monde tr.DataRow,
+.StatBox.Monde tr.MixedRow td.Data {
 	background-color:#E3DAED;
 	color:black;
 }
@@ -2948,14 +3983,31 @@ table.navbox.Monde td .subTitle {
 	border-top-color: #7c45aa;
 }
 
+.StatTabber.Monde ul.tabbernav li a,
+.StatTabber.Monde ul.tabbernav li a:hover,
+.StatTabber.Monde ul.tabbernav li a:visited,
+.StatTabber.Monde ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Monde ul.tabbernav li.tabberactive a,
+.StatTabber.Monde ul.tabbernav li.tabberactive a:hover{
+    background-color: #E3DAED;
+    border-bottom-color:#E3DAED;
+}
+ 
+
+
 /* Lieu */
 
-aside.portable-infobox.pi-theme-Lieu {
+aside.portable-infobox.pi-theme-Lieu,
+.StatBox.Lieu{
     border-color: #CD5C5C;
 }
  
 table.navbox.Lieu th.titrePalette,
-.pi-theme-Lieu .pi-item.pi-title {
+.pi-theme-Lieu .pi-item.pi-title,
+.StatBox.Lieu th.SectionHeader {
 	background-color:#CD5C5C;
 	color: black;
 }
@@ -2968,7 +4020,9 @@ table.navbox.Lieu .collapseButtonLink {
 table.navbox.Lieu th,
 .Lieu .group,
 .pi-theme-Lieu .pi-item,
-.pi-europa.pi-theme-Lieu .pi-header {
+.pi-europa.pi-theme-Lieu .pi-header,
+.StatBox.Lieu tr.LabelRow,
+.StatBox.Lieu tr.MixedRow th.Label {
 	background-color:#f6bcbd;
 	color: black;
 }
@@ -2983,7 +4037,9 @@ table.navbox.Lieu tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Lieu tr:nth-child(odd) td {
+table.navbox.Lieu tr:nth-child(odd) td,
+.StatBox.Lieu tr.DataRow,
+.StatBox.Lieu tr.MixedRow td.Data {
 	background-color:#f9ebeb;
 	color:black;
 }
@@ -3007,14 +4063,31 @@ table.navbox.Lieu td .subTitle {
 	border-top-color: #CD5C5C;
 }
 
+.StatTabber.Lieu ul.tabbernav li a,
+.StatTabber.Lieu ul.tabbernav li a:hover,
+.StatTabber.Lieu ul.tabbernav li a:visited,
+.StatTabber.Lieu ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Lieu ul.tabbernav li.tabberactive a,
+.StatTabber.Lieu ul.tabbernav li.tabberactive a:hover{
+    background-color: #f9ebeb;
+    border-bottom-color:#f9ebeb;
+}
+ 
+
+
 /* Événement */
 
-aside.portable-infobox.pi-theme-Evenement {
+aside.portable-infobox.pi-theme-Evenement,
+.StatBox.Evenement{
     border-color: #e54145;
 }
  
 table.navbox.Evenement th.titrePalette,
-.pi-theme-Evenement .pi-item.pi-title {
+.pi-theme-Evenement .pi-item.pi-title,
+.StatBox.Evenement th.SectionHeader {
 	background-color:#e54145;
 	color: white;
 }
@@ -3027,7 +4100,9 @@ table.navbox.Evenement .collapseButtonLink {
 table.navbox.Evenement th,
 .Evenement .group,
 .pi-theme-Evenement .pi-item,
-.pi-europa.pi-theme-Evenement .pi-header {
+.pi-europa.pi-theme-Evenement .pi-header,
+.StatBox.Evenement tr.LabelRow,
+.StatBox.Evenement tr.MixedRow th.Label {
 	background-color:#edc4c4;
 	color: black;
 }
@@ -3042,7 +4117,9 @@ table.navbox.Evenement tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Evenement tr:nth-child(odd) td {
+table.navbox.Evenement tr:nth-child(odd) td,
+.StatBox.Evenement tr.DataRow,
+.StatBox.Evenement tr.MixedRow td.Data {
 	background-color:#fce9e9;
 	color:black;
 }
@@ -3066,14 +4143,31 @@ table.navbox.Evenement td .subTitle {
 	border-top-color: #e54145;
 }
 
+.StatTabber.Evenement ul.tabbernav li a,
+.StatTabber.Evenement ul.tabbernav li a:hover,
+.StatTabber.Evenement ul.tabbernav li a:visited,
+.StatTabber.Evenement ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Evenement ul.tabbernav li.tabberactive a,
+.StatTabber.Evenement ul.tabbernav li.tabberactive a:hover{
+    background-color: #fce9e9;
+    border-bottom-color:#fce9e9;
+}
+ 
+
+
 /* Square Enix */
 
-aside.portable-infobox.pi-theme-Square {
+aside.portable-infobox.pi-theme-Square,
+.StatBox.Square{
     border-color: black;
 }
  
 table.navbox.Square th.titrePalette,
-.pi-theme-Square .pi-item.pi-title {
+.pi-theme-Square .pi-item.pi-title,
+.StatBox.Square th.SectionHeader {
 	background-color:black;
 	color: white;
 }
@@ -3086,7 +4180,9 @@ table.navbox.Square .collapseButtonLink {
 table.navbox.Square th,
 .Square .group,
 .pi-theme-Square .pi-item,
-.pi-europa.pi-theme-Square .pi-header {
+.pi-europa.pi-theme-Square .pi-header,
+.StatBox.Square tr.LabelRow,
+.StatBox.Square tr.MixedRow th.Label {
 	background-color:#BEBEBE;
 	color: black;
 }
@@ -3101,7 +4197,9 @@ table.navbox.Square tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Square tr:nth-child(odd) td {
+table.navbox.Square tr:nth-child(odd) td,
+.StatBox.Square tr.DataRow,
+.StatBox.Square tr.MixedRow td.Data {
 	background-color:#D9D9D9;
 	color:black;
 }
@@ -3125,14 +4223,31 @@ table.navbox.Square td .subTitle {
 	border-top-color: black;
 }
 
+.StatTabber.Square ul.tabbernav li a,
+.StatTabber.Square ul.tabbernav li a:hover,
+.StatTabber.Square ul.tabbernav li a:visited,
+.StatTabber.Square ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Square ul.tabbernav li.tabberactive a,
+.StatTabber.Square ul.tabbernav li.tabberactive a:hover{
+    background-color: #D9D9D9;
+    border-bottom-color:#D9D9D9;
+}
+ 
+
+
 /* Minijeux */
 
-aside.portable-infobox.pi-theme-Minijeux {
+aside.portable-infobox.pi-theme-Minijeux,
+.StatBox.Minijeux{
     border-color: #FF4500;
 }
  
 table.navbox.Minijeux th.titrePalette,
-.pi-theme-Minijeux .pi-item.pi-title {
+.pi-theme-Minijeux .pi-item.pi-title,
+.StatBox.Minijeux th.SectionHeader {
 	background-color:#FF4500;
 	color: white;
 }
@@ -3145,7 +4260,9 @@ table.navbox.Minijeux .collapseButtonLink {
 table.navbox.Minijeux th,
 .Minijeux .group,
 .pi-theme-Minijeux .pi-item,
-.pi-europa.pi-theme-Minijeux .pi-header {
+.pi-europa.pi-theme-Minijeux .pi-header,
+.StatBox.Minijeux tr.LabelRow,
+.StatBox.Minijeux tr.MixedRow th.Label {
 	background-color:#FF7F50;
 	color: black;
 }
@@ -3160,7 +4277,9 @@ table.navbox.Minijeux tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Minijeux tr:nth-child(odd) td {
+table.navbox.Minijeux tr:nth-child(odd) td,
+.StatBox.Minijeux tr.DataRow,
+.StatBox.Minijeux tr.MixedRow td.Data {
 	background-color:#FFDEBA;
 	color:black;
 }
@@ -3184,14 +4303,31 @@ table.navbox.Minijeux td .subTitle {
 	border-top-color: #FF4500;
 }
 
+.StatTabber.Minijeux ul.tabbernav li a,
+.StatTabber.Minijeux ul.tabbernav li a:hover,
+.StatTabber.Minijeux ul.tabbernav li a:visited,
+.StatTabber.Minijeux ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Minijeux ul.tabbernav li.tabberactive a,
+.StatTabber.Minijeux ul.tabbernav li.tabberactive a:hover{
+    background-color: #FFDEBA;
+    border-bottom-color:#FFDEBA;
+}
+ 
+
+
 /* Classic Kingdom */
 
-aside.portable-infobox.pi-theme-ClassicKingdom {
+aside.portable-infobox.pi-theme-ClassicKingdom,
+.StatBox.ClassicKingdom{
     border-color: #A6A7A6;
 }
  
 table.navbox.ClassicKingdom th.titrePalette,
-.pi-theme-ClassicKingdom .pi-item.pi-title {
+.pi-theme-ClassicKingdom .pi-item.pi-title,
+.StatBox.ClassicKingdom th.SectionHeader {
 	background-color:#A6A7A6;
 	color: white;
 }
@@ -3204,7 +4340,9 @@ table.navbox.ClassicKingdom .collapseButtonLink {
 table.navbox.ClassicKingdom th,
 .ClassicKingdom .group,
 .pi-theme-ClassicKingdom .pi-item,
-.pi-europa.pi-theme-ClassicKingdom .pi-header {
+.pi-europa.pi-theme-ClassicKingdom .pi-header,
+.StatBox.ClassicKingdom tr.LabelRow,
+.StatBox.ClassicKingdom tr.MixedRow th.Label {
 	background-color:#C0C0C0;
 	color: black;
 }
@@ -3219,7 +4357,9 @@ table.navbox.ClassicKingdom tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.ClassicKingdom tr:nth-child(odd) td {
+table.navbox.ClassicKingdom tr:nth-child(odd) td,
+.StatBox.ClassicKingdom tr.DataRow,
+.StatBox.ClassicKingdom tr.MixedRow td.Data {
 	background-color:#E7E7E7;
 	color:black;
 }
@@ -3243,14 +4383,31 @@ table.navbox.ClassicKingdom td .subTitle {
 	border-top-color: #A6A7A6;
 }
 
+.StatTabber.ClassicKingdom ul.tabbernav li a,
+.StatTabber.ClassicKingdom ul.tabbernav li a:hover,
+.StatTabber.ClassicKingdom ul.tabbernav li a:visited,
+.StatTabber.ClassicKingdom ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a,
+.StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a:hover{
+    background-color: #E7E7E7;
+    border-bottom-color:#E7E7E7;
+}
+ 
+
+
 /* Gummis */
 
-aside.portable-infobox.pi-theme-Gummis {
+aside.portable-infobox.pi-theme-Gummis,
+.StatBox.Gummis{
     border-color: darkorange;
 }
  
 table.navbox.Gummis th.titrePalette,
-.pi-theme-Gummis .pi-item.pi-title {
+.pi-theme-Gummis .pi-item.pi-title,
+.StatBox.Gummis th.SectionHeader {
 	background-color:darkorange;
 	color: white;
 }
@@ -3263,7 +4420,9 @@ table.navbox.Gummis .collapseButtonLink {
 table.navbox.Gummis th,
 .Gummis .group,
 .pi-theme-Gummis .pi-item,
-.pi-europa.pi-theme-Gummis .pi-header {
+.pi-europa.pi-theme-Gummis .pi-header,
+.StatBox.Gummis tr.LabelRow,
+.StatBox.Gummis tr.MixedRow th.Label {
 	background-color:PaleTurquoise;
 	color: black;
 }
@@ -3278,7 +4437,9 @@ table.navbox.Gummis tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Gummis tr:nth-child(odd) td {
+table.navbox.Gummis tr:nth-child(odd) td,
+.StatBox.Gummis tr.DataRow,
+.StatBox.Gummis tr.MixedRow td.Data {
 	background-color:LightCyan;
 	color:black;
 }
@@ -3302,14 +4463,31 @@ table.navbox.Gummis td .subTitle {
 	border-top-color: darkorange;
 }
 
+.StatTabber.Gummis ul.tabbernav li a,
+.StatTabber.Gummis ul.tabbernav li a:hover,
+.StatTabber.Gummis ul.tabbernav li a:visited,
+.StatTabber.Gummis ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Gummis ul.tabbernav li.tabberactive a,
+.StatTabber.Gummis ul.tabbernav li.tabberactive a:hover{
+    background-color: LightCyan;
+    border-bottom-color:LightCyan;
+}
+ 
+
+
 /* Produits dérivés */
 
-aside.portable-infobox.pi-theme-Produits {
+aside.portable-infobox.pi-theme-Produits,
+.StatBox.Produits{
     border-color: #00cc7e;
 }
  
 table.navbox.Produits th.titrePalette,
-.pi-theme-Produits .pi-item.pi-title {
+.pi-theme-Produits .pi-item.pi-title,
+.StatBox.Produits th.SectionHeader {
 	background-color:#00cc7e;
 	color: white;
 }
@@ -3322,7 +4500,9 @@ table.navbox.Produits .collapseButtonLink {
 table.navbox.Produits th,
 .Produits .group,
 .pi-theme-Produits .pi-item,
-.pi-europa.pi-theme-Produits .pi-header {
+.pi-europa.pi-theme-Produits .pi-header,
+.StatBox.Produits tr.LabelRow,
+.StatBox.Produits tr.MixedRow th.Label {
 	background-color:#80ffce;
 	color: black;
 }
@@ -3337,7 +4517,9 @@ table.navbox.Produits tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Produits tr:nth-child(odd) td {
+table.navbox.Produits tr:nth-child(odd) td,
+.StatBox.Produits tr.DataRow,
+.StatBox.Produits tr.MixedRow td.Data {
 	background-color:#ccffeb;
 	color:black;
 }
@@ -3361,14 +4543,31 @@ table.navbox.Produits td .subTitle {
 	border-top-color: #00cc7e;
 }
 
+.StatTabber.Produits ul.tabbernav li a,
+.StatTabber.Produits ul.tabbernav li a:hover,
+.StatTabber.Produits ul.tabbernav li a:visited,
+.StatTabber.Produits ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Produits ul.tabbernav li.tabberactive a,
+.StatTabber.Produits ul.tabbernav li.tabberactive a:hover{
+    background-color: #ccffeb;
+    border-bottom-color:#ccffeb;
+}
+ 
+
+
 /* Communauté */
 
-aside.portable-infobox.pi-theme-Communaute {
+aside.portable-infobox.pi-theme-Communaute,
+.StatBox.Communaute{
     border-color: midnightblue;
 }
  
 table.navbox.Communaute th.titrePalette,
-.pi-theme-Communaute .pi-item.pi-title {
+.pi-theme-Communaute .pi-item.pi-title,
+.StatBox.Communaute th.SectionHeader {
 	background-color:midnightblue;
 	color: white;
 }
@@ -3381,7 +4580,9 @@ table.navbox.Communaute .collapseButtonLink {
 table.navbox.Communaute th,
 .Communaute .group,
 .pi-theme-Communaute .pi-item,
-.pi-europa.pi-theme-Communaute .pi-header {
+.pi-europa.pi-theme-Communaute .pi-header,
+.StatBox.Communaute tr.LabelRow,
+.StatBox.Communaute tr.MixedRow th.Label {
 	background-color:dodgerblue;
 	color: white;
 }
@@ -3396,7 +4597,9 @@ table.navbox.Communaute tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Communaute tr:nth-child(odd) td {
+table.navbox.Communaute tr:nth-child(odd) td,
+.StatBox.Communaute tr.DataRow,
+.StatBox.Communaute tr.MixedRow td.Data {
 	background-color:#E1F1F7;
 	color:black;
 }
@@ -3420,14 +4623,31 @@ table.navbox.Communaute td .subTitle {
 	border-top-color: midnightblue;
 }
 
+.StatTabber.Communaute ul.tabbernav li a,
+.StatTabber.Communaute ul.tabbernav li a:hover,
+.StatTabber.Communaute ul.tabbernav li a:visited,
+.StatTabber.Communaute ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Communaute ul.tabbernav li.tabberactive a,
+.StatTabber.Communaute ul.tabbernav li.tabberactive a:hover{
+    background-color: #E1F1F7;
+    border-bottom-color:#E1F1F7;
+}
+ 
+
+
 /* Musiques */
 
-aside.portable-infobox.pi-theme-Musique {
+aside.portable-infobox.pi-theme-Musique,
+.StatBox.Musique{
     border-color: #174bdb;
 }
  
 table.navbox.Musique th.titrePalette,
-.pi-theme-Musique .pi-item.pi-title {
+.pi-theme-Musique .pi-item.pi-title,
+.StatBox.Musique th.SectionHeader {
 	background-color:#174bdb;
 	color: white;
 }
@@ -3440,7 +4660,9 @@ table.navbox.Musique .collapseButtonLink {
 table.navbox.Musique th,
 .Musique .group,
 .pi-theme-Musique .pi-item,
-.pi-europa.pi-theme-Musique .pi-header {
+.pi-europa.pi-theme-Musique .pi-header,
+.StatBox.Musique tr.LabelRow,
+.StatBox.Musique tr.MixedRow th.Label {
 	background-color:#a3b9f5;
 	color: black;
 }
@@ -3455,7 +4677,9 @@ table.navbox.Musique tr td {
 	background-color:#FFFFFF;
 }
 
-table.navbox.Musique tr:nth-child(odd) td {
+table.navbox.Musique tr:nth-child(odd) td,
+.StatBox.Musique tr.DataRow,
+.StatBox.Musique tr.MixedRow td.Data {
 	background-color:#daeaf5;
 	color:black;
 }
@@ -3478,4 +4702,19 @@ table.navbox.Musique td .subTitle {
 .pi-theme-Musique .pi-group .pi-group + .pi-group.pi-border-color {
 	border-top-color: #174bdb;
 }
+
+.StatTabber.Musique ul.tabbernav li a,
+.StatTabber.Musique ul.tabbernav li a:hover,
+.StatTabber.Musique ul.tabbernav li a:visited,
+.StatTabber.Musique ul.tabbernav li a:link {
+    color:black;
+}
+ 
+.StatTabber.Musique ul.tabbernav li.tabberactive a,
+.StatTabber.Musique ul.tabbernav li.tabberactive a:hover{
+    background-color: #daeaf5;
+    border-bottom-color:#daeaf5;
+}
+ 
+
 
