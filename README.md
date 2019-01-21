@@ -25,6 +25,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.4.1 - 2019-01-21
+ * Fix priorité Personnages
+
 ## 0.4.0 - 2019-01-13
  * Ajout de thèmes pour les modèles de stats
 

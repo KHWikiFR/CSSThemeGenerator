@@ -1,3 +1,93 @@
+/* Personnages */
+
+aside.portable-infobox.pi-theme-Personnages,
+.StatBox.Personnages{
+    border-color: #5b58ec;
+}
+ 
+table.navbox.Personnages th.titrePalette,
+.pi-theme-Personnages .pi-item.pi-title,
+.StatBox.Personnages th.SectionHeader {
+	background-color:#5b58ec;
+	color: white;
+}
+
+table.navbox.Personnages th.titrePalette .titreContent a,
+table.navbox.Personnages .collapseButtonLink {
+	color: white;
+}
+
+table.navbox.Personnages th,
+.Personnages .group,
+.pi-theme-Personnages .pi-item,
+.pi-europa.pi-theme-Personnages .pi-header,
+.StatBox.Personnages tr.LabelRow,
+.StatBox.Personnages tr.MixedRow th.Label {
+	background-color:#a6b7f2;
+	color: black;
+}
+
+table.navbox.Personnages th a,
+.Personnages .group a,
+.pi-theme-Personnages .pi-item > .pi-data-value a{
+	color: #0148c2;
+}
+
+table.navbox.Personnages tr td {
+	background-color:#FFFFFF;
+}
+
+table.navbox.Personnages td .subTitle {
+	border-color:#a6b7f2;
+}
+
+table.navbox.Personnages tr:nth-child(odd) td,
+.StatBox.Personnages tr.DataRow,
+.StatBox.Personnages tr.MixedRow td.Data,
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even),
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-Personnages .pi-collapse .pi-item.pi-data {
+	background-color:#d2dbf9;
+	color:black;
+}
+
+table.navbox.Personnages tr:nth-child(odd) td a,
+.StatBox.Personnages tr.DataRow a,
+.StatBox.Personnages tr.MixedRow td.Data a,
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even) a,
+.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd) a,
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(even) a,
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(even) a,
+.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(odd) a,
+.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(odd) a,
+.pi-theme-Personnages .pi-collapse .pi-item.pi-data a {
+	color:#0148c2;
+}
+
+.pi-theme-Personnages .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #5b58ec;
+}
+
+.StatTabber.Personnages ul.tabbernav li a,
+.StatTabber.Personnages ul.tabbernav li a:hover,
+.StatTabber.Personnages ul.tabbernav li a:visited,
+.StatTabber.Personnages ul.tabbernav li a:link {
+    color:#a6b7f2;
+}
+ 
+.StatTabber.Personnages ul.tabbernav li.tabberactive a,
+.StatTabber.Personnages ul.tabbernav li.tabberactive a:hover{
+    background-color: #d2dbf9;
+    border-bottom-color:#d2dbf9;
+    color:black;
+}
+ 
+
+
 /* Kingdom Hearts */
 
 aside.portable-infobox.pi-theme-KH1,
@@ -3863,96 +3953,6 @@ table.navbox.Xion tr:nth-child(odd) td a,
 .StatTabber.Xion ul.tabbernav li.tabberactive a:hover{
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
-    color:black;
-}
- 
-
-
-/* Personnages */
-
-aside.portable-infobox.pi-theme-Personnages,
-.StatBox.Personnages{
-    border-color: #5b58ec;
-}
- 
-table.navbox.Personnages th.titrePalette,
-.pi-theme-Personnages .pi-item.pi-title,
-.StatBox.Personnages th.SectionHeader {
-	background-color:#5b58ec;
-	color: white;
-}
-
-table.navbox.Personnages th.titrePalette .titreContent a,
-table.navbox.Personnages .collapseButtonLink {
-	color: white;
-}
-
-table.navbox.Personnages th,
-.Personnages .group,
-.pi-theme-Personnages .pi-item,
-.pi-europa.pi-theme-Personnages .pi-header,
-.StatBox.Personnages tr.LabelRow,
-.StatBox.Personnages tr.MixedRow th.Label {
-	background-color:#a6b7f2;
-	color: black;
-}
-
-table.navbox.Personnages th a,
-.Personnages .group a,
-.pi-theme-Personnages .pi-item > .pi-data-value a{
-	color: #0148c2;
-}
-
-table.navbox.Personnages tr td {
-	background-color:#FFFFFF;
-}
-
-table.navbox.Personnages td .subTitle {
-	border-color:#a6b7f2;
-}
-
-table.navbox.Personnages tr:nth-child(odd) td,
-.StatBox.Personnages tr.DataRow,
-.StatBox.Personnages tr.MixedRow td.Data,
-.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even),
-.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd),
-.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(even),
-.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(even),
-.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(odd),
-.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(odd),
-.pi-theme-Personnages .pi-collapse .pi-item.pi-data {
-	background-color:#d2dbf9;
-	color:black;
-}
-
-table.navbox.Personnages tr:nth-child(odd) td a,
-.StatBox.Personnages tr.DataRow a,
-.StatBox.Personnages tr.MixedRow td.Data a,
-.pi-theme-Personnages .pi-horizontal-group-item:nth-child(even) a,
-.pi-theme-Personnages .pi-horizontal-group-item:nth-child(odd) a,
-.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(even) a,
-.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(even) a,
-.pi-theme-Personnages.pi-europa .pi-smart-data-label:nth-child(odd) a,
-.pi-theme-Personnages.pi-europa .pi-smart-data-value:nth-child(odd) a,
-.pi-theme-Personnages .pi-collapse .pi-item.pi-data a {
-	color:#0148c2;
-}
-
-.pi-theme-Personnages .pi-group .pi-group + .pi-group.pi-border-color {
-	border-top-color: #5b58ec;
-}
-
-.StatTabber.Personnages ul.tabbernav li a,
-.StatTabber.Personnages ul.tabbernav li a:hover,
-.StatTabber.Personnages ul.tabbernav li a:visited,
-.StatTabber.Personnages ul.tabbernav li a:link {
-    color:#a6b7f2;
-}
- 
-.StatTabber.Personnages ul.tabbernav li.tabberactive a,
-.StatTabber.Personnages ul.tabbernav li.tabberactive a:hover{
-    background-color: #d2dbf9;
-    border-bottom-color:#d2dbf9;
     color:black;
 }
  

@@ -1,5 +1,21 @@
 [
-{
+	{
+        "Head": "#a6b7f2", 
+        "TitleFont": "white", 
+        "Name": "Personnages", 
+        "Title": "#5b58ec", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Personnages", 
+		"RowAltFont": "black",
+        "RowAlt": "#d2dbf9", 
+        "RowAltLinkFont":"#0148c2",
+        "Row": "#FFFFFF",
+		"Palette": 1,
+		"Infobox": 1,
+		"Stats" : 1
+    }, 
+    {
         "Head": "#D9D9F7", 
         "TitleFont": "white", 
         "Name": "KH1", 
@@ -686,22 +702,6 @@
 		"Palette": 1,
 		"Infobox": 0,
 		"Stats" : 0
-    }, 
-    {
-        "Head": "#a6b7f2", 
-        "TitleFont": "white", 
-        "Name": "Personnages", 
-        "Title": "#5b58ec", 
-        "HeadFont": "black", 
-        "HeadFontLink": "#0148c2", 
-        "FullName": "Personnages", 
-		"RowAltFont": "black",
-        "RowAlt": "#d2dbf9", 
-        "RowAltLinkFont":"#0148c2",
-        "Row": "#FFFFFF",
-		"Palette": 1,
-		"Infobox": 1,
-		"Stats" : 1
     }, 
     {
         "Head": "mediumaquamarine", 
