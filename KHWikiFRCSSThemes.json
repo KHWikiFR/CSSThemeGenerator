@@ -1,5 +1,21 @@
 [
-{
+	{
+        "Head": "#a6b7f2", 
+        "TitleFont": "white", 
+        "Name": "Personnages", 
+        "Title": "#5b58ec", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Personnages", 
+		"RowAltFont": "black",
+        "RowAlt": "#d2dbf9", 
+        "RowAltLinkFont":"#0148c2",
+        "Row": "#FFFFFF",
+		"Palette": 1,
+		"Infobox": 1,
+		"Stats" : 1
+    }, 
+    {
         "Head": "#D9D9F7", 
         "TitleFont": "white", 
         "Name": "KH1", 
@@ -8,10 +24,12 @@
         "HeadFontLink": "#0148c2", 
         "FullName": "Kingdom Hearts", 
 		"RowAltFont": "black",
-        "RowAlt": "#E8E8FA", 
+        "RowAlt": "#E8E8FA",
+		"RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#DBE6F9", 
@@ -23,9 +41,11 @@
         "FullName": "Kingdom Hearts: Final Mix", 
 		"RowAltFont": "black",
         "RowAlt": "#E6EEFB", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#DDDDDD", 
@@ -37,9 +57,11 @@
         "FullName": "Kingdom Hearts: Chain of Memories", 
 		"RowAltFont": "black",
         "RowAlt": "#E4E4E4", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#D2E1F1", 
@@ -51,9 +73,11 @@
         "FullName": "Kingdom Hearts II", 
 		"RowAltFont": "black",
         "RowAlt": "#E0EAF5", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#E0E0E0", 
@@ -65,9 +89,11 @@
         "FullName": "Kingdom Hearts II: Final Mix", 
 		"RowAltFont": "black",
         "RowAlt": "#E9E9E9", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#F9E0E0", 
@@ -79,9 +105,11 @@
         "FullName": "Kingdom Hearts: 358/2 Days", 
 		"RowAltFont": "black",
         "RowAlt": "#FAECEC", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#D7E8F4", 
@@ -93,9 +121,11 @@
         "FullName": "Birth by Sleep", 
 		"RowAltFont": "black",
         "RowAlt": "#DFEDF6", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#C9D9E5", 
@@ -107,9 +137,11 @@
         "FullName": "Kingdom Hearts: Birth by Sleep Final Mix", 
 		"RowAltFont": "black",
         "RowAlt": "#DFE8EF", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#F9F9DB", 
@@ -121,9 +153,11 @@
         "FullName": "Kingdom Hearts: coded", 
 		"RowAltFont": "black",
         "RowAlt": "#FBFBE6", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#EDDBF9", 
@@ -135,9 +169,11 @@
         "FullName": "Kingdom Hearts 3D: Dream Drop Distance", 
 		"RowAltFont": "black",
         "RowAlt": "#F2E6FB", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#C9E5DC", 
@@ -149,9 +185,11 @@
         "FullName": "Kingdom Hearts χ [chi]", 
 		"RowAltFont": "black",
         "RowAlt": "#DFEFEA", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#D0D0D0", 
@@ -163,9 +201,11 @@
         "FullName": "Kingdom Hearts: Union χ [cross]", 
 		"RowAltFont": "black",
         "RowAlt": "#E1E1E1", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#6d6d6d", 
@@ -177,9 +217,11 @@
 		"FullName": "Kingdom Hearts: HD 2.8 Final Chapter Prologue", 
 		"RowAltFont": "black",
         "RowAlt": "#e5c9d6", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#C9CBE5", 
@@ -191,9 +233,11 @@
         "FullName": "Kingdom Hearts III", 
 		"RowAltFont": "black",
         "RowAlt": "#DFE0EF", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#F9F9F9",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#FDF97F", 
@@ -205,9 +249,11 @@
         "FullName": "Série KH", 
 		"RowAltFont": "black",
         "RowAlt": "#fefab3", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#FFCCCD", 
@@ -219,9 +265,11 @@
         "FullName": "Armes", 
 		"RowAltFont": "black",
         "RowAlt": "#F7DCDC", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "gold", 
@@ -233,9 +281,11 @@
         "FullName": "Keyblades", 
 		"RowAltFont": "black",
         "RowAlt": "#E6E6EF", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "gold", 
@@ -247,9 +297,11 @@
         "FullName": "Sceptre", 
 		"RowAltFont": "black",
         "RowAlt": "#DAE2EA", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "gold", 
@@ -261,9 +313,11 @@
         "FullName": "Bouclier", 
 		"RowAltFont": "black",
         "RowAlt": "#dfd", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#fff080", 
@@ -275,9 +329,11 @@
         "FullName": "Armures", 
 		"RowAltFont": "black",
         "RowAlt": "#FFF8C9", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#2bd", 
@@ -289,9 +345,11 @@
         "FullName": "Accessoires", 
 		"RowAltFont": "black",
         "RowAlt": "#def", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "forestgreen", 
@@ -303,9 +361,11 @@
 		"FullName": "Objets", 
 		"RowAltFont": "black",
         "RowAlt": "#ccffe5", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#FA8072", 
@@ -317,9 +377,11 @@
         "FullName": "Synthèse", 
 		"RowAltFont": "black",
         "RowAlt": "#FDF5E6", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#C7DDE5", 
@@ -331,9 +393,11 @@
         "FullName": "Magies", 
 		"RowAltFont": "black",
         "RowAlt": "#E6EFF2", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#8c0000", 
@@ -345,9 +409,11 @@
 		"FullName": "Sans-cœur", 
 		"RowAltFont": "black",
         "RowAlt": "#EDDEDE", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#C0C0C0", 
@@ -359,9 +425,11 @@
         "FullName": "Simili", 
 		"RowAltFont": "black",
         "RowAlt": "#E0E0E0", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "cornflowerblue", 
@@ -373,9 +441,11 @@
 		"FullName": "Nescients", 
 		"RowAltFont": "black",
         "RowAlt": "#DCE2ED", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 1
     }, 
     {
         "Head": "#88FFEA", 
@@ -387,9 +457,11 @@
         "FullName": "Avale-Rêves", 
 		"RowAltFont": "black",
         "RowAlt": "#DCEDEA", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#CC6633", 
@@ -401,9 +473,11 @@
         "FullName": "Boss", 
 		"RowAltFont": "black",
         "RowAlt": "#FFDD88", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#AAA", 
@@ -415,9 +489,11 @@
         "FullName": "Xemnas", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -429,9 +505,11 @@
         "FullName": "Xigbar", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -443,9 +521,11 @@
         "FullName": "Xaldin", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -457,9 +537,11 @@
         "FullName": "Vexen", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -471,9 +553,11 @@
         "FullName": "Lexaeus", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -485,9 +569,11 @@
         "FullName": "Zexion", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -499,9 +585,11 @@
         "FullName": "Saïx", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -513,9 +601,11 @@
         "FullName": "Axel", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -527,9 +617,11 @@
         "FullName": "Demyx", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -541,9 +633,11 @@
         "FullName": "Luxord", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -555,9 +649,11 @@
         "FullName": "Marluxia", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAA", 
@@ -569,9 +665,11 @@
         "FullName": "Larxene", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAAAAA", 
@@ -583,9 +681,11 @@
         "FullName": "Roxas", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#AAAAAA", 
@@ -597,23 +697,11 @@
         "FullName": "Xion", 
 		"RowAltFont": "black",
         "RowAlt": "#DDDDDD", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
-    }, 
-    {
-        "Head": "#a6b7f2", 
-        "TitleFont": "white", 
-        "Name": "Personnages", 
-        "Title": "#5b58ec", 
-        "HeadFont": "black", 
-        "HeadFontLink": "#0148c2", 
-        "FullName": "Personnages", 
-		"RowAltFont": "black",
-        "RowAlt": "#d2dbf9", 
-        "Row": "#FFFFFF",
-		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "mediumaquamarine", 
@@ -625,9 +713,11 @@
         "FullName": "Équipe", 
 		"RowAltFont": "black",
         "RowAlt": "#DAEDE6", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#FFE44C", 
@@ -639,9 +729,11 @@
         "FullName": "Invocation", 
 		"RowAltFont": "black",
         "RowAlt": "#FFFBE5", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#87CEFA", 
@@ -653,9 +745,11 @@
         "FullName": "Final Fantasy", 
 		"RowAltFont": "black",
         "RowAlt": "#CCD8FF", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#C3D6E5", 
@@ -667,9 +761,11 @@
         "FullName": "The World Ends With You", 
 		"RowAltFont": "black",
         "RowAlt": "#E3EDF4", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "mediumorchid", 
@@ -681,9 +777,11 @@
 		"FullName": "Disney", 
 		"RowAltFont": "black",
         "RowAlt": "#E9DAED", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#CDB4F2", 
@@ -695,9 +793,11 @@
         "FullName": "Monde", 
 		"RowAltFont": "black",
         "RowAlt": "#E3DAED", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#f6bcbd", 
@@ -709,6 +809,7 @@
         "FullName": "Lieu", 
 		"RowAltFont": "black",
         "RowAlt": "#f9ebeb", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
 		"Infobox": 1
@@ -723,6 +824,7 @@
         "FullName": "Événement", 
 		"RowAltFont": "black",
         "RowAlt": "#fce9e9", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 0,
 		"Infobox": 1
@@ -737,9 +839,11 @@
         "FullName": "Square Enix", 
 		"RowAltFont": "black",
         "RowAlt": "#D9D9D9", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "#FF7F50", 
@@ -751,9 +855,11 @@
         "FullName": "Minijeux", 
 		"RowAltFont": "black",
         "RowAlt": "#FFDEBA", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Name": "ClassicKingdom", 
@@ -765,9 +871,11 @@
         "FullName": "Classic Kingdom", 
 		"RowAltFont": "black",
         "RowAlt": "#E7E7E7", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "PaleTurquoise", 
@@ -779,9 +887,11 @@
         "FullName": "Gummis", 
 		"RowAltFont": "black",
         "RowAlt": "LightCyan", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 1
     }, 
     {
         "Head": "#80ffce", 
@@ -793,9 +903,11 @@
         "FullName": "Produits dérivés", 
 		"RowAltFont": "black",
         "RowAlt": "#ccffeb", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 1
+		"Infobox": 1,
+		"Stats" : 0
     }, 
     {
         "Head": "dodgerblue", 
@@ -807,9 +919,11 @@
 		"FullName": "Communauté", 
 		"RowAltFont": "black",
         "RowAlt": "#E1F1F7", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 1,
-		"Infobox": 0
+		"Infobox": 0,
+		"Stats" : 0
     }, 
     {
         "Head": "#a3b9f5", 
@@ -821,6 +935,7 @@
         "FullName": "Musiques", 
 		"RowAltFont": "black",
         "RowAlt": "#daeaf5", 
+        "RowAltLinkFont":"#0148c2",
         "Row": "#FFFFFF",
 		"Palette": 0,
 		"Infobox": 1
