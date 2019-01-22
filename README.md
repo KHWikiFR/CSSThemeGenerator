@@ -25,6 +25,9 @@ Les couleurs peuvent être renseignées au format hexadécimal ou par un nom en 
 
 # Changelog
 
+## 0.5.0 - 2019-01-21
+ * Implémentation de thèmes pour les tables de données.
+
 ## 0.4.1 - 2019-01-21
  * Fix priorité Personnages
 
