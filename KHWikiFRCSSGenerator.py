@@ -18,8 +18,8 @@ table.Donnees.{name} tr:first-child th {{
 }}
 
 table.navbox.{name} th.titrePalette .titreContent a,
-table.navbox.{name} .collapseButtonLink,
-.StatBox.{name} .collapseButtonLink,
+table.navbox.{name} a.mw-collapsible-text,
+.StatBox.{name} a.mw-collapsible-text,
 table.Donnees.{name} tr:first-child th a {{
 	color: {title_font};
 }}
@@ -27,7 +27,7 @@ table.Donnees.{name} tr:first-child th a {{
 table.navbox.{name} th,
 .{name} .group,
 .pi-theme-{name} .pi-item,
-.pi-europa.pi-theme-{name} .pi-header,
+.pi-europa.pi-theme-{name} .pi-data-label,
 .StatBox.{name} tr.LabelRow,
 .StatBox.{name} tr.MixedRow th.Label,
 table.Donnees.{name} tr:not(:first-child) th,
@@ -39,8 +39,10 @@ table.Donnees.{name} tr:not(:first-child) td.group {{
 table.navbox.{name} th a,
 .{name} .group a,
 .pi-theme-{name} .pi-item > .pi-data-value a,
+.StatBox.{name} tr.LabelRow a,
+.StatBox.{name} tr.MixedRow th.Label a,
 table.Donnees.{name} tr:not(:first-child) th a,
-table.Donnees.{name} tr:not(:first-child) td.group a {{
+table.Donnees.{name} tr:not(:first-child) td.group a{{
 	color: {head_font_link};
 }}
 
@@ -92,17 +94,28 @@ table.Donnees.{name} td.altColor a{{
 .StatTabber.{name} ul.tabbernav li a,
 .StatTabber.{name} ul.tabbernav li a:hover,
 .StatTabber.{name} ul.tabbernav li a:visited,
-.StatTabber.{name} ul.tabbernav li a:link {{
+.StatTabber.{name} ul.tabbernav li a:link,
+ul.SousPages.{name} li a {{
     color:{head};
 }}
  
 .StatTabber.{name} ul.tabbernav li.tabberactive a,
-.StatTabber.{name} ul.tabbernav li.tabberactive a:hover{{
+.StatTabber.{name} ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.{name} li.PageActuelle {{
     background-color: {row_alt};
     border-bottom-color:{row_alt};
     color:{row_alt_font};
 }}
- 
+
+ul.SousPages.{name} li.PageActuelle {{
+    background-color: {row_alt};
+    border-bottom-color:{row_alt};
+	}}
+
+ul.SousPages.{name} li.PageActuelle a {{
+    color:{row_alt_font};
+}}
+
 
 
 '''.format(name=theme.get("Name"), full_name=theme.get("FullName"), title=theme.get("Title"), title_font=theme.get("TitleFont"), head=theme.get("Head"), head_font=theme.get("HeadFont"), head_font_link=theme.get("HeadFontLink"), row=theme.get("Row"), row_alt=theme.get("RowAlt"), row_alt_font=theme.get("RowAltFont"), row_alt_link_font = theme.get("RowAltLinkFont") )
@@ -115,3 +128,4 @@ if __name__ == '__main__':
 	output_builder = ''.join([generate_css(theme) for theme in themes])
 	with codecs.open("KHWikiFRCSSThemes.css","w",encoding="utf-8") as output_file:
 		output_file.write(output_builder)
+		
