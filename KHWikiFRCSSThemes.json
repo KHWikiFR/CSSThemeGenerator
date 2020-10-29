@@ -240,6 +240,54 @@
 		"Stats" : 0
     }, 
     {
+        "Head": "#c4c4d4", 
+        "TitleFont": "white", 
+        "Name": "REM", 
+        "Title": "#626284", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Kingdom Hearts III Re Mind", 
+		"RowAltFont": "black",
+        "RowAlt": "#e0e0f0", 
+        "RowAltLinkFont":"#0148c2",
+        "Row": "#F9F9F9",
+		"Palette": 1,
+		"Infobox": 0,
+		"Stats" : 0
+    }, 
+    {
+        "Head": "#D0D0D0", 
+        "TitleFont": "white", 
+        "Name": "KDR", 
+        "Title": "#808482", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Kingdom Hearts: Dark Road", 
+		"RowAltFont": "black",
+        "RowAlt": "#E1E1E1", 
+        "RowAltLinkFont":"#0148c2",
+        "Row": "#F9F9F9",
+		"Palette": 1,
+		"Infobox": 0,
+		"Stats" : 0
+    }, 
+    {
+        "Head": "#c39f3c", 
+        "TitleFont": "white", 
+        "Name": "MOM", 
+        "Title": "#9d8030", 
+        "HeadFont": "black", 
+        "HeadFontLink": "#0148c2", 
+        "FullName": "Kingdom Hearts: Melody of Memory", 
+		"RowAltFont": "black",
+        "RowAlt": "#e7d9b1", 
+        "RowAltLinkFont":"#0148c2",
+        "Row": "#F9F9F9",
+		"Palette": 1,
+		"Infobox": 0,
+		"Stats" : 0
+    }, 
+    {
         "Head": "#FDF97F", 
         "TitleFont": "steelblue", 
         "Name": "serieKH", 
@@ -469,7 +517,7 @@
         "Name": "Boss", 
         "Title": "#990000", 
         "HeadFont": "black", 
-        "HeadFontLink": "#0148c2", 
+        "HeadFontLink": "white", 
         "FullName": "Boss", 
 		"RowAltFont": "black",
         "RowAlt": "#FFDD88", 
@@ -940,4 +988,4 @@
 		"Palette": 0,
 		"Infobox": 1
     }
-]
+	]
