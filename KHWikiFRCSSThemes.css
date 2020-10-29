@@ -14,8 +14,8 @@ table.Donnees.Personnages tr:first-child th {
 }
 
 table.navbox.Personnages th.titrePalette .titreContent a,
-table.navbox.Personnages .collapseButtonLink,
-.StatBox.Personnages .collapseButtonLink,
+table.navbox.Personnages a.mw-collapsible-text,
+.StatBox.Personnages a.mw-collapsible-text,
 table.Donnees.Personnages tr:first-child th a {
 	color: white;
 }
@@ -23,7 +23,7 @@ table.Donnees.Personnages tr:first-child th a {
 table.navbox.Personnages th,
 .Personnages .group,
 .pi-theme-Personnages .pi-item,
-.pi-europa.pi-theme-Personnages .pi-header,
+.pi-europa.pi-theme-Personnages .pi-data-label,
 .StatBox.Personnages tr.LabelRow,
 .StatBox.Personnages tr.MixedRow th.Label,
 table.Donnees.Personnages tr:not(:first-child) th,
@@ -35,8 +35,10 @@ table.Donnees.Personnages tr:not(:first-child) td.group {
 table.navbox.Personnages th a,
 .Personnages .group a,
 .pi-theme-Personnages .pi-item > .pi-data-value a,
+.StatBox.Personnages tr.LabelRow a,
+.StatBox.Personnages tr.MixedRow th.Label a,
 table.Donnees.Personnages tr:not(:first-child) th a,
-table.Donnees.Personnages tr:not(:first-child) td.group a {
+table.Donnees.Personnages tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -88,17 +90,28 @@ table.Donnees.Personnages td.altColor a{
 .StatTabber.Personnages ul.tabbernav li a,
 .StatTabber.Personnages ul.tabbernav li a:hover,
 .StatTabber.Personnages ul.tabbernav li a:visited,
-.StatTabber.Personnages ul.tabbernav li a:link {
+.StatTabber.Personnages ul.tabbernav li a:link,
+ul.SousPages.Personnages li a {
     color:#a6b7f2;
 }
  
 .StatTabber.Personnages ul.tabbernav li.tabberactive a,
-.StatTabber.Personnages ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Personnages ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Personnages li.PageActuelle {
     background-color: #d2dbf9;
     border-bottom-color:#d2dbf9;
     color:black;
 }
- 
+
+ul.SousPages.Personnages li.PageActuelle {
+    background-color: #d2dbf9;
+    border-bottom-color:#d2dbf9;
+	}
+
+ul.SousPages.Personnages li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts */
@@ -117,8 +130,8 @@ table.Donnees.KH1 tr:first-child th {
 }
 
 table.navbox.KH1 th.titrePalette .titreContent a,
-table.navbox.KH1 .collapseButtonLink,
-.StatBox.KH1 .collapseButtonLink,
+table.navbox.KH1 a.mw-collapsible-text,
+.StatBox.KH1 a.mw-collapsible-text,
 table.Donnees.KH1 tr:first-child th a {
 	color: white;
 }
@@ -126,7 +139,7 @@ table.Donnees.KH1 tr:first-child th a {
 table.navbox.KH1 th,
 .KH1 .group,
 .pi-theme-KH1 .pi-item,
-.pi-europa.pi-theme-KH1 .pi-header,
+.pi-europa.pi-theme-KH1 .pi-data-label,
 .StatBox.KH1 tr.LabelRow,
 .StatBox.KH1 tr.MixedRow th.Label,
 table.Donnees.KH1 tr:not(:first-child) th,
@@ -138,8 +151,10 @@ table.Donnees.KH1 tr:not(:first-child) td.group {
 table.navbox.KH1 th a,
 .KH1 .group a,
 .pi-theme-KH1 .pi-item > .pi-data-value a,
+.StatBox.KH1 tr.LabelRow a,
+.StatBox.KH1 tr.MixedRow th.Label a,
 table.Donnees.KH1 tr:not(:first-child) th a,
-table.Donnees.KH1 tr:not(:first-child) td.group a {
+table.Donnees.KH1 tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -191,17 +206,28 @@ table.Donnees.KH1 td.altColor a{
 .StatTabber.KH1 ul.tabbernav li a,
 .StatTabber.KH1 ul.tabbernav li a:hover,
 .StatTabber.KH1 ul.tabbernav li a:visited,
-.StatTabber.KH1 ul.tabbernav li a:link {
+.StatTabber.KH1 ul.tabbernav li a:link,
+ul.SousPages.KH1 li a {
     color:#D9D9F7;
 }
  
 .StatTabber.KH1 ul.tabbernav li.tabberactive a,
-.StatTabber.KH1 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.KH1 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.KH1 li.PageActuelle {
     background-color: #E8E8FA;
     border-bottom-color:#E8E8FA;
     color:black;
 }
- 
+
+ul.SousPages.KH1 li.PageActuelle {
+    background-color: #E8E8FA;
+    border-bottom-color:#E8E8FA;
+	}
+
+ul.SousPages.KH1 li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: Final Mix */
@@ -220,8 +246,8 @@ table.Donnees.FM1 tr:first-child th {
 }
 
 table.navbox.FM1 th.titrePalette .titreContent a,
-table.navbox.FM1 .collapseButtonLink,
-.StatBox.FM1 .collapseButtonLink,
+table.navbox.FM1 a.mw-collapsible-text,
+.StatBox.FM1 a.mw-collapsible-text,
 table.Donnees.FM1 tr:first-child th a {
 	color: white;
 }
@@ -229,7 +255,7 @@ table.Donnees.FM1 tr:first-child th a {
 table.navbox.FM1 th,
 .FM1 .group,
 .pi-theme-FM1 .pi-item,
-.pi-europa.pi-theme-FM1 .pi-header,
+.pi-europa.pi-theme-FM1 .pi-data-label,
 .StatBox.FM1 tr.LabelRow,
 .StatBox.FM1 tr.MixedRow th.Label,
 table.Donnees.FM1 tr:not(:first-child) th,
@@ -241,8 +267,10 @@ table.Donnees.FM1 tr:not(:first-child) td.group {
 table.navbox.FM1 th a,
 .FM1 .group a,
 .pi-theme-FM1 .pi-item > .pi-data-value a,
+.StatBox.FM1 tr.LabelRow a,
+.StatBox.FM1 tr.MixedRow th.Label a,
 table.Donnees.FM1 tr:not(:first-child) th a,
-table.Donnees.FM1 tr:not(:first-child) td.group a {
+table.Donnees.FM1 tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -294,17 +322,28 @@ table.Donnees.FM1 td.altColor a{
 .StatTabber.FM1 ul.tabbernav li a,
 .StatTabber.FM1 ul.tabbernav li a:hover,
 .StatTabber.FM1 ul.tabbernav li a:visited,
-.StatTabber.FM1 ul.tabbernav li a:link {
+.StatTabber.FM1 ul.tabbernav li a:link,
+ul.SousPages.FM1 li a {
     color:#DBE6F9;
 }
  
 .StatTabber.FM1 ul.tabbernav li.tabberactive a,
-.StatTabber.FM1 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.FM1 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.FM1 li.PageActuelle {
     background-color: #E6EEFB;
     border-bottom-color:#E6EEFB;
     color:black;
 }
- 
+
+ul.SousPages.FM1 li.PageActuelle {
+    background-color: #E6EEFB;
+    border-bottom-color:#E6EEFB;
+	}
+
+ul.SousPages.FM1 li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: Chain of Memories */
@@ -323,8 +362,8 @@ table.Donnees.COM tr:first-child th {
 }
 
 table.navbox.COM th.titrePalette .titreContent a,
-table.navbox.COM .collapseButtonLink,
-.StatBox.COM .collapseButtonLink,
+table.navbox.COM a.mw-collapsible-text,
+.StatBox.COM a.mw-collapsible-text,
 table.Donnees.COM tr:first-child th a {
 	color: white;
 }
@@ -332,7 +371,7 @@ table.Donnees.COM tr:first-child th a {
 table.navbox.COM th,
 .COM .group,
 .pi-theme-COM .pi-item,
-.pi-europa.pi-theme-COM .pi-header,
+.pi-europa.pi-theme-COM .pi-data-label,
 .StatBox.COM tr.LabelRow,
 .StatBox.COM tr.MixedRow th.Label,
 table.Donnees.COM tr:not(:first-child) th,
@@ -344,8 +383,10 @@ table.Donnees.COM tr:not(:first-child) td.group {
 table.navbox.COM th a,
 .COM .group a,
 .pi-theme-COM .pi-item > .pi-data-value a,
+.StatBox.COM tr.LabelRow a,
+.StatBox.COM tr.MixedRow th.Label a,
 table.Donnees.COM tr:not(:first-child) th a,
-table.Donnees.COM tr:not(:first-child) td.group a {
+table.Donnees.COM tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -397,17 +438,28 @@ table.Donnees.COM td.altColor a{
 .StatTabber.COM ul.tabbernav li a,
 .StatTabber.COM ul.tabbernav li a:hover,
 .StatTabber.COM ul.tabbernav li a:visited,
-.StatTabber.COM ul.tabbernav li a:link {
+.StatTabber.COM ul.tabbernav li a:link,
+ul.SousPages.COM li a {
     color:#DDDDDD;
 }
  
 .StatTabber.COM ul.tabbernav li.tabberactive a,
-.StatTabber.COM ul.tabbernav li.tabberactive a:hover{
+.StatTabber.COM ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.COM li.PageActuelle {
     background-color: #E4E4E4;
     border-bottom-color:#E4E4E4;
     color:black;
 }
- 
+
+ul.SousPages.COM li.PageActuelle {
+    background-color: #E4E4E4;
+    border-bottom-color:#E4E4E4;
+	}
+
+ul.SousPages.COM li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts II */
@@ -426,8 +478,8 @@ table.Donnees.KH2 tr:first-child th {
 }
 
 table.navbox.KH2 th.titrePalette .titreContent a,
-table.navbox.KH2 .collapseButtonLink,
-.StatBox.KH2 .collapseButtonLink,
+table.navbox.KH2 a.mw-collapsible-text,
+.StatBox.KH2 a.mw-collapsible-text,
 table.Donnees.KH2 tr:first-child th a {
 	color: white;
 }
@@ -435,7 +487,7 @@ table.Donnees.KH2 tr:first-child th a {
 table.navbox.KH2 th,
 .KH2 .group,
 .pi-theme-KH2 .pi-item,
-.pi-europa.pi-theme-KH2 .pi-header,
+.pi-europa.pi-theme-KH2 .pi-data-label,
 .StatBox.KH2 tr.LabelRow,
 .StatBox.KH2 tr.MixedRow th.Label,
 table.Donnees.KH2 tr:not(:first-child) th,
@@ -447,8 +499,10 @@ table.Donnees.KH2 tr:not(:first-child) td.group {
 table.navbox.KH2 th a,
 .KH2 .group a,
 .pi-theme-KH2 .pi-item > .pi-data-value a,
+.StatBox.KH2 tr.LabelRow a,
+.StatBox.KH2 tr.MixedRow th.Label a,
 table.Donnees.KH2 tr:not(:first-child) th a,
-table.Donnees.KH2 tr:not(:first-child) td.group a {
+table.Donnees.KH2 tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -500,17 +554,28 @@ table.Donnees.KH2 td.altColor a{
 .StatTabber.KH2 ul.tabbernav li a,
 .StatTabber.KH2 ul.tabbernav li a:hover,
 .StatTabber.KH2 ul.tabbernav li a:visited,
-.StatTabber.KH2 ul.tabbernav li a:link {
+.StatTabber.KH2 ul.tabbernav li a:link,
+ul.SousPages.KH2 li a {
     color:#D2E1F1;
 }
  
 .StatTabber.KH2 ul.tabbernav li.tabberactive a,
-.StatTabber.KH2 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.KH2 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.KH2 li.PageActuelle {
     background-color: #E0EAF5;
     border-bottom-color:#E0EAF5;
     color:black;
 }
- 
+
+ul.SousPages.KH2 li.PageActuelle {
+    background-color: #E0EAF5;
+    border-bottom-color:#E0EAF5;
+	}
+
+ul.SousPages.KH2 li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts II: Final Mix */
@@ -529,8 +594,8 @@ table.Donnees.FM2 tr:first-child th {
 }
 
 table.navbox.FM2 th.titrePalette .titreContent a,
-table.navbox.FM2 .collapseButtonLink,
-.StatBox.FM2 .collapseButtonLink,
+table.navbox.FM2 a.mw-collapsible-text,
+.StatBox.FM2 a.mw-collapsible-text,
 table.Donnees.FM2 tr:first-child th a {
 	color: white;
 }
@@ -538,7 +603,7 @@ table.Donnees.FM2 tr:first-child th a {
 table.navbox.FM2 th,
 .FM2 .group,
 .pi-theme-FM2 .pi-item,
-.pi-europa.pi-theme-FM2 .pi-header,
+.pi-europa.pi-theme-FM2 .pi-data-label,
 .StatBox.FM2 tr.LabelRow,
 .StatBox.FM2 tr.MixedRow th.Label,
 table.Donnees.FM2 tr:not(:first-child) th,
@@ -550,8 +615,10 @@ table.Donnees.FM2 tr:not(:first-child) td.group {
 table.navbox.FM2 th a,
 .FM2 .group a,
 .pi-theme-FM2 .pi-item > .pi-data-value a,
+.StatBox.FM2 tr.LabelRow a,
+.StatBox.FM2 tr.MixedRow th.Label a,
 table.Donnees.FM2 tr:not(:first-child) th a,
-table.Donnees.FM2 tr:not(:first-child) td.group a {
+table.Donnees.FM2 tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -603,17 +670,28 @@ table.Donnees.FM2 td.altColor a{
 .StatTabber.FM2 ul.tabbernav li a,
 .StatTabber.FM2 ul.tabbernav li a:hover,
 .StatTabber.FM2 ul.tabbernav li a:visited,
-.StatTabber.FM2 ul.tabbernav li a:link {
+.StatTabber.FM2 ul.tabbernav li a:link,
+ul.SousPages.FM2 li a {
     color:#E0E0E0;
 }
  
 .StatTabber.FM2 ul.tabbernav li.tabberactive a,
-.StatTabber.FM2 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.FM2 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.FM2 li.PageActuelle {
     background-color: #E9E9E9;
     border-bottom-color:#E9E9E9;
     color:black;
 }
- 
+
+ul.SousPages.FM2 li.PageActuelle {
+    background-color: #E9E9E9;
+    border-bottom-color:#E9E9E9;
+	}
+
+ul.SousPages.FM2 li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: 358/2 Days */
@@ -632,8 +710,8 @@ table.Donnees.Days tr:first-child th {
 }
 
 table.navbox.Days th.titrePalette .titreContent a,
-table.navbox.Days .collapseButtonLink,
-.StatBox.Days .collapseButtonLink,
+table.navbox.Days a.mw-collapsible-text,
+.StatBox.Days a.mw-collapsible-text,
 table.Donnees.Days tr:first-child th a {
 	color: white;
 }
@@ -641,7 +719,7 @@ table.Donnees.Days tr:first-child th a {
 table.navbox.Days th,
 .Days .group,
 .pi-theme-Days .pi-item,
-.pi-europa.pi-theme-Days .pi-header,
+.pi-europa.pi-theme-Days .pi-data-label,
 .StatBox.Days tr.LabelRow,
 .StatBox.Days tr.MixedRow th.Label,
 table.Donnees.Days tr:not(:first-child) th,
@@ -653,8 +731,10 @@ table.Donnees.Days tr:not(:first-child) td.group {
 table.navbox.Days th a,
 .Days .group a,
 .pi-theme-Days .pi-item > .pi-data-value a,
+.StatBox.Days tr.LabelRow a,
+.StatBox.Days tr.MixedRow th.Label a,
 table.Donnees.Days tr:not(:first-child) th a,
-table.Donnees.Days tr:not(:first-child) td.group a {
+table.Donnees.Days tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -706,17 +786,28 @@ table.Donnees.Days td.altColor a{
 .StatTabber.Days ul.tabbernav li a,
 .StatTabber.Days ul.tabbernav li a:hover,
 .StatTabber.Days ul.tabbernav li a:visited,
-.StatTabber.Days ul.tabbernav li a:link {
+.StatTabber.Days ul.tabbernav li a:link,
+ul.SousPages.Days li a {
     color:#F9E0E0;
 }
  
 .StatTabber.Days ul.tabbernav li.tabberactive a,
-.StatTabber.Days ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Days ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Days li.PageActuelle {
     background-color: #FAECEC;
     border-bottom-color:#FAECEC;
     color:black;
 }
- 
+
+ul.SousPages.Days li.PageActuelle {
+    background-color: #FAECEC;
+    border-bottom-color:#FAECEC;
+	}
+
+ul.SousPages.Days li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Birth by Sleep */
@@ -735,8 +826,8 @@ table.Donnees.BBS tr:first-child th {
 }
 
 table.navbox.BBS th.titrePalette .titreContent a,
-table.navbox.BBS .collapseButtonLink,
-.StatBox.BBS .collapseButtonLink,
+table.navbox.BBS a.mw-collapsible-text,
+.StatBox.BBS a.mw-collapsible-text,
 table.Donnees.BBS tr:first-child th a {
 	color: white;
 }
@@ -744,7 +835,7 @@ table.Donnees.BBS tr:first-child th a {
 table.navbox.BBS th,
 .BBS .group,
 .pi-theme-BBS .pi-item,
-.pi-europa.pi-theme-BBS .pi-header,
+.pi-europa.pi-theme-BBS .pi-data-label,
 .StatBox.BBS tr.LabelRow,
 .StatBox.BBS tr.MixedRow th.Label,
 table.Donnees.BBS tr:not(:first-child) th,
@@ -756,8 +847,10 @@ table.Donnees.BBS tr:not(:first-child) td.group {
 table.navbox.BBS th a,
 .BBS .group a,
 .pi-theme-BBS .pi-item > .pi-data-value a,
+.StatBox.BBS tr.LabelRow a,
+.StatBox.BBS tr.MixedRow th.Label a,
 table.Donnees.BBS tr:not(:first-child) th a,
-table.Donnees.BBS tr:not(:first-child) td.group a {
+table.Donnees.BBS tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -809,17 +902,28 @@ table.Donnees.BBS td.altColor a{
 .StatTabber.BBS ul.tabbernav li a,
 .StatTabber.BBS ul.tabbernav li a:hover,
 .StatTabber.BBS ul.tabbernav li a:visited,
-.StatTabber.BBS ul.tabbernav li a:link {
+.StatTabber.BBS ul.tabbernav li a:link,
+ul.SousPages.BBS li a {
     color:#D7E8F4;
 }
  
 .StatTabber.BBS ul.tabbernav li.tabberactive a,
-.StatTabber.BBS ul.tabbernav li.tabberactive a:hover{
+.StatTabber.BBS ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.BBS li.PageActuelle {
     background-color: #DFEDF6;
     border-bottom-color:#DFEDF6;
     color:black;
 }
- 
+
+ul.SousPages.BBS li.PageActuelle {
+    background-color: #DFEDF6;
+    border-bottom-color:#DFEDF6;
+	}
+
+ul.SousPages.BBS li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: Birth by Sleep Final Mix */
@@ -838,8 +942,8 @@ table.Donnees.BBSFM tr:first-child th {
 }
 
 table.navbox.BBSFM th.titrePalette .titreContent a,
-table.navbox.BBSFM .collapseButtonLink,
-.StatBox.BBSFM .collapseButtonLink,
+table.navbox.BBSFM a.mw-collapsible-text,
+.StatBox.BBSFM a.mw-collapsible-text,
 table.Donnees.BBSFM tr:first-child th a {
 	color: white;
 }
@@ -847,7 +951,7 @@ table.Donnees.BBSFM tr:first-child th a {
 table.navbox.BBSFM th,
 .BBSFM .group,
 .pi-theme-BBSFM .pi-item,
-.pi-europa.pi-theme-BBSFM .pi-header,
+.pi-europa.pi-theme-BBSFM .pi-data-label,
 .StatBox.BBSFM tr.LabelRow,
 .StatBox.BBSFM tr.MixedRow th.Label,
 table.Donnees.BBSFM tr:not(:first-child) th,
@@ -859,8 +963,10 @@ table.Donnees.BBSFM tr:not(:first-child) td.group {
 table.navbox.BBSFM th a,
 .BBSFM .group a,
 .pi-theme-BBSFM .pi-item > .pi-data-value a,
+.StatBox.BBSFM tr.LabelRow a,
+.StatBox.BBSFM tr.MixedRow th.Label a,
 table.Donnees.BBSFM tr:not(:first-child) th a,
-table.Donnees.BBSFM tr:not(:first-child) td.group a {
+table.Donnees.BBSFM tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -912,17 +1018,28 @@ table.Donnees.BBSFM td.altColor a{
 .StatTabber.BBSFM ul.tabbernav li a,
 .StatTabber.BBSFM ul.tabbernav li a:hover,
 .StatTabber.BBSFM ul.tabbernav li a:visited,
-.StatTabber.BBSFM ul.tabbernav li a:link {
+.StatTabber.BBSFM ul.tabbernav li a:link,
+ul.SousPages.BBSFM li a {
     color:#C9D9E5;
 }
  
 .StatTabber.BBSFM ul.tabbernav li.tabberactive a,
-.StatTabber.BBSFM ul.tabbernav li.tabberactive a:hover{
+.StatTabber.BBSFM ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.BBSFM li.PageActuelle {
     background-color: #DFE8EF;
     border-bottom-color:#DFE8EF;
     color:black;
 }
- 
+
+ul.SousPages.BBSFM li.PageActuelle {
+    background-color: #DFE8EF;
+    border-bottom-color:#DFE8EF;
+	}
+
+ul.SousPages.BBSFM li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: coded */
@@ -941,8 +1058,8 @@ table.Donnees.Coded tr:first-child th {
 }
 
 table.navbox.Coded th.titrePalette .titreContent a,
-table.navbox.Coded .collapseButtonLink,
-.StatBox.Coded .collapseButtonLink,
+table.navbox.Coded a.mw-collapsible-text,
+.StatBox.Coded a.mw-collapsible-text,
 table.Donnees.Coded tr:first-child th a {
 	color: black;
 }
@@ -950,7 +1067,7 @@ table.Donnees.Coded tr:first-child th a {
 table.navbox.Coded th,
 .Coded .group,
 .pi-theme-Coded .pi-item,
-.pi-europa.pi-theme-Coded .pi-header,
+.pi-europa.pi-theme-Coded .pi-data-label,
 .StatBox.Coded tr.LabelRow,
 .StatBox.Coded tr.MixedRow th.Label,
 table.Donnees.Coded tr:not(:first-child) th,
@@ -962,8 +1079,10 @@ table.Donnees.Coded tr:not(:first-child) td.group {
 table.navbox.Coded th a,
 .Coded .group a,
 .pi-theme-Coded .pi-item > .pi-data-value a,
+.StatBox.Coded tr.LabelRow a,
+.StatBox.Coded tr.MixedRow th.Label a,
 table.Donnees.Coded tr:not(:first-child) th a,
-table.Donnees.Coded tr:not(:first-child) td.group a {
+table.Donnees.Coded tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1015,17 +1134,28 @@ table.Donnees.Coded td.altColor a{
 .StatTabber.Coded ul.tabbernav li a,
 .StatTabber.Coded ul.tabbernav li a:hover,
 .StatTabber.Coded ul.tabbernav li a:visited,
-.StatTabber.Coded ul.tabbernav li a:link {
+.StatTabber.Coded ul.tabbernav li a:link,
+ul.SousPages.Coded li a {
     color:#F9F9DB;
 }
  
 .StatTabber.Coded ul.tabbernav li.tabberactive a,
-.StatTabber.Coded ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Coded ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Coded li.PageActuelle {
     background-color: #FBFBE6;
     border-bottom-color:#FBFBE6;
     color:black;
 }
- 
+
+ul.SousPages.Coded li.PageActuelle {
+    background-color: #FBFBE6;
+    border-bottom-color:#FBFBE6;
+	}
+
+ul.SousPages.Coded li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts 3D: Dream Drop Distance */
@@ -1044,8 +1174,8 @@ table.Donnees.DDD tr:first-child th {
 }
 
 table.navbox.DDD th.titrePalette .titreContent a,
-table.navbox.DDD .collapseButtonLink,
-.StatBox.DDD .collapseButtonLink,
+table.navbox.DDD a.mw-collapsible-text,
+.StatBox.DDD a.mw-collapsible-text,
 table.Donnees.DDD tr:first-child th a {
 	color: white;
 }
@@ -1053,7 +1183,7 @@ table.Donnees.DDD tr:first-child th a {
 table.navbox.DDD th,
 .DDD .group,
 .pi-theme-DDD .pi-item,
-.pi-europa.pi-theme-DDD .pi-header,
+.pi-europa.pi-theme-DDD .pi-data-label,
 .StatBox.DDD tr.LabelRow,
 .StatBox.DDD tr.MixedRow th.Label,
 table.Donnees.DDD tr:not(:first-child) th,
@@ -1065,8 +1195,10 @@ table.Donnees.DDD tr:not(:first-child) td.group {
 table.navbox.DDD th a,
 .DDD .group a,
 .pi-theme-DDD .pi-item > .pi-data-value a,
+.StatBox.DDD tr.LabelRow a,
+.StatBox.DDD tr.MixedRow th.Label a,
 table.Donnees.DDD tr:not(:first-child) th a,
-table.Donnees.DDD tr:not(:first-child) td.group a {
+table.Donnees.DDD tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1118,17 +1250,28 @@ table.Donnees.DDD td.altColor a{
 .StatTabber.DDD ul.tabbernav li a,
 .StatTabber.DDD ul.tabbernav li a:hover,
 .StatTabber.DDD ul.tabbernav li a:visited,
-.StatTabber.DDD ul.tabbernav li a:link {
+.StatTabber.DDD ul.tabbernav li a:link,
+ul.SousPages.DDD li a {
     color:#EDDBF9;
 }
  
 .StatTabber.DDD ul.tabbernav li.tabberactive a,
-.StatTabber.DDD ul.tabbernav li.tabberactive a:hover{
+.StatTabber.DDD ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.DDD li.PageActuelle {
     background-color: #F2E6FB;
     border-bottom-color:#F2E6FB;
     color:black;
 }
- 
+
+ul.SousPages.DDD li.PageActuelle {
+    background-color: #F2E6FB;
+    border-bottom-color:#F2E6FB;
+	}
+
+ul.SousPages.DDD li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts χ [chi] */
@@ -1147,8 +1290,8 @@ table.Donnees.CHI tr:first-child th {
 }
 
 table.navbox.CHI th.titrePalette .titreContent a,
-table.navbox.CHI .collapseButtonLink,
-.StatBox.CHI .collapseButtonLink,
+table.navbox.CHI a.mw-collapsible-text,
+.StatBox.CHI a.mw-collapsible-text,
 table.Donnees.CHI tr:first-child th a {
 	color: white;
 }
@@ -1156,7 +1299,7 @@ table.Donnees.CHI tr:first-child th a {
 table.navbox.CHI th,
 .CHI .group,
 .pi-theme-CHI .pi-item,
-.pi-europa.pi-theme-CHI .pi-header,
+.pi-europa.pi-theme-CHI .pi-data-label,
 .StatBox.CHI tr.LabelRow,
 .StatBox.CHI tr.MixedRow th.Label,
 table.Donnees.CHI tr:not(:first-child) th,
@@ -1168,8 +1311,10 @@ table.Donnees.CHI tr:not(:first-child) td.group {
 table.navbox.CHI th a,
 .CHI .group a,
 .pi-theme-CHI .pi-item > .pi-data-value a,
+.StatBox.CHI tr.LabelRow a,
+.StatBox.CHI tr.MixedRow th.Label a,
 table.Donnees.CHI tr:not(:first-child) th a,
-table.Donnees.CHI tr:not(:first-child) td.group a {
+table.Donnees.CHI tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1221,17 +1366,28 @@ table.Donnees.CHI td.altColor a{
 .StatTabber.CHI ul.tabbernav li a,
 .StatTabber.CHI ul.tabbernav li a:hover,
 .StatTabber.CHI ul.tabbernav li a:visited,
-.StatTabber.CHI ul.tabbernav li a:link {
+.StatTabber.CHI ul.tabbernav li a:link,
+ul.SousPages.CHI li a {
     color:#C9E5DC;
 }
  
 .StatTabber.CHI ul.tabbernav li.tabberactive a,
-.StatTabber.CHI ul.tabbernav li.tabberactive a:hover{
+.StatTabber.CHI ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.CHI li.PageActuelle {
     background-color: #DFEFEA;
     border-bottom-color:#DFEFEA;
     color:black;
 }
- 
+
+ul.SousPages.CHI li.PageActuelle {
+    background-color: #DFEFEA;
+    border-bottom-color:#DFEFEA;
+	}
+
+ul.SousPages.CHI li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: Union χ [cross] */
@@ -1250,8 +1406,8 @@ table.Donnees.UCR tr:first-child th {
 }
 
 table.navbox.UCR th.titrePalette .titreContent a,
-table.navbox.UCR .collapseButtonLink,
-.StatBox.UCR .collapseButtonLink,
+table.navbox.UCR a.mw-collapsible-text,
+.StatBox.UCR a.mw-collapsible-text,
 table.Donnees.UCR tr:first-child th a {
 	color: white;
 }
@@ -1259,7 +1415,7 @@ table.Donnees.UCR tr:first-child th a {
 table.navbox.UCR th,
 .UCR .group,
 .pi-theme-UCR .pi-item,
-.pi-europa.pi-theme-UCR .pi-header,
+.pi-europa.pi-theme-UCR .pi-data-label,
 .StatBox.UCR tr.LabelRow,
 .StatBox.UCR tr.MixedRow th.Label,
 table.Donnees.UCR tr:not(:first-child) th,
@@ -1271,8 +1427,10 @@ table.Donnees.UCR tr:not(:first-child) td.group {
 table.navbox.UCR th a,
 .UCR .group a,
 .pi-theme-UCR .pi-item > .pi-data-value a,
+.StatBox.UCR tr.LabelRow a,
+.StatBox.UCR tr.MixedRow th.Label a,
 table.Donnees.UCR tr:not(:first-child) th a,
-table.Donnees.UCR tr:not(:first-child) td.group a {
+table.Donnees.UCR tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1324,17 +1482,28 @@ table.Donnees.UCR td.altColor a{
 .StatTabber.UCR ul.tabbernav li a,
 .StatTabber.UCR ul.tabbernav li a:hover,
 .StatTabber.UCR ul.tabbernav li a:visited,
-.StatTabber.UCR ul.tabbernav li a:link {
+.StatTabber.UCR ul.tabbernav li a:link,
+ul.SousPages.UCR li a {
     color:#D0D0D0;
 }
  
 .StatTabber.UCR ul.tabbernav li.tabberactive a,
-.StatTabber.UCR ul.tabbernav li.tabberactive a:hover{
+.StatTabber.UCR ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.UCR li.PageActuelle {
     background-color: #E1E1E1;
     border-bottom-color:#E1E1E1;
     color:black;
 }
- 
+
+ul.SousPages.UCR li.PageActuelle {
+    background-color: #E1E1E1;
+    border-bottom-color:#E1E1E1;
+	}
+
+ul.SousPages.UCR li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts: HD 2.8 Final Chapter Prologue */
@@ -1353,8 +1522,8 @@ table.Donnees.KH2_8 tr:first-child th {
 }
 
 table.navbox.KH2_8 th.titrePalette .titreContent a,
-table.navbox.KH2_8 .collapseButtonLink,
-.StatBox.KH2_8 .collapseButtonLink,
+table.navbox.KH2_8 a.mw-collapsible-text,
+.StatBox.KH2_8 a.mw-collapsible-text,
 table.Donnees.KH2_8 tr:first-child th a {
 	color: white;
 }
@@ -1362,7 +1531,7 @@ table.Donnees.KH2_8 tr:first-child th a {
 table.navbox.KH2_8 th,
 .KH2_8 .group,
 .pi-theme-KH2_8 .pi-item,
-.pi-europa.pi-theme-KH2_8 .pi-header,
+.pi-europa.pi-theme-KH2_8 .pi-data-label,
 .StatBox.KH2_8 tr.LabelRow,
 .StatBox.KH2_8 tr.MixedRow th.Label,
 table.Donnees.KH2_8 tr:not(:first-child) th,
@@ -1374,8 +1543,10 @@ table.Donnees.KH2_8 tr:not(:first-child) td.group {
 table.navbox.KH2_8 th a,
 .KH2_8 .group a,
 .pi-theme-KH2_8 .pi-item > .pi-data-value a,
+.StatBox.KH2_8 tr.LabelRow a,
+.StatBox.KH2_8 tr.MixedRow th.Label a,
 table.Donnees.KH2_8 tr:not(:first-child) th a,
-table.Donnees.KH2_8 tr:not(:first-child) td.group a {
+table.Donnees.KH2_8 tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -1427,17 +1598,28 @@ table.Donnees.KH2_8 td.altColor a{
 .StatTabber.KH2_8 ul.tabbernav li a,
 .StatTabber.KH2_8 ul.tabbernav li a:hover,
 .StatTabber.KH2_8 ul.tabbernav li a:visited,
-.StatTabber.KH2_8 ul.tabbernav li a:link {
+.StatTabber.KH2_8 ul.tabbernav li a:link,
+ul.SousPages.KH2_8 li a {
     color:#6d6d6d;
 }
  
 .StatTabber.KH2_8 ul.tabbernav li.tabberactive a,
-.StatTabber.KH2_8 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.KH2_8 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.KH2_8 li.PageActuelle {
     background-color: #e5c9d6;
     border-bottom-color:#e5c9d6;
     color:black;
 }
- 
+
+ul.SousPages.KH2_8 li.PageActuelle {
+    background-color: #e5c9d6;
+    border-bottom-color:#e5c9d6;
+	}
+
+ul.SousPages.KH2_8 li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Kingdom Hearts III */
@@ -1456,8 +1638,8 @@ table.Donnees.KH3 tr:first-child th {
 }
 
 table.navbox.KH3 th.titrePalette .titreContent a,
-table.navbox.KH3 .collapseButtonLink,
-.StatBox.KH3 .collapseButtonLink,
+table.navbox.KH3 a.mw-collapsible-text,
+.StatBox.KH3 a.mw-collapsible-text,
 table.Donnees.KH3 tr:first-child th a {
 	color: white;
 }
@@ -1465,7 +1647,7 @@ table.Donnees.KH3 tr:first-child th a {
 table.navbox.KH3 th,
 .KH3 .group,
 .pi-theme-KH3 .pi-item,
-.pi-europa.pi-theme-KH3 .pi-header,
+.pi-europa.pi-theme-KH3 .pi-data-label,
 .StatBox.KH3 tr.LabelRow,
 .StatBox.KH3 tr.MixedRow th.Label,
 table.Donnees.KH3 tr:not(:first-child) th,
@@ -1477,8 +1659,10 @@ table.Donnees.KH3 tr:not(:first-child) td.group {
 table.navbox.KH3 th a,
 .KH3 .group a,
 .pi-theme-KH3 .pi-item > .pi-data-value a,
+.StatBox.KH3 tr.LabelRow a,
+.StatBox.KH3 tr.MixedRow th.Label a,
 table.Donnees.KH3 tr:not(:first-child) th a,
-table.Donnees.KH3 tr:not(:first-child) td.group a {
+table.Donnees.KH3 tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1530,17 +1714,376 @@ table.Donnees.KH3 td.altColor a{
 .StatTabber.KH3 ul.tabbernav li a,
 .StatTabber.KH3 ul.tabbernav li a:hover,
 .StatTabber.KH3 ul.tabbernav li a:visited,
-.StatTabber.KH3 ul.tabbernav li a:link {
+.StatTabber.KH3 ul.tabbernav li a:link,
+ul.SousPages.KH3 li a {
     color:#C9CBE5;
 }
  
 .StatTabber.KH3 ul.tabbernav li.tabberactive a,
-.StatTabber.KH3 ul.tabbernav li.tabberactive a:hover{
+.StatTabber.KH3 ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.KH3 li.PageActuelle {
     background-color: #DFE0EF;
     border-bottom-color:#DFE0EF;
     color:black;
 }
+
+ul.SousPages.KH3 li.PageActuelle {
+    background-color: #DFE0EF;
+    border-bottom-color:#DFE0EF;
+	}
+
+ul.SousPages.KH3 li.PageActuelle a {
+    color:black;
+}
+
+
+
+/* Kingdom Hearts III Re Mind */
+
+aside.portable-infobox.pi-theme-REM,
+.StatBox.REM{
+    border-color: #626284;
+}
  
+table.navbox.REM th.titrePalette,
+.pi-theme-REM .pi-item.pi-title,
+.StatBox.REM th.SectionHeader,
+table.Donnees.REM tr:first-child th {
+	background-color:#626284;
+	color: white;
+}
+
+table.navbox.REM th.titrePalette .titreContent a,
+table.navbox.REM a.mw-collapsible-text,
+.StatBox.REM a.mw-collapsible-text,
+table.Donnees.REM tr:first-child th a {
+	color: white;
+}
+
+table.navbox.REM th,
+.REM .group,
+.pi-theme-REM .pi-item,
+.pi-europa.pi-theme-REM .pi-data-label,
+.StatBox.REM tr.LabelRow,
+.StatBox.REM tr.MixedRow th.Label,
+table.Donnees.REM tr:not(:first-child) th,
+table.Donnees.REM tr:not(:first-child) td.group {
+	background-color:#c4c4d4;
+	color: black;
+}
+
+table.navbox.REM th a,
+.REM .group a,
+.pi-theme-REM .pi-item > .pi-data-value a,
+.StatBox.REM tr.LabelRow a,
+.StatBox.REM tr.MixedRow th.Label a,
+table.Donnees.REM tr:not(:first-child) th a,
+table.Donnees.REM tr:not(:first-child) td.group a{
+	color: #0148c2;
+}
+
+table.navbox.REM tr td,
+table.Donnees.REM.altColor tr:nth-child(even) td,
+table.Donnees.REM td {
+	background-color:#F9F9F9;
+}
+
+table.navbox.REM td .subTitle {
+	border-color:#c4c4d4;
+}
+
+table.navbox.REM tr:nth-child(odd) td,
+.StatBox.REM tr.DataRow,
+.StatBox.REM tr.MixedRow td.Data,
+.pi-theme-REM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-REM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-REM.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-REM.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-REM.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-REM.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-REM .pi-collapse .pi-item.pi-data,
+table.Donnees.REM.altColor tr:nth-child(odd) td,
+table.Donnees.REM td.altColor {
+	background-color:#e0e0f0;
+	color:black;
+}
+
+table.navbox.REM tr:nth-child(odd) td a,
+.StatBox.REM tr.DataRow a,
+.StatBox.REM tr.MixedRow td.Data a,
+.pi-theme-REM .pi-horizontal-group-item:nth-child(even) a,
+.pi-theme-REM .pi-horizontal-group-item:nth-child(odd) a,
+.pi-theme-REM.pi-europa .pi-smart-data-label:nth-child(even) a,
+.pi-theme-REM.pi-europa .pi-smart-data-value:nth-child(even) a,
+.pi-theme-REM.pi-europa .pi-smart-data-label:nth-child(odd) a,
+.pi-theme-REM.pi-europa .pi-smart-data-value:nth-child(odd) a,
+.pi-theme-REM .pi-collapse .pi-item.pi-data a,
+table.Donnees.REM.altColor tr:nth-child(odd) td a,
+table.Donnees.REM td.altColor a{
+	color:#0148c2;
+}
+
+.pi-theme-REM .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #626284;
+}
+
+.StatTabber.REM ul.tabbernav li a,
+.StatTabber.REM ul.tabbernav li a:hover,
+.StatTabber.REM ul.tabbernav li a:visited,
+.StatTabber.REM ul.tabbernav li a:link,
+ul.SousPages.REM li a {
+    color:#c4c4d4;
+}
+ 
+.StatTabber.REM ul.tabbernav li.tabberactive a,
+.StatTabber.REM ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.REM li.PageActuelle {
+    background-color: #e0e0f0;
+    border-bottom-color:#e0e0f0;
+    color:black;
+}
+
+ul.SousPages.REM li.PageActuelle {
+    background-color: #e0e0f0;
+    border-bottom-color:#e0e0f0;
+	}
+
+ul.SousPages.REM li.PageActuelle a {
+    color:black;
+}
+
+
+
+/* Kingdom Hearts: Dark Road */
+
+aside.portable-infobox.pi-theme-KDR,
+.StatBox.KDR{
+    border-color: #808482;
+}
+ 
+table.navbox.KDR th.titrePalette,
+.pi-theme-KDR .pi-item.pi-title,
+.StatBox.KDR th.SectionHeader,
+table.Donnees.KDR tr:first-child th {
+	background-color:#808482;
+	color: white;
+}
+
+table.navbox.KDR th.titrePalette .titreContent a,
+table.navbox.KDR a.mw-collapsible-text,
+.StatBox.KDR a.mw-collapsible-text,
+table.Donnees.KDR tr:first-child th a {
+	color: white;
+}
+
+table.navbox.KDR th,
+.KDR .group,
+.pi-theme-KDR .pi-item,
+.pi-europa.pi-theme-KDR .pi-data-label,
+.StatBox.KDR tr.LabelRow,
+.StatBox.KDR tr.MixedRow th.Label,
+table.Donnees.KDR tr:not(:first-child) th,
+table.Donnees.KDR tr:not(:first-child) td.group {
+	background-color:#D0D0D0;
+	color: black;
+}
+
+table.navbox.KDR th a,
+.KDR .group a,
+.pi-theme-KDR .pi-item > .pi-data-value a,
+.StatBox.KDR tr.LabelRow a,
+.StatBox.KDR tr.MixedRow th.Label a,
+table.Donnees.KDR tr:not(:first-child) th a,
+table.Donnees.KDR tr:not(:first-child) td.group a{
+	color: #0148c2;
+}
+
+table.navbox.KDR tr td,
+table.Donnees.KDR.altColor tr:nth-child(even) td,
+table.Donnees.KDR td {
+	background-color:#F9F9F9;
+}
+
+table.navbox.KDR td .subTitle {
+	border-color:#D0D0D0;
+}
+
+table.navbox.KDR tr:nth-child(odd) td,
+.StatBox.KDR tr.DataRow,
+.StatBox.KDR tr.MixedRow td.Data,
+.pi-theme-KDR .pi-horizontal-group-item:nth-child(even),
+.pi-theme-KDR .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-KDR.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-KDR.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-KDR.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-KDR.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-KDR .pi-collapse .pi-item.pi-data,
+table.Donnees.KDR.altColor tr:nth-child(odd) td,
+table.Donnees.KDR td.altColor {
+	background-color:#E1E1E1;
+	color:black;
+}
+
+table.navbox.KDR tr:nth-child(odd) td a,
+.StatBox.KDR tr.DataRow a,
+.StatBox.KDR tr.MixedRow td.Data a,
+.pi-theme-KDR .pi-horizontal-group-item:nth-child(even) a,
+.pi-theme-KDR .pi-horizontal-group-item:nth-child(odd) a,
+.pi-theme-KDR.pi-europa .pi-smart-data-label:nth-child(even) a,
+.pi-theme-KDR.pi-europa .pi-smart-data-value:nth-child(even) a,
+.pi-theme-KDR.pi-europa .pi-smart-data-label:nth-child(odd) a,
+.pi-theme-KDR.pi-europa .pi-smart-data-value:nth-child(odd) a,
+.pi-theme-KDR .pi-collapse .pi-item.pi-data a,
+table.Donnees.KDR.altColor tr:nth-child(odd) td a,
+table.Donnees.KDR td.altColor a{
+	color:#0148c2;
+}
+
+.pi-theme-KDR .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #808482;
+}
+
+.StatTabber.KDR ul.tabbernav li a,
+.StatTabber.KDR ul.tabbernav li a:hover,
+.StatTabber.KDR ul.tabbernav li a:visited,
+.StatTabber.KDR ul.tabbernav li a:link,
+ul.SousPages.KDR li a {
+    color:#D0D0D0;
+}
+ 
+.StatTabber.KDR ul.tabbernav li.tabberactive a,
+.StatTabber.KDR ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.KDR li.PageActuelle {
+    background-color: #E1E1E1;
+    border-bottom-color:#E1E1E1;
+    color:black;
+}
+
+ul.SousPages.KDR li.PageActuelle {
+    background-color: #E1E1E1;
+    border-bottom-color:#E1E1E1;
+	}
+
+ul.SousPages.KDR li.PageActuelle a {
+    color:black;
+}
+
+
+
+/* Kingdom Hearts: Melody of Memory */
+
+aside.portable-infobox.pi-theme-MOM,
+.StatBox.MOM{
+    border-color: #9d8030;
+}
+ 
+table.navbox.MOM th.titrePalette,
+.pi-theme-MOM .pi-item.pi-title,
+.StatBox.MOM th.SectionHeader,
+table.Donnees.MOM tr:first-child th {
+	background-color:#9d8030;
+	color: white;
+}
+
+table.navbox.MOM th.titrePalette .titreContent a,
+table.navbox.MOM a.mw-collapsible-text,
+.StatBox.MOM a.mw-collapsible-text,
+table.Donnees.MOM tr:first-child th a {
+	color: white;
+}
+
+table.navbox.MOM th,
+.MOM .group,
+.pi-theme-MOM .pi-item,
+.pi-europa.pi-theme-MOM .pi-data-label,
+.StatBox.MOM tr.LabelRow,
+.StatBox.MOM tr.MixedRow th.Label,
+table.Donnees.MOM tr:not(:first-child) th,
+table.Donnees.MOM tr:not(:first-child) td.group {
+	background-color:#c39f3c;
+	color: black;
+}
+
+table.navbox.MOM th a,
+.MOM .group a,
+.pi-theme-MOM .pi-item > .pi-data-value a,
+.StatBox.MOM tr.LabelRow a,
+.StatBox.MOM tr.MixedRow th.Label a,
+table.Donnees.MOM tr:not(:first-child) th a,
+table.Donnees.MOM tr:not(:first-child) td.group a{
+	color: #0148c2;
+}
+
+table.navbox.MOM tr td,
+table.Donnees.MOM.altColor tr:nth-child(even) td,
+table.Donnees.MOM td {
+	background-color:#F9F9F9;
+}
+
+table.navbox.MOM td .subTitle {
+	border-color:#c39f3c;
+}
+
+table.navbox.MOM tr:nth-child(odd) td,
+.StatBox.MOM tr.DataRow,
+.StatBox.MOM tr.MixedRow td.Data,
+.pi-theme-MOM .pi-horizontal-group-item:nth-child(even),
+.pi-theme-MOM .pi-horizontal-group-item:nth-child(odd),
+.pi-theme-MOM.pi-europa .pi-smart-data-label:nth-child(even),
+.pi-theme-MOM.pi-europa .pi-smart-data-value:nth-child(even),
+.pi-theme-MOM.pi-europa .pi-smart-data-label:nth-child(odd),
+.pi-theme-MOM.pi-europa .pi-smart-data-value:nth-child(odd),
+.pi-theme-MOM .pi-collapse .pi-item.pi-data,
+table.Donnees.MOM.altColor tr:nth-child(odd) td,
+table.Donnees.MOM td.altColor {
+	background-color:#e7d9b1;
+	color:black;
+}
+
+table.navbox.MOM tr:nth-child(odd) td a,
+.StatBox.MOM tr.DataRow a,
+.StatBox.MOM tr.MixedRow td.Data a,
+.pi-theme-MOM .pi-horizontal-group-item:nth-child(even) a,
+.pi-theme-MOM .pi-horizontal-group-item:nth-child(odd) a,
+.pi-theme-MOM.pi-europa .pi-smart-data-label:nth-child(even) a,
+.pi-theme-MOM.pi-europa .pi-smart-data-value:nth-child(even) a,
+.pi-theme-MOM.pi-europa .pi-smart-data-label:nth-child(odd) a,
+.pi-theme-MOM.pi-europa .pi-smart-data-value:nth-child(odd) a,
+.pi-theme-MOM .pi-collapse .pi-item.pi-data a,
+table.Donnees.MOM.altColor tr:nth-child(odd) td a,
+table.Donnees.MOM td.altColor a{
+	color:#0148c2;
+}
+
+.pi-theme-MOM .pi-group .pi-group + .pi-group.pi-border-color {
+	border-top-color: #9d8030;
+}
+
+.StatTabber.MOM ul.tabbernav li a,
+.StatTabber.MOM ul.tabbernav li a:hover,
+.StatTabber.MOM ul.tabbernav li a:visited,
+.StatTabber.MOM ul.tabbernav li a:link,
+ul.SousPages.MOM li a {
+    color:#c39f3c;
+}
+ 
+.StatTabber.MOM ul.tabbernav li.tabberactive a,
+.StatTabber.MOM ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.MOM li.PageActuelle {
+    background-color: #e7d9b1;
+    border-bottom-color:#e7d9b1;
+    color:black;
+}
+
+ul.SousPages.MOM li.PageActuelle {
+    background-color: #e7d9b1;
+    border-bottom-color:#e7d9b1;
+	}
+
+ul.SousPages.MOM li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Série KH */
@@ -1559,8 +2102,8 @@ table.Donnees.serieKH tr:first-child th {
 }
 
 table.navbox.serieKH th.titrePalette .titreContent a,
-table.navbox.serieKH .collapseButtonLink,
-.StatBox.serieKH .collapseButtonLink,
+table.navbox.serieKH a.mw-collapsible-text,
+.StatBox.serieKH a.mw-collapsible-text,
 table.Donnees.serieKH tr:first-child th a {
 	color: steelblue;
 }
@@ -1568,7 +2111,7 @@ table.Donnees.serieKH tr:first-child th a {
 table.navbox.serieKH th,
 .serieKH .group,
 .pi-theme-serieKH .pi-item,
-.pi-europa.pi-theme-serieKH .pi-header,
+.pi-europa.pi-theme-serieKH .pi-data-label,
 .StatBox.serieKH tr.LabelRow,
 .StatBox.serieKH tr.MixedRow th.Label,
 table.Donnees.serieKH tr:not(:first-child) th,
@@ -1580,8 +2123,10 @@ table.Donnees.serieKH tr:not(:first-child) td.group {
 table.navbox.serieKH th a,
 .serieKH .group a,
 .pi-theme-serieKH .pi-item > .pi-data-value a,
+.StatBox.serieKH tr.LabelRow a,
+.StatBox.serieKH tr.MixedRow th.Label a,
 table.Donnees.serieKH tr:not(:first-child) th a,
-table.Donnees.serieKH tr:not(:first-child) td.group a {
+table.Donnees.serieKH tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1633,17 +2178,28 @@ table.Donnees.serieKH td.altColor a{
 .StatTabber.serieKH ul.tabbernav li a,
 .StatTabber.serieKH ul.tabbernav li a:hover,
 .StatTabber.serieKH ul.tabbernav li a:visited,
-.StatTabber.serieKH ul.tabbernav li a:link {
+.StatTabber.serieKH ul.tabbernav li a:link,
+ul.SousPages.serieKH li a {
     color:#FDF97F;
 }
  
 .StatTabber.serieKH ul.tabbernav li.tabberactive a,
-.StatTabber.serieKH ul.tabbernav li.tabberactive a:hover{
+.StatTabber.serieKH ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.serieKH li.PageActuelle {
     background-color: #fefab3;
     border-bottom-color:#fefab3;
     color:black;
 }
- 
+
+ul.SousPages.serieKH li.PageActuelle {
+    background-color: #fefab3;
+    border-bottom-color:#fefab3;
+	}
+
+ul.SousPages.serieKH li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Armes */
@@ -1662,8 +2218,8 @@ table.Donnees.Armes tr:first-child th {
 }
 
 table.navbox.Armes th.titrePalette .titreContent a,
-table.navbox.Armes .collapseButtonLink,
-.StatBox.Armes .collapseButtonLink,
+table.navbox.Armes a.mw-collapsible-text,
+.StatBox.Armes a.mw-collapsible-text,
 table.Donnees.Armes tr:first-child th a {
 	color: white;
 }
@@ -1671,7 +2227,7 @@ table.Donnees.Armes tr:first-child th a {
 table.navbox.Armes th,
 .Armes .group,
 .pi-theme-Armes .pi-item,
-.pi-europa.pi-theme-Armes .pi-header,
+.pi-europa.pi-theme-Armes .pi-data-label,
 .StatBox.Armes tr.LabelRow,
 .StatBox.Armes tr.MixedRow th.Label,
 table.Donnees.Armes tr:not(:first-child) th,
@@ -1683,8 +2239,10 @@ table.Donnees.Armes tr:not(:first-child) td.group {
 table.navbox.Armes th a,
 .Armes .group a,
 .pi-theme-Armes .pi-item > .pi-data-value a,
+.StatBox.Armes tr.LabelRow a,
+.StatBox.Armes tr.MixedRow th.Label a,
 table.Donnees.Armes tr:not(:first-child) th a,
-table.Donnees.Armes tr:not(:first-child) td.group a {
+table.Donnees.Armes tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1736,17 +2294,28 @@ table.Donnees.Armes td.altColor a{
 .StatTabber.Armes ul.tabbernav li a,
 .StatTabber.Armes ul.tabbernav li a:hover,
 .StatTabber.Armes ul.tabbernav li a:visited,
-.StatTabber.Armes ul.tabbernav li a:link {
+.StatTabber.Armes ul.tabbernav li a:link,
+ul.SousPages.Armes li a {
     color:#FFCCCD;
 }
  
 .StatTabber.Armes ul.tabbernav li.tabberactive a,
-.StatTabber.Armes ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Armes ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Armes li.PageActuelle {
     background-color: #F7DCDC;
     border-bottom-color:#F7DCDC;
     color:black;
 }
- 
+
+ul.SousPages.Armes li.PageActuelle {
+    background-color: #F7DCDC;
+    border-bottom-color:#F7DCDC;
+	}
+
+ul.SousPages.Armes li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Keyblades */
@@ -1765,8 +2334,8 @@ table.Donnees.Keyblade tr:first-child th {
 }
 
 table.navbox.Keyblade th.titrePalette .titreContent a,
-table.navbox.Keyblade .collapseButtonLink,
-.StatBox.Keyblade .collapseButtonLink,
+table.navbox.Keyblade a.mw-collapsible-text,
+.StatBox.Keyblade a.mw-collapsible-text,
 table.Donnees.Keyblade tr:first-child th a {
 	color: white;
 }
@@ -1774,7 +2343,7 @@ table.Donnees.Keyblade tr:first-child th a {
 table.navbox.Keyblade th,
 .Keyblade .group,
 .pi-theme-Keyblade .pi-item,
-.pi-europa.pi-theme-Keyblade .pi-header,
+.pi-europa.pi-theme-Keyblade .pi-data-label,
 .StatBox.Keyblade tr.LabelRow,
 .StatBox.Keyblade tr.MixedRow th.Label,
 table.Donnees.Keyblade tr:not(:first-child) th,
@@ -1786,8 +2355,10 @@ table.Donnees.Keyblade tr:not(:first-child) td.group {
 table.navbox.Keyblade th a,
 .Keyblade .group a,
 .pi-theme-Keyblade .pi-item > .pi-data-value a,
+.StatBox.Keyblade tr.LabelRow a,
+.StatBox.Keyblade tr.MixedRow th.Label a,
 table.Donnees.Keyblade tr:not(:first-child) th a,
-table.Donnees.Keyblade tr:not(:first-child) td.group a {
+table.Donnees.Keyblade tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1839,17 +2410,28 @@ table.Donnees.Keyblade td.altColor a{
 .StatTabber.Keyblade ul.tabbernav li a,
 .StatTabber.Keyblade ul.tabbernav li a:hover,
 .StatTabber.Keyblade ul.tabbernav li a:visited,
-.StatTabber.Keyblade ul.tabbernav li a:link {
+.StatTabber.Keyblade ul.tabbernav li a:link,
+ul.SousPages.Keyblade li a {
     color:gold;
 }
  
 .StatTabber.Keyblade ul.tabbernav li.tabberactive a,
-.StatTabber.Keyblade ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Keyblade ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Keyblade li.PageActuelle {
     background-color: #E6E6EF;
     border-bottom-color:#E6E6EF;
     color:black;
 }
- 
+
+ul.SousPages.Keyblade li.PageActuelle {
+    background-color: #E6E6EF;
+    border-bottom-color:#E6E6EF;
+	}
+
+ul.SousPages.Keyblade li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Sceptre */
@@ -1868,8 +2450,8 @@ table.Donnees.Sceptre tr:first-child th {
 }
 
 table.navbox.Sceptre th.titrePalette .titreContent a,
-table.navbox.Sceptre .collapseButtonLink,
-.StatBox.Sceptre .collapseButtonLink,
+table.navbox.Sceptre a.mw-collapsible-text,
+.StatBox.Sceptre a.mw-collapsible-text,
 table.Donnees.Sceptre tr:first-child th a {
 	color: white;
 }
@@ -1877,7 +2459,7 @@ table.Donnees.Sceptre tr:first-child th a {
 table.navbox.Sceptre th,
 .Sceptre .group,
 .pi-theme-Sceptre .pi-item,
-.pi-europa.pi-theme-Sceptre .pi-header,
+.pi-europa.pi-theme-Sceptre .pi-data-label,
 .StatBox.Sceptre tr.LabelRow,
 .StatBox.Sceptre tr.MixedRow th.Label,
 table.Donnees.Sceptre tr:not(:first-child) th,
@@ -1889,8 +2471,10 @@ table.Donnees.Sceptre tr:not(:first-child) td.group {
 table.navbox.Sceptre th a,
 .Sceptre .group a,
 .pi-theme-Sceptre .pi-item > .pi-data-value a,
+.StatBox.Sceptre tr.LabelRow a,
+.StatBox.Sceptre tr.MixedRow th.Label a,
 table.Donnees.Sceptre tr:not(:first-child) th a,
-table.Donnees.Sceptre tr:not(:first-child) td.group a {
+table.Donnees.Sceptre tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -1942,17 +2526,28 @@ table.Donnees.Sceptre td.altColor a{
 .StatTabber.Sceptre ul.tabbernav li a,
 .StatTabber.Sceptre ul.tabbernav li a:hover,
 .StatTabber.Sceptre ul.tabbernav li a:visited,
-.StatTabber.Sceptre ul.tabbernav li a:link {
+.StatTabber.Sceptre ul.tabbernav li a:link,
+ul.SousPages.Sceptre li a {
     color:gold;
 }
  
 .StatTabber.Sceptre ul.tabbernav li.tabberactive a,
-.StatTabber.Sceptre ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Sceptre ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Sceptre li.PageActuelle {
     background-color: #DAE2EA;
     border-bottom-color:#DAE2EA;
     color:black;
 }
- 
+
+ul.SousPages.Sceptre li.PageActuelle {
+    background-color: #DAE2EA;
+    border-bottom-color:#DAE2EA;
+	}
+
+ul.SousPages.Sceptre li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Bouclier */
@@ -1971,8 +2566,8 @@ table.Donnees.Bouclier tr:first-child th {
 }
 
 table.navbox.Bouclier th.titrePalette .titreContent a,
-table.navbox.Bouclier .collapseButtonLink,
-.StatBox.Bouclier .collapseButtonLink,
+table.navbox.Bouclier a.mw-collapsible-text,
+.StatBox.Bouclier a.mw-collapsible-text,
 table.Donnees.Bouclier tr:first-child th a {
 	color: white;
 }
@@ -1980,7 +2575,7 @@ table.Donnees.Bouclier tr:first-child th a {
 table.navbox.Bouclier th,
 .Bouclier .group,
 .pi-theme-Bouclier .pi-item,
-.pi-europa.pi-theme-Bouclier .pi-header,
+.pi-europa.pi-theme-Bouclier .pi-data-label,
 .StatBox.Bouclier tr.LabelRow,
 .StatBox.Bouclier tr.MixedRow th.Label,
 table.Donnees.Bouclier tr:not(:first-child) th,
@@ -1992,8 +2587,10 @@ table.Donnees.Bouclier tr:not(:first-child) td.group {
 table.navbox.Bouclier th a,
 .Bouclier .group a,
 .pi-theme-Bouclier .pi-item > .pi-data-value a,
+.StatBox.Bouclier tr.LabelRow a,
+.StatBox.Bouclier tr.MixedRow th.Label a,
 table.Donnees.Bouclier tr:not(:first-child) th a,
-table.Donnees.Bouclier tr:not(:first-child) td.group a {
+table.Donnees.Bouclier tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2045,17 +2642,28 @@ table.Donnees.Bouclier td.altColor a{
 .StatTabber.Bouclier ul.tabbernav li a,
 .StatTabber.Bouclier ul.tabbernav li a:hover,
 .StatTabber.Bouclier ul.tabbernav li a:visited,
-.StatTabber.Bouclier ul.tabbernav li a:link {
+.StatTabber.Bouclier ul.tabbernav li a:link,
+ul.SousPages.Bouclier li a {
     color:gold;
 }
  
 .StatTabber.Bouclier ul.tabbernav li.tabberactive a,
-.StatTabber.Bouclier ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Bouclier ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Bouclier li.PageActuelle {
     background-color: #dfd;
     border-bottom-color:#dfd;
     color:black;
 }
- 
+
+ul.SousPages.Bouclier li.PageActuelle {
+    background-color: #dfd;
+    border-bottom-color:#dfd;
+	}
+
+ul.SousPages.Bouclier li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Armures */
@@ -2074,8 +2682,8 @@ table.Donnees.Armure tr:first-child th {
 }
 
 table.navbox.Armure th.titrePalette .titreContent a,
-table.navbox.Armure .collapseButtonLink,
-.StatBox.Armure .collapseButtonLink,
+table.navbox.Armure a.mw-collapsible-text,
+.StatBox.Armure a.mw-collapsible-text,
 table.Donnees.Armure tr:first-child th a {
 	color: black;
 }
@@ -2083,7 +2691,7 @@ table.Donnees.Armure tr:first-child th a {
 table.navbox.Armure th,
 .Armure .group,
 .pi-theme-Armure .pi-item,
-.pi-europa.pi-theme-Armure .pi-header,
+.pi-europa.pi-theme-Armure .pi-data-label,
 .StatBox.Armure tr.LabelRow,
 .StatBox.Armure tr.MixedRow th.Label,
 table.Donnees.Armure tr:not(:first-child) th,
@@ -2095,8 +2703,10 @@ table.Donnees.Armure tr:not(:first-child) td.group {
 table.navbox.Armure th a,
 .Armure .group a,
 .pi-theme-Armure .pi-item > .pi-data-value a,
+.StatBox.Armure tr.LabelRow a,
+.StatBox.Armure tr.MixedRow th.Label a,
 table.Donnees.Armure tr:not(:first-child) th a,
-table.Donnees.Armure tr:not(:first-child) td.group a {
+table.Donnees.Armure tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2148,17 +2758,28 @@ table.Donnees.Armure td.altColor a{
 .StatTabber.Armure ul.tabbernav li a,
 .StatTabber.Armure ul.tabbernav li a:hover,
 .StatTabber.Armure ul.tabbernav li a:visited,
-.StatTabber.Armure ul.tabbernav li a:link {
+.StatTabber.Armure ul.tabbernav li a:link,
+ul.SousPages.Armure li a {
     color:#fff080;
 }
  
 .StatTabber.Armure ul.tabbernav li.tabberactive a,
-.StatTabber.Armure ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Armure ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Armure li.PageActuelle {
     background-color: #FFF8C9;
     border-bottom-color:#FFF8C9;
     color:black;
 }
- 
+
+ul.SousPages.Armure li.PageActuelle {
+    background-color: #FFF8C9;
+    border-bottom-color:#FFF8C9;
+	}
+
+ul.SousPages.Armure li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Accessoires */
@@ -2177,8 +2798,8 @@ table.Donnees.Accessoire tr:first-child th {
 }
 
 table.navbox.Accessoire th.titrePalette .titreContent a,
-table.navbox.Accessoire .collapseButtonLink,
-.StatBox.Accessoire .collapseButtonLink,
+table.navbox.Accessoire a.mw-collapsible-text,
+.StatBox.Accessoire a.mw-collapsible-text,
 table.Donnees.Accessoire tr:first-child th a {
 	color: white;
 }
@@ -2186,7 +2807,7 @@ table.Donnees.Accessoire tr:first-child th a {
 table.navbox.Accessoire th,
 .Accessoire .group,
 .pi-theme-Accessoire .pi-item,
-.pi-europa.pi-theme-Accessoire .pi-header,
+.pi-europa.pi-theme-Accessoire .pi-data-label,
 .StatBox.Accessoire tr.LabelRow,
 .StatBox.Accessoire tr.MixedRow th.Label,
 table.Donnees.Accessoire tr:not(:first-child) th,
@@ -2198,8 +2819,10 @@ table.Donnees.Accessoire tr:not(:first-child) td.group {
 table.navbox.Accessoire th a,
 .Accessoire .group a,
 .pi-theme-Accessoire .pi-item > .pi-data-value a,
+.StatBox.Accessoire tr.LabelRow a,
+.StatBox.Accessoire tr.MixedRow th.Label a,
 table.Donnees.Accessoire tr:not(:first-child) th a,
-table.Donnees.Accessoire tr:not(:first-child) td.group a {
+table.Donnees.Accessoire tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2251,17 +2874,28 @@ table.Donnees.Accessoire td.altColor a{
 .StatTabber.Accessoire ul.tabbernav li a,
 .StatTabber.Accessoire ul.tabbernav li a:hover,
 .StatTabber.Accessoire ul.tabbernav li a:visited,
-.StatTabber.Accessoire ul.tabbernav li a:link {
+.StatTabber.Accessoire ul.tabbernav li a:link,
+ul.SousPages.Accessoire li a {
     color:#2bd;
 }
  
 .StatTabber.Accessoire ul.tabbernav li.tabberactive a,
-.StatTabber.Accessoire ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Accessoire ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Accessoire li.PageActuelle {
     background-color: #def;
     border-bottom-color:#def;
     color:black;
 }
- 
+
+ul.SousPages.Accessoire li.PageActuelle {
+    background-color: #def;
+    border-bottom-color:#def;
+	}
+
+ul.SousPages.Accessoire li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Objets */
@@ -2280,8 +2914,8 @@ table.Donnees.Objet tr:first-child th {
 }
 
 table.navbox.Objet th.titrePalette .titreContent a,
-table.navbox.Objet .collapseButtonLink,
-.StatBox.Objet .collapseButtonLink,
+table.navbox.Objet a.mw-collapsible-text,
+.StatBox.Objet a.mw-collapsible-text,
 table.Donnees.Objet tr:first-child th a {
 	color: white;
 }
@@ -2289,7 +2923,7 @@ table.Donnees.Objet tr:first-child th a {
 table.navbox.Objet th,
 .Objet .group,
 .pi-theme-Objet .pi-item,
-.pi-europa.pi-theme-Objet .pi-header,
+.pi-europa.pi-theme-Objet .pi-data-label,
 .StatBox.Objet tr.LabelRow,
 .StatBox.Objet tr.MixedRow th.Label,
 table.Donnees.Objet tr:not(:first-child) th,
@@ -2301,8 +2935,10 @@ table.Donnees.Objet tr:not(:first-child) td.group {
 table.navbox.Objet th a,
 .Objet .group a,
 .pi-theme-Objet .pi-item > .pi-data-value a,
+.StatBox.Objet tr.LabelRow a,
+.StatBox.Objet tr.MixedRow th.Label a,
 table.Donnees.Objet tr:not(:first-child) th a,
-table.Donnees.Objet tr:not(:first-child) td.group a {
+table.Donnees.Objet tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -2354,17 +2990,28 @@ table.Donnees.Objet td.altColor a{
 .StatTabber.Objet ul.tabbernav li a,
 .StatTabber.Objet ul.tabbernav li a:hover,
 .StatTabber.Objet ul.tabbernav li a:visited,
-.StatTabber.Objet ul.tabbernav li a:link {
+.StatTabber.Objet ul.tabbernav li a:link,
+ul.SousPages.Objet li a {
     color:forestgreen;
 }
  
 .StatTabber.Objet ul.tabbernav li.tabberactive a,
-.StatTabber.Objet ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Objet ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Objet li.PageActuelle {
     background-color: #ccffe5;
     border-bottom-color:#ccffe5;
     color:black;
 }
- 
+
+ul.SousPages.Objet li.PageActuelle {
+    background-color: #ccffe5;
+    border-bottom-color:#ccffe5;
+	}
+
+ul.SousPages.Objet li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Synthèse */
@@ -2383,8 +3030,8 @@ table.Donnees.Synthese tr:first-child th {
 }
 
 table.navbox.Synthese th.titrePalette .titreContent a,
-table.navbox.Synthese .collapseButtonLink,
-.StatBox.Synthese .collapseButtonLink,
+table.navbox.Synthese a.mw-collapsible-text,
+.StatBox.Synthese a.mw-collapsible-text,
 table.Donnees.Synthese tr:first-child th a {
 	color: white;
 }
@@ -2392,7 +3039,7 @@ table.Donnees.Synthese tr:first-child th a {
 table.navbox.Synthese th,
 .Synthese .group,
 .pi-theme-Synthese .pi-item,
-.pi-europa.pi-theme-Synthese .pi-header,
+.pi-europa.pi-theme-Synthese .pi-data-label,
 .StatBox.Synthese tr.LabelRow,
 .StatBox.Synthese tr.MixedRow th.Label,
 table.Donnees.Synthese tr:not(:first-child) th,
@@ -2404,8 +3051,10 @@ table.Donnees.Synthese tr:not(:first-child) td.group {
 table.navbox.Synthese th a,
 .Synthese .group a,
 .pi-theme-Synthese .pi-item > .pi-data-value a,
+.StatBox.Synthese tr.LabelRow a,
+.StatBox.Synthese tr.MixedRow th.Label a,
 table.Donnees.Synthese tr:not(:first-child) th a,
-table.Donnees.Synthese tr:not(:first-child) td.group a {
+table.Donnees.Synthese tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2457,17 +3106,28 @@ table.Donnees.Synthese td.altColor a{
 .StatTabber.Synthese ul.tabbernav li a,
 .StatTabber.Synthese ul.tabbernav li a:hover,
 .StatTabber.Synthese ul.tabbernav li a:visited,
-.StatTabber.Synthese ul.tabbernav li a:link {
+.StatTabber.Synthese ul.tabbernav li a:link,
+ul.SousPages.Synthese li a {
     color:#FA8072;
 }
  
 .StatTabber.Synthese ul.tabbernav li.tabberactive a,
-.StatTabber.Synthese ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Synthese ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Synthese li.PageActuelle {
     background-color: #FDF5E6;
     border-bottom-color:#FDF5E6;
     color:black;
 }
- 
+
+ul.SousPages.Synthese li.PageActuelle {
+    background-color: #FDF5E6;
+    border-bottom-color:#FDF5E6;
+	}
+
+ul.SousPages.Synthese li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Magies */
@@ -2486,8 +3146,8 @@ table.Donnees.magie tr:first-child th {
 }
 
 table.navbox.magie th.titrePalette .titreContent a,
-table.navbox.magie .collapseButtonLink,
-.StatBox.magie .collapseButtonLink,
+table.navbox.magie a.mw-collapsible-text,
+.StatBox.magie a.mw-collapsible-text,
 table.Donnees.magie tr:first-child th a {
 	color: white;
 }
@@ -2495,7 +3155,7 @@ table.Donnees.magie tr:first-child th a {
 table.navbox.magie th,
 .magie .group,
 .pi-theme-magie .pi-item,
-.pi-europa.pi-theme-magie .pi-header,
+.pi-europa.pi-theme-magie .pi-data-label,
 .StatBox.magie tr.LabelRow,
 .StatBox.magie tr.MixedRow th.Label,
 table.Donnees.magie tr:not(:first-child) th,
@@ -2507,8 +3167,10 @@ table.Donnees.magie tr:not(:first-child) td.group {
 table.navbox.magie th a,
 .magie .group a,
 .pi-theme-magie .pi-item > .pi-data-value a,
+.StatBox.magie tr.LabelRow a,
+.StatBox.magie tr.MixedRow th.Label a,
 table.Donnees.magie tr:not(:first-child) th a,
-table.Donnees.magie tr:not(:first-child) td.group a {
+table.Donnees.magie tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2560,17 +3222,28 @@ table.Donnees.magie td.altColor a{
 .StatTabber.magie ul.tabbernav li a,
 .StatTabber.magie ul.tabbernav li a:hover,
 .StatTabber.magie ul.tabbernav li a:visited,
-.StatTabber.magie ul.tabbernav li a:link {
+.StatTabber.magie ul.tabbernav li a:link,
+ul.SousPages.magie li a {
     color:#C7DDE5;
 }
  
 .StatTabber.magie ul.tabbernav li.tabberactive a,
-.StatTabber.magie ul.tabbernav li.tabberactive a:hover{
+.StatTabber.magie ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.magie li.PageActuelle {
     background-color: #E6EFF2;
     border-bottom-color:#E6EFF2;
     color:black;
 }
- 
+
+ul.SousPages.magie li.PageActuelle {
+    background-color: #E6EFF2;
+    border-bottom-color:#E6EFF2;
+	}
+
+ul.SousPages.magie li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Sans-cœur */
@@ -2589,8 +3262,8 @@ table.Donnees.SansCoeur tr:first-child th {
 }
 
 table.navbox.SansCoeur th.titrePalette .titreContent a,
-table.navbox.SansCoeur .collapseButtonLink,
-.StatBox.SansCoeur .collapseButtonLink,
+table.navbox.SansCoeur a.mw-collapsible-text,
+.StatBox.SansCoeur a.mw-collapsible-text,
 table.Donnees.SansCoeur tr:first-child th a {
 	color: white;
 }
@@ -2598,7 +3271,7 @@ table.Donnees.SansCoeur tr:first-child th a {
 table.navbox.SansCoeur th,
 .SansCoeur .group,
 .pi-theme-SansCoeur .pi-item,
-.pi-europa.pi-theme-SansCoeur .pi-header,
+.pi-europa.pi-theme-SansCoeur .pi-data-label,
 .StatBox.SansCoeur tr.LabelRow,
 .StatBox.SansCoeur tr.MixedRow th.Label,
 table.Donnees.SansCoeur tr:not(:first-child) th,
@@ -2610,8 +3283,10 @@ table.Donnees.SansCoeur tr:not(:first-child) td.group {
 table.navbox.SansCoeur th a,
 .SansCoeur .group a,
 .pi-theme-SansCoeur .pi-item > .pi-data-value a,
+.StatBox.SansCoeur tr.LabelRow a,
+.StatBox.SansCoeur tr.MixedRow th.Label a,
 table.Donnees.SansCoeur tr:not(:first-child) th a,
-table.Donnees.SansCoeur tr:not(:first-child) td.group a {
+table.Donnees.SansCoeur tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -2663,17 +3338,28 @@ table.Donnees.SansCoeur td.altColor a{
 .StatTabber.SansCoeur ul.tabbernav li a,
 .StatTabber.SansCoeur ul.tabbernav li a:hover,
 .StatTabber.SansCoeur ul.tabbernav li a:visited,
-.StatTabber.SansCoeur ul.tabbernav li a:link {
+.StatTabber.SansCoeur ul.tabbernav li a:link,
+ul.SousPages.SansCoeur li a {
     color:#8c0000;
 }
  
 .StatTabber.SansCoeur ul.tabbernav li.tabberactive a,
-.StatTabber.SansCoeur ul.tabbernav li.tabberactive a:hover{
+.StatTabber.SansCoeur ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.SansCoeur li.PageActuelle {
     background-color: #EDDEDE;
     border-bottom-color:#EDDEDE;
     color:black;
 }
- 
+
+ul.SousPages.SansCoeur li.PageActuelle {
+    background-color: #EDDEDE;
+    border-bottom-color:#EDDEDE;
+	}
+
+ul.SousPages.SansCoeur li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Simili */
@@ -2692,8 +3378,8 @@ table.Donnees.Simili tr:first-child th {
 }
 
 table.navbox.Simili th.titrePalette .titreContent a,
-table.navbox.Simili .collapseButtonLink,
-.StatBox.Simili .collapseButtonLink,
+table.navbox.Simili a.mw-collapsible-text,
+.StatBox.Simili a.mw-collapsible-text,
 table.Donnees.Simili tr:first-child th a {
 	color: white;
 }
@@ -2701,7 +3387,7 @@ table.Donnees.Simili tr:first-child th a {
 table.navbox.Simili th,
 .Simili .group,
 .pi-theme-Simili .pi-item,
-.pi-europa.pi-theme-Simili .pi-header,
+.pi-europa.pi-theme-Simili .pi-data-label,
 .StatBox.Simili tr.LabelRow,
 .StatBox.Simili tr.MixedRow th.Label,
 table.Donnees.Simili tr:not(:first-child) th,
@@ -2713,8 +3399,10 @@ table.Donnees.Simili tr:not(:first-child) td.group {
 table.navbox.Simili th a,
 .Simili .group a,
 .pi-theme-Simili .pi-item > .pi-data-value a,
+.StatBox.Simili tr.LabelRow a,
+.StatBox.Simili tr.MixedRow th.Label a,
 table.Donnees.Simili tr:not(:first-child) th a,
-table.Donnees.Simili tr:not(:first-child) td.group a {
+table.Donnees.Simili tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2766,17 +3454,28 @@ table.Donnees.Simili td.altColor a{
 .StatTabber.Simili ul.tabbernav li a,
 .StatTabber.Simili ul.tabbernav li a:hover,
 .StatTabber.Simili ul.tabbernav li a:visited,
-.StatTabber.Simili ul.tabbernav li a:link {
+.StatTabber.Simili ul.tabbernav li a:link,
+ul.SousPages.Simili li a {
     color:#C0C0C0;
 }
  
 .StatTabber.Simili ul.tabbernav li.tabberactive a,
-.StatTabber.Simili ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Simili ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Simili li.PageActuelle {
     background-color: #E0E0E0;
     border-bottom-color:#E0E0E0;
     color:black;
 }
- 
+
+ul.SousPages.Simili li.PageActuelle {
+    background-color: #E0E0E0;
+    border-bottom-color:#E0E0E0;
+	}
+
+ul.SousPages.Simili li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Nescients */
@@ -2795,8 +3494,8 @@ table.Donnees.Nescient tr:first-child th {
 }
 
 table.navbox.Nescient th.titrePalette .titreContent a,
-table.navbox.Nescient .collapseButtonLink,
-.StatBox.Nescient .collapseButtonLink,
+table.navbox.Nescient a.mw-collapsible-text,
+.StatBox.Nescient a.mw-collapsible-text,
 table.Donnees.Nescient tr:first-child th a {
 	color: white;
 }
@@ -2804,7 +3503,7 @@ table.Donnees.Nescient tr:first-child th a {
 table.navbox.Nescient th,
 .Nescient .group,
 .pi-theme-Nescient .pi-item,
-.pi-europa.pi-theme-Nescient .pi-header,
+.pi-europa.pi-theme-Nescient .pi-data-label,
 .StatBox.Nescient tr.LabelRow,
 .StatBox.Nescient tr.MixedRow th.Label,
 table.Donnees.Nescient tr:not(:first-child) th,
@@ -2816,8 +3515,10 @@ table.Donnees.Nescient tr:not(:first-child) td.group {
 table.navbox.Nescient th a,
 .Nescient .group a,
 .pi-theme-Nescient .pi-item > .pi-data-value a,
+.StatBox.Nescient tr.LabelRow a,
+.StatBox.Nescient tr.MixedRow th.Label a,
 table.Donnees.Nescient tr:not(:first-child) th a,
-table.Donnees.Nescient tr:not(:first-child) td.group a {
+table.Donnees.Nescient tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -2869,17 +3570,28 @@ table.Donnees.Nescient td.altColor a{
 .StatTabber.Nescient ul.tabbernav li a,
 .StatTabber.Nescient ul.tabbernav li a:hover,
 .StatTabber.Nescient ul.tabbernav li a:visited,
-.StatTabber.Nescient ul.tabbernav li a:link {
+.StatTabber.Nescient ul.tabbernav li a:link,
+ul.SousPages.Nescient li a {
     color:cornflowerblue;
 }
  
 .StatTabber.Nescient ul.tabbernav li.tabberactive a,
-.StatTabber.Nescient ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Nescient ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Nescient li.PageActuelle {
     background-color: #DCE2ED;
     border-bottom-color:#DCE2ED;
     color:black;
 }
- 
+
+ul.SousPages.Nescient li.PageActuelle {
+    background-color: #DCE2ED;
+    border-bottom-color:#DCE2ED;
+	}
+
+ul.SousPages.Nescient li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Avale-Rêves */
@@ -2898,8 +3610,8 @@ table.Donnees.AvaleReves tr:first-child th {
 }
 
 table.navbox.AvaleReves th.titrePalette .titreContent a,
-table.navbox.AvaleReves .collapseButtonLink,
-.StatBox.AvaleReves .collapseButtonLink,
+table.navbox.AvaleReves a.mw-collapsible-text,
+.StatBox.AvaleReves a.mw-collapsible-text,
 table.Donnees.AvaleReves tr:first-child th a {
 	color: white;
 }
@@ -2907,7 +3619,7 @@ table.Donnees.AvaleReves tr:first-child th a {
 table.navbox.AvaleReves th,
 .AvaleReves .group,
 .pi-theme-AvaleReves .pi-item,
-.pi-europa.pi-theme-AvaleReves .pi-header,
+.pi-europa.pi-theme-AvaleReves .pi-data-label,
 .StatBox.AvaleReves tr.LabelRow,
 .StatBox.AvaleReves tr.MixedRow th.Label,
 table.Donnees.AvaleReves tr:not(:first-child) th,
@@ -2919,8 +3631,10 @@ table.Donnees.AvaleReves tr:not(:first-child) td.group {
 table.navbox.AvaleReves th a,
 .AvaleReves .group a,
 .pi-theme-AvaleReves .pi-item > .pi-data-value a,
+.StatBox.AvaleReves tr.LabelRow a,
+.StatBox.AvaleReves tr.MixedRow th.Label a,
 table.Donnees.AvaleReves tr:not(:first-child) th a,
-table.Donnees.AvaleReves tr:not(:first-child) td.group a {
+table.Donnees.AvaleReves tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -2972,17 +3686,28 @@ table.Donnees.AvaleReves td.altColor a{
 .StatTabber.AvaleReves ul.tabbernav li a,
 .StatTabber.AvaleReves ul.tabbernav li a:hover,
 .StatTabber.AvaleReves ul.tabbernav li a:visited,
-.StatTabber.AvaleReves ul.tabbernav li a:link {
+.StatTabber.AvaleReves ul.tabbernav li a:link,
+ul.SousPages.AvaleReves li a {
     color:#88FFEA;
 }
  
 .StatTabber.AvaleReves ul.tabbernav li.tabberactive a,
-.StatTabber.AvaleReves ul.tabbernav li.tabberactive a:hover{
+.StatTabber.AvaleReves ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.AvaleReves li.PageActuelle {
     background-color: #DCEDEA;
     border-bottom-color:#DCEDEA;
     color:black;
 }
- 
+
+ul.SousPages.AvaleReves li.PageActuelle {
+    background-color: #DCEDEA;
+    border-bottom-color:#DCEDEA;
+	}
+
+ul.SousPages.AvaleReves li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Boss */
@@ -3001,8 +3726,8 @@ table.Donnees.Boss tr:first-child th {
 }
 
 table.navbox.Boss th.titrePalette .titreContent a,
-table.navbox.Boss .collapseButtonLink,
-.StatBox.Boss .collapseButtonLink,
+table.navbox.Boss a.mw-collapsible-text,
+.StatBox.Boss a.mw-collapsible-text,
 table.Donnees.Boss tr:first-child th a {
 	color: white;
 }
@@ -3010,7 +3735,7 @@ table.Donnees.Boss tr:first-child th a {
 table.navbox.Boss th,
 .Boss .group,
 .pi-theme-Boss .pi-item,
-.pi-europa.pi-theme-Boss .pi-header,
+.pi-europa.pi-theme-Boss .pi-data-label,
 .StatBox.Boss tr.LabelRow,
 .StatBox.Boss tr.MixedRow th.Label,
 table.Donnees.Boss tr:not(:first-child) th,
@@ -3022,9 +3747,11 @@ table.Donnees.Boss tr:not(:first-child) td.group {
 table.navbox.Boss th a,
 .Boss .group a,
 .pi-theme-Boss .pi-item > .pi-data-value a,
+.StatBox.Boss tr.LabelRow a,
+.StatBox.Boss tr.MixedRow th.Label a,
 table.Donnees.Boss tr:not(:first-child) th a,
-table.Donnees.Boss tr:not(:first-child) td.group a {
-	color: #0148c2;
+table.Donnees.Boss tr:not(:first-child) td.group a{
+	color: white;
 }
 
 table.navbox.Boss tr td,
@@ -3075,17 +3802,28 @@ table.Donnees.Boss td.altColor a{
 .StatTabber.Boss ul.tabbernav li a,
 .StatTabber.Boss ul.tabbernav li a:hover,
 .StatTabber.Boss ul.tabbernav li a:visited,
-.StatTabber.Boss ul.tabbernav li a:link {
+.StatTabber.Boss ul.tabbernav li a:link,
+ul.SousPages.Boss li a {
     color:#CC6633;
 }
  
 .StatTabber.Boss ul.tabbernav li.tabberactive a,
-.StatTabber.Boss ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Boss ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Boss li.PageActuelle {
     background-color: #FFDD88;
     border-bottom-color:#FFDD88;
     color:black;
 }
- 
+
+ul.SousPages.Boss li.PageActuelle {
+    background-color: #FFDD88;
+    border-bottom-color:#FFDD88;
+	}
+
+ul.SousPages.Boss li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Xemnas */
@@ -3104,8 +3842,8 @@ table.Donnees.Xemnas tr:first-child th {
 }
 
 table.navbox.Xemnas th.titrePalette .titreContent a,
-table.navbox.Xemnas .collapseButtonLink,
-.StatBox.Xemnas .collapseButtonLink,
+table.navbox.Xemnas a.mw-collapsible-text,
+.StatBox.Xemnas a.mw-collapsible-text,
 table.Donnees.Xemnas tr:first-child th a {
 	color: white;
 }
@@ -3113,7 +3851,7 @@ table.Donnees.Xemnas tr:first-child th a {
 table.navbox.Xemnas th,
 .Xemnas .group,
 .pi-theme-Xemnas .pi-item,
-.pi-europa.pi-theme-Xemnas .pi-header,
+.pi-europa.pi-theme-Xemnas .pi-data-label,
 .StatBox.Xemnas tr.LabelRow,
 .StatBox.Xemnas tr.MixedRow th.Label,
 table.Donnees.Xemnas tr:not(:first-child) th,
@@ -3125,8 +3863,10 @@ table.Donnees.Xemnas tr:not(:first-child) td.group {
 table.navbox.Xemnas th a,
 .Xemnas .group a,
 .pi-theme-Xemnas .pi-item > .pi-data-value a,
+.StatBox.Xemnas tr.LabelRow a,
+.StatBox.Xemnas tr.MixedRow th.Label a,
 table.Donnees.Xemnas tr:not(:first-child) th a,
-table.Donnees.Xemnas tr:not(:first-child) td.group a {
+table.Donnees.Xemnas tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3178,17 +3918,28 @@ table.Donnees.Xemnas td.altColor a{
 .StatTabber.Xemnas ul.tabbernav li a,
 .StatTabber.Xemnas ul.tabbernav li a:hover,
 .StatTabber.Xemnas ul.tabbernav li a:visited,
-.StatTabber.Xemnas ul.tabbernav li a:link {
+.StatTabber.Xemnas ul.tabbernav li a:link,
+ul.SousPages.Xemnas li a {
     color:#AAA;
 }
  
 .StatTabber.Xemnas ul.tabbernav li.tabberactive a,
-.StatTabber.Xemnas ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Xemnas ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Xemnas li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Xemnas li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Xemnas li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Xigbar */
@@ -3207,8 +3958,8 @@ table.Donnees.Xigbar tr:first-child th {
 }
 
 table.navbox.Xigbar th.titrePalette .titreContent a,
-table.navbox.Xigbar .collapseButtonLink,
-.StatBox.Xigbar .collapseButtonLink,
+table.navbox.Xigbar a.mw-collapsible-text,
+.StatBox.Xigbar a.mw-collapsible-text,
 table.Donnees.Xigbar tr:first-child th a {
 	color: white;
 }
@@ -3216,7 +3967,7 @@ table.Donnees.Xigbar tr:first-child th a {
 table.navbox.Xigbar th,
 .Xigbar .group,
 .pi-theme-Xigbar .pi-item,
-.pi-europa.pi-theme-Xigbar .pi-header,
+.pi-europa.pi-theme-Xigbar .pi-data-label,
 .StatBox.Xigbar tr.LabelRow,
 .StatBox.Xigbar tr.MixedRow th.Label,
 table.Donnees.Xigbar tr:not(:first-child) th,
@@ -3228,8 +3979,10 @@ table.Donnees.Xigbar tr:not(:first-child) td.group {
 table.navbox.Xigbar th a,
 .Xigbar .group a,
 .pi-theme-Xigbar .pi-item > .pi-data-value a,
+.StatBox.Xigbar tr.LabelRow a,
+.StatBox.Xigbar tr.MixedRow th.Label a,
 table.Donnees.Xigbar tr:not(:first-child) th a,
-table.Donnees.Xigbar tr:not(:first-child) td.group a {
+table.Donnees.Xigbar tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3281,17 +4034,28 @@ table.Donnees.Xigbar td.altColor a{
 .StatTabber.Xigbar ul.tabbernav li a,
 .StatTabber.Xigbar ul.tabbernav li a:hover,
 .StatTabber.Xigbar ul.tabbernav li a:visited,
-.StatTabber.Xigbar ul.tabbernav li a:link {
+.StatTabber.Xigbar ul.tabbernav li a:link,
+ul.SousPages.Xigbar li a {
     color:#AAA;
 }
  
 .StatTabber.Xigbar ul.tabbernav li.tabberactive a,
-.StatTabber.Xigbar ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Xigbar ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Xigbar li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Xigbar li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Xigbar li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Xaldin */
@@ -3310,8 +4074,8 @@ table.Donnees.Xaldin tr:first-child th {
 }
 
 table.navbox.Xaldin th.titrePalette .titreContent a,
-table.navbox.Xaldin .collapseButtonLink,
-.StatBox.Xaldin .collapseButtonLink,
+table.navbox.Xaldin a.mw-collapsible-text,
+.StatBox.Xaldin a.mw-collapsible-text,
 table.Donnees.Xaldin tr:first-child th a {
 	color: white;
 }
@@ -3319,7 +4083,7 @@ table.Donnees.Xaldin tr:first-child th a {
 table.navbox.Xaldin th,
 .Xaldin .group,
 .pi-theme-Xaldin .pi-item,
-.pi-europa.pi-theme-Xaldin .pi-header,
+.pi-europa.pi-theme-Xaldin .pi-data-label,
 .StatBox.Xaldin tr.LabelRow,
 .StatBox.Xaldin tr.MixedRow th.Label,
 table.Donnees.Xaldin tr:not(:first-child) th,
@@ -3331,8 +4095,10 @@ table.Donnees.Xaldin tr:not(:first-child) td.group {
 table.navbox.Xaldin th a,
 .Xaldin .group a,
 .pi-theme-Xaldin .pi-item > .pi-data-value a,
+.StatBox.Xaldin tr.LabelRow a,
+.StatBox.Xaldin tr.MixedRow th.Label a,
 table.Donnees.Xaldin tr:not(:first-child) th a,
-table.Donnees.Xaldin tr:not(:first-child) td.group a {
+table.Donnees.Xaldin tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3384,17 +4150,28 @@ table.Donnees.Xaldin td.altColor a{
 .StatTabber.Xaldin ul.tabbernav li a,
 .StatTabber.Xaldin ul.tabbernav li a:hover,
 .StatTabber.Xaldin ul.tabbernav li a:visited,
-.StatTabber.Xaldin ul.tabbernav li a:link {
+.StatTabber.Xaldin ul.tabbernav li a:link,
+ul.SousPages.Xaldin li a {
     color:#AAA;
 }
  
 .StatTabber.Xaldin ul.tabbernav li.tabberactive a,
-.StatTabber.Xaldin ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Xaldin ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Xaldin li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Xaldin li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Xaldin li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Vexen */
@@ -3413,8 +4190,8 @@ table.Donnees.Vexen tr:first-child th {
 }
 
 table.navbox.Vexen th.titrePalette .titreContent a,
-table.navbox.Vexen .collapseButtonLink,
-.StatBox.Vexen .collapseButtonLink,
+table.navbox.Vexen a.mw-collapsible-text,
+.StatBox.Vexen a.mw-collapsible-text,
 table.Donnees.Vexen tr:first-child th a {
 	color: white;
 }
@@ -3422,7 +4199,7 @@ table.Donnees.Vexen tr:first-child th a {
 table.navbox.Vexen th,
 .Vexen .group,
 .pi-theme-Vexen .pi-item,
-.pi-europa.pi-theme-Vexen .pi-header,
+.pi-europa.pi-theme-Vexen .pi-data-label,
 .StatBox.Vexen tr.LabelRow,
 .StatBox.Vexen tr.MixedRow th.Label,
 table.Donnees.Vexen tr:not(:first-child) th,
@@ -3434,8 +4211,10 @@ table.Donnees.Vexen tr:not(:first-child) td.group {
 table.navbox.Vexen th a,
 .Vexen .group a,
 .pi-theme-Vexen .pi-item > .pi-data-value a,
+.StatBox.Vexen tr.LabelRow a,
+.StatBox.Vexen tr.MixedRow th.Label a,
 table.Donnees.Vexen tr:not(:first-child) th a,
-table.Donnees.Vexen tr:not(:first-child) td.group a {
+table.Donnees.Vexen tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3487,17 +4266,28 @@ table.Donnees.Vexen td.altColor a{
 .StatTabber.Vexen ul.tabbernav li a,
 .StatTabber.Vexen ul.tabbernav li a:hover,
 .StatTabber.Vexen ul.tabbernav li a:visited,
-.StatTabber.Vexen ul.tabbernav li a:link {
+.StatTabber.Vexen ul.tabbernav li a:link,
+ul.SousPages.Vexen li a {
     color:#AAA;
 }
  
 .StatTabber.Vexen ul.tabbernav li.tabberactive a,
-.StatTabber.Vexen ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Vexen ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Vexen li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Vexen li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Vexen li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Lexaeus */
@@ -3516,8 +4306,8 @@ table.Donnees.Lexaeus tr:first-child th {
 }
 
 table.navbox.Lexaeus th.titrePalette .titreContent a,
-table.navbox.Lexaeus .collapseButtonLink,
-.StatBox.Lexaeus .collapseButtonLink,
+table.navbox.Lexaeus a.mw-collapsible-text,
+.StatBox.Lexaeus a.mw-collapsible-text,
 table.Donnees.Lexaeus tr:first-child th a {
 	color: white;
 }
@@ -3525,7 +4315,7 @@ table.Donnees.Lexaeus tr:first-child th a {
 table.navbox.Lexaeus th,
 .Lexaeus .group,
 .pi-theme-Lexaeus .pi-item,
-.pi-europa.pi-theme-Lexaeus .pi-header,
+.pi-europa.pi-theme-Lexaeus .pi-data-label,
 .StatBox.Lexaeus tr.LabelRow,
 .StatBox.Lexaeus tr.MixedRow th.Label,
 table.Donnees.Lexaeus tr:not(:first-child) th,
@@ -3537,8 +4327,10 @@ table.Donnees.Lexaeus tr:not(:first-child) td.group {
 table.navbox.Lexaeus th a,
 .Lexaeus .group a,
 .pi-theme-Lexaeus .pi-item > .pi-data-value a,
+.StatBox.Lexaeus tr.LabelRow a,
+.StatBox.Lexaeus tr.MixedRow th.Label a,
 table.Donnees.Lexaeus tr:not(:first-child) th a,
-table.Donnees.Lexaeus tr:not(:first-child) td.group a {
+table.Donnees.Lexaeus tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3590,17 +4382,28 @@ table.Donnees.Lexaeus td.altColor a{
 .StatTabber.Lexaeus ul.tabbernav li a,
 .StatTabber.Lexaeus ul.tabbernav li a:hover,
 .StatTabber.Lexaeus ul.tabbernav li a:visited,
-.StatTabber.Lexaeus ul.tabbernav li a:link {
+.StatTabber.Lexaeus ul.tabbernav li a:link,
+ul.SousPages.Lexaeus li a {
     color:#AAA;
 }
  
 .StatTabber.Lexaeus ul.tabbernav li.tabberactive a,
-.StatTabber.Lexaeus ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Lexaeus ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Lexaeus li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Lexaeus li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Lexaeus li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Zexion */
@@ -3619,8 +4422,8 @@ table.Donnees.Zexion tr:first-child th {
 }
 
 table.navbox.Zexion th.titrePalette .titreContent a,
-table.navbox.Zexion .collapseButtonLink,
-.StatBox.Zexion .collapseButtonLink,
+table.navbox.Zexion a.mw-collapsible-text,
+.StatBox.Zexion a.mw-collapsible-text,
 table.Donnees.Zexion tr:first-child th a {
 	color: white;
 }
@@ -3628,7 +4431,7 @@ table.Donnees.Zexion tr:first-child th a {
 table.navbox.Zexion th,
 .Zexion .group,
 .pi-theme-Zexion .pi-item,
-.pi-europa.pi-theme-Zexion .pi-header,
+.pi-europa.pi-theme-Zexion .pi-data-label,
 .StatBox.Zexion tr.LabelRow,
 .StatBox.Zexion tr.MixedRow th.Label,
 table.Donnees.Zexion tr:not(:first-child) th,
@@ -3640,8 +4443,10 @@ table.Donnees.Zexion tr:not(:first-child) td.group {
 table.navbox.Zexion th a,
 .Zexion .group a,
 .pi-theme-Zexion .pi-item > .pi-data-value a,
+.StatBox.Zexion tr.LabelRow a,
+.StatBox.Zexion tr.MixedRow th.Label a,
 table.Donnees.Zexion tr:not(:first-child) th a,
-table.Donnees.Zexion tr:not(:first-child) td.group a {
+table.Donnees.Zexion tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3693,17 +4498,28 @@ table.Donnees.Zexion td.altColor a{
 .StatTabber.Zexion ul.tabbernav li a,
 .StatTabber.Zexion ul.tabbernav li a:hover,
 .StatTabber.Zexion ul.tabbernav li a:visited,
-.StatTabber.Zexion ul.tabbernav li a:link {
+.StatTabber.Zexion ul.tabbernav li a:link,
+ul.SousPages.Zexion li a {
     color:#AAA;
 }
  
 .StatTabber.Zexion ul.tabbernav li.tabberactive a,
-.StatTabber.Zexion ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Zexion ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Zexion li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Zexion li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Zexion li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Saïx */
@@ -3722,8 +4538,8 @@ table.Donnees.Saix tr:first-child th {
 }
 
 table.navbox.Saix th.titrePalette .titreContent a,
-table.navbox.Saix .collapseButtonLink,
-.StatBox.Saix .collapseButtonLink,
+table.navbox.Saix a.mw-collapsible-text,
+.StatBox.Saix a.mw-collapsible-text,
 table.Donnees.Saix tr:first-child th a {
 	color: white;
 }
@@ -3731,7 +4547,7 @@ table.Donnees.Saix tr:first-child th a {
 table.navbox.Saix th,
 .Saix .group,
 .pi-theme-Saix .pi-item,
-.pi-europa.pi-theme-Saix .pi-header,
+.pi-europa.pi-theme-Saix .pi-data-label,
 .StatBox.Saix tr.LabelRow,
 .StatBox.Saix tr.MixedRow th.Label,
 table.Donnees.Saix tr:not(:first-child) th,
@@ -3743,8 +4559,10 @@ table.Donnees.Saix tr:not(:first-child) td.group {
 table.navbox.Saix th a,
 .Saix .group a,
 .pi-theme-Saix .pi-item > .pi-data-value a,
+.StatBox.Saix tr.LabelRow a,
+.StatBox.Saix tr.MixedRow th.Label a,
 table.Donnees.Saix tr:not(:first-child) th a,
-table.Donnees.Saix tr:not(:first-child) td.group a {
+table.Donnees.Saix tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3796,17 +4614,28 @@ table.Donnees.Saix td.altColor a{
 .StatTabber.Saix ul.tabbernav li a,
 .StatTabber.Saix ul.tabbernav li a:hover,
 .StatTabber.Saix ul.tabbernav li a:visited,
-.StatTabber.Saix ul.tabbernav li a:link {
+.StatTabber.Saix ul.tabbernav li a:link,
+ul.SousPages.Saix li a {
     color:#AAA;
 }
  
 .StatTabber.Saix ul.tabbernav li.tabberactive a,
-.StatTabber.Saix ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Saix ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Saix li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Saix li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Saix li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Axel */
@@ -3825,8 +4654,8 @@ table.Donnees.Axel tr:first-child th {
 }
 
 table.navbox.Axel th.titrePalette .titreContent a,
-table.navbox.Axel .collapseButtonLink,
-.StatBox.Axel .collapseButtonLink,
+table.navbox.Axel a.mw-collapsible-text,
+.StatBox.Axel a.mw-collapsible-text,
 table.Donnees.Axel tr:first-child th a {
 	color: white;
 }
@@ -3834,7 +4663,7 @@ table.Donnees.Axel tr:first-child th a {
 table.navbox.Axel th,
 .Axel .group,
 .pi-theme-Axel .pi-item,
-.pi-europa.pi-theme-Axel .pi-header,
+.pi-europa.pi-theme-Axel .pi-data-label,
 .StatBox.Axel tr.LabelRow,
 .StatBox.Axel tr.MixedRow th.Label,
 table.Donnees.Axel tr:not(:first-child) th,
@@ -3846,8 +4675,10 @@ table.Donnees.Axel tr:not(:first-child) td.group {
 table.navbox.Axel th a,
 .Axel .group a,
 .pi-theme-Axel .pi-item > .pi-data-value a,
+.StatBox.Axel tr.LabelRow a,
+.StatBox.Axel tr.MixedRow th.Label a,
 table.Donnees.Axel tr:not(:first-child) th a,
-table.Donnees.Axel tr:not(:first-child) td.group a {
+table.Donnees.Axel tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -3899,17 +4730,28 @@ table.Donnees.Axel td.altColor a{
 .StatTabber.Axel ul.tabbernav li a,
 .StatTabber.Axel ul.tabbernav li a:hover,
 .StatTabber.Axel ul.tabbernav li a:visited,
-.StatTabber.Axel ul.tabbernav li a:link {
+.StatTabber.Axel ul.tabbernav li a:link,
+ul.SousPages.Axel li a {
     color:#AAA;
 }
  
 .StatTabber.Axel ul.tabbernav li.tabberactive a,
-.StatTabber.Axel ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Axel ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Axel li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Axel li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Axel li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Demyx */
@@ -3928,8 +4770,8 @@ table.Donnees.Demyx tr:first-child th {
 }
 
 table.navbox.Demyx th.titrePalette .titreContent a,
-table.navbox.Demyx .collapseButtonLink,
-.StatBox.Demyx .collapseButtonLink,
+table.navbox.Demyx a.mw-collapsible-text,
+.StatBox.Demyx a.mw-collapsible-text,
 table.Donnees.Demyx tr:first-child th a {
 	color: white;
 }
@@ -3937,7 +4779,7 @@ table.Donnees.Demyx tr:first-child th a {
 table.navbox.Demyx th,
 .Demyx .group,
 .pi-theme-Demyx .pi-item,
-.pi-europa.pi-theme-Demyx .pi-header,
+.pi-europa.pi-theme-Demyx .pi-data-label,
 .StatBox.Demyx tr.LabelRow,
 .StatBox.Demyx tr.MixedRow th.Label,
 table.Donnees.Demyx tr:not(:first-child) th,
@@ -3949,8 +4791,10 @@ table.Donnees.Demyx tr:not(:first-child) td.group {
 table.navbox.Demyx th a,
 .Demyx .group a,
 .pi-theme-Demyx .pi-item > .pi-data-value a,
+.StatBox.Demyx tr.LabelRow a,
+.StatBox.Demyx tr.MixedRow th.Label a,
 table.Donnees.Demyx tr:not(:first-child) th a,
-table.Donnees.Demyx tr:not(:first-child) td.group a {
+table.Donnees.Demyx tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4002,17 +4846,28 @@ table.Donnees.Demyx td.altColor a{
 .StatTabber.Demyx ul.tabbernav li a,
 .StatTabber.Demyx ul.tabbernav li a:hover,
 .StatTabber.Demyx ul.tabbernav li a:visited,
-.StatTabber.Demyx ul.tabbernav li a:link {
+.StatTabber.Demyx ul.tabbernav li a:link,
+ul.SousPages.Demyx li a {
     color:#AAA;
 }
  
 .StatTabber.Demyx ul.tabbernav li.tabberactive a,
-.StatTabber.Demyx ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Demyx ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Demyx li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Demyx li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Demyx li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Luxord */
@@ -4031,8 +4886,8 @@ table.Donnees.Luxord tr:first-child th {
 }
 
 table.navbox.Luxord th.titrePalette .titreContent a,
-table.navbox.Luxord .collapseButtonLink,
-.StatBox.Luxord .collapseButtonLink,
+table.navbox.Luxord a.mw-collapsible-text,
+.StatBox.Luxord a.mw-collapsible-text,
 table.Donnees.Luxord tr:first-child th a {
 	color: black;
 }
@@ -4040,7 +4895,7 @@ table.Donnees.Luxord tr:first-child th a {
 table.navbox.Luxord th,
 .Luxord .group,
 .pi-theme-Luxord .pi-item,
-.pi-europa.pi-theme-Luxord .pi-header,
+.pi-europa.pi-theme-Luxord .pi-data-label,
 .StatBox.Luxord tr.LabelRow,
 .StatBox.Luxord tr.MixedRow th.Label,
 table.Donnees.Luxord tr:not(:first-child) th,
@@ -4052,8 +4907,10 @@ table.Donnees.Luxord tr:not(:first-child) td.group {
 table.navbox.Luxord th a,
 .Luxord .group a,
 .pi-theme-Luxord .pi-item > .pi-data-value a,
+.StatBox.Luxord tr.LabelRow a,
+.StatBox.Luxord tr.MixedRow th.Label a,
 table.Donnees.Luxord tr:not(:first-child) th a,
-table.Donnees.Luxord tr:not(:first-child) td.group a {
+table.Donnees.Luxord tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4105,17 +4962,28 @@ table.Donnees.Luxord td.altColor a{
 .StatTabber.Luxord ul.tabbernav li a,
 .StatTabber.Luxord ul.tabbernav li a:hover,
 .StatTabber.Luxord ul.tabbernav li a:visited,
-.StatTabber.Luxord ul.tabbernav li a:link {
+.StatTabber.Luxord ul.tabbernav li a:link,
+ul.SousPages.Luxord li a {
     color:#AAA;
 }
  
 .StatTabber.Luxord ul.tabbernav li.tabberactive a,
-.StatTabber.Luxord ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Luxord ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Luxord li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Luxord li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Luxord li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Marluxia */
@@ -4134,8 +5002,8 @@ table.Donnees.Marluxia tr:first-child th {
 }
 
 table.navbox.Marluxia th.titrePalette .titreContent a,
-table.navbox.Marluxia .collapseButtonLink,
-.StatBox.Marluxia .collapseButtonLink,
+table.navbox.Marluxia a.mw-collapsible-text,
+.StatBox.Marluxia a.mw-collapsible-text,
 table.Donnees.Marluxia tr:first-child th a {
 	color: black;
 }
@@ -4143,7 +5011,7 @@ table.Donnees.Marluxia tr:first-child th a {
 table.navbox.Marluxia th,
 .Marluxia .group,
 .pi-theme-Marluxia .pi-item,
-.pi-europa.pi-theme-Marluxia .pi-header,
+.pi-europa.pi-theme-Marluxia .pi-data-label,
 .StatBox.Marluxia tr.LabelRow,
 .StatBox.Marluxia tr.MixedRow th.Label,
 table.Donnees.Marluxia tr:not(:first-child) th,
@@ -4155,8 +5023,10 @@ table.Donnees.Marluxia tr:not(:first-child) td.group {
 table.navbox.Marluxia th a,
 .Marluxia .group a,
 .pi-theme-Marluxia .pi-item > .pi-data-value a,
+.StatBox.Marluxia tr.LabelRow a,
+.StatBox.Marluxia tr.MixedRow th.Label a,
 table.Donnees.Marluxia tr:not(:first-child) th a,
-table.Donnees.Marluxia tr:not(:first-child) td.group a {
+table.Donnees.Marluxia tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4208,17 +5078,28 @@ table.Donnees.Marluxia td.altColor a{
 .StatTabber.Marluxia ul.tabbernav li a,
 .StatTabber.Marluxia ul.tabbernav li a:hover,
 .StatTabber.Marluxia ul.tabbernav li a:visited,
-.StatTabber.Marluxia ul.tabbernav li a:link {
+.StatTabber.Marluxia ul.tabbernav li a:link,
+ul.SousPages.Marluxia li a {
     color:#AAA;
 }
  
 .StatTabber.Marluxia ul.tabbernav li.tabberactive a,
-.StatTabber.Marluxia ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Marluxia ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Marluxia li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Marluxia li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Marluxia li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Larxene */
@@ -4237,8 +5118,8 @@ table.Donnees.Larxene tr:first-child th {
 }
 
 table.navbox.Larxene th.titrePalette .titreContent a,
-table.navbox.Larxene .collapseButtonLink,
-.StatBox.Larxene .collapseButtonLink,
+table.navbox.Larxene a.mw-collapsible-text,
+.StatBox.Larxene a.mw-collapsible-text,
 table.Donnees.Larxene tr:first-child th a {
 	color: black;
 }
@@ -4246,7 +5127,7 @@ table.Donnees.Larxene tr:first-child th a {
 table.navbox.Larxene th,
 .Larxene .group,
 .pi-theme-Larxene .pi-item,
-.pi-europa.pi-theme-Larxene .pi-header,
+.pi-europa.pi-theme-Larxene .pi-data-label,
 .StatBox.Larxene tr.LabelRow,
 .StatBox.Larxene tr.MixedRow th.Label,
 table.Donnees.Larxene tr:not(:first-child) th,
@@ -4258,8 +5139,10 @@ table.Donnees.Larxene tr:not(:first-child) td.group {
 table.navbox.Larxene th a,
 .Larxene .group a,
 .pi-theme-Larxene .pi-item > .pi-data-value a,
+.StatBox.Larxene tr.LabelRow a,
+.StatBox.Larxene tr.MixedRow th.Label a,
 table.Donnees.Larxene tr:not(:first-child) th a,
-table.Donnees.Larxene tr:not(:first-child) td.group a {
+table.Donnees.Larxene tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4311,17 +5194,28 @@ table.Donnees.Larxene td.altColor a{
 .StatTabber.Larxene ul.tabbernav li a,
 .StatTabber.Larxene ul.tabbernav li a:hover,
 .StatTabber.Larxene ul.tabbernav li a:visited,
-.StatTabber.Larxene ul.tabbernav li a:link {
+.StatTabber.Larxene ul.tabbernav li a:link,
+ul.SousPages.Larxene li a {
     color:#AAA;
 }
  
 .StatTabber.Larxene ul.tabbernav li.tabberactive a,
-.StatTabber.Larxene ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Larxene ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Larxene li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Larxene li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Larxene li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Roxas */
@@ -4340,8 +5234,8 @@ table.Donnees.Roxas tr:first-child th {
 }
 
 table.navbox.Roxas th.titrePalette .titreContent a,
-table.navbox.Roxas .collapseButtonLink,
-.StatBox.Roxas .collapseButtonLink,
+table.navbox.Roxas a.mw-collapsible-text,
+.StatBox.Roxas a.mw-collapsible-text,
 table.Donnees.Roxas tr:first-child th a {
 	color: black;
 }
@@ -4349,7 +5243,7 @@ table.Donnees.Roxas tr:first-child th a {
 table.navbox.Roxas th,
 .Roxas .group,
 .pi-theme-Roxas .pi-item,
-.pi-europa.pi-theme-Roxas .pi-header,
+.pi-europa.pi-theme-Roxas .pi-data-label,
 .StatBox.Roxas tr.LabelRow,
 .StatBox.Roxas tr.MixedRow th.Label,
 table.Donnees.Roxas tr:not(:first-child) th,
@@ -4361,8 +5255,10 @@ table.Donnees.Roxas tr:not(:first-child) td.group {
 table.navbox.Roxas th a,
 .Roxas .group a,
 .pi-theme-Roxas .pi-item > .pi-data-value a,
+.StatBox.Roxas tr.LabelRow a,
+.StatBox.Roxas tr.MixedRow th.Label a,
 table.Donnees.Roxas tr:not(:first-child) th a,
-table.Donnees.Roxas tr:not(:first-child) td.group a {
+table.Donnees.Roxas tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4414,17 +5310,28 @@ table.Donnees.Roxas td.altColor a{
 .StatTabber.Roxas ul.tabbernav li a,
 .StatTabber.Roxas ul.tabbernav li a:hover,
 .StatTabber.Roxas ul.tabbernav li a:visited,
-.StatTabber.Roxas ul.tabbernav li a:link {
+.StatTabber.Roxas ul.tabbernav li a:link,
+ul.SousPages.Roxas li a {
     color:#AAAAAA;
 }
  
 .StatTabber.Roxas ul.tabbernav li.tabberactive a,
-.StatTabber.Roxas ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Roxas ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Roxas li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Roxas li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Roxas li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Xion */
@@ -4443,8 +5350,8 @@ table.Donnees.Xion tr:first-child th {
 }
 
 table.navbox.Xion th.titrePalette .titreContent a,
-table.navbox.Xion .collapseButtonLink,
-.StatBox.Xion .collapseButtonLink,
+table.navbox.Xion a.mw-collapsible-text,
+.StatBox.Xion a.mw-collapsible-text,
 table.Donnees.Xion tr:first-child th a {
 	color: white;
 }
@@ -4452,7 +5359,7 @@ table.Donnees.Xion tr:first-child th a {
 table.navbox.Xion th,
 .Xion .group,
 .pi-theme-Xion .pi-item,
-.pi-europa.pi-theme-Xion .pi-header,
+.pi-europa.pi-theme-Xion .pi-data-label,
 .StatBox.Xion tr.LabelRow,
 .StatBox.Xion tr.MixedRow th.Label,
 table.Donnees.Xion tr:not(:first-child) th,
@@ -4464,8 +5371,10 @@ table.Donnees.Xion tr:not(:first-child) td.group {
 table.navbox.Xion th a,
 .Xion .group a,
 .pi-theme-Xion .pi-item > .pi-data-value a,
+.StatBox.Xion tr.LabelRow a,
+.StatBox.Xion tr.MixedRow th.Label a,
 table.Donnees.Xion tr:not(:first-child) th a,
-table.Donnees.Xion tr:not(:first-child) td.group a {
+table.Donnees.Xion tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4517,17 +5426,28 @@ table.Donnees.Xion td.altColor a{
 .StatTabber.Xion ul.tabbernav li a,
 .StatTabber.Xion ul.tabbernav li a:hover,
 .StatTabber.Xion ul.tabbernav li a:visited,
-.StatTabber.Xion ul.tabbernav li a:link {
+.StatTabber.Xion ul.tabbernav li a:link,
+ul.SousPages.Xion li a {
     color:#AAAAAA;
 }
  
 .StatTabber.Xion ul.tabbernav li.tabberactive a,
-.StatTabber.Xion ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Xion ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Xion li.PageActuelle {
     background-color: #DDDDDD;
     border-bottom-color:#DDDDDD;
     color:black;
 }
- 
+
+ul.SousPages.Xion li.PageActuelle {
+    background-color: #DDDDDD;
+    border-bottom-color:#DDDDDD;
+	}
+
+ul.SousPages.Xion li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Équipe */
@@ -4546,8 +5466,8 @@ table.Donnees.Equipe tr:first-child th {
 }
 
 table.navbox.Equipe th.titrePalette .titreContent a,
-table.navbox.Equipe .collapseButtonLink,
-.StatBox.Equipe .collapseButtonLink,
+table.navbox.Equipe a.mw-collapsible-text,
+.StatBox.Equipe a.mw-collapsible-text,
 table.Donnees.Equipe tr:first-child th a {
 	color: black;
 }
@@ -4555,7 +5475,7 @@ table.Donnees.Equipe tr:first-child th a {
 table.navbox.Equipe th,
 .Equipe .group,
 .pi-theme-Equipe .pi-item,
-.pi-europa.pi-theme-Equipe .pi-header,
+.pi-europa.pi-theme-Equipe .pi-data-label,
 .StatBox.Equipe tr.LabelRow,
 .StatBox.Equipe tr.MixedRow th.Label,
 table.Donnees.Equipe tr:not(:first-child) th,
@@ -4567,8 +5487,10 @@ table.Donnees.Equipe tr:not(:first-child) td.group {
 table.navbox.Equipe th a,
 .Equipe .group a,
 .pi-theme-Equipe .pi-item > .pi-data-value a,
+.StatBox.Equipe tr.LabelRow a,
+.StatBox.Equipe tr.MixedRow th.Label a,
 table.Donnees.Equipe tr:not(:first-child) th a,
-table.Donnees.Equipe tr:not(:first-child) td.group a {
+table.Donnees.Equipe tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4620,17 +5542,28 @@ table.Donnees.Equipe td.altColor a{
 .StatTabber.Equipe ul.tabbernav li a,
 .StatTabber.Equipe ul.tabbernav li a:hover,
 .StatTabber.Equipe ul.tabbernav li a:visited,
-.StatTabber.Equipe ul.tabbernav li a:link {
+.StatTabber.Equipe ul.tabbernav li a:link,
+ul.SousPages.Equipe li a {
     color:mediumaquamarine;
 }
  
 .StatTabber.Equipe ul.tabbernav li.tabberactive a,
-.StatTabber.Equipe ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Equipe ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Equipe li.PageActuelle {
     background-color: #DAEDE6;
     border-bottom-color:#DAEDE6;
     color:black;
 }
- 
+
+ul.SousPages.Equipe li.PageActuelle {
+    background-color: #DAEDE6;
+    border-bottom-color:#DAEDE6;
+	}
+
+ul.SousPages.Equipe li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Invocation */
@@ -4649,8 +5582,8 @@ table.Donnees.Invocation tr:first-child th {
 }
 
 table.navbox.Invocation th.titrePalette .titreContent a,
-table.navbox.Invocation .collapseButtonLink,
-.StatBox.Invocation .collapseButtonLink,
+table.navbox.Invocation a.mw-collapsible-text,
+.StatBox.Invocation a.mw-collapsible-text,
 table.Donnees.Invocation tr:first-child th a {
 	color: black;
 }
@@ -4658,7 +5591,7 @@ table.Donnees.Invocation tr:first-child th a {
 table.navbox.Invocation th,
 .Invocation .group,
 .pi-theme-Invocation .pi-item,
-.pi-europa.pi-theme-Invocation .pi-header,
+.pi-europa.pi-theme-Invocation .pi-data-label,
 .StatBox.Invocation tr.LabelRow,
 .StatBox.Invocation tr.MixedRow th.Label,
 table.Donnees.Invocation tr:not(:first-child) th,
@@ -4670,8 +5603,10 @@ table.Donnees.Invocation tr:not(:first-child) td.group {
 table.navbox.Invocation th a,
 .Invocation .group a,
 .pi-theme-Invocation .pi-item > .pi-data-value a,
+.StatBox.Invocation tr.LabelRow a,
+.StatBox.Invocation tr.MixedRow th.Label a,
 table.Donnees.Invocation tr:not(:first-child) th a,
-table.Donnees.Invocation tr:not(:first-child) td.group a {
+table.Donnees.Invocation tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4723,17 +5658,28 @@ table.Donnees.Invocation td.altColor a{
 .StatTabber.Invocation ul.tabbernav li a,
 .StatTabber.Invocation ul.tabbernav li a:hover,
 .StatTabber.Invocation ul.tabbernav li a:visited,
-.StatTabber.Invocation ul.tabbernav li a:link {
+.StatTabber.Invocation ul.tabbernav li a:link,
+ul.SousPages.Invocation li a {
     color:#FFE44C;
 }
  
 .StatTabber.Invocation ul.tabbernav li.tabberactive a,
-.StatTabber.Invocation ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Invocation ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Invocation li.PageActuelle {
     background-color: #FFFBE5;
     border-bottom-color:#FFFBE5;
     color:black;
 }
- 
+
+ul.SousPages.Invocation li.PageActuelle {
+    background-color: #FFFBE5;
+    border-bottom-color:#FFFBE5;
+	}
+
+ul.SousPages.Invocation li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Final Fantasy */
@@ -4752,8 +5698,8 @@ table.Donnees.FF tr:first-child th {
 }
 
 table.navbox.FF th.titrePalette .titreContent a,
-table.navbox.FF .collapseButtonLink,
-.StatBox.FF .collapseButtonLink,
+table.navbox.FF a.mw-collapsible-text,
+.StatBox.FF a.mw-collapsible-text,
 table.Donnees.FF tr:first-child th a {
 	color: white;
 }
@@ -4761,7 +5707,7 @@ table.Donnees.FF tr:first-child th a {
 table.navbox.FF th,
 .FF .group,
 .pi-theme-FF .pi-item,
-.pi-europa.pi-theme-FF .pi-header,
+.pi-europa.pi-theme-FF .pi-data-label,
 .StatBox.FF tr.LabelRow,
 .StatBox.FF tr.MixedRow th.Label,
 table.Donnees.FF tr:not(:first-child) th,
@@ -4773,8 +5719,10 @@ table.Donnees.FF tr:not(:first-child) td.group {
 table.navbox.FF th a,
 .FF .group a,
 .pi-theme-FF .pi-item > .pi-data-value a,
+.StatBox.FF tr.LabelRow a,
+.StatBox.FF tr.MixedRow th.Label a,
 table.Donnees.FF tr:not(:first-child) th a,
-table.Donnees.FF tr:not(:first-child) td.group a {
+table.Donnees.FF tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4826,17 +5774,28 @@ table.Donnees.FF td.altColor a{
 .StatTabber.FF ul.tabbernav li a,
 .StatTabber.FF ul.tabbernav li a:hover,
 .StatTabber.FF ul.tabbernav li a:visited,
-.StatTabber.FF ul.tabbernav li a:link {
+.StatTabber.FF ul.tabbernav li a:link,
+ul.SousPages.FF li a {
     color:#87CEFA;
 }
  
 .StatTabber.FF ul.tabbernav li.tabberactive a,
-.StatTabber.FF ul.tabbernav li.tabberactive a:hover{
+.StatTabber.FF ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.FF li.PageActuelle {
     background-color: #CCD8FF;
     border-bottom-color:#CCD8FF;
     color:black;
 }
- 
+
+ul.SousPages.FF li.PageActuelle {
+    background-color: #CCD8FF;
+    border-bottom-color:#CCD8FF;
+	}
+
+ul.SousPages.FF li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* The World Ends With You */
@@ -4855,8 +5814,8 @@ table.Donnees.TWEWY tr:first-child th {
 }
 
 table.navbox.TWEWY th.titrePalette .titreContent a,
-table.navbox.TWEWY .collapseButtonLink,
-.StatBox.TWEWY .collapseButtonLink,
+table.navbox.TWEWY a.mw-collapsible-text,
+.StatBox.TWEWY a.mw-collapsible-text,
 table.Donnees.TWEWY tr:first-child th a {
 	color: white;
 }
@@ -4864,7 +5823,7 @@ table.Donnees.TWEWY tr:first-child th a {
 table.navbox.TWEWY th,
 .TWEWY .group,
 .pi-theme-TWEWY .pi-item,
-.pi-europa.pi-theme-TWEWY .pi-header,
+.pi-europa.pi-theme-TWEWY .pi-data-label,
 .StatBox.TWEWY tr.LabelRow,
 .StatBox.TWEWY tr.MixedRow th.Label,
 table.Donnees.TWEWY tr:not(:first-child) th,
@@ -4876,8 +5835,10 @@ table.Donnees.TWEWY tr:not(:first-child) td.group {
 table.navbox.TWEWY th a,
 .TWEWY .group a,
 .pi-theme-TWEWY .pi-item > .pi-data-value a,
+.StatBox.TWEWY tr.LabelRow a,
+.StatBox.TWEWY tr.MixedRow th.Label a,
 table.Donnees.TWEWY tr:not(:first-child) th a,
-table.Donnees.TWEWY tr:not(:first-child) td.group a {
+table.Donnees.TWEWY tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -4929,17 +5890,28 @@ table.Donnees.TWEWY td.altColor a{
 .StatTabber.TWEWY ul.tabbernav li a,
 .StatTabber.TWEWY ul.tabbernav li a:hover,
 .StatTabber.TWEWY ul.tabbernav li a:visited,
-.StatTabber.TWEWY ul.tabbernav li a:link {
+.StatTabber.TWEWY ul.tabbernav li a:link,
+ul.SousPages.TWEWY li a {
     color:#C3D6E5;
 }
  
 .StatTabber.TWEWY ul.tabbernav li.tabberactive a,
-.StatTabber.TWEWY ul.tabbernav li.tabberactive a:hover{
+.StatTabber.TWEWY ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.TWEWY li.PageActuelle {
     background-color: #E3EDF4;
     border-bottom-color:#E3EDF4;
     color:black;
 }
- 
+
+ul.SousPages.TWEWY li.PageActuelle {
+    background-color: #E3EDF4;
+    border-bottom-color:#E3EDF4;
+	}
+
+ul.SousPages.TWEWY li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Disney */
@@ -4958,8 +5930,8 @@ table.Donnees.Disney tr:first-child th {
 }
 
 table.navbox.Disney th.titrePalette .titreContent a,
-table.navbox.Disney .collapseButtonLink,
-.StatBox.Disney .collapseButtonLink,
+table.navbox.Disney a.mw-collapsible-text,
+.StatBox.Disney a.mw-collapsible-text,
 table.Donnees.Disney tr:first-child th a {
 	color: white;
 }
@@ -4967,7 +5939,7 @@ table.Donnees.Disney tr:first-child th a {
 table.navbox.Disney th,
 .Disney .group,
 .pi-theme-Disney .pi-item,
-.pi-europa.pi-theme-Disney .pi-header,
+.pi-europa.pi-theme-Disney .pi-data-label,
 .StatBox.Disney tr.LabelRow,
 .StatBox.Disney tr.MixedRow th.Label,
 table.Donnees.Disney tr:not(:first-child) th,
@@ -4979,8 +5951,10 @@ table.Donnees.Disney tr:not(:first-child) td.group {
 table.navbox.Disney th a,
 .Disney .group a,
 .pi-theme-Disney .pi-item > .pi-data-value a,
+.StatBox.Disney tr.LabelRow a,
+.StatBox.Disney tr.MixedRow th.Label a,
 table.Donnees.Disney tr:not(:first-child) th a,
-table.Donnees.Disney tr:not(:first-child) td.group a {
+table.Donnees.Disney tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -5032,17 +6006,28 @@ table.Donnees.Disney td.altColor a{
 .StatTabber.Disney ul.tabbernav li a,
 .StatTabber.Disney ul.tabbernav li a:hover,
 .StatTabber.Disney ul.tabbernav li a:visited,
-.StatTabber.Disney ul.tabbernav li a:link {
+.StatTabber.Disney ul.tabbernav li a:link,
+ul.SousPages.Disney li a {
     color:mediumorchid;
 }
  
 .StatTabber.Disney ul.tabbernav li.tabberactive a,
-.StatTabber.Disney ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Disney ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Disney li.PageActuelle {
     background-color: #E9DAED;
     border-bottom-color:#E9DAED;
     color:black;
 }
- 
+
+ul.SousPages.Disney li.PageActuelle {
+    background-color: #E9DAED;
+    border-bottom-color:#E9DAED;
+	}
+
+ul.SousPages.Disney li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Monde */
@@ -5061,8 +6046,8 @@ table.Donnees.Monde tr:first-child th {
 }
 
 table.navbox.Monde th.titrePalette .titreContent a,
-table.navbox.Monde .collapseButtonLink,
-.StatBox.Monde .collapseButtonLink,
+table.navbox.Monde a.mw-collapsible-text,
+.StatBox.Monde a.mw-collapsible-text,
 table.Donnees.Monde tr:first-child th a {
 	color: white;
 }
@@ -5070,7 +6055,7 @@ table.Donnees.Monde tr:first-child th a {
 table.navbox.Monde th,
 .Monde .group,
 .pi-theme-Monde .pi-item,
-.pi-europa.pi-theme-Monde .pi-header,
+.pi-europa.pi-theme-Monde .pi-data-label,
 .StatBox.Monde tr.LabelRow,
 .StatBox.Monde tr.MixedRow th.Label,
 table.Donnees.Monde tr:not(:first-child) th,
@@ -5082,8 +6067,10 @@ table.Donnees.Monde tr:not(:first-child) td.group {
 table.navbox.Monde th a,
 .Monde .group a,
 .pi-theme-Monde .pi-item > .pi-data-value a,
+.StatBox.Monde tr.LabelRow a,
+.StatBox.Monde tr.MixedRow th.Label a,
 table.Donnees.Monde tr:not(:first-child) th a,
-table.Donnees.Monde tr:not(:first-child) td.group a {
+table.Donnees.Monde tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5135,17 +6122,28 @@ table.Donnees.Monde td.altColor a{
 .StatTabber.Monde ul.tabbernav li a,
 .StatTabber.Monde ul.tabbernav li a:hover,
 .StatTabber.Monde ul.tabbernav li a:visited,
-.StatTabber.Monde ul.tabbernav li a:link {
+.StatTabber.Monde ul.tabbernav li a:link,
+ul.SousPages.Monde li a {
     color:#CDB4F2;
 }
  
 .StatTabber.Monde ul.tabbernav li.tabberactive a,
-.StatTabber.Monde ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Monde ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Monde li.PageActuelle {
     background-color: #E3DAED;
     border-bottom-color:#E3DAED;
     color:black;
 }
- 
+
+ul.SousPages.Monde li.PageActuelle {
+    background-color: #E3DAED;
+    border-bottom-color:#E3DAED;
+	}
+
+ul.SousPages.Monde li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Lieu */
@@ -5164,8 +6162,8 @@ table.Donnees.Lieu tr:first-child th {
 }
 
 table.navbox.Lieu th.titrePalette .titreContent a,
-table.navbox.Lieu .collapseButtonLink,
-.StatBox.Lieu .collapseButtonLink,
+table.navbox.Lieu a.mw-collapsible-text,
+.StatBox.Lieu a.mw-collapsible-text,
 table.Donnees.Lieu tr:first-child th a {
 	color: black;
 }
@@ -5173,7 +6171,7 @@ table.Donnees.Lieu tr:first-child th a {
 table.navbox.Lieu th,
 .Lieu .group,
 .pi-theme-Lieu .pi-item,
-.pi-europa.pi-theme-Lieu .pi-header,
+.pi-europa.pi-theme-Lieu .pi-data-label,
 .StatBox.Lieu tr.LabelRow,
 .StatBox.Lieu tr.MixedRow th.Label,
 table.Donnees.Lieu tr:not(:first-child) th,
@@ -5185,8 +6183,10 @@ table.Donnees.Lieu tr:not(:first-child) td.group {
 table.navbox.Lieu th a,
 .Lieu .group a,
 .pi-theme-Lieu .pi-item > .pi-data-value a,
+.StatBox.Lieu tr.LabelRow a,
+.StatBox.Lieu tr.MixedRow th.Label a,
 table.Donnees.Lieu tr:not(:first-child) th a,
-table.Donnees.Lieu tr:not(:first-child) td.group a {
+table.Donnees.Lieu tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5238,17 +6238,28 @@ table.Donnees.Lieu td.altColor a{
 .StatTabber.Lieu ul.tabbernav li a,
 .StatTabber.Lieu ul.tabbernav li a:hover,
 .StatTabber.Lieu ul.tabbernav li a:visited,
-.StatTabber.Lieu ul.tabbernav li a:link {
+.StatTabber.Lieu ul.tabbernav li a:link,
+ul.SousPages.Lieu li a {
     color:#f6bcbd;
 }
  
 .StatTabber.Lieu ul.tabbernav li.tabberactive a,
-.StatTabber.Lieu ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Lieu ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Lieu li.PageActuelle {
     background-color: #f9ebeb;
     border-bottom-color:#f9ebeb;
     color:black;
 }
- 
+
+ul.SousPages.Lieu li.PageActuelle {
+    background-color: #f9ebeb;
+    border-bottom-color:#f9ebeb;
+	}
+
+ul.SousPages.Lieu li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Événement */
@@ -5267,8 +6278,8 @@ table.Donnees.Evenement tr:first-child th {
 }
 
 table.navbox.Evenement th.titrePalette .titreContent a,
-table.navbox.Evenement .collapseButtonLink,
-.StatBox.Evenement .collapseButtonLink,
+table.navbox.Evenement a.mw-collapsible-text,
+.StatBox.Evenement a.mw-collapsible-text,
 table.Donnees.Evenement tr:first-child th a {
 	color: white;
 }
@@ -5276,7 +6287,7 @@ table.Donnees.Evenement tr:first-child th a {
 table.navbox.Evenement th,
 .Evenement .group,
 .pi-theme-Evenement .pi-item,
-.pi-europa.pi-theme-Evenement .pi-header,
+.pi-europa.pi-theme-Evenement .pi-data-label,
 .StatBox.Evenement tr.LabelRow,
 .StatBox.Evenement tr.MixedRow th.Label,
 table.Donnees.Evenement tr:not(:first-child) th,
@@ -5288,8 +6299,10 @@ table.Donnees.Evenement tr:not(:first-child) td.group {
 table.navbox.Evenement th a,
 .Evenement .group a,
 .pi-theme-Evenement .pi-item > .pi-data-value a,
+.StatBox.Evenement tr.LabelRow a,
+.StatBox.Evenement tr.MixedRow th.Label a,
 table.Donnees.Evenement tr:not(:first-child) th a,
-table.Donnees.Evenement tr:not(:first-child) td.group a {
+table.Donnees.Evenement tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5341,17 +6354,28 @@ table.Donnees.Evenement td.altColor a{
 .StatTabber.Evenement ul.tabbernav li a,
 .StatTabber.Evenement ul.tabbernav li a:hover,
 .StatTabber.Evenement ul.tabbernav li a:visited,
-.StatTabber.Evenement ul.tabbernav li a:link {
+.StatTabber.Evenement ul.tabbernav li a:link,
+ul.SousPages.Evenement li a {
     color:#edc4c4;
 }
  
 .StatTabber.Evenement ul.tabbernav li.tabberactive a,
-.StatTabber.Evenement ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Evenement ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Evenement li.PageActuelle {
     background-color: #fce9e9;
     border-bottom-color:#fce9e9;
     color:black;
 }
- 
+
+ul.SousPages.Evenement li.PageActuelle {
+    background-color: #fce9e9;
+    border-bottom-color:#fce9e9;
+	}
+
+ul.SousPages.Evenement li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Square Enix */
@@ -5370,8 +6394,8 @@ table.Donnees.Square tr:first-child th {
 }
 
 table.navbox.Square th.titrePalette .titreContent a,
-table.navbox.Square .collapseButtonLink,
-.StatBox.Square .collapseButtonLink,
+table.navbox.Square a.mw-collapsible-text,
+.StatBox.Square a.mw-collapsible-text,
 table.Donnees.Square tr:first-child th a {
 	color: white;
 }
@@ -5379,7 +6403,7 @@ table.Donnees.Square tr:first-child th a {
 table.navbox.Square th,
 .Square .group,
 .pi-theme-Square .pi-item,
-.pi-europa.pi-theme-Square .pi-header,
+.pi-europa.pi-theme-Square .pi-data-label,
 .StatBox.Square tr.LabelRow,
 .StatBox.Square tr.MixedRow th.Label,
 table.Donnees.Square tr:not(:first-child) th,
@@ -5391,8 +6415,10 @@ table.Donnees.Square tr:not(:first-child) td.group {
 table.navbox.Square th a,
 .Square .group a,
 .pi-theme-Square .pi-item > .pi-data-value a,
+.StatBox.Square tr.LabelRow a,
+.StatBox.Square tr.MixedRow th.Label a,
 table.Donnees.Square tr:not(:first-child) th a,
-table.Donnees.Square tr:not(:first-child) td.group a {
+table.Donnees.Square tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5444,17 +6470,28 @@ table.Donnees.Square td.altColor a{
 .StatTabber.Square ul.tabbernav li a,
 .StatTabber.Square ul.tabbernav li a:hover,
 .StatTabber.Square ul.tabbernav li a:visited,
-.StatTabber.Square ul.tabbernav li a:link {
+.StatTabber.Square ul.tabbernav li a:link,
+ul.SousPages.Square li a {
     color:#BEBEBE;
 }
  
 .StatTabber.Square ul.tabbernav li.tabberactive a,
-.StatTabber.Square ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Square ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Square li.PageActuelle {
     background-color: #D9D9D9;
     border-bottom-color:#D9D9D9;
     color:black;
 }
- 
+
+ul.SousPages.Square li.PageActuelle {
+    background-color: #D9D9D9;
+    border-bottom-color:#D9D9D9;
+	}
+
+ul.SousPages.Square li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Minijeux */
@@ -5473,8 +6510,8 @@ table.Donnees.Minijeux tr:first-child th {
 }
 
 table.navbox.Minijeux th.titrePalette .titreContent a,
-table.navbox.Minijeux .collapseButtonLink,
-.StatBox.Minijeux .collapseButtonLink,
+table.navbox.Minijeux a.mw-collapsible-text,
+.StatBox.Minijeux a.mw-collapsible-text,
 table.Donnees.Minijeux tr:first-child th a {
 	color: white;
 }
@@ -5482,7 +6519,7 @@ table.Donnees.Minijeux tr:first-child th a {
 table.navbox.Minijeux th,
 .Minijeux .group,
 .pi-theme-Minijeux .pi-item,
-.pi-europa.pi-theme-Minijeux .pi-header,
+.pi-europa.pi-theme-Minijeux .pi-data-label,
 .StatBox.Minijeux tr.LabelRow,
 .StatBox.Minijeux tr.MixedRow th.Label,
 table.Donnees.Minijeux tr:not(:first-child) th,
@@ -5494,8 +6531,10 @@ table.Donnees.Minijeux tr:not(:first-child) td.group {
 table.navbox.Minijeux th a,
 .Minijeux .group a,
 .pi-theme-Minijeux .pi-item > .pi-data-value a,
+.StatBox.Minijeux tr.LabelRow a,
+.StatBox.Minijeux tr.MixedRow th.Label a,
 table.Donnees.Minijeux tr:not(:first-child) th a,
-table.Donnees.Minijeux tr:not(:first-child) td.group a {
+table.Donnees.Minijeux tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5547,17 +6586,28 @@ table.Donnees.Minijeux td.altColor a{
 .StatTabber.Minijeux ul.tabbernav li a,
 .StatTabber.Minijeux ul.tabbernav li a:hover,
 .StatTabber.Minijeux ul.tabbernav li a:visited,
-.StatTabber.Minijeux ul.tabbernav li a:link {
+.StatTabber.Minijeux ul.tabbernav li a:link,
+ul.SousPages.Minijeux li a {
     color:#FF7F50;
 }
  
 .StatTabber.Minijeux ul.tabbernav li.tabberactive a,
-.StatTabber.Minijeux ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Minijeux ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Minijeux li.PageActuelle {
     background-color: #FFDEBA;
     border-bottom-color:#FFDEBA;
     color:black;
 }
- 
+
+ul.SousPages.Minijeux li.PageActuelle {
+    background-color: #FFDEBA;
+    border-bottom-color:#FFDEBA;
+	}
+
+ul.SousPages.Minijeux li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Classic Kingdom */
@@ -5576,8 +6626,8 @@ table.Donnees.ClassicKingdom tr:first-child th {
 }
 
 table.navbox.ClassicKingdom th.titrePalette .titreContent a,
-table.navbox.ClassicKingdom .collapseButtonLink,
-.StatBox.ClassicKingdom .collapseButtonLink,
+table.navbox.ClassicKingdom a.mw-collapsible-text,
+.StatBox.ClassicKingdom a.mw-collapsible-text,
 table.Donnees.ClassicKingdom tr:first-child th a {
 	color: white;
 }
@@ -5585,7 +6635,7 @@ table.Donnees.ClassicKingdom tr:first-child th a {
 table.navbox.ClassicKingdom th,
 .ClassicKingdom .group,
 .pi-theme-ClassicKingdom .pi-item,
-.pi-europa.pi-theme-ClassicKingdom .pi-header,
+.pi-europa.pi-theme-ClassicKingdom .pi-data-label,
 .StatBox.ClassicKingdom tr.LabelRow,
 .StatBox.ClassicKingdom tr.MixedRow th.Label,
 table.Donnees.ClassicKingdom tr:not(:first-child) th,
@@ -5597,8 +6647,10 @@ table.Donnees.ClassicKingdom tr:not(:first-child) td.group {
 table.navbox.ClassicKingdom th a,
 .ClassicKingdom .group a,
 .pi-theme-ClassicKingdom .pi-item > .pi-data-value a,
+.StatBox.ClassicKingdom tr.LabelRow a,
+.StatBox.ClassicKingdom tr.MixedRow th.Label a,
 table.Donnees.ClassicKingdom tr:not(:first-child) th a,
-table.Donnees.ClassicKingdom tr:not(:first-child) td.group a {
+table.Donnees.ClassicKingdom tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5650,17 +6702,28 @@ table.Donnees.ClassicKingdom td.altColor a{
 .StatTabber.ClassicKingdom ul.tabbernav li a,
 .StatTabber.ClassicKingdom ul.tabbernav li a:hover,
 .StatTabber.ClassicKingdom ul.tabbernav li a:visited,
-.StatTabber.ClassicKingdom ul.tabbernav li a:link {
+.StatTabber.ClassicKingdom ul.tabbernav li a:link,
+ul.SousPages.ClassicKingdom li a {
     color:#C0C0C0;
 }
  
 .StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a,
-.StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a:hover{
+.StatTabber.ClassicKingdom ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.ClassicKingdom li.PageActuelle {
     background-color: #E7E7E7;
     border-bottom-color:#E7E7E7;
     color:black;
 }
- 
+
+ul.SousPages.ClassicKingdom li.PageActuelle {
+    background-color: #E7E7E7;
+    border-bottom-color:#E7E7E7;
+	}
+
+ul.SousPages.ClassicKingdom li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Gummis */
@@ -5679,8 +6742,8 @@ table.Donnees.Gummis tr:first-child th {
 }
 
 table.navbox.Gummis th.titrePalette .titreContent a,
-table.navbox.Gummis .collapseButtonLink,
-.StatBox.Gummis .collapseButtonLink,
+table.navbox.Gummis a.mw-collapsible-text,
+.StatBox.Gummis a.mw-collapsible-text,
 table.Donnees.Gummis tr:first-child th a {
 	color: white;
 }
@@ -5688,7 +6751,7 @@ table.Donnees.Gummis tr:first-child th a {
 table.navbox.Gummis th,
 .Gummis .group,
 .pi-theme-Gummis .pi-item,
-.pi-europa.pi-theme-Gummis .pi-header,
+.pi-europa.pi-theme-Gummis .pi-data-label,
 .StatBox.Gummis tr.LabelRow,
 .StatBox.Gummis tr.MixedRow th.Label,
 table.Donnees.Gummis tr:not(:first-child) th,
@@ -5700,8 +6763,10 @@ table.Donnees.Gummis tr:not(:first-child) td.group {
 table.navbox.Gummis th a,
 .Gummis .group a,
 .pi-theme-Gummis .pi-item > .pi-data-value a,
+.StatBox.Gummis tr.LabelRow a,
+.StatBox.Gummis tr.MixedRow th.Label a,
 table.Donnees.Gummis tr:not(:first-child) th a,
-table.Donnees.Gummis tr:not(:first-child) td.group a {
+table.Donnees.Gummis tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5753,17 +6818,28 @@ table.Donnees.Gummis td.altColor a{
 .StatTabber.Gummis ul.tabbernav li a,
 .StatTabber.Gummis ul.tabbernav li a:hover,
 .StatTabber.Gummis ul.tabbernav li a:visited,
-.StatTabber.Gummis ul.tabbernav li a:link {
+.StatTabber.Gummis ul.tabbernav li a:link,
+ul.SousPages.Gummis li a {
     color:PaleTurquoise;
 }
  
 .StatTabber.Gummis ul.tabbernav li.tabberactive a,
-.StatTabber.Gummis ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Gummis ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Gummis li.PageActuelle {
     background-color: LightCyan;
     border-bottom-color:LightCyan;
     color:black;
 }
- 
+
+ul.SousPages.Gummis li.PageActuelle {
+    background-color: LightCyan;
+    border-bottom-color:LightCyan;
+	}
+
+ul.SousPages.Gummis li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Produits dérivés */
@@ -5782,8 +6858,8 @@ table.Donnees.Produits tr:first-child th {
 }
 
 table.navbox.Produits th.titrePalette .titreContent a,
-table.navbox.Produits .collapseButtonLink,
-.StatBox.Produits .collapseButtonLink,
+table.navbox.Produits a.mw-collapsible-text,
+.StatBox.Produits a.mw-collapsible-text,
 table.Donnees.Produits tr:first-child th a {
 	color: white;
 }
@@ -5791,7 +6867,7 @@ table.Donnees.Produits tr:first-child th a {
 table.navbox.Produits th,
 .Produits .group,
 .pi-theme-Produits .pi-item,
-.pi-europa.pi-theme-Produits .pi-header,
+.pi-europa.pi-theme-Produits .pi-data-label,
 .StatBox.Produits tr.LabelRow,
 .StatBox.Produits tr.MixedRow th.Label,
 table.Donnees.Produits tr:not(:first-child) th,
@@ -5803,8 +6879,10 @@ table.Donnees.Produits tr:not(:first-child) td.group {
 table.navbox.Produits th a,
 .Produits .group a,
 .pi-theme-Produits .pi-item > .pi-data-value a,
+.StatBox.Produits tr.LabelRow a,
+.StatBox.Produits tr.MixedRow th.Label a,
 table.Donnees.Produits tr:not(:first-child) th a,
-table.Donnees.Produits tr:not(:first-child) td.group a {
+table.Donnees.Produits tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -5856,17 +6934,28 @@ table.Donnees.Produits td.altColor a{
 .StatTabber.Produits ul.tabbernav li a,
 .StatTabber.Produits ul.tabbernav li a:hover,
 .StatTabber.Produits ul.tabbernav li a:visited,
-.StatTabber.Produits ul.tabbernav li a:link {
+.StatTabber.Produits ul.tabbernav li a:link,
+ul.SousPages.Produits li a {
     color:#80ffce;
 }
  
 .StatTabber.Produits ul.tabbernav li.tabberactive a,
-.StatTabber.Produits ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Produits ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Produits li.PageActuelle {
     background-color: #ccffeb;
     border-bottom-color:#ccffeb;
     color:black;
 }
- 
+
+ul.SousPages.Produits li.PageActuelle {
+    background-color: #ccffeb;
+    border-bottom-color:#ccffeb;
+	}
+
+ul.SousPages.Produits li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Communauté */
@@ -5885,8 +6974,8 @@ table.Donnees.Communaute tr:first-child th {
 }
 
 table.navbox.Communaute th.titrePalette .titreContent a,
-table.navbox.Communaute .collapseButtonLink,
-.StatBox.Communaute .collapseButtonLink,
+table.navbox.Communaute a.mw-collapsible-text,
+.StatBox.Communaute a.mw-collapsible-text,
 table.Donnees.Communaute tr:first-child th a {
 	color: white;
 }
@@ -5894,7 +6983,7 @@ table.Donnees.Communaute tr:first-child th a {
 table.navbox.Communaute th,
 .Communaute .group,
 .pi-theme-Communaute .pi-item,
-.pi-europa.pi-theme-Communaute .pi-header,
+.pi-europa.pi-theme-Communaute .pi-data-label,
 .StatBox.Communaute tr.LabelRow,
 .StatBox.Communaute tr.MixedRow th.Label,
 table.Donnees.Communaute tr:not(:first-child) th,
@@ -5906,8 +6995,10 @@ table.Donnees.Communaute tr:not(:first-child) td.group {
 table.navbox.Communaute th a,
 .Communaute .group a,
 .pi-theme-Communaute .pi-item > .pi-data-value a,
+.StatBox.Communaute tr.LabelRow a,
+.StatBox.Communaute tr.MixedRow th.Label a,
 table.Donnees.Communaute tr:not(:first-child) th a,
-table.Donnees.Communaute tr:not(:first-child) td.group a {
+table.Donnees.Communaute tr:not(:first-child) td.group a{
 	color: #b3cfff;
 }
 
@@ -5959,17 +7050,28 @@ table.Donnees.Communaute td.altColor a{
 .StatTabber.Communaute ul.tabbernav li a,
 .StatTabber.Communaute ul.tabbernav li a:hover,
 .StatTabber.Communaute ul.tabbernav li a:visited,
-.StatTabber.Communaute ul.tabbernav li a:link {
+.StatTabber.Communaute ul.tabbernav li a:link,
+ul.SousPages.Communaute li a {
     color:dodgerblue;
 }
  
 .StatTabber.Communaute ul.tabbernav li.tabberactive a,
-.StatTabber.Communaute ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Communaute ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Communaute li.PageActuelle {
     background-color: #E1F1F7;
     border-bottom-color:#E1F1F7;
     color:black;
 }
- 
+
+ul.SousPages.Communaute li.PageActuelle {
+    background-color: #E1F1F7;
+    border-bottom-color:#E1F1F7;
+	}
+
+ul.SousPages.Communaute li.PageActuelle a {
+    color:black;
+}
+
 
 
 /* Musiques */
@@ -5988,8 +7090,8 @@ table.Donnees.Musique tr:first-child th {
 }
 
 table.navbox.Musique th.titrePalette .titreContent a,
-table.navbox.Musique .collapseButtonLink,
-.StatBox.Musique .collapseButtonLink,
+table.navbox.Musique a.mw-collapsible-text,
+.StatBox.Musique a.mw-collapsible-text,
 table.Donnees.Musique tr:first-child th a {
 	color: white;
 }
@@ -5997,7 +7099,7 @@ table.Donnees.Musique tr:first-child th a {
 table.navbox.Musique th,
 .Musique .group,
 .pi-theme-Musique .pi-item,
-.pi-europa.pi-theme-Musique .pi-header,
+.pi-europa.pi-theme-Musique .pi-data-label,
 .StatBox.Musique tr.LabelRow,
 .StatBox.Musique tr.MixedRow th.Label,
 table.Donnees.Musique tr:not(:first-child) th,
@@ -6009,8 +7111,10 @@ table.Donnees.Musique tr:not(:first-child) td.group {
 table.navbox.Musique th a,
 .Musique .group a,
 .pi-theme-Musique .pi-item > .pi-data-value a,
+.StatBox.Musique tr.LabelRow a,
+.StatBox.Musique tr.MixedRow th.Label a,
 table.Donnees.Musique tr:not(:first-child) th a,
-table.Donnees.Musique tr:not(:first-child) td.group a {
+table.Donnees.Musique tr:not(:first-child) td.group a{
 	color: #0148c2;
 }
 
@@ -6062,16 +7166,27 @@ table.Donnees.Musique td.altColor a{
 .StatTabber.Musique ul.tabbernav li a,
 .StatTabber.Musique ul.tabbernav li a:hover,
 .StatTabber.Musique ul.tabbernav li a:visited,
-.StatTabber.Musique ul.tabbernav li a:link {
+.StatTabber.Musique ul.tabbernav li a:link,
+ul.SousPages.Musique li a {
     color:#a3b9f5;
 }
  
 .StatTabber.Musique ul.tabbernav li.tabberactive a,
-.StatTabber.Musique ul.tabbernav li.tabberactive a:hover{
+.StatTabber.Musique ul.tabbernav li.tabberactive a:hover,
+ul.SousPages.Musique li.PageActuelle {
     background-color: #daeaf5;
     border-bottom-color:#daeaf5;
     color:black;
 }
- 
+
+ul.SousPages.Musique li.PageActuelle {
+    background-color: #daeaf5;
+    border-bottom-color:#daeaf5;
+	}
+
+ul.SousPages.Musique li.PageActuelle a {
+    color:black;
+}
+
 
 
