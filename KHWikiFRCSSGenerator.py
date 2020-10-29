@@ -11,13 +11,16 @@ aside.portable-infobox.pi-theme-{name},
  
 table.navbox.{name} th.titrePalette,
 .pi-theme-{name} .pi-item.pi-title,
-.StatBox.{name} th.SectionHeader {{
+.StatBox.{name} th.SectionHeader,
+table.Donnees.{name} tr:first-child th {{
 	background-color:{title};
 	color: {title_font};
 }}
 
 table.navbox.{name} th.titrePalette .titreContent a,
-table.navbox.{name} .collapseButtonLink {{
+table.navbox.{name} .collapseButtonLink,
+.StatBox.{name} .collapseButtonLink,
+table.Donnees.{name} tr:first-child th a {{
 	color: {title_font};
 }}
 
@@ -26,18 +29,24 @@ table.navbox.{name} th,
 .pi-theme-{name} .pi-item,
 .pi-europa.pi-theme-{name} .pi-header,
 .StatBox.{name} tr.LabelRow,
-.StatBox.{name} tr.MixedRow th.Label {{
+.StatBox.{name} tr.MixedRow th.Label,
+table.Donnees.{name} tr:not(:first-child) th,
+table.Donnees.{name} tr:not(:first-child) td.group {{
 	background-color:{head};
 	color: {head_font};
 }}
 
 table.navbox.{name} th a,
 .{name} .group a,
-.pi-theme-{name} .pi-item > .pi-data-value a{{
+.pi-theme-{name} .pi-item > .pi-data-value a,
+table.Donnees.{name} tr:not(:first-child) th a,
+table.Donnees.{name} tr:not(:first-child) td.group a {{
 	color: {head_font_link};
 }}
 
-table.navbox.{name} tr td {{
+table.navbox.{name} tr td,
+table.Donnees.{name}.altColor tr:nth-child(even) td,
+table.Donnees.{name} td {{
 	background-color:{row};
 }}
 
@@ -54,7 +63,9 @@ table.navbox.{name} tr:nth-child(odd) td,
 .pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(even),
 .pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(odd),
 .pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd),
-.pi-theme-{name} .pi-collapse .pi-item.pi-data {{
+.pi-theme-{name} .pi-collapse .pi-item.pi-data,
+table.Donnees.{name}.altColor tr:nth-child(odd) td,
+table.Donnees.{name} td.altColor {{
 	background-color:{row_alt};
 	color:{row_alt_font};
 }}
@@ -68,7 +79,9 @@ table.navbox.{name} tr:nth-child(odd) td a,
 .pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(even) a,
 .pi-theme-{name}.pi-europa .pi-smart-data-label:nth-child(odd) a,
 .pi-theme-{name}.pi-europa .pi-smart-data-value:nth-child(odd) a,
-.pi-theme-{name} .pi-collapse .pi-item.pi-data a {{
+.pi-theme-{name} .pi-collapse .pi-item.pi-data a,
+table.Donnees.{name}.altColor tr:nth-child(odd) td a,
+table.Donnees.{name} td.altColor a{{
 	color:{row_alt_link_font};
 }}
 
@@ -102,6 +115,3 @@ if __name__ == '__main__':
 	output_builder = ''.join([generate_css(theme) for theme in themes])
 	with codecs.open("KHWikiFRCSSThemes.css","w",encoding="utf-8") as output_file:
 		output_file.write(output_builder)
-
-
-		
